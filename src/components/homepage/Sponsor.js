@@ -10,27 +10,27 @@ const Sponsor = () => {
         <div className="container">
             <ul className="home-gallery-scroll-horizontal">
                 <li>
-                    <Link href="/biz-kimiz">
+                    <Link to="/biz-kimiz">
                         <img alt="prista_oil.jpeg" title="prista_oil.jpeg" src={PristaJpeg} width="119" height="100" />
                     </Link>
                 </li>
                 <li>
-                    <Link href="/gulf-marine-7">
+                    <Link to="/gulf-marine-7">
                         <img alt="gulfmarine.jpeg" title="gulfmarine.jpeg" src={GulfJpeg} width="119" height="100" />
                     </Link>
                 </li>
                 <li>
-                    <Link href="/verila-7">
+                    <Link to="/verila-7">
                         <img alt="verila.jpeg" title="verila.jpeg" src={VerilaJpeg} width="119" height="100" />
                     </Link>
                 </li>
                 <li>
-                    <Link href="/ergon-6">
+                    <Link to="/ergon-6">
                         <img alt="ergon.jpeg" title="ergon.jpeg" src={ErgonJpeg} width="119" height="100" />
                     </Link>
                 </li>
                 <li>
-                    <Link href="/greenchem-7">
+                    <Link to="/greenchem-7">
                         <img alt="adblue.jpeg" title="adblue.jpeg" src={AdblueJpeg} width="119" height="100" />
                     </Link>
                 </li>

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './css/header.css'
 import './css/homepage.css'
+import './css/slider.css'
 import App from './App';
 import "@fontsource/open-sans-condensed";
 import reportWebVitals from './reportWebVitals';
