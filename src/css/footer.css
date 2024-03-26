@@ -1,0 +1,126 @@
+
+
+html body footer {
+    width: 100%;
+}
+
+html body footer .top {
+    padding-bottom: 24px;
+    background: #0a0a0a  repeat-x left top;
+}
+
+@media (max-width: 630px) {
+    html body footer .top {
+        background-image: none;
+    }
+}
+
+
+.container,
+html body .body_with_sidebar {
+    max-width: 1010px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+html body footer .top .container .global-h,
+html body footer .top html body .body_with_sidebar .global-h {
+    color: #ffffff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    white-space: nowrap;
+}
+
+html body footer .top .row {
+    margin: 12px -12px 0 -12px;
+    display: table;
+    min-width: 100%;
+    border-spacing: 12px 0;
+}
+
+@media (max-width: 630px) {
+    html body footer .top .row {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+html body footer .top .row .span {
+    display: table-cell;
+    vertical-align: top;
+    color: #fff;
+    font-size: 14px;
+}
+
+html body footer .top .row .span h4 {
+    color: #ffdd00;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 9px 0 0 0;
+}
+
+@media (max-width: 630px) {
+    html body footer .top .row .span h4 {
+        background: #343334;
+        padding: 9px;
+    }
+}
+
+html body footer .top .row .span p {
+    margin-top: 9px;
+    text-align: left;
+}
+
+@media (max-width: 630px) {
+    html body footer .top .row .span {
+        display: block;
+    }
+}
+
+html body footer .bottom .container,
+html body footer .bottom html body .body_with_sidebar {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: #222222;
+    font-size: 14px;
+}
+
+@media (max-width: 450px) {
+    html body footer .bottom .container,
+    html body footer .bottom html body .body_with_sidebar {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}
+
+html body footer .bottom .container a,
+html body footer .bottom html body .body_with_sidebar a {
+    display: block;
+    float: right;
+    color: #222222;
+    font-size: 14px;
+}
+
+@media (max-width: 450px) {
+    html body footer .bottom .container a,
+    html body footer .bottom html body .body_with_sidebar a {
+        float: none;
+        text-align: center;
+    }
+}
+
+html body footer .bottom .container div,
+html body footer .bottom html body .body_with_sidebar div {
+    overflow: hidden;
+}
+
+@media (max-width: 450px) {
+    html body footer .bottom .container div,
+    html body footer .bottom html body .body_with_sidebar div {
+        text-align: center;
+        margin-top: 6px;
+    }
+}
