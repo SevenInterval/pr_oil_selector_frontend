@@ -7,6 +7,7 @@ import App from './App';
 import "@fontsource/open-sans-condensed";
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import './css/footer.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
