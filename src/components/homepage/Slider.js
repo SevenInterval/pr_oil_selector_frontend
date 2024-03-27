@@ -34,30 +34,30 @@ const Slider = () => {
             <div className="container">
                 <div className="flexslider">
                     <div className="flex-viewport" style={{ overflow: "hidden", position: "relative" }}>
-                        <ul className="slides" style={activeSlide === 1 ? { width: "1000%", transitionDuration: "0.6s", transform: "translate3d(-980px, 0px, 0px)" } :
-                            activeSlide === 2 ? { width: "1000%", transitionDuration: "0.6s", transform: "translate3d(-1960px, 0px, 0px)" } :
-                                { width: "1000%", transitionDuration: "0.6s", transform: "translate3d(-2940px, 0px, 0px)" }}>
-                            <li className="clone" aria-hidden={true} style={{ width: "980px", float: "left", display: "block" }}>
+                        <ul className="slides" style={activeSlide === 1 ? { width: "1000%", transitionDuration: "0.6s", transform: "translate3d(-10%, 0px, 0px)" } :
+                            activeSlide === 2 ? { width: "1000%", transitionDuration: "0.6s", transform: "translate3d(-20%, 0px, 0px)" } :
+                                { width: "1000%", transitionDuration: "0.6s", transform: "translate3d(-30%, 0px, 0px)" }}>
+                            <li className="clone" aria-hidden={true} style={{ width: "10%", float: "left", display: "block" }}>
                                 <Link to="/verila-7">
                                     <img alt="Slider_verila.jpg" title="Slider_verila.jpg" src={Slider1Jpeg} width="980" height="406" draggable={false} />
                                 </Link>
                             </li>
-                            <li className={activeSlide === 1 ? "flex-active-slide" : ""} style={{ width: "980px", float: "left", display: "block" }}>
+                            <li className={activeSlide === 1 ? "flex-active-slide" : ""} style={{ width: "10%", float: "left", display: "block" }}>
                                 <Link to="/news/tr-prista-oil-groupun-kurucu-ortagi-plamen-bobokov-plovdiv-paisii-hilendarski-universitesinde-ogrencilere-halka-acik-bir-konferans-verdi">
                                     <img alt="Slider.png" title="Slider.png" src={Slider2} width="980" height="406" draggable={false} />
                                 </Link>
                             </li>
-                            <li className={activeSlide === 2 ? "flex-active-slide" : ""} style={{ width: "980px", float: "left", display: "block" }}>
+                            <li className={activeSlide === 2 ? "flex-active-slide" : ""} style={{ width: "10%", float: "left", display: "block" }}>
                                 <Link to="/gulf-marine-7">
                                     <img alt="Slider_gulf.jpg" title="Slider_gulf.jpg" src={Slider3} width="980" height="406" draggable="false" />
                                 </Link>
                             </li>
-                            <li className={activeSlide === 3 ? "flex-active-slide" : ""} style={{ width: "980px", float: "left", display: "block" }}>
+                            <li className={activeSlide === 3 ? "flex-active-slide" : ""} style={{ width: "10%", float: "left", display: "block" }}>
                                 <Link to="/verila-7">
                                     <img alt="Slider_verila.jpg" title="Slider_verila.jpg" src={Slider1Jpeg} width="980" height="406" draggable={false} />
                                 </Link>
                             </li>
-                            <li className="clone" aria-hidden={true} style={{ width: "980px", float: "left", display: "block" }}>
+                            <li className="clone" aria-hidden={true} style={{ width: "10%", float: "left", display: "block" }}>
                                 <Link to="/news/tr-prista-oil-groupun-kurucu-ortagi-plamen-bobokov-plovdiv-paisii-hilendarski-universitesinde-ogrencilere-halka-acik-bir-konferans-verdi">
                                     <img alt="Slider.png" title="Slider.png" src={Slider2} width="980" height="406" draggable={false} />
                                 </Link>
