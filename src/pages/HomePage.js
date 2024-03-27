@@ -1,5 +1,6 @@
 import Sponsor from '../components/homepage/Sponsor'
 import Slider from '../components/homepage/Slider'
+import News from '../components/homepage/News';
 
 
 const HomePage = () => {
@@ -7,6 +8,7 @@ const HomePage = () => {
         <div className="home-body">
             <Sponsor />
             <Slider />
+            <News />
         </div>
     )
 }

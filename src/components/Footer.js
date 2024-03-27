@@ -25,12 +25,13 @@ const Footer = () => {
                                     <br></br>
                                     fax: +359 2 8689476
                                     <br></br>
-                                    <a href="mailto:office@prista-oil.bg" style={{ color: "#979797" }} > office@prista-oil.bg</a>
+                                    <a href="mailto:office@prista-oil.bg" style={{ color: "#979797" }} >office@prista-oil.bg</a>
                                     <br></br>
-                                    <a href="http://www.prista-oil.com/" style={{ color: "#979797" }}> http://www.prista-oil.com/</a>
+                                    <a href="http://www.prista-oil.com/" style={{ color: "#979797" }}>www.prista-oil.com</a>
                                     <br></br>
                                 </p>
-                                <p>Prista Oil Blending Plant
+                                <p>
+                                    Prista Oil Blending Plant &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
                                     <br></br>
                                     7012 Ruse
                                     <br></br>
@@ -121,9 +122,7 @@ const Footer = () => {
                                     <br></br>
                                     04070 Kyiv
                                     <br></br>
-                                    10A Naberezhno-Khreschatytska
-                                    <br></br>
-                                    St.
+                                    10A Naberezhno-Khreschatytska St.                                   
                                     <br></br>
                                     tel: +380 44 5940892
                                     <br></br>
@@ -194,7 +193,7 @@ const Footer = () => {
                                     <br></br>
                                     11070 Belgrade
                                     <br></br>
-                                    65 Zorana Djindjica Blvd.                                   
+                                    65 Zorana Djindjica Blvd.
                                     <br></br>
                                     tel: +381 11 4075571
                                     <br></br>
@@ -243,6 +242,12 @@ const Footer = () => {
                         </div>
 
                     </div>
+                </div>
+            </div>
+            <div className="bottom">
+                <div className="container">
+                    <Link to="http://www.zashev.com" target="_blank">Web Design &amp; SEO by Zashev Design</Link>
+                    <div>©2024 Prista Oil All rights reserved!</div>
                 </div>
             </div>
         </footer>

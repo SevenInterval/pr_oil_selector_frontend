@@ -1,0 +1,129 @@
+html body .home-media-list {
+    margin-bottom: 35px;
+    margin-top: 60px;
+    padding: 14px 0;
+}
+
+@media (min-width: 685px) {
+    html body .home-media-list .media-object-left {
+        vertical-align: top;
+        display: table-cell;
+        width: 10000px;
+    }
+}
+
+@media (min-width: 685px) {
+    html body .home-media-list h2 {
+        margin-bottom: 27px;
+        margin-top: -61px;
+    }
+}
+
+html body .home-media-list h2 {
+    color: #222;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+}
+
+@media (max-width: 685px) {
+    html body .home-media-list h2 {
+        border-bottom: 1px solid #d0d0d0;
+        padding-bottom: 7px;
+        margin-bottom: 17px;
+    }
+}
+
+html body .home-news-list {
+    display: table;
+    min-width: 100%;
+}
+
+html body .home-news-list li:first-child {
+    padding-left: 0;
+}
+
+@media (max-width: 579px) {
+    html body .home-news-list li:first-child {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 579px) {
+    html body .home-news-list li {
+        display: table-cell;
+        vertical-align: top;
+        width: 25%;
+        padding: 0 12px;
+    }
+}
+
+@media (max-width: 579px) {
+    html body .home-news-list li {
+        display: block;
+        width: 100%;
+        margin-top: 16px;
+        padding-left: 0;
+    }
+}
+
+html body .home-news-list li a {
+    display: block;
+}
+
+html body .home-news-list li a span {
+    display: block;
+}
+
+html body .home-news-list li a span.title {
+    font-size: 16px;
+    color: #222222;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+@media (min-width: 685px) {
+    html body .home-news-list li a span.title {
+        font-size: 20px;
+    }
+}
+
+html body .home-news-list li a:hover span.title {
+    opacity: 0.5;
+}
+
+html body .home-news-list li a span.date {
+    color: #9a9a9a;
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+
+
+html body .home-news-list li a span.text {
+    font-size: 14px;
+    color: #767676;
+}
+
+@media (min-width: 685px) {
+    html body .home-news-list li a span.text {
+        font-size: 18px;
+    }
+}
+
+.read-more-after:after,
+html body article .objects-list-two-rows li a span.read-more:after,
+html body .home-media-list .media-object-right a span:after,
+html body .home-news-list li a span.text:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    background: url("../images/haberindir.png") no-repeat left center;
+    width: 17px;
+    height: 17px;
+}
