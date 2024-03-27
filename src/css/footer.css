@@ -1,18 +1,22 @@
-
-
 html body footer {
     width: 100%;
 }
 
 html body footer .top {
     padding-bottom: 24px;
-    background: #0a0a0a  repeat-x left top;
+    background: #0a0a0a repeat-x left top;
 }
 
 @media (max-width: 630px) {
     html body footer .top {
         background-image: none;
     }
+}
+
+html body .row:before,
+html body .row:after {
+    content: " ";
+    display: table;
 }
 
 
@@ -62,6 +66,13 @@ html body footer .top .row .span h4 {
     margin: 9px 0 0 0;
 }
 
+html body p,
+html body .cont-p {
+    line-height: normal;
+    margin-top: 16px;
+    text-align: left;
+}
+
 @media (max-width: 630px) {
     html body footer .top .row .span h4 {
         background: #343334;
@@ -89,6 +100,7 @@ html body footer .bottom html body .body_with_sidebar {
 }
 
 @media (max-width: 450px) {
+
     html body footer .bottom .container,
     html body footer .bottom html body .body_with_sidebar {
         padding-top: 6px;
@@ -104,7 +116,13 @@ html body footer .bottom html body .body_with_sidebar a {
     font-size: 14px;
 }
 
+html body p a:hover,
+html body .cont-p a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 450px) {
+
     html body footer .bottom .container a,
     html body footer .bottom html body .body_with_sidebar a {
         float: none;
@@ -118,6 +136,7 @@ html body footer .bottom html body .body_with_sidebar div {
 }
 
 @media (max-width: 450px) {
+
     html body footer .bottom .container div,
     html body footer .bottom html body .body_with_sidebar div {
         text-align: center;
