@@ -2,6 +2,20 @@ html body .body_with_sidebar aside {
     background: #f0f0f0;
 }
 
+html body .body_with_sidebar.default aside {
+    width: 210px;
+}
+
+@media (max-width: 776px) {
+    html body .body_with_sidebar.default aside {
+        position: fixed;
+        left: -210px;
+        top: 0;
+        height: 100%;
+        z-index: 4000;
+    }
+}
+
 html body .body_with_sidebar.catalog aside {
     min-height: 40px;
     margin-left: -15px;
@@ -134,7 +148,7 @@ html body .body_with_sidebar aside .cont-body ul>li>ul.sub {
     display: none;
 }
 
-html body .body_with_sidebar aside .cont-body ul > li > a.active + .sub {
+html body .body_with_sidebar aside .cont-body ul>li>a.active+.sub {
     display: block;
 }
 
@@ -244,5 +258,30 @@ html body .aside-show-button {
 @media (min-width: 776px) {
     html body .aside-show-button {
         display: none;
+    }
+}
+
+@media (max-width: 776px) {
+
+    .hs-normal,
+    html body article .page-header,
+    html body article .hs-error,
+    html body article .hs {
+        font-size: 18px;
+    }
+
+    .titleOfHeader {
+        font-size: 18px;
+    }
+}
+
+html body article .page-header {
+    margin-top: 0;
+}
+
+@media (max-width: 776px) {
+    html body article .page-header {
+        margin-bottom: 2px;
+        line-height: 18px;
     }
 }

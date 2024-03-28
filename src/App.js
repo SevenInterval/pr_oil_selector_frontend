@@ -5,9 +5,13 @@ import HomePage from './pages/HomePage';
 import Footer from './components/Footer';
 import DpfTwc from './components/products/otomotiv/pcmo/DpfTwc';
 import BizKimiz from './pages/hakkimizda/BizKimiz';
+<<<<<<< HEAD
 import SirketinSorumlulugu from './pages/hakkimizda/SirketinSorumlulugu';
 
 
+=======
+import Ortaklarimiz from './pages/hakkimizda/Ortaklarimiz';
+>>>>>>> 4543244b706125fa3ff30c6705e37566de8dcc8a
 
 function App() {
   return (
@@ -65,7 +69,7 @@ function App() {
 
         {/*Hakkımızda*/}
         <Route path="/biz-kimiz" element={<BizKimiz />} />
-        <Route path="/ortaklarimiz" element={<BizKimiz />} />
+        <Route path="/ortaklarimiz" element={<Ortaklarimiz />} />
         <Route path="/gulf-marine-7" element={<BizKimiz />} />
         <Route path="/verila-7" element={<BizKimiz />} />
         <Route path="/ergon-6" element={<BizKimiz />} />
