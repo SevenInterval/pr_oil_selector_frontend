@@ -9,6 +9,7 @@ import SirketinSorumlulugu from './pages/hakkimizda/SirketinSorumlulugu';
 import Ortaklarimiz from './pages/hakkimizda/Ortaklarimiz';
 import CerezPolitikasi from './pages/hakkimizda/CerezPolitikasi';
 import GizlilikPolitikasi from './pages/hakkimizda/GizlilikPolitikasi';
+import SiteMap from './pages/SiteMap';
 
 function App() {
   return (
@@ -73,6 +74,11 @@ function App() {
         <Route path="/sirketin-sorumlulugu" element={<SirketinSorumlulugu />} />
         <Route path="/gizlilik-politikasi" element={<GizlilikPolitikasi />} />
         <Route path="/cerez-politikasi" element={<CerezPolitikasi />} />
+        
+        
+        <Route path="/sitemap" element={<SiteMap />} />
+
+        
       </Routes>
       <Footer />
     </>
