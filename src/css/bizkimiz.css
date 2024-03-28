@@ -1,0 +1,77 @@
+html body article {
+    padding: 0 0 24px 0;
+}
+
+html body .body_with_sidebar article {
+    overflow: hidden;
+    padding-top: 0;
+}
+
+.hs-normal,
+html body article .page-header,
+html body article .hs-error,
+html body article .hs {
+    color: #222;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+html body article .page-header {
+    margin-top: 0;
+}
+
+@media (min-width: 776px) {
+    html body article .page-header {
+        line-height: 30px;
+        margin-bottom: 11px;
+    }
+}
+
+html body article .page-header span,
+html body article .page-header a {
+    color: #8a8a8a;
+    vertical-align: top;
+}
+
+html body article .page-header h1,
+html body article .page-header h2 {
+    display: inline-block;
+    vertical-align: top;
+    color: #222;
+    font-size: 18px;
+}
+
+@media (min-width: 776px) {
+
+    html body article .page-header h1,
+    html body article .page-header h2 {
+        font-size: 30px;
+    }
+}
+
+html body .body_with_sidebar.default aside {
+    width: 210px;
+}
+
+@media (min-width: 776px) {
+    html body .body_with_sidebar.default aside {
+        float: left;
+        margin-right: 24px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+}
+
+html body article .page-article {
+    color: #000;
+    font-size: 16px;
+}
+
+@media (min-width: 776px) {
+    html body article .page-article {
+        font-size: 18px;
+    }
+}

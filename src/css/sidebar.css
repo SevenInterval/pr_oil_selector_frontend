@@ -1,0 +1,248 @@
+html body .body_with_sidebar aside {
+    background: #f0f0f0;
+}
+
+html body .body_with_sidebar.catalog aside {
+    min-height: 40px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 17px;
+}
+
+@media (min-width: 776px) {
+    html body .body_with_sidebar.catalog aside {
+        height: auto !important;
+        width: 210px;
+        float: left;
+        margin-right: 24px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+}
+
+.container,
+html body .body_with_sidebar {
+    max-width: 1010px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+html body .body_with_sidebar {
+    min-height: 200px;
+    transition: transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0) 0s;
+    -webkit-transition: transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0) 0s;
+}
+
+@media (min-width: 776px) {
+    html body .body_with_sidebar.catalog {
+        padding-top: 20px;
+    }
+}
+
+html body .body_with_sidebar.default {
+    padding-top: 20px;
+}
+
+html body .body_with_sidebar:before,
+html body .body_with_sidebar:after {
+    content: " ";
+    display: table;
+}
+
+html body .body_with_sidebar:after,
+html body .body_with_sidebar:before {
+    clear: both;
+}
+
+html body .body_with_sidebar aside {
+    background: #f0f0f0;
+}
+
+html body .body_with_sidebar.catalog aside {
+    min-height: 40px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 17px;
+}
+
+@media (min-width: 776px) {
+    html body .body_with_sidebar.catalog aside {
+        height: auto !important;
+        width: 210px;
+        float: left;
+        margin-right: 24px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 776px) {
+    html body .body_with_sidebar.catalog aside {
+        position: relative;
+        overflow: hidden;
+        height: 40px;
+    }
+}
+
+html body .body_with_sidebar aside .cont-body ul {
+    padding: 15px 0;
+}
+
+html body .body_with_sidebar aside .cont-body ul.product-list {
+    line-height: 15px;
+}
+
+html body .body_with_sidebar aside .cont-body ul.product-list>li {
+    line-height: normal;
+}
+
+html body .body_with_sidebar aside .cont-body ul>li>a {
+    display: block;
+    font-size: 20px;
+    color: #000000;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 3px 5px 3px 19px;
+    margin: 0;
+    font-weight: 700;
+}
+
+html body .body_with_sidebar aside .cont-body ul.product-list>li>a {
+    border-bottom: none;
+}
+
+html body .body_with_sidebar aside .cont-body ul.product-list .level-0>a,
+html body .body_with_sidebar aside .cont-body ul.product-list .level-1>a {
+    font-weight: 700;
+}
+
+html body .body_with_sidebar aside .cont-body ul>li>a:hover,
+html body .body_with_sidebar aside .cont-body ul>li>a.active {
+    background: #ffdd00;
+}
+
+html body .body_with_sidebar aside .cont-body ul {
+    padding: 15px 0;
+}
+
+html body .body_with_sidebar aside .cont-body ul>li>ul {
+    padding: 0;
+}
+
+html body .body_with_sidebar aside .cont-body ul>li>ul.sub {
+    display: none;
+}
+
+html body .body_with_sidebar aside .cont-body ul > li > a.active + .sub {
+    display: block;
+}
+
+html body .body_with_sidebar aside .cont-body ul>li>ul.sub.show {
+    display: block;
+}
+
+html body .body_with_sidebar aside .cont-body ul.product-list .level-0>a,
+html body .body_with_sidebar aside .cont-body ul.product-list .level-1>a {
+    font-weight: 700;
+}
+
+html body .body_with_sidebar aside .cont-body ul>li>ul>li>a {
+    font-weight: normal;
+    padding-left: 30px;
+    border-bottom: none;
+}
+
+html body .body_with_sidebar aside .cont-body ul.product-list>li>ul>li>a {
+    font-size: 16px;
+}
+
+html body .body_with_sidebar aside .cont-body ul.product-list .level-0>a,
+html body .body_with_sidebar aside .cont-body ul.product-list .level-1>a {
+    font-weight: 700;
+}
+
+html body .body_with_sidebar aside .cont-body ul>li>ul>li>a {
+    font-weight: normal;
+    padding-left: 30px;
+    border-bottom: none;
+}
+
+html body .body_with_sidebar aside .cont-body ul.product-list>li>ul>li>ul>li>a {
+    font-size: 14px;
+    color: #777777;
+    padding-left: 40px;
+}
+
+html body .body_with_sidebar aside .cont-body ul.product-list>li>ul>li>ul>li>a:hover,
+html body .body_with_sidebar aside .cont-body ul.product-list>li>ul>li>ul>li>a.active {
+    background: #5b5b5b;
+    color: #fff;
+}
+
+html body .body_with_sidebar aside .cont-body ul.product-list>li>ul>li>ul>li>a:before {
+    background: #797979;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    margin-right: 6px;
+    margin-left: 0;
+}
+
+html body .body_with_sidebar aside .cont-body ul.product-list>li>ul>li>ul>li>a:hover:before,
+html body .body_with_sidebar aside .cont-body ul.product-list>li>ul>li>ul>li>a.active:before {
+    background: #ffdd00;
+}
+
+html body .body_with_sidebar aside .cont-body ul.product-list>li>ul>li>ul>li ul li a {
+    font-size: 14px;
+    color: #A1A1A1;
+    padding-left: 53px;
+}
+
+html body .body_with_sidebar aside .cont-body ul.product-list>li>ul>li>ul>li ul li a:hover,
+html body .body_with_sidebar aside .cont-body ul.product-list>li>ul>li>ul>li ul li a.active {
+    color: #000;
+}
+
+html body .body_with_sidebar aside .cont-body ul.product-list>li>ul>li>ul>li ul li a:before {
+    background: #707070;
+    width: 5px;
+    height: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    margin-right: 6px;
+    margin-left: 0;
+}
+
+html body .body_with_sidebar aside .cont-body ul.product-list>li>ul>li>ul>li ul li a:hover:before,
+html body .body_with_sidebar aside .cont-body ul.product-list>li>ul>li>ul>li ul li a.active:before {
+    background: #000;
+}
+
+html body .aside-show-button {
+    background: #fce000;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (min-width: 776px) {
+    html body .aside-show-button {
+        display: none;
+    }
+}

@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
-import HaberImage from '../../images/haberindir.png';
 
 const News = () => {
-
     return (
         <div className="grey-line">
             <div className="container">
