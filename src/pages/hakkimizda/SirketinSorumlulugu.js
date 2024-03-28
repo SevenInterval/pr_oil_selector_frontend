@@ -9,7 +9,7 @@ const BizKimiz = () => {
             <SideBar />
             <article>
                 <div class="page-header">
-                    <span>Hakkımızda</span>{" / "}
+                <span className="titleOfHeader">Hakkımızda / </span>
                     <h1>Şirketin sorumluluğu</h1>
                 </div>
                 <div className="page-article">
