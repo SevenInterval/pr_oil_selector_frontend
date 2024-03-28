@@ -10,6 +10,9 @@ import Ortaklarimiz from './pages/hakkimizda/Ortaklarimiz';
 import GulfMarine from './pages/hakkimizda/GulfMarine';
 import Verila from './pages/hakkimizda/Verila';
 import Ergon from './pages/hakkimizda/Ergon';
+import CerezPolitikasi from './pages/hakkimizda/CerezPolitikasi';
+import GizlilikPolitikasi from './pages/hakkimizda/GizlilikPolitikasi';
+import SiteMap from './pages/SiteMap';
 
 function App() {
   return (
@@ -72,8 +75,13 @@ function App() {
         <Route path="/verila-7" element={<Verila />} />
         <Route path="/ergon-6" element={<Ergon />} />
         <Route path="/sirketin-sorumlulugu" element={<SirketinSorumlulugu />} />
-        <Route path="/gizlilik-politikasi" element={<BizKimiz />} />
-        <Route path="/cerez-politikasi" element={<BizKimiz />} />
+        <Route path="/gizlilik-politikasi" element={<GizlilikPolitikasi />} />
+        <Route path="/cerez-politikasi" element={<CerezPolitikasi />} />
+        
+        
+        <Route path="/sitemap" element={<SiteMap />} />
+
+        
       </Routes>
       <Footer />
     </>

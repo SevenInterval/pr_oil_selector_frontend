@@ -12,6 +12,7 @@ import "@fontsource/open-sans-condensed";
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import './css/footer.css';
+import './css/sitemap.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,0 +1,34 @@
+
+html body article .sitemap-list-tree li {
+    padding: 2px 2px 2px 20px;
+}
+
+html body article .sitemap-list-tree li.level-00 {
+    padding-left: 10px;
+}
+
+html body article .sitemap-list-tree li.level-0 > a,
+html body article .sitemap-list-tree li.level-00 > a {
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+html body article .sitemap-list-tree li a {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAICAMAAADtGH4KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRF5OTkJCQkAAAA/Pz8z8/PlpaWoqKiV1dXEhISSEhIZmZm29vbzMzM7e3turq6FRUV////Yyv8DwAAABF0Uk5T/////////////////////wAlrZliAAAAM0lEQVR42hzLSQIAEBADwRiMnfz/tcIllUtjzEUS6QQIpir1niI2czAWy8RfYndXcAUYADJgAcciqbCBAAAAAElFTkSuQmCC") no-repeat left center;
+    padding-left: 12px;
+    display: block;
+    color: #121212;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+html body article .sitemap-list-tree li a:hover {
+    text-decoration: underline;
+}
+
+html body article .sitemap-list-tree li ul li a {
+    text-transform: none;
+}
