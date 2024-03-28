@@ -5,6 +5,9 @@ import HomePage from './pages/HomePage';
 import Footer from './components/Footer';
 import DpfTwc from './components/products/otomotiv/pcmo/DpfTwc';
 import BizKimiz from './pages/hakkimizda/BizKimiz';
+import SirketinSorumlulugu from './pages/hakkimizda/SirketinSorumlulugu';
+
+
 
 function App() {
   return (
@@ -66,7 +69,7 @@ function App() {
         <Route path="/gulf-marine-7" element={<BizKimiz />} />
         <Route path="/verila-7" element={<BizKimiz />} />
         <Route path="/ergon-6" element={<BizKimiz />} />
-        <Route path="/sirketin-sorumlulugu" element={<BizKimiz />} />
+        <Route path="/sirketin-sorumlulugu" element={<SirketinSorumlulugu />} />
         <Route path="/gizlilik-politikasi" element={<BizKimiz />} />
         <Route path="/cerez-politikasi" element={<BizKimiz />} />
       </Routes>
