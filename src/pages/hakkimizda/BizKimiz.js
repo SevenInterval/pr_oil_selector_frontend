@@ -1,8 +1,7 @@
-import { Link } from "react-router-dom";
-import SideBar from "../components/Sidebar";
-import PristaImage1 from '../images/pristaoil1.jpg'
-import PristaImage2 from '../images/pristaoil2.jpg'
-import FancyBox from "../components/FancyBox";
+import SideBar from "../../components/Sidebar";
+import PristaImage1 from '../../images/pristaoil1.jpg'
+import PristaImage2 from '../../images/pristaoil2.jpg'
+import FancyBox from "../../components/FancyBox";
 
 const BizKimiz = () => {
     return (

@@ -4,7 +4,7 @@ import Header from './components/Header';
 import HomePage from './pages/HomePage';
 import Footer from './components/Footer';
 import DpfTwc from './components/products/otomotiv/pcmo/DpfTwc';
-import BizKimiz from './pages/BizKimiz';
+import BizKimiz from './pages/hakkimizda/BizKimiz';
 
 function App() {
   return (
