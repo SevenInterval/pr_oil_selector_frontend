@@ -1,10 +1,19 @@
-import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 const SideBar = (props) => {
     const { catalog } = props;
     const [level1ShowName, setLevel1ShowName] = useState("OTOMOTIV");
     const [level2ShowName, setLevel2ShowName] = useState("PCMO");
+    let location = useLocation();
+
+    useEffect(() => {
+        if((location.pathname === "/gulf-marine-7") || (location.pathname === "/verila-7") || (location.pathname === "/ergon-6")) {
+            setLevel1ShowName("ORTAKLAR")
+        } else {
+            setLevel1ShowName("OTOMOTIV")
+        }
+    }, [])
 
     const showLevel1 = (levelName) => {
         setLevel1ShowName(levelName);
