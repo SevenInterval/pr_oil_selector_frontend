@@ -7,6 +7,8 @@ import DpfTwc from './components/products/otomotiv/pcmo/DpfTwc';
 import BizKimiz from './pages/hakkimizda/BizKimiz';
 import SirketinSorumlulugu from './pages/hakkimizda/SirketinSorumlulugu';
 import Ortaklarimiz from './pages/hakkimizda/Ortaklarimiz';
+import CerezPolitikasi from './pages/hakkimizda/CerezPolitikasi';
+import GizlilikPolitikasi from './pages/hakkimizda/GizlilikPolitikasi';
 
 function App() {
   return (
@@ -69,8 +71,8 @@ function App() {
         <Route path="/verila-7" element={<BizKimiz />} />
         <Route path="/ergon-6" element={<BizKimiz />} />
         <Route path="/sirketin-sorumlulugu" element={<SirketinSorumlulugu />} />
-        <Route path="/gizlilik-politikasi" element={<BizKimiz />} />
-        <Route path="/cerez-politikasi" element={<BizKimiz />} />
+        <Route path="/gizlilik-politikasi" element={<GizlilikPolitikasi />} />
+        <Route path="/cerez-politikasi" element={<CerezPolitikasi />} />
       </Routes>
       <Footer />
     </>
