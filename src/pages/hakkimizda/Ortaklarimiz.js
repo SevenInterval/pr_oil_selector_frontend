@@ -8,7 +8,7 @@ const Ortaklarimiz = () => {
         <div className="body_with_sidebar default">
             <SideBarHakkimizda />
             <article>
-                <div class="page-header">
+                <div className="page-header">
                     <span className="titleOfHeader">Hakkımızda / </span>
                     <h1>Ortaklarımız</h1>
                 </div>

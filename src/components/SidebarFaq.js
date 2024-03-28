@@ -33,7 +33,7 @@ const SideBarFaq = () => {
                         <NavLink to="/faq/adblue-7">AdBlue</NavLink>
                     </li>
                 </ul>
-                <div class="aside-show-button">Faq Portfolio</div>
+                <div className="aside-show-button">Faq Portfolio</div>
             </div>
         </aside>
     )

@@ -10,11 +10,11 @@ const Footer = () => {
         <footer>
             <div className="top" style={{ backgroundImage: `url(${Footer_bg})` }}>
                 <div className="container">
-                    <h4 class="global-h">İrtibat</h4>
-                    <div class="row">
-                        <div class="span">
+                    <h4 className="global-h">İrtibat</h4>
+                    <div className="row">
+                        <div className="span">
                             <h4>Bulgaristan</h4>
-                            <div class="body">
+                            <div className="body">
                                 <p>Prista Oil Holding HQ
                                     <br></br>
                                     1407 Sofia
@@ -48,9 +48,9 @@ const Footer = () => {
                                 </p>
                             </div>
                         </div>
-                        <div class="span">
+                        <div className="span">
                             <h4>Romanya</h4>
-                            <div class="body">
+                            <div className="body">
                                 <p>Prista Oil Romania S.A.
                                     <br></br>
                                     14459 Bucharest
@@ -91,9 +91,9 @@ const Footer = () => {
                             </div>
 
                         </div>
-                        <div class="span">
+                        <div className="span">
                             <h4>Macaristan</h4>
-                            <div class="body">
+                            <div className="body">
                                 <p>
                                     Prista Oil-Hungary Kft.
                                     <br></br>
@@ -116,7 +116,7 @@ const Footer = () => {
                                 </p>
                             </div>
                             <h4>Ukrayna</h4>
-                            <div class="body">
+                            <div className="body">
                                 <p>
                                     Prista Oil LLC
                                     <br></br>
@@ -136,9 +136,9 @@ const Footer = () => {
                                 </p>
                             </div>
                         </div>
-                        <div class="span">
+                        <div className="span">
                             <h4>Çek Cumhuriyeti</h4>
-                            <div class="body">
+                            <div className="body">
                                 <p>
                                     Prista Oil Czech s.r.o.
                                     <br></br>
@@ -185,9 +185,9 @@ const Footer = () => {
                                 </p>
                             </div>
                         </div>
-                        <div class="span">
+                        <div className="span">
                             <h4>Sırbistan</h4>
-                            <div class="body">
+                            <div className="body">
                                 <p>
                                     Prista Oil AD Beograd
                                     <br></br>
@@ -220,7 +220,7 @@ const Footer = () => {
                                 </p>
                             </div>
                             <h4>Özbekistan</h4>
-                            <div class="body">
+                            <div className="body">
                                 <p>
                                     "Uz-Prista" JV LLC
                                     <br></br>

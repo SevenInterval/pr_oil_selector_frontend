@@ -7,7 +7,7 @@ const GulfMarine = () => {
         <div className="body_with_sidebar default">
             <SideBarHakkimizda />
             <article>
-                <div class="page-header">
+                <div className="page-header">
                     <span className="titleOfHeader">Hakkımızda / </span>
                     <span className="titleOfHeader">Ortaklarımız / </span>
                     <h1>Gulf Marine</h1>

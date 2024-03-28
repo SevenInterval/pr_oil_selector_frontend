@@ -24,7 +24,7 @@ const SideBarHakkimizda = () => {
                     </li>
                     <li>
                         <NavLink to="/ortaklarimiz">Ortaklarımız</NavLink>
-                        <ul class={level1ShowName === "ORTAKLAR" ? "sub show" : "sub"}>
+                        <ul className={level1ShowName === "ORTAKLAR" ? "sub show" : "sub"}>
                             <li>
                                 <NavLink to="/gulf-marine-7" onClick={() => showLevel1("ORTAKLAR")}>Gulf Marine</NavLink>
                             </li>

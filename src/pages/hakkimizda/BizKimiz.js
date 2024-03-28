@@ -8,7 +8,7 @@ const BizKimiz = () => {
         <div className="body_with_sidebar default">
             <SideBarHakkimizda />
             <article>
-                <div class="page-header">
+                <div className="page-header">
                     <span className="titleOfHeader">Hakkımızda / </span>
                     <h1>Biz kimiz</h1>
                 </div>
