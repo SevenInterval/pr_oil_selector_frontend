@@ -13,6 +13,7 @@ import Ergon from './pages/hakkimizda/Ergon';
 import CerezPolitikasi from './pages/hakkimizda/CerezPolitikasi';
 import GizlilikPolitikasi from './pages/hakkimizda/GizlilikPolitikasi';
 import SiteMap from './pages/SiteMap';
+import MotorYaglari from './pages/faq/MotorYaglari';
 
 function App() {
   return (
@@ -81,6 +82,16 @@ function App() {
         
         <Route path="/sitemap" element={<SiteMap />} />
 
+        {/*FAQ */}
+        <Route path="/faq/motor-yaglari" element={<MotorYaglari />} />
+        <Route path="/faq/binek-ve-hafif-ticari-araclar-icin-motor-yaglari" element={<MotorYaglari />} />
+        <Route path="/faq/buyuk-ticari-araclar-icin-yaglar" element={<MotorYaglari />} />
+        <Route path="/faq/sanziman-yaglari" element={<MotorYaglari />} />
+        <Route path="/faq/sanziman-yaglari-otomatik-sanzimanlar" element={<MotorYaglari />} />
+        <Route path="/faq/antifriz-2" element={<MotorYaglari />} />
+        <Route path="/faq/fren-hidroligi" element={<MotorYaglari />} />
+        <Route path="/faq/on-cam-yikama-sivisi" element={<MotorYaglari />} />
+        <Route path="/faq/adblue-7" element={<MotorYaglari />} />
         
       </Routes>
       <Footer />

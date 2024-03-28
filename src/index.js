@@ -7,6 +7,7 @@ import './css/slider.css'
 import './css/news.css'
 import './css/sidebar.css'
 import './css/bizkimiz.css'
+import './css/faq.css'
 import App from './App';
 import "@fontsource/open-sans-condensed";
 import reportWebVitals from './reportWebVitals';

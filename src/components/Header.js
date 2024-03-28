@@ -76,7 +76,7 @@ const Header = () => {
                 <div className="right">
                     <div className="top">
                         <ul>
-                            <li><Link to="/faq">FAQ</Link></li>
+                            <li><Link to="/faq/motor-yaglari">FAQ</Link></li>
                             <li><Link to="/sitemap">Sitemap</Link></li>
                         </ul>
                         <div className={!openSearchForLtScreen ? "form" : "form active"}>

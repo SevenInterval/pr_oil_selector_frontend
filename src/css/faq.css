@@ -1,0 +1,77 @@
+.hs-normal,
+html body article .page-header,
+html body article .hs-error,
+html body article .hs {
+    color: #222;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+html body .body_with_sidebar article .hs:first-child {
+    margin-top: 0;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+.hs-small,
+html body article .faq-object-list h3,
+html body article .objects-list-tree-rows .span span.title,
+html body article .objects-list-tree-rows .headline,
+html body article .search-list li a,
+html body article .sitemap-list ul>li span {
+    color: #000;
+    margin-top: 8px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+@media (min-width: 776px) {
+
+    .hs-small,
+    html body article .faq-object-list h3,
+    html body article .objects-list-tree-rows .span span.title,
+    html body article .objects-list-tree-rows .headline,
+    html body article .search-list li a,
+    html body article .sitemap-list ul>li span {
+        font-size: 24px;
+    }
+}
+
+html body article .faq-object-list h3 {
+    cursor: pointer;
+}
+
+html body article .faq-object-list h3.ui-accordion-header-active,
+html body article .faq-object-list h3:hover {
+    color: #878787;
+}
+
+html body article .faq-object-list h3:before {
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../images/positive-negative-bul.png") no-repeat left top;
+    height: 11px;
+    margin-right: 11px;
+    width: 11px;
+    content: "";
+}
+
+html body article .faq-object-list h3.ui-accordion-header-active:before,
+html body article .faq-object-list h3:hover:before {
+    background-position: 0 -11px;
+}
+
+html body article .faq-object-list div.cont {
+    background: #f1f1f1;
+    padding: 16px 19px;
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+html body article .faq-object-list div.cont p {
+    margin-top: 0;
+    font-size: 20px;
+}
