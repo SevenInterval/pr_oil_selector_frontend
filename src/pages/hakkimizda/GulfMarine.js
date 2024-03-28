@@ -1,11 +1,11 @@
-import SideBar from "../../components/Sidebar";
+import SideBarHakkimizda from "../../components/SidebarHakkimizda";
 import GulfMarineImage from '../../images/gulfmarine.jpg';
 import { Link } from "react-router-dom";
 
 const GulfMarine = () => {
     return (
         <div className="body_with_sidebar default">
-            <SideBar />
+            <SideBarHakkimizda />
             <article>
                 <div class="page-header">
                     <span className="titleOfHeader">Hakkımızda / </span>

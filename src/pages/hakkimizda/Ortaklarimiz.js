@@ -1,12 +1,12 @@
-import SideBar from "../../components/Sidebar";
 import VerilaJpeg from '../../images/home_gallery_verila.jpeg'
 import ErgonJpeg from '../../images/home_gallery_ergon.jpeg'
 import { Link } from "react-router-dom";
+import SideBarHakkimizda from "../../components/SidebarHakkimizda";
 
 const Ortaklarimiz = () => {
     return (
         <div className="body_with_sidebar default">
-            <SideBar />
+            <SideBarHakkimizda />
             <article>
                 <div class="page-header">
                     <span className="titleOfHeader">Hakkımızda / </span>

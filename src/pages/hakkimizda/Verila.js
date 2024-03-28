@@ -1,11 +1,11 @@
-import SideBar from "../../components/Sidebar";
+import SideBarHakkimizda from "../../components/SidebarHakkimizda";
 import VerilaImage from '../../images/verila.jpg';
 import { Link } from "react-router-dom";
 
 const Verila = () => {
     return (
         <div className="body_with_sidebar default">
-            <SideBar />
+            <SideBarHakkimizda />
             <article>
                 <div class="page-header">
                     <span className="titleOfHeader">Hakkımızda / </span>

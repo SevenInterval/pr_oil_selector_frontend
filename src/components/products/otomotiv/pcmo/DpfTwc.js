@@ -1,9 +1,9 @@
-import SideBar from "../../../Sidebar";
+import SideBarUrunler from "../../../SidebarUrunler";
 
 const DpfTwc = () => {
     return (
         <div className="body_with_sidebar catalog">
-            <SideBar catalog={true} />
+            <SideBarUrunler catalog={true} />
         </div>
     )
 }

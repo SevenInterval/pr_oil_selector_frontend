@@ -1,11 +1,10 @@
-import SideBar from "../../components/Sidebar";
+import SideBarHakkimizda from "../../components/SidebarHakkimizda";
 import ErgonImage from '../../images/ergon.jpg';
-import { Link } from "react-router-dom";
 
 const Ergon = () => {
     return (
         <div className="body_with_sidebar default">
-            <SideBar />
+            <SideBarHakkimizda />
             <article>
                 <div class="page-header">
                     <span className="titleOfHeader">Hakkımızda / </span>

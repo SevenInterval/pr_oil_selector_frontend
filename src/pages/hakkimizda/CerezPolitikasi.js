@@ -1,9 +1,9 @@
-import SideBar from "../../components/Sidebar";
+import SideBarHakkimizda from "../../components/SidebarHakkimizda";
 
 const BizKimiz = () => {
     return (
         <div className="body_with_sidebar default">
-            <SideBar />
+            <SideBarHakkimizda />
             <article>
                 <div class="page-header">
                 <span className="titleOfHeader">Hakkımızda / </span>
