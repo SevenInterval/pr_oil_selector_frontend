@@ -117,15 +117,26 @@ function App() {
 
         {/*FAQ */}
         <Route path="/faq/motor-yaglari" element={<MotorYaglari />} />
-        <Route path="/faq/binek-ve-hafif-ticari-araclar-icin-motor-yaglari" element={<MotorYaglari />} />
-        <Route path="/faq/buyuk-ticari-araclar-icin-yaglar" element={<MotorYaglari />} />
-        <Route path="/faq/sanziman-yaglari" element={<MotorYaglari />} />
-        <Route path="/faq/sanziman-yaglari-otomatik-sanzimanlar" element={<MotorYaglari />} />
-        <Route path="/faq/antifriz-2" element={<MotorYaglari />} />
-        <Route path="/faq/fren-hidroligi" element={<MotorYaglari />} />
-        <Route path="/faq/on-cam-yikama-sivisi" element={<MotorYaglari />} />
-        <Route path="/faq/adblue-7" element={<MotorYaglari />} />
+        <Route path="/faq/binek-ve-hafif-ticari-araclar-icin-motor-yaglari" element={<MotorYaglariBta />} />
+        <Route path="/faq/buyuk-ticari-araclar-icin-yaglar" element={<MotorYaglariBt />} />
+        <Route path="/faq/sanziman-yaglari" element={<SanzimanYaglari />} />
+        <Route path="/faq/sanziman-yaglari-otomatik-sanzimanlar" element={<OtomatikSanzimanYaglari />} />
+        <Route path="/faq/antifriz-2" element={<Antifriz />} />
+        <Route path="/faq/fren-hidroligi" element={<FrenHidroligi />} />
+        <Route path="/faq/on-cam-yikama-sivisi" element={<OnCamYikamaSivisi />} />
+        <Route path="/faq/adblue-7" element={<AdBlue />} />
         
+        {/* İrtibat */}
+        <Route path="/harita" element={<Harita />} />
+        <Route path="/bulgaristan" element={<BulgaristanIrt />} />
+        <Route path="/romanya" element={<RomanyaIrt />} />
+        <Route path="/macaristan" element={<MacaristanIrt />} />
+        <Route path="/cek-cumhuriyeti" element={<CekCumhuriyetiIrt />} />
+        <Route path="/sirbistan" element={<SirbistanIrt  />} />
+        <Route path="/ukrayna" element={<UkraynaIrt  />} />
+        <Route path="/turkiye" element={<TurkiyeIrt  />} />
+        <Route path="/ozbekistan" element={<OzbekistanIrt  />} />
+        <Route path="/rusya-1" element={<RusyaIrt />} />
       </Routes>
       <Footer />
     </>
