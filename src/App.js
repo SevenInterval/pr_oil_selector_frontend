@@ -14,6 +14,14 @@ import CerezPolitikasi from './pages/hakkimizda/CerezPolitikasi';
 import GizlilikPolitikasi from './pages/hakkimizda/GizlilikPolitikasi';
 import SiteMap from './pages/SiteMap';
 import MotorYaglari from './pages/faq/MotorYaglari';
+import MotorYaglariBta from './pages/faq/MotorYaglaribBta';
+import MotorYaglariBt from './pages/faq/MotorYaglaribBt';
+import SanzimanYaglari from './pages/faq/SanzimanYaglari';
+import OtomatikSanzimanYaglari from './pages/faq/OtomatikSanzimanYaglari';
+import Antifriz from './pages/faq/Antifriz';
+import FrenHidroligi from './pages/faq/FrenHidroligi';
+import OnCamYikamaSivisi from './pages/faq/OnCamYikamaSivisi';
+import AdBlue from './pages/faq/AdBlue';
 
 function App() {
   return (
@@ -84,14 +92,14 @@ function App() {
 
         {/*FAQ */}
         <Route path="/faq/motor-yaglari" element={<MotorYaglari />} />
-        <Route path="/faq/binek-ve-hafif-ticari-araclar-icin-motor-yaglari" element={<MotorYaglari />} />
-        <Route path="/faq/buyuk-ticari-araclar-icin-yaglar" element={<MotorYaglari />} />
-        <Route path="/faq/sanziman-yaglari" element={<MotorYaglari />} />
-        <Route path="/faq/sanziman-yaglari-otomatik-sanzimanlar" element={<MotorYaglari />} />
-        <Route path="/faq/antifriz-2" element={<MotorYaglari />} />
-        <Route path="/faq/fren-hidroligi" element={<MotorYaglari />} />
-        <Route path="/faq/on-cam-yikama-sivisi" element={<MotorYaglari />} />
-        <Route path="/faq/adblue-7" element={<MotorYaglari />} />
+        <Route path="/faq/binek-ve-hafif-ticari-araclar-icin-motor-yaglari" element={<MotorYaglariBta />} />
+        <Route path="/faq/buyuk-ticari-araclar-icin-yaglar" element={<MotorYaglariBt />} />
+        <Route path="/faq/sanziman-yaglari" element={<SanzimanYaglari />} />
+        <Route path="/faq/sanziman-yaglari-otomatik-sanzimanlar" element={<OtomatikSanzimanYaglari />} />
+        <Route path="/faq/antifriz-2" element={<Antifriz />} />
+        <Route path="/faq/fren-hidroligi" element={<FrenHidroligi />} />
+        <Route path="/faq/on-cam-yikama-sivisi" element={<OnCamYikamaSivisi />} />
+        <Route path="/faq/adblue-7" element={<AdBlue />} />
         
       </Routes>
       <Footer />
