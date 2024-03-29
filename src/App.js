@@ -29,6 +29,16 @@ import Adana from './pages/istirakler/Adana';
 import Denizli from './pages/istirakler/Denizli';
 import Istanbul from './pages/istirakler/Istanbul';
 import Izmir from './pages/istirakler/Izmir';
+import Harita from './pages/irtibat/Harita';
+import BulgaristanIrt from './pages/irtibat/BulgaristanIrt';
+import RomanyaIrt from './pages/irtibat/RomanyaIrt';
+import MacaristanIrt from './pages/irtibat/MacaristanIrt';
+import CekCumhuriyetiIrt from './pages/irtibat/CekCumhuriyetiIrt';
+import SirbistanIrt from './pages/irtibat/SirbistanIrt';
+import UkraynaIrt from './pages/irtibat/UkraynaIrt';
+import TurkiyeIrt from './pages/irtibat/TurkiyeIrt';
+import OzbekistanIrt from './pages/irtibat/OzbekistanIrt';
+import RusyaIrt from './pages/irtibat/RusyaIrt';
 
 function App() {
   return (
@@ -125,7 +135,18 @@ function App() {
         <Route path="/istanbul-1" element={<Istanbul />} />
         <Route path="/izmir-1" element={<Izmir />} />
 
-        
+        {/* İrtibat */}
+        <Route path="/harita" element={<Harita />} />
+        <Route path="/bulgaristan" element={<BulgaristanIrt />} />
+        <Route path="/romanya" element={<RomanyaIrt />} />
+        <Route path="/macaristan" element={<MacaristanIrt />} />
+        <Route path="/cek-cumhuriyeti" element={<CekCumhuriyetiIrt />} />
+        <Route path="/sirbistan" element={<SirbistanIrt  />} />
+        <Route path="/ukrayna" element={<UkraynaIrt  />} />
+        <Route path="/turkiye" element={<TurkiyeIrt  />} />
+        <Route path="/ozbekistan" element={<OzbekistanIrt  />} />
+        <Route path="/rusya-1" element={<RusyaIrt />} />
+              
         
       </Routes>
       <Footer />
