@@ -2,6 +2,7 @@ import Footer_bg from '../images/footer-bg-repeat-x.png'
 import F_icon from '../images/F_icon.svg.png'
 import Y_icon from '../images/youtubeImage.png'
 import I_icon from '../images/instagramImage.png'
+import L_icon from '../images/linkedinImage.png'
 import { Link } from "react-router-dom"
 
 
@@ -25,9 +26,9 @@ const Footer = () => {
                                     <br></br>
                                     fax: +359 2 8689476
                                     <br></br>
-                                    <a href="mailto:office@prista-oil.bg" style={{ color: "#979797" }} >office@prista-oil.bg</a>
+                                    <Link to="mailto:office@prista-oil.bg" style={{ color: "#979797" }} >office@prista-oil.bg</Link>
                                     <br></br>
-                                    <a href="http://www.prista-oil.com/" style={{ color: "#979797" }}>www.prista-oil.com</a>
+                                    <Link to="http://www.prista-oil.com/" style={{ color: "#979797" }}>www.prista-oil.com</Link>
                                     <br></br>
                                 </p>
                                 <p>
@@ -61,9 +62,9 @@ const Footer = () => {
                                     <br></br>
                                     fax: + 40 021 4115515/16/18
                                     <br></br>
-                                    <a href="mailto:office@prista-oil.ro" style={{ color: "#979797" }}> office@prista-oil.ro</a>
+                                    <Link to="mailto:office@prista-oil.ro" style={{ color: "#979797" }}> office@prista-oil.ro</Link>
                                     <br></br>
-                                    <a href="http://www.prista-oil.ro/" style={{ color: "#979797" }}> www.prista-oil.ro</a>
+                                    <Link to="http://www.prista-oil.ro/" style={{ color: "#979797" }}> www.prista-oil.ro</Link>
                                     <br></br>
                                 </p>
                                 <p>
@@ -86,8 +87,8 @@ const Footer = () => {
                                     Russia
                                     <br></br>
                                 </p>
-                                <a href="mailto:info@pristagroup.com" target="_blank" style={{ color: "#979797" }}>info@pristagroup.com
-                                </a>
+                                <Link to="mailto:info@pristagroup.com" target="_blank" style={{ color: "#979797" }}>info@pristagroup.com
+                                </Link>
                             </div>
 
                         </div>
@@ -103,11 +104,11 @@ const Footer = () => {
                                     <br></br>
                                     tel: +3620 328 7486
                                     <br></br>
-                                    <a href="mailto:vevo.szolgalat@prista-oil.com" target="_blank" style={{ color: "#979797" }} >vevo.szolgalat@prista-oil.com
-                                    </a>
+                                    <Link to="mailto:vevo.szolgalat@prista-oil.com" target="_blank" style={{ color: "#979797" }} >vevo.szolgalat@prista-oil.com
+                                    </Link>
                                     <br></br>
-                                    <a href="http://www.prista-oil.hu/" target="_blank" style={{ color: "#979797" }}>www.prista-oil.hu
-                                    </a>
+                                    <Link to="http://www.prista-oil.hu/" target="_blank" style={{ color: "#979797" }}>www.prista-oil.hu
+                                    </Link>
                                 </p>
                                 <p>
                                     <Link to="https://www.facebook.com/Texacokenoanyagok/" target="_blank" >
@@ -122,17 +123,17 @@ const Footer = () => {
                                     <br></br>
                                     04070 Kyiv
                                     <br></br>
-                                    10A Naberezhno-Khreschatytska St.                                   
+                                    10A Naberezhno-Khreschatytska St.
                                     <br></br>
                                     tel: +380 44 5940892
                                     <br></br>
                                     fax: + 380 44 5940893
                                     <br></br>
-                                    <a href="mailto:info@prista-oil.com.ua" target="_blank" style={{ color: "#979797" }}>info@prista-oil.com.ua
-                                    </a>
+                                    <Link to="mailto:info@prista-oil.com.ua" target="_blank" style={{ color: "#979797" }}>info@prista-oil.com.ua
+                                    </Link>
                                     <br></br>
-                                    <a href="http://www.prista-oil.com/" target="_blank" style={{ color: "#979797" }}>www.prista-oil.com
-                                    </a>
+                                    <Link to="http://www.prista-oil.com/" target="_blank" style={{ color: "#979797" }}>www.prista-oil.com
+                                    </Link>
                                 </p>
                             </div>
                         </div>
@@ -148,11 +149,11 @@ const Footer = () => {
                                     <br></br>
                                     tel: +420 266 799 150
                                     <br></br>
-                                    <a href="mailto:objednavky@prista-oil.cz" target="_blank" style={{ color: "#979797" }} >objednavky@prista-oil.cz
-                                    </a>
+                                    <Link to="mailto:objednavky@prista-oil.cz" target="_blank" style={{ color: "#979797" }} >objednavky@prista-oil.cz
+                                    </Link>
                                     <br></br>
-                                    <a href="http://www.prista-oil.cz/" target="_blank" style={{ color: "#979797" }} >www.prista-oil.cz
-                                    </a>
+                                    <Link to="http://www.prista-oil.cz/" target="_blank" style={{ color: "#979797" }} >www.prista-oil.cz
+                                    </Link>
                                 </p>
                                 <p>
                                     <Link to="https://www.facebook.com/TexacoCZSK/" target="_blank" >
@@ -175,12 +176,16 @@ const Footer = () => {
                                     <br></br>
                                     Fax: +90 212 465 23 11
                                     <br></br>
-                                    <a href="mailto:ozkan.ozturk@prista-oil.com.tr" target="_blank" style={{ color: "#979797" }} >ozkan.ozturk@prista-oil.com.tr
-                                    </a>
+                                    <Link to="mailto:info@prista-oil.com.tr" target="_blank" style={{ color: "#979797" }} >info@prista-oil.com.tr
+                                    </Link>
                                 </p>
                                 <p>
                                     <Link to="https://www.instagram.com/pristaturkiye?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">
                                         <img src={I_icon} alt='instagram' />
+                                    </Link>
+                                    &nbsp;&nbsp;
+                                    <Link to="https://www.linkedin.com/company/prista-oil-t%C3%BCrkiye/" target="_blank">
+                                        <img src={L_icon} alt='linkedinTr' style={{ height: "25px", width: "25px" }} />
                                     </Link>
                                 </p>
                             </div>
@@ -199,11 +204,11 @@ const Footer = () => {
                                     <br></br>
                                     fax: +381 11 2606027
                                     <br></br>
-                                    <a href="mailto:office@prista-oil.rs" target="_blank" style={{ color: "#979797" }} >office@prista-oil.rs
-                                    </a>
+                                    <Link to="mailto:office@prista-oil.rs" target="_blank" style={{ color: "#979797" }} >office@prista-oil.rs
+                                    </Link>
                                     <br></br>
-                                    <a href="http://www.prista-oil.rs/" target="_blank" style={{ color: "#979797" }} >www.prista-oil.rs
-                                    </a>
+                                    <Link to="http://www.prista-oil.rs/" target="_blank" style={{ color: "#979797" }} >www.prista-oil.rs
+                                    </Link>
                                 </p>
                                 <p>
                                     <Link to="https://www.facebook.com/PristaOilSerbia/" target="_blank" >
@@ -232,11 +237,11 @@ const Footer = () => {
                                     <br></br>
                                     fax: +99 871 1206688
                                     <br></br>
-                                    <a href="mailto:info@prista-oil.uz" target="_blank" style={{ color: "#979797" }} >info@prista-oil.uz
-                                    </a>
+                                    <Link to="mailto:info@prista-oil.uz" target="_blank" style={{ color: "#979797" }} >info@prista-oil.uz
+                                    </Link>
                                     <br></br>
-                                    <a href="http://www.prista-oil.uz/" target="_blank" style={{ color: "#979797" }} >www.prista-oil.uz
-                                    </a>
+                                    <Link to="http://www.prista-oil.uz/" target="_blank" style={{ color: "#979797" }} >www.prista-oil.uz
+                                    </Link>
                                 </p>
                             </div>
                         </div>

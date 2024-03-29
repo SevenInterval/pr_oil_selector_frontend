@@ -17,7 +17,7 @@ const MotorYaglari = () => {
         <div className="body_with_sidebar catalog">
             <SideBarFaq />
             <article>
-                <h1 className="hs"><span>Frequently asked questions</span> / Motor yağları</h1>
+                <h1 className="hs"><span className="titleOfHeader">Frequently asked questions / Motor yağları</span>  </h1>
 
                 <Accordion changeAcc={1} activeAccordion={activeAccordion} changeActiveAccordion={changeActiveAccordion}
                     question={"Aracınız için doğru motor yağı nasıl seçilir?"}

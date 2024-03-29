@@ -14,6 +14,21 @@ import CerezPolitikasi from './pages/hakkimizda/CerezPolitikasi';
 import GizlilikPolitikasi from './pages/hakkimizda/GizlilikPolitikasi';
 import SiteMap from './pages/SiteMap';
 import MotorYaglari from './pages/faq/MotorYaglari';
+import Istirakler from './pages/istirakler/Istirakler';
+import Bulgaristan from './pages/istirakler/Bulgaristan';
+import Romanya from './pages/istirakler/Romanya';
+import Macaristan from './pages/istirakler/Macaristan';
+import CekCumhuriyeti from './pages/istirakler/CekCumhuriyeti';
+import Sirbistan from './pages/istirakler/Sirbistan';
+import Ukrayna from './pages/istirakler/Ukrayna';
+import Turkiye from './pages/istirakler/Turkiye';
+import Ozbekistan from './pages/istirakler/Ozbekistan';
+import Rusya from './pages/istirakler/Rusya';
+import Distributorler from './pages/istirakler/Distributorler';
+import Adana from './pages/istirakler/Adana';
+import Denizli from './pages/istirakler/Denizli';
+import Istanbul from './pages/istirakler/Istanbul';
+import Izmir from './pages/istirakler/Izmir';
 
 function App() {
   return (
@@ -92,6 +107,25 @@ function App() {
         <Route path="/faq/fren-hidroligi" element={<MotorYaglari />} />
         <Route path="/faq/on-cam-yikama-sivisi" element={<MotorYaglari />} />
         <Route path="/faq/adblue-7" element={<MotorYaglari />} />
+
+        {/* Pazarlar */}
+        <Route path="/istirakler" element={<Istirakler />} />
+        <Route path="/bulgaristan-1" element={<Bulgaristan />} />
+        <Route path="/romanya-1" element={<Romanya />} />
+        <Route path="/macaristan-1" element={<Macaristan />} />
+        <Route path="/cek-cumhuriyeti-1" element={<CekCumhuriyeti />} />
+        <Route path="/sirbistan-1" element={<Sirbistan />} />
+        <Route path="/ukrayna-1" element={<Ukrayna />} />
+        <Route path="/turkiye-1" element={<Turkiye />} />
+        <Route path="/ozbekistan-1" element={<Ozbekistan />} />
+        <Route path="/rusya" element={<Rusya />} />
+        <Route path="/distributorler" element={<Distributorler />} />
+        <Route path="/adana-1" element={<Adana />} />
+        <Route path="/denizli-1" element={<Denizli />} />
+        <Route path="/istanbul-1" element={<Istanbul />} />
+        <Route path="/izmir-1" element={<Izmir />} />
+
+        
         
       </Routes>
       <Footer />
