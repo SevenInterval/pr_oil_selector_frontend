@@ -108,7 +108,7 @@ const Header = () => {
                                     Giriş Sayfası
                                 </Link>
                             </li>
-                            <li id="menu_3" data-id="3" onClick={() => setSelectedNavbarId("menu_3")} className={selectedNavbarId === "menu_3" ? "level-0 active root-active" : "level-0"} >
+                            {/*<li id="menu_3" data-id="3" onClick={() => setSelectedNavbarId("menu_3")} className={selectedNavbarId === "menu_3" ? "level-0 active root-active" : "level-0"} >
                                 <Link to="/catalogue/yuksek-performansli-dpf-twc" >
                                     Ürünler
                                 </Link>
@@ -121,7 +121,7 @@ const Header = () => {
                                     </li>
 
                                 </ul>
-                            </li>
+                    </li>*/}
                             <li id="menu_4" data-id="4" onClick={() => setSelectedNavbarId("menu_4")} className={selectedNavbarId === "menu_4" ? "level-0 active root-active" : "level-0"} >
                                 <Link to="/istirakler">
                                     Pazarlar

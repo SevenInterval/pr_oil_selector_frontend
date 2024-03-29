@@ -22,6 +22,31 @@ import Antifriz from './pages/faq/Antifriz';
 import FrenHidroligi from './pages/faq/FrenHidroligi';
 import OnCamYikamaSivisi from './pages/faq/OnCamYikamaSivisi';
 import AdBlue from './pages/faq/AdBlue';
+import Istirakler from './pages/istirakler/Istirakler';
+import Bulgaristan from './pages/istirakler/Bulgaristan';
+import Romanya from './pages/istirakler/Romanya';
+import Macaristan from './pages/istirakler/Macaristan';
+import CekCumhuriyeti from './pages/istirakler/CekCumhuriyeti';
+import Sirbistan from './pages/istirakler/Sirbistan';
+import Ukrayna from './pages/istirakler/Ukrayna';
+import Turkiye from './pages/istirakler/Turkiye';
+import Ozbekistan from './pages/istirakler/Ozbekistan';
+import Rusya from './pages/istirakler/Rusya';
+import Distributorler from './pages/istirakler/Distributorler';
+import Adana from './pages/istirakler/Adana';
+import Denizli from './pages/istirakler/Denizli';
+import Istanbul from './pages/istirakler/Istanbul';
+import Izmir from './pages/istirakler/Izmir';
+import Harita from './pages/irtibat/Harita';
+import BulgaristanIrt from './pages/irtibat/BulgaristanIrt';
+import RomanyaIrt from './pages/irtibat/RomanyaIrt';
+import MacaristanIrt from './pages/irtibat/MacaristanIrt';
+import CekCumhuriyetiIrt from './pages/irtibat/CekCumhuriyetiIrt';
+import SirbistanIrt from './pages/irtibat/SirbistanIrt';
+import UkraynaIrt from './pages/irtibat/UkraynaIrt';
+import TurkiyeIrt from './pages/irtibat/TurkiyeIrt';
+import OzbekistanIrt from './pages/irtibat/OzbekistanIrt';
+import RusyaIrt from './pages/irtibat/RusyaIrt';
 
 function App() {
   return (
@@ -92,14 +117,14 @@ function App() {
 
         {/*FAQ */}
         <Route path="/faq/motor-yaglari" element={<MotorYaglari />} />
-        <Route path="/faq/binek-ve-hafif-ticari-araclar-icin-motor-yaglari" element={<MotorYaglariBta />} />
-        <Route path="/faq/buyuk-ticari-araclar-icin-yaglar" element={<MotorYaglariBt />} />
-        <Route path="/faq/sanziman-yaglari" element={<SanzimanYaglari />} />
-        <Route path="/faq/sanziman-yaglari-otomatik-sanzimanlar" element={<OtomatikSanzimanYaglari />} />
-        <Route path="/faq/antifriz-2" element={<Antifriz />} />
-        <Route path="/faq/fren-hidroligi" element={<FrenHidroligi />} />
-        <Route path="/faq/on-cam-yikama-sivisi" element={<OnCamYikamaSivisi />} />
-        <Route path="/faq/adblue-7" element={<AdBlue />} />
+        <Route path="/faq/binek-ve-hafif-ticari-araclar-icin-motor-yaglari" element={<MotorYaglari />} />
+        <Route path="/faq/buyuk-ticari-araclar-icin-yaglar" element={<MotorYaglari />} />
+        <Route path="/faq/sanziman-yaglari" element={<MotorYaglari />} />
+        <Route path="/faq/sanziman-yaglari-otomatik-sanzimanlar" element={<MotorYaglari />} />
+        <Route path="/faq/antifriz-2" element={<MotorYaglari />} />
+        <Route path="/faq/fren-hidroligi" element={<MotorYaglari />} />
+        <Route path="/faq/on-cam-yikama-sivisi" element={<MotorYaglari />} />
+        <Route path="/faq/adblue-7" element={<MotorYaglari />} />
         
       </Routes>
       <Footer />

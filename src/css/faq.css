@@ -9,6 +9,17 @@ html body article .hs {
     margin-top: 8px;
 }
 
+html body article .page-header {
+    margin-top: 0;
+}
+
+@media (min-width: 776px) {
+    html body article .page-header {
+        line-height: 30px;
+        margin-bottom: 11px;
+    }
+}
+
 html body .body_with_sidebar article .hs:first-child {
     margin-top: 0;
     line-height: 32px;
