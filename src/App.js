@@ -137,6 +137,23 @@ function App() {
         <Route path="/turkiye" element={<TurkiyeIrt  />} />
         <Route path="/ozbekistan" element={<OzbekistanIrt  />} />
         <Route path="/rusya-1" element={<RusyaIrt />} />
+
+         {/* Pazarlar */}
+         <Route path="/istirakler" element={<Istirakler />} />
+        <Route path="/bulgaristan-1" element={<Bulgaristan />} />
+        <Route path="/romanya-1" element={<Romanya />} />
+        <Route path="/macaristan-1" element={<Macaristan />} />
+        <Route path="/cek-cumhuriyeti-1" element={<CekCumhuriyeti />} />
+        <Route path="/sirbistan-1" element={<Sirbistan />} />
+        <Route path="/ukrayna-1" element={<Ukrayna />} />
+        <Route path="/turkiye-1" element={<Turkiye />} />
+        <Route path="/ozbekistan-1" element={<Ozbekistan />} />
+        <Route path="/rusya" element={<Rusya />} />
+        <Route path="/distributorler" element={<Distributorler />} />
+        <Route path="/adana-1" element={<Adana />} />
+        <Route path="/denizli-1" element={<Denizli />} />
+        <Route path="/istanbul-1" element={<Istanbul />} />
+        <Route path="/izmir-1" element={<Izmir />} />
       </Routes>
       <Footer />
     </>
