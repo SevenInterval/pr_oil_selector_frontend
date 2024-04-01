@@ -47,6 +47,9 @@ import UkraynaIrt from './pages/irtibat/UkraynaIrt';
 import TurkiyeIrt from './pages/irtibat/TurkiyeIrt';
 import OzbekistanIrt from './pages/irtibat/OzbekistanIrt';
 import RusyaIrt from './pages/irtibat/RusyaIrt';
+import Bayilik from './pages/medya/Bayilik';
+import Haberler from './pages/medya/Haberler';
+import TeodorHaber from './pages/medya/haberler/TeodorHaber';
 
 function App() {
   return (
@@ -111,8 +114,8 @@ function App() {
         <Route path="/sirketin-sorumlulugu" element={<SirketinSorumlulugu />} />
         <Route path="/gizlilik-politikasi" element={<GizlilikPolitikasi />} />
         <Route path="/cerez-politikasi" element={<CerezPolitikasi />} />
-        
-        
+
+
         <Route path="/sitemap" element={<SiteMap />} />
 
         {/*FAQ */}
@@ -125,21 +128,21 @@ function App() {
         <Route path="/faq/fren-hidroligi" element={<FrenHidroligi />} />
         <Route path="/faq/on-cam-yikama-sivisi" element={<OnCamYikamaSivisi />} />
         <Route path="/faq/adblue-7" element={<AdBlue />} />
-        
+
         {/* İrtibat */}
         <Route path="/harita" element={<Harita />} />
         <Route path="/bulgaristan" element={<BulgaristanIrt />} />
         <Route path="/romanya" element={<RomanyaIrt />} />
         <Route path="/macaristan" element={<MacaristanIrt />} />
         <Route path="/cek-cumhuriyeti" element={<CekCumhuriyetiIrt />} />
-        <Route path="/sirbistan" element={<SirbistanIrt  />} />
-        <Route path="/ukrayna" element={<UkraynaIrt  />} />
-        <Route path="/turkiye" element={<TurkiyeIrt  />} />
-        <Route path="/ozbekistan" element={<OzbekistanIrt  />} />
+        <Route path="/sirbistan" element={<SirbistanIrt />} />
+        <Route path="/ukrayna" element={<UkraynaIrt />} />
+        <Route path="/turkiye" element={<TurkiyeIrt />} />
+        <Route path="/ozbekistan" element={<OzbekistanIrt />} />
         <Route path="/rusya-1" element={<RusyaIrt />} />
 
-         {/* Pazarlar */}
-         <Route path="/istirakler" element={<Istirakler />} />
+        {/* Pazarlar */}
+        <Route path="/istirakler" element={<Istirakler />} />
         <Route path="/bulgaristan-1" element={<Bulgaristan />} />
         <Route path="/romanya-1" element={<Romanya />} />
         <Route path="/macaristan-1" element={<Macaristan />} />
@@ -154,6 +157,14 @@ function App() {
         <Route path="/denizli-1" element={<Denizli />} />
         <Route path="/istanbul-1" element={<Istanbul />} />
         <Route path="/izmir-1" element={<Izmir />} />
+
+        {/* Medya */}
+        <Route path="/news/category/bayilik-hakkinda-1" element={<Bayilik />} />
+        <Route path="/news/category/haberler" element={<Haberler />} />
+
+        {/* Haberler */}
+        <Route path='/news/harika-haberler-teodor-tsvetkovtan-bulgaristandaki-texaco-marka-elcimizden' element={<TeodorHaber />} />
+
       </Routes>
       <Footer />
     </>

@@ -1,0 +1,129 @@
+html body article .objects-list-two-rows:before,
+html body article .objects-list-two-rows:after {
+    content: " ";
+    display: table;
+}
+
+html body article .objects-list-two-rows:after,
+html body article .objects-list-two-rows:before {
+    clear: both;
+}
+
+html body article .objects-list-two-rows li {
+    float: left;
+    margin-right: 3%;
+    width: 48.5%;
+    margin-top: 16px;
+    min-height: 410px;
+}
+
+html body article .objects-list-two-rows li a {
+    display: block;
+}
+
+html body article .objects-list-two-rows li a span {
+    display: block;
+}
+
+html body article .objects-list-two-rows li a span.img {
+    background: #000;
+    max-height: 225px;
+    overflow: hidden;
+}
+
+html body article .objects-list-two-rows li a span.img img {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    width: 100%;
+}
+
+html body article .objects-list-two-rows li:hover a span.img img {
+    opacity: 0.5;
+}
+
+html body article .objects-list-two-rows li a span.title {
+    font-size: 17px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 6px;
+    line-height: 19px;
+}
+
+.date-style,
+html body article .objects-list-two-rows li a span.date,
+html body article .news-detail .date,
+html body article .news-detail .back-button {
+    color: #b1b1b1;
+    font-size: 15px;
+    margin: 4px auto;
+}
+
+html body article .objects-list-two-rows li a span.text {
+    font-size: 15px;
+    color: #000;
+    line-height: 19px;
+}
+
+html body article .objects-list-two-rows li a span.read-more {
+    margin-top: 5px;
+    color: #b1b1b1;
+}
+
+.read-more-after:after,
+html body article .objects-list-two-rows li a span.read-more:after,
+html body .home-media-list .media-object-right a span:after,
+html body .home-news-list li a span.text:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    background: url("../images/haberindir.png");
+    width: 17px;
+    height: 17px;
+}
+
+html body article .objects-list-two-rows li a span.read-more:after {
+    margin-right: 5px;
+}
+
+html body article .objects-list-two-rows li.last {
+    margin-right: 0;
+}
+
+
+
+/*pagination*/
+html body article .pagination {
+    display: table;
+    text-align: center;
+    margin: 16px auto auto auto;
+}
+
+html body article .pagination span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 4px 2px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+    border: 1px solid #d2d2d2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+html body article .pagination span:hover {
+    background: #ffdd00;
+    cursor: pointer;
+}
+
+html body article .pagination span.current {
+    background: #ffdd00;
+    color: #000;
+    font-weight: bold;
+}

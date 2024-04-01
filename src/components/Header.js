@@ -1,6 +1,5 @@
 import { useState } from "react"
 import SearchImage from '../images/search.png';
-import UpImage from '../images/up.png';
 import MenuMobileImage from '../images/menu-mobile.png'
 import PristaLogo from '../images/prista-oil-com.png'
 import HeaderBg from '../images/header-bg.png'
@@ -172,7 +171,7 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li id="menu_6" data-id="6" onClick={() => setSelectedNavbarId("menu_6")} className={selectedNavbarId === "menu_6" ? "level-0 active root-active" : "level-0"}>
-                                <Link to="/news/">
+                                <Link to="/news/category/bayilik-hakkinda-1">
                                     Medya
                                 </Link>
                                 <ul className="child-list" id="menu-root-8">
