@@ -50,6 +50,10 @@ import RusyaIrt from './pages/irtibat/RusyaIrt';
 import Bayilik from './pages/medya/Bayilik';
 import Haberler from './pages/medya/Haberler';
 import TeodorHaber from './pages/medya/haberler/TeodorHaber';
+import TeknolojiMerkezi from './pages/kalite/TeknolojiMerkezi';
+import LaboratuvarServisleri from './pages/kalite/LaboratuvarServisleri';
+import PristaSertifikalari from './pages/kalite/PristaSertifikalari';
+import BizimleTemasaGecin from './pages/kalite/BizimleTemasaGecin';
 
 function App() {
   return (
@@ -164,6 +168,12 @@ function App() {
 
         {/* Haberler */}
         <Route path='/news/harika-haberler-teodor-tsvetkovtan-bulgaristandaki-texaco-marka-elcimizden' element={<TeodorHaber />} />
+
+        {/* Kalite Yönetimi */}
+        <Route path="/teknoloji-merkezi" element={<TeknolojiMerkezi />} />
+        <Route path="/laboratuvar-servisleri" element={<LaboratuvarServisleri />} />
+        <Route path="/prista-sertifikalari" element={<PristaSertifikalari />} />
+        <Route path="/bizimle-temasa-gecin" element={<BizimleTemasaGecin />} />
 
       </Routes>
       <Footer />

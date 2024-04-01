@@ -1,0 +1,53 @@
+.def-two-cell,
+.def-two-cell-with-bg,
+.def-two-cell-with-bg-left,
+.def-two-cell-with-bg-right {
+    margin-top: 16px;
+}
+
+.def-two-cell:before,
+.def-two-cell:after,
+.def-two-cell-with-bg:before,
+.def-two-cell-with-bg:after,
+.def-two-cell-with-bg-left:before,
+.def-two-cell-with-bg-left:after,
+.def-two-cell-with-bg-right:before,
+.def-two-cell-with-bg-right:after {
+    content: " ";
+    display: table;
+}
+
+.def-two-cell:after,
+.def-two-cell:before,
+.def-two-cell-with-bg:after,
+.def-two-cell-with-bg:before,
+.def-two-cell-with-bg-left:after,
+.def-two-cell-with-bg-left:before,
+.def-two-cell-with-bg-right:after,
+.def-two-cell-with-bg-right:before {
+    clear: both;
+}
+
+.def-two-cell .cell,
+.def-two-cell-with-bg .cell,
+.def-two-cell-with-bg-left .cell,
+.def-two-cell-with-bg-right .cell {
+    float: left;
+    width: 48%;
+    margin-right: 3%;
+}
+
+.def-two-cell .cell p,
+.def-two-cell-with-bg .cell p,
+.def-two-cell-with-bg-left .cell p,
+.def-two-cell-with-bg-right .cell p {
+    margin-top: 8px;
+    line-height: 20px;
+}
+
+.def-two-cell .cell:last-child,
+.def-two-cell-with-bg .cell:last-child,
+.def-two-cell-with-bg-left .cell:last-child,
+.def-two-cell-with-bg-right .cell:last-child {
+    margin-right: 0;
+}

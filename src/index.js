@@ -10,6 +10,7 @@ import './css/bizkimiz.css'
 import './css/faq.css'
 import './css/istirakler.css'
 import './css/medya.css'
+import './css/kalite.css'
 import App from './App';
 import "@fontsource/open-sans-condensed";
 import reportWebVitals from './reportWebVitals';
