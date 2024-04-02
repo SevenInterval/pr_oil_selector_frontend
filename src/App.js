@@ -59,6 +59,9 @@ import DaimlerHaber from './pages/medya/haberler/DaimlerHaber';
 import RusyaHaber from './pages/medya/haberler/RusyaHaber';
 import OrenburgKonferansHaber from './pages/medya/haberler/OrenburgKonferansHaber';
 import AutomechanikaHaber from './pages/medya/haberler/AutomechanikaHaber';
+import MonteCarloHaber from './pages/medya/haberler/MonteCarloHaber';
+import PristaOilHaber from './pages/medya/haberler/PristaOilHaber';
+
 
 
 function App() {
@@ -178,6 +181,9 @@ function App() {
         <Route path='/news/1-eylul-2021-tarihinde-daimler-ag-grubu-mercedes-benz-group-ag-ve-daimler-truck-ag-olmak-uzere-iki-sirkete-ayrildi' element={<DaimlerHaber />} />
         <Route path='/news/ruscuk-bulgaristanda-7-eylulde-gerceklesen-prista-r-nin-rusyadaki-distributorleri-icin-ilk-konferansinda-fikir-ve-deneyim-alisverisi-yapildi' element={<RusyaHaber />} />
         <Route path='/news/rusyanin-orenburg-kentinde-duzenlenen-ilk-teknik-konferansta-prista-oil-holdingin-urunlerle-ilgili-son-inovasyonlari-tanitildi' element={<OrenburgKonferansHaber />} />
+        <Route path='/news/sin-cars-ingiltere-yilin-en-gorkemli-etkinliklerinden-biri-olan-ve-her-yil-ihtisamin-baskenti-monte-carlo-da-prens-ii' element={<MonteCarloHaber />} />
+        <Route path='news/prista-oil-r-macaristan-daki-horvath-rudolf-intertransport-firmasina-texaco-yaglarini-tedarik-edecek' element={<PristaOilHaber />} />
+
         
         
         <Route path='/news/automechanika-frankfurt-2016-otomotiv-hizmet-sektorunde-dunyanin-onde-gelen-ticaret-fuari-frankfurt-am-main-13-17-eylul-2016' element={<AutomechanikaHaber />} />

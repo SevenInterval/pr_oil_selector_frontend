@@ -82,7 +82,7 @@ const Haberler = () => {
                                 detay={"                        Ukrayna ve Bulgaristan arasındaki diplomatik ilişkilerin yenilenmesinin 25. yılını kutlayan törende önemli bir Bulgar sanayici, \"Prista Oil Holding\" EAD'nin sahibi ve Bulgaristan'ın Rusçuk şehrinde Ukrayna Fahri Konsolosu olan Plamen Bobokov, Ukrayna'dan \"Onur                    "}
                                 lastClassName={"last"} />
 
-                            <Haber uri={"/news/prista-oil-grubu-yeniden-yapilaniyor"}
+                            <Haber uri={"news/prista-oil-r-macaristan-daki-horvath-rudolf-intertransport-firmasina-texaco-yaglarini-tedarik-edecek"}
                                 gorsel={PristaImage}
                                 baslik={"PRISTA OIL GRUBU: YENİDEN YAPILANIYOR"}
                                 tarih={"26-10-2016"}
