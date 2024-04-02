@@ -1,7 +1,7 @@
 export const TeodorNewImage = require("../../images/news/TeodorNewsImage.jpeg")
 export const BobokovNewImage = require("../../images/news/BobokovNewImage.png")
 export const DaimlerNewImage = require("../../images/news/DaimlerNewImage.jpeg")
-export const RusDistImage = require("../../images/news/RusDistImage.jpeg")
+export const RusDistImage = require("../../images/news/rusDistImage.jpeg")
 export const OrenburgImage = require("../../images/news/OrenburgNews.jpeg")
 export const MonteCarloImage = require("../../images/news/MonteCarloImage.jpeg")
 export const RudolfImage = require("../../images/news/RudolfImage.jpeg")
