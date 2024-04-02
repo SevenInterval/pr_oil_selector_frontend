@@ -77,6 +77,7 @@ export const PristaOilHaberImage = require("../../images/news/PristaOilHaberImag
 export const PlamenBobokovImage = require("../../images/news/PlamenBobokovImage.jpeg")
 export const PlamenBobokovImage2 = require("../../images/news/PlamenBobokovImage2.jpeg")
 export const PlamenBobokovImage3 = require("../../images/news/PlamenBobokovImage3.jpeg")
+export const PristaOil = require("../../images/news/PristaOil.jpeg")
 
 
 

@@ -69,7 +69,7 @@ import RecyclingHaber from './pages/medya/haberler/RecyclingHaber';
 import MonteCarloHaber from './pages/medya/haberler/MonteCarloHaber';
 import PristaOilHaber from './pages/medya/haberler/PristaOilHaber';
 import PlamenBobokovHaber2 from './pages/medya/haberler/PlamenBobokovHaber2';
-
+import PristaHaber from './pages/medya/haberler/PristaHaber';
 import PristaRecHaber from './pages/medya/haberler/PristaRecHaber';
 import CeeHaber from './pages/medya/haberler/CeeHaber';
 
@@ -192,8 +192,9 @@ function App() {
         <Route path='/news/ruscuk-bulgaristanda-7-eylulde-gerceklesen-prista-r-nin-rusyadaki-distributorleri-icin-ilk-konferansinda-fikir-ve-deneyim-alisverisi-yapildi' element={<RusyaHaber />} />
         <Route path='/news/rusyanin-orenburg-kentinde-duzenlenen-ilk-teknik-konferansta-prista-oil-holdingin-urunlerle-ilgili-son-inovasyonlari-tanitildi' element={<OrenburgKonferansHaber />} />
         <Route path='/news/sin-cars-ingiltere-yilin-en-gorkemli-etkinliklerinden-biri-olan-ve-her-yil-ihtisamin-baskenti-monte-carlo-da-prens-ii' element={<MonteCarloHaber />} />
-        <Route path='news/prista-oil-r-macaristan-daki-horvath-rudolf-intertransport-firmasina-texaco-yaglarini-tedarik-edecek' element={<PristaOilHaber />} />
+        <Route path='/news/prista-oil-r-macaristan-daki-horvath-rudolf-intertransport-firmasina-texaco-yaglarini-tedarik-edecek' element={<PristaOilHaber />} />
         <Route path='/news/plamen-bobokov-ukrayna-dan-onurlu-hizmet-odulu-aldi' element={<PlamenBobokovHaber2 />} />
+        <Route path='/news/prista-oil-grubu-yeniden-yapilaniyor' element={<PristaHaber />} />
 
         
         
