@@ -74,6 +74,12 @@ import PristaRecHaber from './pages/medya/haberler/PristaRecHaber';
 import CeeHaber from './pages/medya/haberler/CeeHaber';
 import RuscukZiyaretHaber from './pages/medya/haberler/RuscukZiyaretHaber';
 
+import BobokoHaber from './pages/medya/haberler/BobokoHaber';
+import PlamenHaber from './pages/medya/haberler/PlamenHaber';
+import MonzaHaber from './pages/medya/haberler/MonzaHaber';
+import SofiaHaber from './pages/medya/haberler/SofiaHaber';
+import PrTurkiyeHaber from './pages/medya/haberler/PrTurkiyeHaber';
+import PlamenRuseHaber from './pages/medya/haberler/PlamenRuseHaber';
 
 
 function App() {
@@ -211,6 +217,18 @@ function App() {
         <Route path='/news/prista-recycling-tesisi-bugun-ozbekistan-da-acildi' element={<RecyclingHaber />} />
         <Route path='/news/prista-recycling-ozbekistan-da-atik-yaglarin-geri-donusumu-icin-yuksek-teknolojili-bir-tesis-aciyor' element={<PristaRecHaber />} />
         <Route path='/news/cee-de-one-cikanlar' element={<CeeHaber />} />
+
+        <Route path='/news/plamen-bobokov-ruscuk-altin-nisan-odulu-ve-ruscuk-un-saygideger-vatandasi-unvaniyla-odullendirildi' element={<BobokoHaber />} />
+        <Route path='/news/plamen-bobokov-was-awarded-the-honor-golden-badge-ruse-5' element={<PlamenHaber />} />
+        <Route path='/news/monza-taraftarlari-bulgar-takimini-sofia-car-motorsport-ve-aracin-yaraticisi-rosen-daskalov-u-en-iyi-ekip-ve-araci-da-pistteki-en-hizli-arac-olarak-anons-ettiler' element={<MonzaHaber />} />
+        <Route path='/news/sofia-car-motorsport-birkac-gun-icinde-baslayacak-olan-avrupa-gt4-serisinin-2016-sezonuna-sin-r1-gt4-ile-katilacaktir' element={<SofiaHaber />} />
+        <Route path='/news/prista-oil-turkiye-istanbul-ki-automechanika-ticaret-fuarina-katiliyor' element={<PrTurkiyeHaber />} />
+        <Route path='/news/plamen-bobokov-ruse-sadece-kalbimde-degil-ayni-zamanda-gelecekteki-tum-projelerimde-yer-aliyor' element={<PlamenRuseHaber />} />
+        <Route path='/news/plamen-bobokov-ve-mimar-tanko-serafimov-a-olumunden-sonra-ruse-nin-saygin-vatandasi-unvani-verildi' element={<AutomechanikaHaber />} />
+        <Route path='/news/prista-oil-yenilikci-harmanlama-teknolojisi-ccbl-yi-sunar' element={<AutomechanikaHaber />} />
+        <Route path='/news/sin-cars-sofia-car-motorsport-yarismasinda-pro-sinifinda-2-ve-nihai-siniflandirmada-3-sira' element={<AutomechanikaHaber />} />
+        <Route path='/news/bulgar-yag-ureticisi-prista-oil-bulgaristan-daki-ruse-tesisinde-harmanlama-teknolojisinin-bir-guncelleme-programini-baslatti' element={<AutomechanikaHaber />} />
+
 
         {/* Kalite Yönetimi */}
         <Route path="/teknoloji-merkezi" element={<TeknolojiMerkezi />} />
