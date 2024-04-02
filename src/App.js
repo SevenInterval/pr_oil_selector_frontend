@@ -70,6 +70,8 @@ import MonteCarloHaber from './pages/medya/haberler/MonteCarloHaber';
 import PristaOilHaber from './pages/medya/haberler/PristaOilHaber';
 import PlamenBobokovHaber2 from './pages/medya/haberler/PlamenBobokovHaber2';
 
+import PristaRecHaber from './pages/medya/haberler/PristaRecHaber';
+import CeeHaber from './pages/medya/haberler/CeeHaber';
 
 
 function App() {
@@ -203,8 +205,8 @@ function App() {
         <Route path='/news/yeni-premium-1l-sise-ve-etiket-tasarimi-icin-prista-oil-yarismasini-ulusal-sanat-akademisi-nden-bir-doktora-adayi-kazandi' element={<PremiumHaber />} />
         <Route path='/news/silverstone-11-12-haziran-daki-dayaniklilik-yarisinda-avrupa-gt4-serisini-agirlayacak' element={<SilverstoneHaber />} />
         <Route path='/news/prista-recycling-tesisi-bugun-ozbekistan-da-acildi' element={<RecyclingHaber />} />
-        <Route path='/news/prista-recycling-ozbekistan-da-atik-yaglarin-geri-donusumu-icin-yuksek-teknolojili-bir-tesis-aciyor' element={<AutomechanikaHaber />} />
-        <Route path='/news/cee-de-one-cikanlar' element={<AutomechanikaHaber />} />
+        <Route path='/news/prista-recycling-ozbekistan-da-atik-yaglarin-geri-donusumu-icin-yuksek-teknolojili-bir-tesis-aciyor' element={<PristaRecHaber />} />
+        <Route path='/news/cee-de-one-cikanlar' element={<CeeHaber />} />
 
         {/* Kalite Yönetimi */}
         <Route path="/teknoloji-merkezi" element={<TeknolojiMerkezi />} />
