@@ -68,6 +68,9 @@ export const MonteCarloHaber4 = require("../../images/news/MonteCarloHaber4.jpeg
 export const MonteCarloHaber5 = require("../../images/news/MonteCarloHaber5.jpeg")
 export const MonteCarloHaber6 = require("../../images/news/MonteCarloHaber6.jpeg")
 export const PristaOilHaberImage = require("../../images/news/PristaOilHaberImage.jpeg")
+export const PlamenBobokovImage = require("../../images/news/PlamenBobokovImage.jpeg")
+export const PlamenBobokovImage2 = require("../../images/news/PlamenBobokovImage2.jpeg")
+export const PlamenBobokovImage3 = require("../../images/news/PlamenBobokovImage3.jpeg")
 
 
 
