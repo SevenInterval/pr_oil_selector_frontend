@@ -62,6 +62,8 @@ import AutomechanikaHaber from './pages/medya/haberler/AutomechanikaHaber';
 import ClusterHaber from './pages/medya/haberler/ClusterHaber';
 import PieterHaber from './pages/medya/haberler/PieterHaber';
 import RuscukHaber from './pages/medya/haberler/RuscukHaber';
+import YunanistanHaber from './pages/medya/haberler/YunanistanHaber';
+import PremiumHaber from './pages/medya/haberler/PremiumHaber';
 
 
 function App() {
@@ -187,8 +189,8 @@ function App() {
         <Route path='/news/rockin-the-cluster-5' element={<ClusterHaber />} />
         <Route path='/news/pieter-christiaan-van-oranje-ve-tim-coronel-spa-belcika-da-sin-r1-gt4-u-surecek' element={<PieterHaber />} />
         <Route path='/news/prista-oil-ruscuk-taki-yillik-konseri-icin-flamingo-98-dans-okulunu-destekliyor' element={<RuscukHaber />} />
-        <Route path='/news/yunanistan-dan-prista-oil-yetkili-distributoru-leonidas-leontopoulos-leo-lub-parts-yunan-yaris-sezonuna-katiliyor' element={<AutomechanikaHaber />} />
-        <Route path='/news/yeni-premium-1l-sise-ve-etiket-tasarimi-icin-prista-oil-yarismasini-ulusal-sanat-akademisi-nden-bir-doktora-adayi-kazandi' element={<AutomechanikaHaber />} />
+        <Route path='/news/yunanistan-dan-prista-oil-yetkili-distributoru-leonidas-leontopoulos-leo-lub-parts-yunan-yaris-sezonuna-katiliyor' element={<YunanistanHaber />} />
+        <Route path='/news/yeni-premium-1l-sise-ve-etiket-tasarimi-icin-prista-oil-yarismasini-ulusal-sanat-akademisi-nden-bir-doktora-adayi-kazandi' element={<PremiumHaber />} />
         <Route path='/news/silverstone-11-12-haziran-daki-dayaniklilik-yarisinda-avrupa-gt4-serisini-agirlayacak' element={<AutomechanikaHaber />} />
         <Route path='/news/prista-recycling-tesisi-bugun-ozbekistan-da-acildi' element={<AutomechanikaHaber />} />
         <Route path='/news/prista-recycling-ozbekistan-da-atik-yaglarin-geri-donusumu-icin-yuksek-teknolojili-bir-tesis-aciyor' element={<AutomechanikaHaber />} />
