@@ -60,6 +60,8 @@ import RusyaHaber from './pages/medya/haberler/RusyaHaber';
 import OrenburgKonferansHaber from './pages/medya/haberler/OrenburgKonferansHaber';
 import AutomechanikaHaber from './pages/medya/haberler/AutomechanikaHaber';
 import ClusterHaber from './pages/medya/haberler/ClusterHaber';
+import PieterHaber from './pages/medya/haberler/PieterHaber';
+import RuscukHaber from './pages/medya/haberler/RuscukHaber';
 
 
 function App() {
@@ -183,8 +185,8 @@ function App() {
         
         <Route path='/news/automechanika-frankfurt-2016-otomotiv-hizmet-sektorunde-dunyanin-onde-gelen-ticaret-fuari-frankfurt-am-main-13-17-eylul-2016' element={<AutomechanikaHaber />} />
         <Route path='/news/rockin-the-cluster-5' element={<ClusterHaber />} />
-        <Route path='/news/pieter-christiaan-van-oranje-ve-tim-coronel-spa-belcika-da-sin-r1-gt4-u-surecek' element={<AutomechanikaHaber />} />
-        <Route path='/news/prista-oil-ruscuk-taki-yillik-konseri-icin-flamingo-98-dans-okulunu-destekliyor' element={<AutomechanikaHaber />} />
+        <Route path='/news/pieter-christiaan-van-oranje-ve-tim-coronel-spa-belcika-da-sin-r1-gt4-u-surecek' element={<PieterHaber />} />
+        <Route path='/news/prista-oil-ruscuk-taki-yillik-konseri-icin-flamingo-98-dans-okulunu-destekliyor' element={<RuscukHaber />} />
         <Route path='/news/yunanistan-dan-prista-oil-yetkili-distributoru-leonidas-leontopoulos-leo-lub-parts-yunan-yaris-sezonuna-katiliyor' element={<AutomechanikaHaber />} />
         <Route path='/news/yeni-premium-1l-sise-ve-etiket-tasarimi-icin-prista-oil-yarismasini-ulusal-sanat-akademisi-nden-bir-doktora-adayi-kazandi' element={<AutomechanikaHaber />} />
         <Route path='/news/silverstone-11-12-haziran-daki-dayaniklilik-yarisinda-avrupa-gt4-serisini-agirlayacak' element={<AutomechanikaHaber />} />
