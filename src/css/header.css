@@ -401,7 +401,7 @@ html body header html body .body_with_sidebar nav .top-menu-container>ul>li.mobi
         position: relative;
         white-space: nowrap;
         padding-bottom: 11px;
-        /*z-index: 1111;*/
+        z-index: 1111;
     }
 }
 
