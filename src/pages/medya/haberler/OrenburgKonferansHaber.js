@@ -17,7 +17,7 @@ const OrenburgKonferansHaber = () => {
                     <h1>Haberler</h1>
                     <div className="news-detail">
                     <ul className="images">
-                                    <li id="galley_image_183">
+                                    <li id="galley_image_97">
                                     <FancyBox
                             options={{
                                 Carousel: {
@@ -30,7 +30,7 @@ const OrenburgKonferansHaber = () => {
 </a>
 </FancyBox>
                     </li>
-                    <li id="galley_image_183">
+                    <li id="galley_image_98">
                                     <FancyBox
                             options={{
                                 Carousel: {
@@ -43,7 +43,7 @@ const OrenburgKonferansHaber = () => {
 </a>
 </FancyBox>
                     </li>
-                    <li id="galley_image_183">
+                    <li id="galley_image_99">
                                     <FancyBox
                             options={{
                                 Carousel: {

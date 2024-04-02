@@ -14,7 +14,7 @@ const PlamenBobokovHaber = () => {
                     <h1>Haberler</h1>
                     <div className="news-detail">
                     <ul className="images">
-                                    <li id="galley_image_183">
+                                    <li id="galley_image_176">
                                     <FancyBox
                             options={{
                                 Carousel: {
