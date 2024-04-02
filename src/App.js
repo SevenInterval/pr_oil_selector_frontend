@@ -80,6 +80,8 @@ import MonzaHaber from './pages/medya/haberler/MonzaHaber';
 import SofiaHaber from './pages/medya/haberler/SofiaHaber';
 import PrTurkiyeHaber from './pages/medya/haberler/PrTurkiyeHaber';
 import PlamenRuseHaber from './pages/medya/haberler/PlamenRuseHaber';
+import TankoHaber from './pages/medya/haberler/TankoHaber';
+import PristaNewHaber from './pages/medya/haberler/PristaNewHaber';
 
 
 function App() {
@@ -224,8 +226,8 @@ function App() {
         <Route path='/news/sofia-car-motorsport-birkac-gun-icinde-baslayacak-olan-avrupa-gt4-serisinin-2016-sezonuna-sin-r1-gt4-ile-katilacaktir' element={<SofiaHaber />} />
         <Route path='/news/prista-oil-turkiye-istanbul-ki-automechanika-ticaret-fuarina-katiliyor' element={<PrTurkiyeHaber />} />
         <Route path='/news/plamen-bobokov-ruse-sadece-kalbimde-degil-ayni-zamanda-gelecekteki-tum-projelerimde-yer-aliyor' element={<PlamenRuseHaber />} />
-        <Route path='/news/plamen-bobokov-ve-mimar-tanko-serafimov-a-olumunden-sonra-ruse-nin-saygin-vatandasi-unvani-verildi' element={<AutomechanikaHaber />} />
-        <Route path='/news/prista-oil-yenilikci-harmanlama-teknolojisi-ccbl-yi-sunar' element={<AutomechanikaHaber />} />
+        <Route path='/news/plamen-bobokov-ve-mimar-tanko-serafimov-a-olumunden-sonra-ruse-nin-saygin-vatandasi-unvani-verildi' element={<TankoHaber />} />
+        <Route path='/news/prista-oil-yenilikci-harmanlama-teknolojisi-ccbl-yi-sunar' element={<PristaNewHaber />} />
         <Route path='/news/sin-cars-sofia-car-motorsport-yarismasinda-pro-sinifinda-2-ve-nihai-siniflandirmada-3-sira' element={<AutomechanikaHaber />} />
         <Route path='/news/bulgar-yag-ureticisi-prista-oil-bulgaristan-daki-ruse-tesisinde-harmanlama-teknolojisinin-bir-guncelleme-programini-baslatti' element={<AutomechanikaHaber />} />
 

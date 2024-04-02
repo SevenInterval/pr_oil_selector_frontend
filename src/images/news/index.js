@@ -64,6 +64,9 @@ export const PrTurkiyeImage2 = require("../../images/news/PrTurkiyeImage2.jpeg")
 export const PrTurkiyeImage3 = require("../../images/news/PrTurkiyeImage3.jpeg")
 export const PrTurkiyeImage4 = require("../../images/news/PrTurkiyeImage4.jpeg")
 export const PlemenRuseImage = require("../../images/news/PlemenRuse.jpeg")
+export const PlamenRuseImage1 = require("../../images/news/PlamenRuseImage1.jpeg")
+export const PlamenRuseImage2 = require("../../images/news/PlamenRuseImage2.jpeg")
+export const PlamenRuseImage3 = require("../../images/news/PlamenRuseImage3.jpeg")
 export const TankoImage = require("../../images/news/TankoImage.jpeg")
 export const PristaNewImage = require("../../images/news/pristaNews.jpg")
 export const SofiaCarsImage = require("../../images/news/SofiaCarsImage.jpeg")
@@ -94,6 +97,13 @@ export const PlamenBobokovImage3 = require("../../images/news/PlamenBobokovImage
 export const PristaOil = require("../../images/news/PristaOil.jpeg")
 export const RuscukHaberImage = require("../../images/news/RuscukHaberImage.jpeg")
 export const RuscukHaberImage2 = require("../../images/news/RuscukHaberImage2.jpeg")
+export const CheckImage = require("../../images/news/checkImage.png")
+export const Nspo1Image = require("../../images/news/nspo1.jpg")
+export const Nspo2Image = require("../../images/news/nspo2.jpg")
+export const Nspo3Image = require("../../images/news/nspo3.jpg")
+export const Nspo4Image = require("../../images/news/nspo4.jpg")
+export const Nspo5Image = require("../../images/news/nspo5.jpg")
+export const Nspo6Image = require("../../images/news/nspo6.jpg")
 
 
 
