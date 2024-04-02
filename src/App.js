@@ -58,8 +58,7 @@ import PlamenBobokovHaber from './pages/medya/haberler/PlamenBobokovHaber';
 import DaimlerHaber from './pages/medya/haberler/DaimlerHaber';
 import RusyaHaber from './pages/medya/haberler/RusyaHaber';
 import OrenburgKonferansHaber from './pages/medya/haberler/OrenburgKonferansHaber';
-
-
+import AutomechanikaHaber from './pages/medya/haberler/AutomechanikaHaber';
 
 
 function App() {
@@ -179,7 +178,18 @@ function App() {
         <Route path='/news/1-eylul-2021-tarihinde-daimler-ag-grubu-mercedes-benz-group-ag-ve-daimler-truck-ag-olmak-uzere-iki-sirkete-ayrildi' element={<DaimlerHaber />} />
         <Route path='/news/ruscuk-bulgaristanda-7-eylulde-gerceklesen-prista-r-nin-rusyadaki-distributorleri-icin-ilk-konferansinda-fikir-ve-deneyim-alisverisi-yapildi' element={<RusyaHaber />} />
         <Route path='/news/rusyanin-orenburg-kentinde-duzenlenen-ilk-teknik-konferansta-prista-oil-holdingin-urunlerle-ilgili-son-inovasyonlari-tanitildi' element={<OrenburgKonferansHaber />} />
-
+        
+        
+        <Route path='/news/automechanika-frankfurt-2016-otomotiv-hizmet-sektorunde-dunyanin-onde-gelen-ticaret-fuari-frankfurt-am-main-13-17-eylul-2016' element={<AutomechanikaHaber />} />
+        <Route path='/news/rockin-the-cluster-5' element={<AutomechanikaHaber />} />
+        <Route path='/news/pieter-christiaan-van-oranje-ve-tim-coronel-spa-belcika-da-sin-r1-gt4-u-surecek' element={<AutomechanikaHaber />} />
+        <Route path='/news/prista-oil-ruscuk-taki-yillik-konseri-icin-flamingo-98-dans-okulunu-destekliyor' element={<AutomechanikaHaber />} />
+        <Route path='/news/yunanistan-dan-prista-oil-yetkili-distributoru-leonidas-leontopoulos-leo-lub-parts-yunan-yaris-sezonuna-katiliyor' element={<AutomechanikaHaber />} />
+        <Route path='/news/yeni-premium-1l-sise-ve-etiket-tasarimi-icin-prista-oil-yarismasini-ulusal-sanat-akademisi-nden-bir-doktora-adayi-kazandi' element={<AutomechanikaHaber />} />
+        <Route path='/news/silverstone-11-12-haziran-daki-dayaniklilik-yarisinda-avrupa-gt4-serisini-agirlayacak' element={<AutomechanikaHaber />} />
+        <Route path='/news/prista-recycling-tesisi-bugun-ozbekistan-da-acildi' element={<AutomechanikaHaber />} />
+        <Route path='/news/prista-recycling-ozbekistan-da-atik-yaglarin-geri-donusumu-icin-yuksek-teknolojili-bir-tesis-aciyor' element={<AutomechanikaHaber />} />
+        <Route path='/news/cee-de-one-cikanlar' element={<AutomechanikaHaber />} />
 
         {/* Kalite Yönetimi */}
         <Route path="/teknoloji-merkezi" element={<TeknolojiMerkezi />} />
