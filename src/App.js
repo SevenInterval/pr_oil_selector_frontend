@@ -54,6 +54,9 @@ import TeknolojiMerkezi from './pages/kalite/TeknolojiMerkezi';
 import LaboratuvarServisleri from './pages/kalite/LaboratuvarServisleri';
 import PristaSertifikalari from './pages/kalite/PristaSertifikalari';
 import BizimleTemasaGecin from './pages/kalite/BizimleTemasaGecin';
+import PlamenBobokovHaber from './pages/medya/haberler/PlamenBobokovHaber';
+import DaimlerHaber from './pages/medya/haberler/DaimlerHaber';
+
 
 function App() {
   return (
@@ -168,6 +171,8 @@ function App() {
 
         {/* Haberler */}
         <Route path='/news/harika-haberler-teodor-tsvetkovtan-bulgaristandaki-texaco-marka-elcimizden' element={<TeodorHaber />} />
+        <Route path='/news/tr-prista-oil-groupun-kurucu-ortagi-plamen-bobokov-plovdiv-paisii-hilendarski-universitesinde-ogrencilere-halka-acik-bir-konferans-verdi' element={<PlamenBobokovHaber />} />
+        <Route path='/news/1-eylul-2021-tarihinde-daimler-ag-grubu-mercedes-benz-group-ag-ve-daimler-truck-ag-olmak-uzere-iki-sirkete-ayrildi' element={<DaimlerHaber />} />
 
         {/* Kalite Yönetimi */}
         <Route path="/teknoloji-merkezi" element={<TeknolojiMerkezi />} />

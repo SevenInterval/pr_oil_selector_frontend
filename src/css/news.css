@@ -127,3 +127,76 @@ html body .home-news-list li a span.text:after {
     width: 17px;
     height: 17px;
 }
+
+@media (min-width: 685px)
+{html body article .news-detail .images {
+    float: right;
+    margin-left: 15px;
+}}
+
+@media (min-width: 685px)
+{html body article .news-detail .images li {
+    display: block;
+    margin-bottom: 12px;
+}}
+
+html body article .news-detail .images li a {
+    display: block;
+}
+
+.hs-small, html body article .faq-object-list h3, html body article .objects-list-tree-rows .span span.title, html body article .objects-list-tree-rows .headline, html body article .search-list li a, html body article .sitemap-list ul > li span {
+    color: #000;
+    margin-top: 14px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+@media (min-width: 776px)
+{.hs-small, html body article .faq-object-list h3, html body article .objects-list-tree-rows .span span.title, html body article .objects-list-tree-rows .headline, html body article .search-list li a, html body article .sitemap-list ul > li span {
+    font-size: 24px;
+}}
+
+.date-style, html body article .objects-list-two-rows li a span.date, html body article .news-detail .date, html body article .news-detail .bback-button {
+    color: #b1b1b1;
+    font-size: 15px;
+    margin: 4px auto;
+}
+
+html body article .news-detail p {
+    color: #000000;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+@media (min-width: 776px)
+{html body article .news-detail p {
+    text-align: left;
+    font-size: 18px;
+}}
+
+em {
+    font-style: italic;
+}
+
+html body p a:hover, html body .cont-p a:hover {
+    text-decoration: underline;
+}
+
+.date-style, html body article .objects-list-two-rows li a span.date, html body article .news-detail .date, html body article .news-detail .bback-button {
+    color: #b1b1b1;
+    font-size: 15px;
+    margin: 4px auto;
+}
+
+html body article .news-detail .bback-button {
+    display: table;
+    background: url("../images/back-button.png") no-repeat left center;
+    padding-left: 26px;
+    margin: 16px 0 0 0;
+}
+
+html body article .news-detail .bback-button:hover {
+    color: #000;
+}
+
