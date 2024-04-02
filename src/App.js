@@ -56,6 +56,8 @@ import PristaSertifikalari from './pages/kalite/PristaSertifikalari';
 import BizimleTemasaGecin from './pages/kalite/BizimleTemasaGecin';
 import PlamenBobokovHaber from './pages/medya/haberler/PlamenBobokovHaber';
 import DaimlerHaber from './pages/medya/haberler/DaimlerHaber';
+import RusyaHaber from './pages/medya/haberler/RusyaHaber';
+import OrenburgKonferansHaber from './pages/medya/haberler/OrenburgKonferansHaber';
 import AutomechanikaHaber from './pages/medya/haberler/AutomechanikaHaber';
 import ClusterHaber from './pages/medya/haberler/ClusterHaber';
 
@@ -175,6 +177,8 @@ function App() {
         <Route path='/news/harika-haberler-teodor-tsvetkovtan-bulgaristandaki-texaco-marka-elcimizden' element={<TeodorHaber />} />
         <Route path='/news/tr-prista-oil-groupun-kurucu-ortagi-plamen-bobokov-plovdiv-paisii-hilendarski-universitesinde-ogrencilere-halka-acik-bir-konferans-verdi' element={<PlamenBobokovHaber />} />
         <Route path='/news/1-eylul-2021-tarihinde-daimler-ag-grubu-mercedes-benz-group-ag-ve-daimler-truck-ag-olmak-uzere-iki-sirkete-ayrildi' element={<DaimlerHaber />} />
+        <Route path='/news/ruscuk-bulgaristanda-7-eylulde-gerceklesen-prista-r-nin-rusyadaki-distributorleri-icin-ilk-konferansinda-fikir-ve-deneyim-alisverisi-yapildi' element={<RusyaHaber />} />
+        <Route path='/news/rusyanin-orenburg-kentinde-duzenlenen-ilk-teknik-konferansta-prista-oil-holdingin-urunlerle-ilgili-son-inovasyonlari-tanitildi' element={<OrenburgKonferansHaber />} />
         
         
         <Route path='/news/automechanika-frankfurt-2016-otomotiv-hizmet-sektorunde-dunyanin-onde-gelen-ticaret-fuari-frankfurt-am-main-13-17-eylul-2016' element={<AutomechanikaHaber />} />
