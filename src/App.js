@@ -57,6 +57,7 @@ import BizimleTemasaGecin from './pages/kalite/BizimleTemasaGecin';
 import PlamenBobokovHaber from './pages/medya/haberler/PlamenBobokovHaber';
 import DaimlerHaber from './pages/medya/haberler/DaimlerHaber';
 import AutomechanikaHaber from './pages/medya/haberler/AutomechanikaHaber';
+import ClusterHaber from './pages/medya/haberler/ClusterHaber';
 
 
 function App() {
@@ -177,7 +178,7 @@ function App() {
         
         
         <Route path='/news/automechanika-frankfurt-2016-otomotiv-hizmet-sektorunde-dunyanin-onde-gelen-ticaret-fuari-frankfurt-am-main-13-17-eylul-2016' element={<AutomechanikaHaber />} />
-        <Route path='/news/rockin-the-cluster-5' element={<AutomechanikaHaber />} />
+        <Route path='/news/rockin-the-cluster-5' element={<ClusterHaber />} />
         <Route path='/news/pieter-christiaan-van-oranje-ve-tim-coronel-spa-belcika-da-sin-r1-gt4-u-surecek' element={<AutomechanikaHaber />} />
         <Route path='/news/prista-oil-ruscuk-taki-yillik-konseri-icin-flamingo-98-dans-okulunu-destekliyor' element={<AutomechanikaHaber />} />
         <Route path='/news/yunanistan-dan-prista-oil-yetkili-distributoru-leonidas-leontopoulos-leo-lub-parts-yunan-yaris-sezonuna-katiliyor' element={<AutomechanikaHaber />} />
