@@ -20,7 +20,7 @@ const RusyaHaber = () => {
                     <h1>Haberler</h1>
                     <div className="news-detail">
                     <ul className="images">
-                                    <li id="galley_image_183">
+                                    <li id="galley_image_100">
                                     <FancyBox
                             options={{
                                 Carousel: {
@@ -33,7 +33,7 @@ const RusyaHaber = () => {
 </a>
 </FancyBox>
                     </li>
-                    <li id="galley_image_183">
+                    <li id="galley_image_101">
                                     <FancyBox
                             options={{
                                 Carousel: {
@@ -46,7 +46,7 @@ const RusyaHaber = () => {
 </a>
 </FancyBox>
                     </li>
-                    <li id="galley_image_183">
+                    <li id="galley_image_102">
                                     <FancyBox
                             options={{
                                 Carousel: {
@@ -59,7 +59,7 @@ const RusyaHaber = () => {
 </a>
 </FancyBox>
                     </li>
-                    <li id="galley_image_183">
+                    <li id="galley_image_103">
                                     <FancyBox
                             options={{
                                 Carousel: {
@@ -72,7 +72,7 @@ const RusyaHaber = () => {
 </a>
 </FancyBox>
                     </li>
-                    <li id="galley_image_183">
+                    <li id="galley_image_104">
                                     <FancyBox
                             options={{
                                 Carousel: {
@@ -85,7 +85,7 @@ const RusyaHaber = () => {
 </a>
 </FancyBox>
                     </li>
-                    <li id="galley_image_183">
+                    <li id="galley_image_105">
                                     <FancyBox
                             options={{
                                 Carousel: {
