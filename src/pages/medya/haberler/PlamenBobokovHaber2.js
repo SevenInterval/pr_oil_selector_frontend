@@ -48,7 +48,7 @@ const PlamenBobokovHaber2 = () => {
                             <p>Ukrayna ve Bulgaristan arasındaki diplomatik ilişkilerin yenilenmesinin 25. yılını kutlayan törende önemli bir Bulgar sanayici, "Prista Oil Holding" EAD'nin sahibi ve Bulgaristan'ın Rusçuk şehrinde Ukrayna Fahri Konsolosu olan Plamen Bobokov, Ukrayna'dan "Onurlu Hizmet" ödülü aldı. Ukrayna'nın bu en üst düzeyli ödülü, Plamen Bobokov'a Bulgaristan'daki Ukrayna Tam Yetkili Büyükelçisi N. Baltazhi tarafından Bulgar Bilimler Akademisi Etnografya Müzesi'nde takdim edildi. Etkinlikte uzun zamandır beklenen "Profesör Mihajlo Ivanovic Parashchuk - Ukraynalı heykeltıraş ve önemli halk kişisi (1878-1963)" adlı belgesel derlemesi de gösterildi. Eleştirmenler belgeseli Ukrayna ve Bulgaristan arasındaki ikili ilişkilerin bir tür ansiklopedisi ve aynı zamanda daha geniş Avrupa bağlamında sosyal, siyasi ve kültürel yaşamın özgün bir kaydı olarak değerlendiriyor.</p>
                           
                           
-                          <Link className="bback-button" to="/news/">Geri</Link>
+                          <Link className="bback-button" to="/news/category/haberler">Geri</Link>
 
                     </div>
 

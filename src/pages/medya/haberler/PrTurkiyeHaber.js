@@ -50,7 +50,7 @@ const PrTurkiyeHaber = () => {
                         <p>Dinamik Türk otomotiv piyasası iyi hazırlık ve kolay giriş koşulları gerektiriyor. Eğer bu hızla büyüyen piyasaya girmek veya Türkiye'deki mevcut işinizi büyütmek istiyorsanız, Automechanika İstanbul sizin için doğru platformdur. Türkiye ve Avrupa piyasalarındaki en önemli oyuncuları bir araya getiren bu fuar, Türkiye ve çevresindeki bölgeler için bir buluşma noktası olmuştur.</p>
                         <p>Bu Prista Oil Türkiye'nin ilk kez bir sergiye katılışıydı ancak Prista'nın standı çok ciddi ve büyük bir ilgi gördü. Automechanika Fuarı, yeni ithalat-ihracat fırsatları ve iş büyütme olanakları için önemli bir uluslararası platform işlevi gördü. Dünyanın dört bir yanından gelen ziyaretçiler Prista'nın standını ziyaret etti ve Prista &amp; Verila ürün protföyü ve çalışmaları hakkında bilgi aldı.</p>
                         <p>Prista Oil Türkiye Tedarik ve Pazarlama Müdürü Gülşen Öztürk; “Prista Oil, yağlarla ilgili iş çevresinde uluslararası bir platform olduğunu kanıtladı. Büyük ölçekte düzenlenen bu tip profesyonel bir organizasyona katılmaktan dolayı gururluyuz. Bize iyi fırsatlar yaratacağından eminim" dedi.&nbsp;</p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article >

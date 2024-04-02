@@ -47,7 +47,7 @@ const RuscukZiyaretHaber = () => {
                         <p><em>Inter Car Satış Müdürü Konstantin Melnik, konuyla ilgili olarak şunları söyledi: “Müşteriyle ilk temasa geçen kişi olduğunuzda, ortağınız tarafından üretilen otomobil madeni yağlarına dair bilgilerinizi geliştirmek ve bu bilgileri profesyonel bir biçimde müşterilerinizle paylaşmak, başarınız için hayati öneme sahip.”</em></p>
                         <p>Inter Cars ekibi üyeleri ve Prista ekibi, tesis turunun ve toplantıların herkes için çok ilgi çekici ve faydalı olduğunu dile getirdi.<em> &nbsp;</em></p>
                         <p><em>Prista Oil Ukrayna Genel Müdürü Hayduk, “Bu tür etkinlikler organize ederek, ticari ortaklığımızın geliştirilmesinde bir sonraki adımı atıyoruz,” dedi.</em></p>
-                      <Link className="bback-button" to="/news/">Geri</Link>
+                      <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article>

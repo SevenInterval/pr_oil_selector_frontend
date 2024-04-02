@@ -74,7 +74,7 @@ const MonteCarloHaber = () => {
                         <p>15-16 Temmuz - Slovakia Ring (Slovakya)</p>
                         <p>19-20 Ağustos - Zandvoort (Hollanda)</p>
                         <p>16-17 Eylül - Nürburgring (Almanya)</p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article>

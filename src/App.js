@@ -82,6 +82,13 @@ import PrTurkiyeHaber from './pages/medya/haberler/PrTurkiyeHaber';
 import PlamenRuseHaber from './pages/medya/haberler/PlamenRuseHaber';
 import TankoHaber from './pages/medya/haberler/TankoHaber';
 import PristaNewHaber from './pages/medya/haberler/PristaNewHaber';
+import SofiaCarsHaber from './pages/medya/haberler/SofiaCarsHaber';
+import BulgarYagHaber from './pages/medya/haberler/BulgarYagHaber';
+import Prista2014Haber from './pages/medya/haberler/Prista2014Haber';
+import ProductNewHaber from './pages/medya/haberler/ProductNewHaber';
+import LubricantsHaber from './pages/medya/haberler/LubricantsHaber';
+import CetusHaber from './pages/medya/haberler/CetusHaber';
+import BayilikHakkinda from './pages/medya/haberler/BayilikHakkinda';
 
 
 function App() {
@@ -196,6 +203,8 @@ function App() {
         <Route path="/news/category/haberler" element={<Haberler />} />
 
         {/* Haberler */}
+        <Route path='/news/yol-arkadasimiz-ol-kazancin-yag-gibi-aksin-1' element={<BayilikHakkinda />} />
+
         <Route path='/news/harika-haberler-teodor-tsvetkovtan-bulgaristandaki-texaco-marka-elcimizden' element={<TeodorHaber />} />
         <Route path='/news/tr-prista-oil-groupun-kurucu-ortagi-plamen-bobokov-plovdiv-paisii-hilendarski-universitesinde-ogrencilere-halka-acik-bir-konferans-verdi' element={<PlamenBobokovHaber />} />
         <Route path='/news/1-eylul-2021-tarihinde-daimler-ag-grubu-mercedes-benz-group-ag-ve-daimler-truck-ag-olmak-uzere-iki-sirkete-ayrildi' element={<DaimlerHaber />} />
@@ -205,9 +214,7 @@ function App() {
         <Route path='/news/prista-oil-r-macaristan-daki-horvath-rudolf-intertransport-firmasina-texaco-yaglarini-tedarik-edecek' element={<PristaOilHaber />} />
         <Route path='/news/plamen-bobokov-ukrayna-dan-onurlu-hizmet-odulu-aldi' element={<PlamenBobokovHaber2 />} />
         <Route path='/news/prista-oil-grubu-yeniden-yapilaniyor' element={<PristaHaber />} />
-        <Route path='/news/inter-cars-ekibi-ruscuk-bulgaristan-daki-prista-oil-karistirma-tesisini-ziyaret-etti' element={<RuscukZiyaretHaber />} />
-
-        
+        <Route path='/news/inter-cars-ekibi-ruscuk-bulgaristan-daki-prista-oil-karistirma-tesisini-ziyaret-etti' element={<RuscukZiyaretHaber />} />        
         
         <Route path='/news/automechanika-frankfurt-2016-otomotiv-hizmet-sektorunde-dunyanin-onde-gelen-ticaret-fuari-frankfurt-am-main-13-17-eylul-2016' element={<AutomechanikaHaber />} />
         <Route path='/news/rockin-the-cluster-5' element={<ClusterHaber />} />
@@ -228,8 +235,13 @@ function App() {
         <Route path='/news/plamen-bobokov-ruse-sadece-kalbimde-degil-ayni-zamanda-gelecekteki-tum-projelerimde-yer-aliyor' element={<PlamenRuseHaber />} />
         <Route path='/news/plamen-bobokov-ve-mimar-tanko-serafimov-a-olumunden-sonra-ruse-nin-saygin-vatandasi-unvani-verildi' element={<TankoHaber />} />
         <Route path='/news/prista-oil-yenilikci-harmanlama-teknolojisi-ccbl-yi-sunar' element={<PristaNewHaber />} />
-        <Route path='/news/sin-cars-sofia-car-motorsport-yarismasinda-pro-sinifinda-2-ve-nihai-siniflandirmada-3-sira' element={<AutomechanikaHaber />} />
-        <Route path='/news/bulgar-yag-ureticisi-prista-oil-bulgaristan-daki-ruse-tesisinde-harmanlama-teknolojisinin-bir-guncelleme-programini-baslatti' element={<AutomechanikaHaber />} />
+        <Route path='/news/sin-cars-sofia-car-motorsport-yarismasinda-pro-sinifinda-2-ve-nihai-siniflandirmada-3-sira' element={<SofiaCarsHaber />} />
+        <Route path='/news/bulgar-yag-ureticisi-prista-oil-bulgaristan-daki-ruse-tesisinde-harmanlama-teknolojisinin-bir-guncelleme-programini-baslatti' element={<BulgarYagHaber />} />
+
+        <Route path='/news/prista-oil-2014-calisma-yili-bolgesel-guvenlik-ve-saglik-yarismasinda-birinci-olmustur' element={<Prista2014Haber />} />
+        <Route path='/news/product-news-product-introduction-6' element={<ProductNewHaber />} />
+        <Route path='/news/prista-oil-bulgaristan-da-tamamen-yenilenmis-ve-buyutulmus-gres-tesisi-olan-verila-lubricants-i-acti' element={<LubricantsHaber />} />
+        <Route path='/news/cetus-hipersyn-46-6' element={<CetusHaber />} />
 
 
         {/* Kalite Yönetimi */}

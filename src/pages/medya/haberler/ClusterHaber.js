@@ -33,7 +33,7 @@ const ClusterHaber = () => {
                         <p>„It was good to see positive examples – like the co-operation with DAF – that we can use also in other countries. However, sales people are often burried with tasks that should be out of their scope. It is limiting our potential to grow.” – said Mr. Ionescu after the meetings. „We have to liberate the time of sales people and let them focus on sales. Administration will be simplified according to the Group standards.”- added Tivadar Runtág (CEE Cluster Sales Manager).</p>
                         <p>&nbsp;</p>
                         <p>„We exploit new opportunities in synthetic and semi-synthetic markets. There’s no other way but to win - so let’s rock-n-roll!” – commented Ceco Anastasov.”</p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article>

@@ -56,7 +56,7 @@ const MonzaHaber = () => {
                         <p>Aynı anda iki diğer Sin R1 GT4 aracı Birmingham, Alabama'da Pirelli World Challenge pistinde yarışıyordu. Araçlar iki 1incilik aldı; birisi 4üncü ve diğer ise 5inci olarak sınıfının en hızlı araçları olduklarını kanıtladılar.</p>
                         <p>Bulgar spor tarihinde ilk kez Sofia Car Motorsport'un profesyonel takımı ve ilk Bulgar yarış ve karayolu araç üreticisi Sin Cars, Avrupa GT4 serisindeki en iyi takımlardan birisiyle ortak çalışarak Nuerburgring'deki Mathol Yarışında VLN serisi ile 24 saat yarıştı.</p>
                         <p><strong style={{ fontFamily: "sans-serif" }}>Monza'dan dafa fazla resim için tıklayın: </strong><Link to="https://www.facebook.com/PristaOil/" style={{ color: "#11a1d6" }}><strong style={{ fontFamily: "sans-serif" }}>https://www.facebook.com/PristaOil/</strong></Link></p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article >

@@ -34,7 +34,7 @@ const PieterHaber = () => {
                         <p>Motor sporları, Pieter Christiaan’ın bir tutkusu haline geldi. Kariyeri 2005 yılında başladı. GT4 sınıfında iki galibiyete ve çeşitli ikincilik ve üçüncülük derecelerine sahiptir. Pieter Christiaan, 2012 yılında von Tyres GT4 Kupasına, HD-Gerling Dutch GT ve GT4 Kupasına, AM sınıfına; 2012'de HDI-Gerling Dutch GT şampiyonasına katıldı ve 2014 yılında, BMW M3 GT4 ile PRO pilot Simon Knapp'la birlikte yarışı beşinci sırada tamamladı.</p>
                         <p>Takım arkadaşı Tim Coronel ise, 1994 yılında 22 yaşındayken Dutch Citroën AX Kupası ile yarış kariyerine başlayan Hollandalı bir sürücüdür. 2009'dan 2015'e kadar ikiz kardeşi Tom Coronel ile birlikte Dakar Rallisi’nde yarıştı. Son Dakar Rallisi’nde solo sınıfta birinci geldi ve buggy model aracıyla genel sıralamada 35.liğe yükseldi. Ayrıca Alfa Romeo 147 (Hollanda ve Avrupa) ve Porsche GT3 Kupası Mücadelesi Benelüks yarışlarına katıldı.</p>
                         <p>Tim Coronel, asıl hedefi olan Dakar Rallisi’ne odaklandıktan sonra, 2013 yılında Circuit Park Zandvoort'ta final yarışlarında GT4 araç kullandı. 2016 yılında ise, Pieter Christiaan van Oranje ile birlikte BMW M3 GT4'le Monza'daki (İtalya) sezonun ilk etabında Avrupa GT4 serisine dönüş yaptı.</p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article>

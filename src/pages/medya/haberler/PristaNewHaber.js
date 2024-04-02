@@ -215,7 +215,7 @@ const PristaNewHaber = () => {
                         <p style={{ textAlign: "center" }}><strong style={{ fontFamily: "sans-serif" }}>Daha fazla bilgi için aşağıdaki link'i tıklayın:&nbsp;</strong><br />
                             <strong style={{ fontFamily: "sans-serif", color: "#11a1d6" }}><Link to="http://www.icisconference.com/panambaseoils" target="_blank">http://www.icisconference.com/panambaseoils</Link></strong></p>
                         <p>&nbsp;</p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article>

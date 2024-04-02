@@ -50,7 +50,7 @@ const SofiaHaber = () => {
                             <br />
                             <Link to="https://www.youtube.com/watch?v=mBjunc_UwIk" style={{ color: "#11a1d6" }}>https://www.youtube.com/watch?v=mBjunc_UwIk</Link>
                         </p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article >

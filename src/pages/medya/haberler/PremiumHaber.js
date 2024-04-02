@@ -36,7 +36,7 @@ const PremiumHaber = () => {
                         <p>Yarışmanın birincisi olan Zahari Ganchev şunları söyledi: “Piyasada şimdiye kadar ortaya çıkan şeylerden büyük oranda farklı olmasına rağmen projemin dikkat çekeceğini düşündüm.” “Endüstriyel Tasarım” bölümünün doktora adayı son 5 yılda birçok etkinliğe katıldı ve bunlardan ikisinde birincilik ödülünü kazandı: Zagorka şişesinin tasarım yarışması ve Nescafe Dolce Gusto için “Eşsiz bir duygu için eşsiz bir tasarım” konulu tasarım yarışması.</p>
                         <p>Zahari Ganchev hakkında daha fazla bilgi için: <Link to="http://nha.bg/bg/stranica/zahari-cvetanov-ganchev-doktorant" style={{ color: "#11a1d6" }}>http://nha.bg/bg/stranica/zahari-cvetanov-ganchev-doktorant</Link></p>
                         <p>&nbsp;</p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article>

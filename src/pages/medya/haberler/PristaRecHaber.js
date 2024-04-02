@@ -40,7 +40,7 @@ const PristaRecHaber = () => {
                         <p><em>*Hatırlatmak isteriz ki “Prista” adı Özbekistan'da hâlihazırda iyi bilinmekte olup 2011'den bu yana 13,4 milyon USD sermayeli Özbek-Bulgar müşterek girişimi “Uz-Prista” ülkede faaliyet göstermektedir. Kuruluş oldukça kazançlıdır ve kurucu üyelerine kâr paylarını düzenli olarak ödemektedir. Şirket hissedarları, “Uzbekneftegaz” ulusal holding şirketinin ticari bir bölümü olan %49,9 hisseye sahip “UZbeknefteproduct” ve %50,1 hisseye sahip “Prista Oil Holding”, EAD, Bulgaristan'dır. </em></p>
                         <p><em>“Uz-Prista”, Özbekistan'da sentetik ve yarı sentetik yağların ilk ve tek üreticisi olmanın yanı sıra yüksek kalitede motor, şanzıman, endüstriyel ve diğer türdeki çeşitli madeni yağların ilk ve tek üreticisidir. </em></p>
                         <p><em>“Uz-Prista” ürünlerinin tüketicileri, savunma, ziraat, madencilik ve taş ocakçılığı, otomotiv endüstrisi ve diğer alanlardan ana endüstriyel üreticileri içermektedir.</em></p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article>

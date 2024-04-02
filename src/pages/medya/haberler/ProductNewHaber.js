@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 import SideBarMedya from "../../../components/SidebarMedya";
-import { TeodorNewImage } from "../../../images/news";
+import { ProductNewLargeImage, NewsHavolineImage } from "../../../images/news";
 import FancyBox from "../../../components/FancyBox";
 
-
-const TeodorHaber = () => {
+const ProductNewHaber = () => {
     return (
         <div className="body_with_sidebar default">
             <SideBarMedya haber={true} />
@@ -22,19 +21,15 @@ const TeodorHaber = () => {
                                         },
                                     }}
                                 >
-                                    <a data-fancybox="gallery" href={TeodorNewImage}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={TeodorNewImage} />
+                                    <a data-fancybox="gallery" href={ProductNewLargeImage}>
+                                        <img title="n.jpg" alt="n.jpg" width="360" src={ProductNewLargeImage} />
                                     </a>
                                 </FancyBox>
                             </li>
                         </ul>
-                        <h3 className="hs-small">Harika haberler Teodor Tsvetkov'tan - Bulgaristan'daki Texaco marka elçimizden!</h3>
-                        <div className="date">18-03-2024</div>
-                        <p><em>Harika haberler Teodor Tsvetkov'tan - Bulgaristan'daki Texaco marka elçimizden! </em></p>
-                        <p><em>Hak ettiği Guinness Dünya Rekorlar Sertifikası artık onun elinde! </em></p>
-                        <p><em>Teo'nun en son başarısı, 4 saat 18 dakika ve 54 saniye gibi etkileyici bir sürede tek başına 10 km yüzmek. </em></p>
-                        <p><em>Teodor ile ilgili daha fazla bilgi almak, başarılarını öğrenmek ve desteklemek için burada: </em>
-                            <Link to="https://www.facebook.com/TeodorTsvetkovTheDreamer" target="_blank" style={{ color: "#11a1d6" }}><em>https://www.facebook.com/TeodorTsvetkovTheDreamer</em></Link></p>
+                        <h3 className="hs-small">Product News: Product Introduction</h3>
+                        <div className="date">13-03-2015</div>
+                        <p><img alt="newHavolineImage" src={NewsHavolineImage} style={{ height: "862px", width: "730px" }} /></p>
                         <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
@@ -43,4 +38,4 @@ const TeodorHaber = () => {
     )
 }
 
-export default TeodorHaber;
+export default ProductNewHaber;

@@ -36,7 +36,7 @@ const PristaOilHaber = () => {
                         <p>Texaco yağları, ABD'li en büyük ikinci enerji şirketi ve dünyanın en büyük şirketlerinden biri olan Chevron Corporation tarafından geliştirilip üretilmektedir. Chevron markası,  üstün kaliteli baz yağlardan son derece ileri katkı maddelerine kadar  madeni yağların tüm bileşenlerini dünya çapındaki tedarik zinciri ağlarında kendisi üretmektedir. Avrupa'ya gönderilen nihai ürünler, Chevron'un Belçika'daki tesisinde harmanlanmaktadır. Prista Oil ise ürünleri doğrudan bu üretim tesisinden Macaristan'a ithal etmektedir. </p>
                         <p>Madeni yağ ve gres pazarında Orta ve Doğu Avrupa'da sektörün  en büyük üreticisi ve dağıtımcısı olan Prista Oil Holding, Avrupa ve Orta Asya'da 14 ülkede  faaliyet göstermektedir. Prista Oil,  kendi markası dışında aynı zamanda Texaco markalı Chevron ürünlerinin  de Orta ve Doğu Avrupa bölgesindeki tek yetkili ithalatçısıdır.</p>
 
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article>

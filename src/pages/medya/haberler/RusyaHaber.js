@@ -74,7 +74,7 @@ const RusyaHaber = () => {
                         <p> <em>“Şirketimizin öncelikli hedefi, Bulgaristan’daki son teknolojiyle, Rusçuk ve Sofya’daki fabrikalarda üretilen yüksek kalitede ürünleri sunmaktır. Şirketimizin kuruluşu başarıya giden ilk adımdır - Inventum deneyimli bir satış ekibine sahiptir ve müşterilerine teknik, pazarlamaya ilişkin ve bilgilendirici destek sağlamaktadır. Prista Oil Holding tarafından üretilen ürünlerin faydaları hakkında ortaklarımızı güncel olarak bilgilendirmek için bu tarz etkinlikler düzenlemeye devam edeceğiz.’’ </em></p>
                         <p>Diğer yandan, Prista Oil Holding Yönetim Kurulu üyesi ve hissedarı Milen Boychev, bütün katılımcılara teşekkür etti ve Rus pazarında Prista® ürünlerinin satışını geliştirmeye yönelik en büyük beklentileri belirtti: </p>
                         <p><em>“Bizimle çalışmayı seçen bütün ortaklarımıza teşekkür ederim! Rusya’da başarılı işler yapmak için çok büyük bir potansiyel görmekteyiz ve koyduğumuz hedefler için gayretle, adım adım ilerlemeye devam edeceğiz.’’</em></p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article>

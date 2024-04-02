@@ -62,7 +62,7 @@ const AutomechanikaHaber = () => {
                                 <p>Daha fazla bilgi için lütfen web sayfamızı ziyaret edin: <Link to="http://www.messefrankfurt.com/" className="haberLink">www.messefrankfurt.com.</Link></p>
                                 <p><em>Kaynak:</em> <em>Basın Bülteni, Dr. Ann-Katrin Klusak, Messe Frankfurt</em></p>
                             </div>
-                            <Link className="bback-button" to="/news/">Geri</Link>
+                            <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                         </div>
                     </div>
                 </div>

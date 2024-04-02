@@ -49,7 +49,7 @@ const OrenburgKonferansHaber = () => {
                         <p>Orenburg bölgesinde petrol ve doğal gaz sektörlerinde çalışan 30’u aşkın şirket ile tarım sektöründe ve  yolcu ve yük taşımacılığı filo işletmeciliği alanında faaliyet gösteren şirketler etkinliğe katıldı. Katılımcılar arasında mühendislik ve teknik bölümlerin başkanlarının yanı sıra şirketin üst düzey yöneticileri, yani işletmeleri, faaliyetteki ticari araçları ve özel ekipmanları için yağ satın alırken kilit kararları veren kişiler  de vardı.</p>
                         <p>Konferans, Prista® ürünlerinin Orenburg bölgesindeki distrübütörü Prima Oil  (Orenburg) ile birlikte Inventum LLC tarafından gerçekleştirildi.</p>
                         <p>Bu etkinlik, Prista® yağlama ürünleri gamındaki en son gelişmeleri sunmak ve müşteri odaklı bir şirket için çok önemli bir özellik arz eden ve olmazsa olmazı mahiyetindeki yeni teknik programları tanıtmak icin Rusya’da son kullanıcılara yönelik olarak düzenlenen ilk toplantıydı.</p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article>

@@ -58,7 +58,7 @@ const RecyclingHaber = () => {
                         <p>Bulgar “Prista Recycling” şirketi, benzeri olmayan yağ geri dönüşüm tesisleri kurmada Amerikan Patent Dairesi'nce korunan özel bir teknolojinin sahibidir. Bu teknoloji ilk kez Orta Asya ve CIS'te kullanılmıştır. Şirket, sadece yatırımcı olarak değil aynı zamanda ortak yüklenici olarak hareket etmekte ve tüm mühendislik projesini sağlamaktadır.</p>
                         <p>Atık yağlara yönelik yüksek teknolojili yeni “Uz-Prista Recycling” tesisinin devreye girmesi, çevre kirliliğinin azaltılmasını ve ortadan kaldırılmasını sağlamanın yanı sıra, atık yağın kontrolsüz bir şekilde doğaya atılmasını azaltmaya yardımcı olacak ve ülkede bitmiş yağların üretimine ham madde temin edecektir.</p>
                         <p>Yatırım, çevre üzerinde doğrudan pozitif bir etkiyle, atık yağların toplanması, taşınması ve depolanması yönünde yeni bir yaklaşımın hayata geçirilişinin başlangıcıdır. Bugün <u>Özbekistan'da</u> atık yağ yönetimine yönelik birleşik bir yaklaşım bulunmamaktadır, <u>bu nedenle de</u> Bulgar katkısı hayati öneme sahiptir.</p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article >

@@ -52,7 +52,7 @@ const YunanistanHaber = () => {
                         <h3 className="hs-small">Yunanistan'dan Prista Oil Yetkili Distribütörü Leonidas Leontopoulos – LEO LUB & PARTS – Yunan Yarış Sezonuna Katılıyor</h3>
                         <div className="date">29-06-2016</div>
                         <p>Leonidas Leontopoulos 1990 yılında yarışmaya başladı ve yarış kariyeri boyunca birçok 1.lik ve 2.lik derecesi kazandı. 2016 yılında Leonidas, Prista® markalı Peugeot 106 /1600CC 200HP aracıyla Grup A'daki Tepe Yarışlarına ve Parkur Yarışlarına katılacak.</p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article >

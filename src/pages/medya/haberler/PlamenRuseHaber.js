@@ -46,7 +46,7 @@ const PlamenRuseHaber = () => {
                             Benim ve kardeşimin Üniversite ile ilgili ilginç geliştirme planları varken bu teklifi kabul etmememiz mümkün değildi. Bu yüzden, Belediye ve Ruse Üniversitesi ile yaptığımız kamu özel ortaklığımızdan edindiğimiz pozitif tecrübeyi pratiğe dökmeyi başaracağımıza inanıyorum. Eğitimde önde gelen bir merkez olan üniversite ve genel anlamda iyi eğitim, sadece şehrimiz ve iş sektörü için değil, aynı zamanda bölgenin bir bütün olarak gelişimi için en güçlü silahlardan bazılarıdır.</p>
                         <p><strong style={{ fontFamily: "sans-serif" }}>Başarılı işlerden ve büyük ölçekli projelerden ayrı olarak, Bobokovi ailesinin adı da ciddi yardım işleriyle ilişkilendiriliyor. Bunu bir görev olarak mı görüyorsunuz ve size getirisi nedir?</strong></p>
                         <p>Yardım işleri ve bağışlar, iş hayatı ile toplum arasında bağlantı kurma felsefemizin bir parçasıdır. Benim ve kardeşim için bu, daha çok aileden aldığımız bir değer ve herbirimiz ve hepimiz için bir görevdir. Bu nedenle, çocuklarımızı da bu doğrultuda eğitmeye çalışıyoruz ve göz önündeki kişiler olarak sorumluluğumuz çok daha büyüktür. Tüm bu yıllar boyunca ve bugün, kamuoyuna açıklamadan veya bilinmesine çaba göstermeden birçok farklı girişimi desteklemekten geri durmadık. Örnek olarak ve süreklilik sağlayarak, aynı zamanda köklerimizle bir bağımız olan, ülkemizdeki yardımseverlik geleneğini yeniden geri kazanabileceğimize içten inanıyoruz.</p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article>

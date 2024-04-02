@@ -52,7 +52,7 @@ const RuscukHaber = () => {
                         <p>Etkinliğin sponsorlarından biri olan <strong style={{ fontFamily: "sans-serif" }}>Prista Oil</strong>, dans okulu müdürünün organize ettiği loto çekilişini sunmaktadır.</p>
                         <p><em>“Flamingo-98” Spor ve Dans Kulübü - Rusçuk, şu abda Ukrayna'nın balo dansı şampiyonu olan, Rusçuk'taki bir gençlik merkezinde balo dansı koçluğu yapan Alexander Smikovchuk tarafından 1979'da kurulmuş olup, şehirdeki en eski dans okullarından birinin halefidir.</em></p>
                         <p><em>1998'den günümüze kadar PR Müdürü Tsvetelin Nenov’un yönetimi altında bulunan okul, Rusçuk ve civarındaki çocuklar, öğrenciler ve yetişkinler için kapsamlı dans ve spor faaliyetleri geliştirmiştir ve hâlihazırda 500'den fazla üyeye sahiptir.</em></p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article >

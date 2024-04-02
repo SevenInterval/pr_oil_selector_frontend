@@ -76,7 +76,7 @@ const CeeHaber = () => {
                         <p><strong style={{ fontFamily: "sans-serif" }}>Prista Dergisi:</strong> Yaşama dair ilkeniz nedir?</p>
                         <p><strong style={{ fontFamily: "sans-serif" }}>Pavol Havasi:</strong> Daima sakin ve sabırlı kalmaya çalışmak.</p>
                         <p><strong style={{ fontFamily: "sans-serif" }}>Prista Dergisi:</strong> Teşekkürler Pavol, başarılar diliyoruz!</p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article >

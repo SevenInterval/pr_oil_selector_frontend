@@ -33,7 +33,7 @@ const PlamenBobokovHaber = () => {
                             <p>16 Mayıs 2023 tarihinde, Paisii Hilendarski'nin adını taşıyan Plovdiv Üniversitesi'nde "İnovasyon ve Girişimcilik" disiplini kapsamında "Bulgar Girişimcinin Karşılaştığı Zorluklar ve Güçlükler" başlıklı halka açık bir konferans düzenlendi. Konuyla ilgili konuk konuşmacı, Prista Oil Group'un kurucu ortağı, Prista Oil Holding EAD Yönetim Kurulu Başkanı, Monbat AD Yönetim Kurulu üyesi ve faaliyet alanı kültürel ve tarihi mirasın araştırılması ve korunması olan "Bobokov Kardeşler" Vakfı'nın kurucu ortağı Sayın Plamen Bobokov'du. Forum, Paisii Hilendarski Üniversitesi Felsefe ve Tarih Fakültesi Uygulamalı ve Kurumsal Sosyoloji Bölüm Başkanı ve Jean Monnet Mükemmeliyet Merkezi Başkanı Prof Dr. Ivan Chalakov'un nazik daveti ve girişimi üzerine düzenlenmiştir.</p>
                             <p>Konferansın tamamına ve aşağıdaki tartışma videosuna buradan ulaşabilirsiniz:</p>
                             <p><iframe frameborder="0" height="315" src="https://www.youtube.com/embed/MSaJNLOyQzA" title="YouTube video player" width="100%"></iframe></p>
-                            <Link className="bback-button" to="/news/">Geri</Link>
+                            <Link className="bback-button" to="/news/category/haberler">Geri</Link>
 
                     </div>
 

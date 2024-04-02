@@ -41,7 +41,7 @@ const PristaHaber = () => {
                         <p>Monbat şirketleri, Avrupa, Asya ve Afrika'daki 54'ü aşkın ülkede iyi işleyen bir dağıtım ağı aracılığıyla ihracat pazarlarında satışlarının %87'siyle kalıcı olarak ihracata dayalı olmaya devam ediyor. Yatırım programının hayata geçirilmesi, yıllık %9'luk bir ortalama ve bu sektörün %11'i için yaklaşık %20'lik FAVÖK marjlarıyla sürdürülebilir satış büyümesi elde etmeye yardımcı oldu.</p>
                         <p>Monbat, sadece üretim kapasitesini ve verimliliklerini artırmaya değil aynı zamanda yeni tip marş bataryaları üretimine yeni teknolojiler eklemeyi hedefleyen yatırım programı üzerinde çalışmayı sürdürecek.</p>
                         
-                     <Link className="bback-button" to="/news/">Geri</Link>
+                     <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article>

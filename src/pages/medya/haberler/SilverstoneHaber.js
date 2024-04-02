@@ -54,7 +54,7 @@ const SilverstoneHaber = () => {
                         <p>Silverstone'daki yarışma, sürücüler ve ekipler için gerçek bir mücadele olacak. Sezonun bu ilk dayanıklılık yarışında pilotlar, 3 saat boyunca becerilerini sergileyecek. Rekor sayıda katılımla 51 araç, Pazar günü başlangıç çizgisinde olacak.</p>
                         <p>Saat 00.50'de (Batı Avrupa zaman dilimi - WET GMT + 00) <Link to="http://gt4series.com/live/" style={{ color: "#11a1d6" }}>http://gt4series.com/live/</Link> üzerinden canlı izleyebilirsiniz.</p>
                         <p>&nbsp;</p>
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article >

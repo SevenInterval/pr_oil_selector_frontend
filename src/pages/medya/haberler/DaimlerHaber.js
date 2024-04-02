@@ -150,7 +150,7 @@ const DaimlerHaber = () => {
                         </table>
 
 
-                        <Link className="bback-button" to="/news/">Geri</Link>
+                        <Link className="bback-button" to="/news/category/haberler">Geri</Link>
                     </div>
                 </div>
             </article>
