@@ -41,14 +41,14 @@ const BayilikHakkinda = () => {
                         <p>&nbsp;</p>
                         <p><strong style={{ fontFamily: "sans-serif" }}>Bayilik için son Başvuru Tarihi : 30.10.2017</strong></p>
                         <p>Bayilik Başvuru Koşulları için info@prista-oil.com.tr adresinden veya</p>
-                        <p>0533 728 95 07 WhatsApp hattından bizlerle irtibata geçebilirsiniz.</p>
+                        <p>0533 749 44 80 WhatsApp hattından bizlerle irtibata geçebilirsiniz.</p>
                         <p>&nbsp;</p>
                         <p>Prista Oil, Texaco Madeni Yağlarının Türkiye’deki tek yetkili distribütörüdür.</p>
                         <p>&nbsp;</p>
                         <p>
                             <strong style={{ fontFamily: "sans-serif" }}><em>Bayilik başvuru formunu doldurarak, </em></strong>
                             <Link to="mailto:info@prista-oil.com.tr"><strong style={{ fontFamily: "sans-serif", color: "#11a1d6" }}><em>info@prista-oil.com.tr </em></strong></Link>
-                            <strong style={{ fontFamily: "sans-serif" }}><em>adresinden&nbsp; veya </em></strong><strong style={{ fontFamily: "sans-serif" }}><em>0533 728 95 07 WhatsApp&nbsp; hattından bizlerle irtibata&nbsp; geçebilirsin</em></strong><strong style={{ fontFamily: "sans-serif" }}><em>iz.&nbsp;</em></strong>
+                            <strong style={{ fontFamily: "sans-serif" }}><em>adresinden&nbsp; veya </em></strong><strong style={{ fontFamily: "sans-serif" }}><em>0533 749 44 80 WhatsApp&nbsp; hattından bizlerle irtibata&nbsp; geçebilirsin</em></strong><strong style={{ fontFamily: "sans-serif" }}><em>iz.&nbsp;</em></strong>
                             <Link to="" onClick={() => downloadDocx()} style={{ color: "#11a1d6" }}><u><strong style={{ fontFamily: "sans-serif" }}><em>PristaOil_Form</em></strong></u></Link></p>
                         <Link className="bback-button" to="/news/category/bayilik-hakkinda-1">Geri</Link>
                     </div>
