@@ -929,3 +929,127 @@ html body header html body .body_with_sidebar nav .top-menu-container>ul>li.mobi
         min-width: 100%;
     }
 }
+
+.hs-normal,
+html body article .page-header,
+html body article .hs-error,
+html body article .hs {
+    color: #222;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+html body article .search-form {
+    margin: 16px auto;
+}
+
+html body article .search-form form div.fl {
+    float: right;
+}
+
+html body article .search-form form input,
+html body article .search-form form select,
+html body article .search-form form button {
+    border: 1px solid #d2d2d2;
+    height: 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+html body article .search-form form div.fl select {
+    margin: 0 8px;
+    width: 122px;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    white-space: nowrap;
+}
+
+html body article .search-form form input,
+html body article .search-form form select,
+html body article .search-form form button {
+    border: 1px solid #d2d2d2;
+    height: 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+html body article .search-form form div.fl button {
+    padding: 0 16px;
+    cursor: pointer;
+    background: #f0f0f0;
+}
+
+html body article .search-form form div.word {
+    overflow: hidden;
+}
+
+html body article .search-form form input,
+html body article .search-form form select,
+html body article .search-form form button {
+    border: 1px solid #d2d2d2;
+    height: 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+html body article .search-form form div.word input {
+    width: 100%;
+}
+
+html body article .search-form:before,
+html body article .search-form:after {
+    content: " ";
+    display: table;
+}
+
+html body article .search-form:after,
+html body article .search-form:before {
+    clear: both;
+}
+
+html body article .search-form form div.fl button:hover {
+    background: #ffdd00;
+}
+
+html body article .search-list li {
+    display: block;
+}
+
+.hs-small,
+html body article .faq-object-list h3,
+html body article .objects-list-tree-rows .span span.title,
+html body article .objects-list-tree-rows .headline,
+html body article .search-list li a,
+html body article .sitemap-list ul>li span {
+    color: #000;
+    margin-top: 8px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+@media (min-width: 776px) {
+
+    .hs-small,
+    html body article .faq-object-list h3,
+    html body article .objects-list-tree-rows .span span.title,
+    html body article .objects-list-tree-rows .headline,
+    html body article .search-list li a,
+    html body article .sitemap-list ul>li span {
+        font-size: 24px;
+    }
+}
+
+html body article .search-list li a:hover {
+    text-decoration: underline;
+}

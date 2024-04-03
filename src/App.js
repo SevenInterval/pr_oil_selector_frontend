@@ -89,6 +89,7 @@ import ProductNewHaber from './pages/medya/haberler/ProductNewHaber';
 import LubricantsHaber from './pages/medya/haberler/LubricantsHaber';
 import CetusHaber from './pages/medya/haberler/CetusHaber';
 import BayilikHakkinda from './pages/medya/haberler/BayilikHakkinda';
+import Search from './pages/Search';
 
 
 function App() {
@@ -214,8 +215,8 @@ function App() {
         <Route path='/news/prista-oil-r-macaristan-daki-horvath-rudolf-intertransport-firmasina-texaco-yaglarini-tedarik-edecek' element={<PristaOilHaber />} />
         <Route path='/news/plamen-bobokov-ukrayna-dan-onurlu-hizmet-odulu-aldi' element={<PlamenBobokovHaber2 />} />
         <Route path='/news/prista-oil-grubu-yeniden-yapilaniyor' element={<PristaHaber />} />
-        <Route path='/news/inter-cars-ekibi-ruscuk-bulgaristan-daki-prista-oil-karistirma-tesisini-ziyaret-etti' element={<RuscukZiyaretHaber />} />        
-        
+        <Route path='/news/inter-cars-ekibi-ruscuk-bulgaristan-daki-prista-oil-karistirma-tesisini-ziyaret-etti' element={<RuscukZiyaretHaber />} />
+
         <Route path='/news/automechanika-frankfurt-2016-otomotiv-hizmet-sektorunde-dunyanin-onde-gelen-ticaret-fuari-frankfurt-am-main-13-17-eylul-2016' element={<AutomechanikaHaber />} />
         <Route path='/news/rockin-the-cluster-5' element={<ClusterHaber />} />
         <Route path='/news/pieter-christiaan-van-oranje-ve-tim-coronel-spa-belcika-da-sin-r1-gt4-u-surecek' element={<PieterHaber />} />
@@ -249,6 +250,8 @@ function App() {
         <Route path="/laboratuvar-servisleri" element={<LaboratuvarServisleri />} />
         <Route path="/prista-sertifikalari" element={<PristaSertifikalari />} />
         <Route path="/bizimle-temasa-gecin" element={<BizimleTemasaGecin />} />
+
+        <Route path="/site/search" element={<Search />} />
 
       </Routes>
       <Footer />

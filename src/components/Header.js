@@ -3,13 +3,15 @@ import SearchImage from '../images/search.png';
 import MenuMobileImage from '../images/menu-mobile.png'
 import PristaLogo from '../images/prista-oil-com.png'
 import HeaderBg from '../images/header-bg.png'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Header = () => {
     const [showSelectLanguage, setShowSelectLanguage] = useState(false);
     const [openTransparentMenu, setOpenTransparentMenu] = useState("close");
     const [openSearchForLtScreen, setOpenSearchForLtScreen] = useState(false);
     const [selectedNavbarId, setSelectedNavbarId] = useState("menu_2");
+    const [searchValue, setSearchValue] = useState("");
+    const navigate = useNavigate();
 
     const openMenu = (value) => {
         document.body.classList.add("no-scroll");
@@ -23,6 +25,16 @@ const Header = () => {
 
     const handleClick = (e, menuId) => {
         setSelectedNavbarId(menuId);
+    }
+
+    const handleChange = (e) => {
+        setSearchValue(e.target.value);
+    }
+
+    const handleSearch = (e) => {
+        e.preventDefault();
+        navigate("/site/search", { state: { searchItem: searchValue } })
+        setSearchValue("");
     }
 
     return (
@@ -83,11 +95,11 @@ const Header = () => {
                                 <i className={!openSearchForLtScreen ? "fa fa-search" : "fa fa-times"} aria-hidden={true} onClick={() => setOpenSearchForLtScreen(!openSearchForLtScreen)}></i>
                             </div>
                             <div className="form-container">
-                                <form name="fw_search" method="get" action="/site/search">
+                                <form name="fw_search" onSubmit={(event) => handleSearch(event)}>
                                     <input type="submit" value="Submit" style={{ backgroundImage: `url(${SearchImage})` }} />
                                     <div id="fw_search">
                                         <div>
-                                            <input type="text" id="fw_search_query" name="fw_search[query]" required="required" placeholder="Search" />
+                                            <input type="text" id="fw_search_query" name="fw_search_value" value={searchValue} onChange={(event) => handleChange(event)} required="required" placeholder="Search" />
                                         </div>
                                         <input type="hidden" id="fw_search_searchKeyName" name="fw_search[searchKeyName]" value="project"></input>
                                     </div>
