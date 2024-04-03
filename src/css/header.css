@@ -1053,3 +1053,16 @@ html body article .sitemap-list ul>li span {
 html body article .search-list li a:hover {
     text-decoration: underline;
 }
+
+html body .page-404 {
+    font-size: 24px;
+    margin: 13% auto;
+    max-width: 484px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+html body .page-404 strong {
+    font-weight: 700;
+    color: #ffdd00;
+}

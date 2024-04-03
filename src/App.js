@@ -90,6 +90,7 @@ import LubricantsHaber from './pages/medya/haberler/LubricantsHaber';
 import CetusHaber from './pages/medya/haberler/CetusHaber';
 import BayilikHakkinda from './pages/medya/haberler/BayilikHakkinda';
 import Search from './pages/Search';
+import NotFound from './pages/NotFound';
 
 
 function App() {
@@ -252,6 +253,7 @@ function App() {
         <Route path="/bizimle-temasa-gecin" element={<BizimleTemasaGecin />} />
 
         <Route path="/site/search" element={<Search />} />
+        <Route path="*" element={<NotFound />} />
 
       </Routes>
       <Footer />
