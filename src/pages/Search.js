@@ -12,7 +12,7 @@ const Search = () => {
     useEffect(() => {
         if (location && location.state && location.state.searchItem) {
             setSearchValue(location.state.searchItem)
-            let newData = pageItems.filter(page => page.label.includes(location.state.searchItem));
+            let newData = pageItems.filter(page => page.label.toLocaleLowerCase().includes(location.state.searchItem.toLocaleLowerCase()));
             setResponseData([...newData]);
         }
     }, [location])
@@ -20,10 +20,10 @@ const Search = () => {
     const handleSearch = (e) => {
         e.preventDefault();
         if (optionValue === "page") {
-            let newData = pageItems.filter(page => page.label.includes(searchValue));
+            let newData = pageItems.filter(page => page.label.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()));
             setResponseData([...newData]);
         } else if (optionValue === "news") {
-            let newData = newsItems.filter(haber => haber.label.includes(searchValue));
+            let newData = newsItems.filter(haber => haber.label.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()));
             setResponseData([...newData]);
         }
 
