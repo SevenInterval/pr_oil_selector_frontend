@@ -7,7 +7,7 @@ const Romanya = () => {
     return (
         <>
             <Helmet>
-                <title>Bulgaristan</title>
+                <title>Romanya</title>
                 <meta name="description"
                     content="PRISTA Oil Group is a holding company whose field of activity covers the following areas: Production of motor and industrial oils, greases and specialty fluids" />
                 <link rel='canonical' href="/romanya-1" />

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const SideBarPazarlar = (props) => {
-    const [level1ShowName, setLevel1ShowName] = useState(props.title);
+    const [level1ShowName] = useState(props.title);
 
     return (
         <aside>
