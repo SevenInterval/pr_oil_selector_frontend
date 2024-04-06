@@ -14,11 +14,11 @@ const Turkiye = () => {
                 <link rel='canonical' href="/turkiye-1" />
             </Helmet>
             <div className="body_with_sidebar default">
-                <SideBarPazarlar />
+                <SideBarPazarlar title={"ISTIRAKLER"}/>
                 <article>
                     <div className="page-header">
                         <span className="titleOfHeader">Pazarlar / İştirakler / </span>
-                        <h1>Türkiye</h1>
+                        <h1>Türkiye&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     </div>
                     <div className="page-article">
                         <p>
@@ -33,13 +33,13 @@ const Turkiye = () => {
                         </p>
                         <p>
                             <Link to="https://www.instagram.com/pristaturkiye?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">
-                                <img src={I_icon} alt='instagramTr' />
+                                <img src={I_icon} alt='instagramTr' title="inIcon" loading='eager' width={25} height={25}/>
                             </Link>&nbsp;&nbsp;
                             <Link to="https://www.linkedin.com/company/prista-oil-t%C3%BCrkiye/" target="_blank">
-                                <img src={L_icon} alt='linkedinTr' style={{ height: "25px", width: "25px" }} />
+                                <img src={L_icon} alt='linkedinTr' title="lnIcon" style={{ height: "25px", width: "25px" }} loading='eager' width={25} height={25}/>
                             </Link>
                         </p>
-                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/26" title="turkiyeFrame" frameborder="0"></iframe></div>
+                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/26" title="turkiyeFrame" frameBorder="0"></iframe></div>
                     </div>
                 </article>
             </div>

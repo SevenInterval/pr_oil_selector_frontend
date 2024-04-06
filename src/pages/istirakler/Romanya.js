@@ -13,11 +13,11 @@ const Romanya = () => {
                 <link rel='canonical' href="/romanya-1" />
             </Helmet>
             <div className="body_with_sidebar default">
-                <SideBarPazarlar />
+                <SideBarPazarlar title={"ISTIRAKLER"}/>
                 <article>
                     <div className="page-header">
                         <span className="titleOfHeader">Pazarlar / İştirakler / </span>
-                        <h1>Romanya</h1>
+                        <h1>Romanya&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     </div>
                     <div className="page-article">
                         <p>
@@ -32,10 +32,10 @@ const Romanya = () => {
 
                         <p>
                             <Link to="https://www.facebook.com/PristaOilRomania/" target="_blank">
-                                <img alt="facebokIcon" src={F_icon} />
+                                <img alt="facebokIcon" title="fbIcon" src={F_icon} loading='eager' width={25} height={25}/>
                             </Link>
                         </p>
-                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/21" title="romanyaMap" frameborder="0"></iframe></div>
+                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/21" title="romanyaMap" frameBorder="0"></iframe></div>
                     </div>
                 </article>
             </div>

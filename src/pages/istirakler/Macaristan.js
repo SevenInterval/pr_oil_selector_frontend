@@ -13,11 +13,11 @@ const Macaristan = () => {
                 <link rel='canonical' href="/macaristan-1" />
             </Helmet>
             <div className="body_with_sidebar default">
-                <SideBarPazarlar />
+                <SideBarPazarlar title={"ISTIRAKLER"}/>
                 <article>
                     <div className="page-header">
                         <span className="titleOfHeader">Pazarlar / İştirakler / </span>
-                        <h1>Macaristan</h1>
+                        <h1>Macaristan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     </div>
                     <div className="page-article">
                         <p>
@@ -30,10 +30,10 @@ const Macaristan = () => {
                         </p>
                         <p>
                             <Link to="https://www.facebook.com/Texacokenoanyagok/" target="_blank">
-                                <img alt="faceIcon" src={F_icon} />
+                                <img alt="faceIcon" title="fbIcon" src={F_icon} loading='eager' width={25} height={25}/>
                             </Link>
                         </p>
-                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/22" frameborder="0" title="frameMacaristan"></iframe></div>
+                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/22" frameBorder="0" title="frameMacaristan"></iframe></div>
                     </div>
                 </article>
             </div>

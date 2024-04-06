@@ -40,7 +40,7 @@ const BulgaristanIrt = () => {
                         </div>
                         <div className="col-md-4">&nbsp;</div>
                     </div>
-                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/20" title="bulgaristanFrame" frameborder="0"></iframe></div>
+                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/20" title="bulgaristanFrame" frameBorder="0"></iframe></div>
                 </div>
             </article>
         </div>

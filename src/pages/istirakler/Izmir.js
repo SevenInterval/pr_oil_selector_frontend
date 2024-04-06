@@ -15,7 +15,7 @@ const Izmir = () => {
                 <article>
                     <div className="page-header">
                         <span className="titleOfHeader">Pazarlar / Distribütörler / </span>
-                        <h1>İzmir</h1>
+                        <h1>İzmir&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     </div>
                     <div className="page-article">
                         <p><strong style={{ fontFamily: "sans-serif" }}>İZATAMER OTO SERVİS MAKİNA SAN. TİC. LTD. ŞTİ</strong><br />

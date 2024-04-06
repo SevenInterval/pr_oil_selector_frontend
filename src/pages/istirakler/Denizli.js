@@ -16,7 +16,7 @@ const Denizli = () => {
                 <article>
                     <div className="page-header">
                         <span className="titleOfHeader">Pazarlar / Distribütörler / </span>
-                        <h1>Denizli</h1>
+                        <h1>Denizli&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     </div>
                     <div className="page-article">
                         <p><strong style={{ fontFamily: "sans-serif" }}>FÜZE AKÜ VE OTOMOTİV <br />

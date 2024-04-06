@@ -24,7 +24,7 @@ const CekCumhuriyetiIrt = () => {
                             <img alt="faceIcon" src={F_icon} />
                         </Link>
                     </p>
-                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/23" frameborder="0" title="cekFrame"></iframe></div>
+                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/23" frameBorder="0" title="cekFrame"></iframe></div>
                 </div>
             </article>
         </div>

@@ -27,7 +27,7 @@ const RomanyaIrt = () => {
                             <img alt="facebokIcon" src={F_icon} />
                         </Link>
                     </p>
-                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/21" title="romanyaMap" frameborder="0"></iframe></div>
+                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/21" title="romanyaMap" frameBorder="0"></iframe></div>
                 </div>
             </article>
         </div>

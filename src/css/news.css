@@ -13,13 +13,13 @@ html body .home-media-list {
 }
 
 @media (min-width: 685px) {
-    html body .home-media-list h2 {
+    html body .home-media-list h1 {
         margin-bottom: 27px;
         margin-top: -61px;
     }
 }
 
-html body .home-media-list h2 {
+html body .home-media-list h1 {
     color: #222;
     font-size: 30px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -27,7 +27,7 @@ html body .home-media-list h2 {
 }
 
 @media (max-width: 685px) {
-    html body .home-media-list h2 {
+    html body .home-media-list h1 {
         border-bottom: 1px solid #d0d0d0;
         padding-bottom: 7px;
         margin-bottom: 17px;

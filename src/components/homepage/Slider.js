@@ -39,27 +39,27 @@ const Slider = () => {
                                 { width: "1000%", transitionDuration: "0.6s", transform: "translate3d(-30%, 0px, 0px)" }}>
                             <li className="clone" aria-hidden={true} style={{ width: "10%", float: "left", display: "block" }}>
                                 <Link to="/verila-7">
-                                    <img alt="Slider_verila.jpg" title="Slider_verila.jpg" src={Slider1Jpeg} width="980" height="406" draggable={false} />
+                                    <img alt="Slider_verila.jpg" title="Slider_verila.jpg" src={Slider1Jpeg} width="980" height="406" draggable={false} loading='eager' />
                                 </Link>
                             </li>
                             <li className={activeSlide === 1 ? "flex-active-slide" : ""} style={{ width: "10%", float: "left", display: "block" }}>
                                 <Link to="/news/tr-prista-oil-groupun-kurucu-ortagi-plamen-bobokov-plovdiv-paisii-hilendarski-universitesinde-ogrencilere-halka-acik-bir-konferans-verdi">
-                                    <img alt="Slider.png" title="Slider.png" src={Slider2} width="980" height="406" draggable={false} />
+                                    <img alt="Slider.png" title="Slider.png" src={Slider2} width="980" height="406" draggable={false} loading='eager' />
                                 </Link>
                             </li>
                             <li className={activeSlide === 2 ? "flex-active-slide" : ""} style={{ width: "10%", float: "left", display: "block" }}>
                                 <Link to="/gulf-marine-7">
-                                    <img alt="Slider_gulf.jpg" title="Slider_gulf.jpg" src={Slider3} width="980" height="406" draggable="false" />
+                                    <img alt="Slider_gulf.jpg" title="Slider_gulf.jpg" src={Slider3} width="980" height="406" draggable="false" loading='eager' />
                                 </Link>
                             </li>
                             <li className={activeSlide === 3 ? "flex-active-slide" : ""} style={{ width: "10%", float: "left", display: "block" }}>
                                 <Link to="/verila-7">
-                                    <img alt="Slider_verila.jpg" title="Slider_verila.jpg" src={Slider1Jpeg} width="980" height="406" draggable={false} />
+                                    <img alt="Slider_verila.jpg" title="Slider_verila.jpg" src={Slider1Jpeg} width="980" height="406" draggable={false} loading='eager' />
                                 </Link>
                             </li>
                             <li className="clone" aria-hidden={true} style={{ width: "10%", float: "left", display: "block" }}>
                                 <Link to="/news/tr-prista-oil-groupun-kurucu-ortagi-plamen-bobokov-plovdiv-paisii-hilendarski-universitesinde-ogrencilere-halka-acik-bir-konferans-verdi">
-                                    <img alt="Slider.png" title="Slider.png" src={Slider2} width="980" height="406" draggable={false} />
+                                    <img alt="Slider.png" title="Slider.png" src={Slider2} width="980" height="406" draggable={false} loading='eager' />
                                 </Link>
                             </li>
                         </ul>

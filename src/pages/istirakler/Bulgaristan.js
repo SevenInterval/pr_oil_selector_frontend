@@ -14,11 +14,11 @@ const Bulgaristan = () => {
                 <link rel='canonical' href="/bulgaristan-1" />
             </Helmet>
             <div className="body_with_sidebar default">
-                <SideBarPazarlar />
+                <SideBarPazarlar title={"ISTIRAKLER"}/>
                 <article>
                     <div className="page-header">
                         <span className="titleOfHeader">Pazarlar / İştirakler / </span>
-                        <h1>Bulgaristan</h1>
+                        <h1>Bulgaristan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     </div>
                     <div className="page-article">
                         <div className="row">
@@ -33,9 +33,9 @@ const Bulgaristan = () => {
                                     <Link to="http://www.prista-oil.com/" style={{ lineHeight: "20.8px" }}><span style={{ color: "#5bb5e7" }}>www.prista-oil.com</span></Link></p>
                                 <p>
                                     <Link to="https://www.facebook.com/PristaOil/" target="_blank">
-                                        <img alt="facebookIcon" src={F_icon} /></Link>&nbsp;&nbsp;
+                                        <img alt="facebookIcon" src={F_icon} title="fbIcon" loading='eager' width={25} height={25}/></Link>&nbsp;&nbsp;
                                     <Link to="https://www.youtube.com/channel/UCdijTVNCAy9gYh7--64NRNQ/featured" target="_blank">
-                                        <img alt="youtubeIcon" src={Y_icon} />
+                                        <img alt="youtubeIcon" src={Y_icon} title="ytIcon" loading='eager' width={25} height={25} />
                                     </Link>
                                 </p>
                             </div>
@@ -48,7 +48,7 @@ const Bulgaristan = () => {
                             </div>
                             <div className="col-md-4">&nbsp;</div>
                         </div>
-                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/20" title="bulgaristanFrame" frameborder="0"></iframe></div>
+                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/20" title="bulgaristanFrame" frameBorder="0"></iframe></div>
                     </div>
                 </article>
             </div>

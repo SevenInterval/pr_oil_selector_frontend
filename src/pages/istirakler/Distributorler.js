@@ -16,7 +16,7 @@ const Distributorler = () => {
                 <article>
                     <div className="page-header">
                         <span className="titleOfHeader">Pazarlar / </span>
-                        <h1>Distribütörler</h1>
+                        <h1>Distribütörler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     </div>
                     <div className="page-article">
                         <div className="row cell-bg">
@@ -26,7 +26,7 @@ const Distributorler = () => {
                             <div className="col-md-3 col-sm-3 col-xs-6"><Link to="/izmir-1">İzmir</Link></div>
                             <div className="col-md-3 col-sm-3 col-xs-6">&nbsp;</div>
                         </div>
-                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/45" title="distrFrame" frameborder="0"></iframe></div>
+                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/45" title="distrFrame" frameBorder="0"></iframe></div>
                     </div>
                 </article>
             </div>

@@ -18,7 +18,7 @@ const RusyaIrt = () => {
                         Russia<br />
                         <Link to="mailto:info@pristagroup.com" style={{ color: "#11a1d6" }}>info@pristagroup.com</Link>
                     </p>
-                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/51" title="rusyaFrame" frameborder="0"></iframe></div>
+                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/51" title="rusyaFrame" frameBorder="0"></iframe></div>
                 </div>
             </article>
         </div>

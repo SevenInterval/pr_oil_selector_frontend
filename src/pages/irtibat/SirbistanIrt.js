@@ -34,7 +34,7 @@ const SirbistanIrt = () => {
                             <img alt="instaSrb" src={I_icon} style={{ height: "25px", width: "25px" }} />
                         </Link>
                     </p>
-                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/24" frameborder="0" title="srbFrame"></iframe></div>
+                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/24" frameBorder="0" title="srbFrame"></iframe></div>
                 </div>
             </article>
         </div>

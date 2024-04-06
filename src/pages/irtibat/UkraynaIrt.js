@@ -19,7 +19,7 @@ const UkraynaIrt = () => {
                         <Link to="mailto:info@prista-oil.com.ua" style={{ color: "#11a1d6" }}>info@prista-oil.com.ua</Link><br />
                         <Link to="http://www.prista-oil.com/" style={{ color: "#11a1d6" }}>www.prista-oil.com</Link>
                     </p>
-                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/25" title="frameUkrayna" frameborder="0"></iframe></div>
+                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/25" title="frameUkrayna" frameBorder="0"></iframe></div>
                 </div>
             </article>
         </div>

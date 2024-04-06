@@ -16,7 +16,7 @@ const Adana = () => {
                 <article>
                     <div className="page-header">
                         <span className="titleOfHeader">Pazarlar / Distribütörler / </span>
-                        <h1>Adana</h1>
+                        <h1>Adana&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     </div>
                     <div className="page-article">
                         <p><strong style={{ fontFamily: "sans-serif" }}>ELCEN İŞ MAKİNELERİ SAN. VE TİC. A.Ş.</strong><br />

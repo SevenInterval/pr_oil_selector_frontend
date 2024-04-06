@@ -9,14 +9,14 @@ const Istirakler = () => {
                 <title>İştirakler</title>
                 <meta name="description"
                     content="PRISTA Oil Group is a holding company whose field of activity covers the following areas: Production of motor and industrial oils, greases and specialty fluids" />
-                <link rel='canonical' href="/istirakler" />
+                <link rel='canonical' href='/istirakler' />
             </Helmet>
             <div className="body_with_sidebar default">
-                <SideBarPazarlar />
+                <SideBarPazarlar title={"ISTIRAKLER"}/>
                 <article>
                     <div className="page-header">
                         <span className="titleOfHeader">Pazarlar / </span>
-                        <h1>İştirakler</h1>
+                        <h1>İştirakler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     </div>
                     <div className="page-article">
                         <div className="row cell-bg">
@@ -31,7 +31,7 @@ const Istirakler = () => {
                             <div className="col-md-3 col-sm-3 col-xs-6"><Link to="/rusya">Rusya</Link></div>
                         </div>
                         <div className="iframe">
-                            <iframe src="//www.prista-oil.com/google/map/16" title="istirakler" frameborder="0"></iframe>
+                            <iframe src="//www.prista-oil.com/google/map/16" title="istirakler" frameBorder="0"></iframe>
                         </div>
                     </div>
                 </article>

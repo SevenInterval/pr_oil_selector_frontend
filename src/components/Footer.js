@@ -11,7 +11,7 @@ const Footer = () => {
         <footer>
             <div className="top" style={{ backgroundImage: `url(${Footer_bg})` }}>
                 <div className="container">
-                    <h4 className="global-h">İrtibat</h4>
+                    <h3 className="global-h">İrtibat</h3>
                     <div className="row">
                         <div className="span">
                             <h4>Bulgaristan</h4>
@@ -40,11 +40,11 @@ const Footer = () => {
                                 </p>
                                 <p>
                                     <Link to="https://www.facebook.com/PristaOil/" target="_blank">
-                                        <img src={F_icon} alt='facebook' />
+                                        <img src={F_icon} alt='facebook' title='fbImage' loading='lazy'  width={25} height={25} />
                                     </Link>
                                     &nbsp;&nbsp;
                                     <Link to="https://www.youtube.com/channel/UCdijTVNCAy9gYh7--64NRNQ/featured" target="_blank">
-                                        <img src={Y_icon} alt='youtube' />
+                                        <img src={Y_icon} alt='youtube' title='ytImage' loading='lazy'  width={25} height={25}/>
                                     </Link>
                                 </p>
                             </div>
@@ -69,7 +69,7 @@ const Footer = () => {
                                 </p>
                                 <p>
                                     <Link to="https://www.facebook.com/PristaOilRomania/" target="_blank" >
-                                        <img src={F_icon} alt='facebook' />
+                                        <img src={F_icon} alt='facebook' title='fbImage' loading='lazy'  width={25} height={25}/>
                                     </Link>
                                 </p>
                             </div>
@@ -112,7 +112,7 @@ const Footer = () => {
                                 </p>
                                 <p>
                                     <Link to="https://www.facebook.com/Texacokenoanyagok/" target="_blank" >
-                                        <img src={F_icon} alt='facebook' />
+                                        <img src={F_icon} alt='facebook' title='fbImage' loading='lazy'  width={25} height={25}/>
                                     </Link>
                                 </p>
                             </div>
@@ -157,7 +157,7 @@ const Footer = () => {
                                 </p>
                                 <p>
                                     <Link to="https://www.facebook.com/TexacoCZSK/" target="_blank" >
-                                        <img src={F_icon} alt='facebook' />
+                                        <img src={F_icon} alt='facebook' title='fbImage' loading='lazy'  width={25} height={25}/>
                                     </Link>
                                 </p>
                             </div>
@@ -181,11 +181,11 @@ const Footer = () => {
                                 </p>
                                 <p>
                                     <Link to="https://www.instagram.com/pristaturkiye?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">
-                                        <img src={I_icon} alt='instagram' />
+                                        <img src={I_icon} alt='instagram' title='inImage' loading='lazy'  width={25} height={25}/>
                                     </Link>
                                     &nbsp;&nbsp;
                                     <Link to="https://www.linkedin.com/company/prista-oil-t%C3%BCrkiye/" target="_blank">
-                                        <img src={L_icon} alt='linkedinTr' style={{ height: "25px", width: "25px" }} />
+                                        <img src={L_icon} alt='linkedinTr' style={{ height: "25px", width: "25px" }} title='lnImage' loading='lazy'  width={25} height={25}/>
                                     </Link>
                                 </p>
                             </div>
@@ -212,15 +212,15 @@ const Footer = () => {
                                 </p>
                                 <p>
                                     <Link to="https://www.facebook.com/PristaOilSerbia/" target="_blank" >
-                                        <img src={F_icon} alt='facebook' />
+                                        <img src={F_icon} alt='facebook' title='fbImage' loading='lazy'  width={25} height={25}/>
                                     </Link>
                                     &nbsp;&nbsp;
                                     <Link to="https://www.youtube.com/channel/UCFPY65-4ZLMlx-juJf9jPqg" target="_blank">
-                                        <img src={Y_icon} alt='youtube' />
+                                        <img src={Y_icon} alt='youtube' title='ytImage' loading='lazy'  width={25} height={25}/>
                                     </Link>
                                     &nbsp;&nbsp;
                                     <Link to="https://www.instagram.com/pristaoil_serbia/" target="_blank">
-                                        <img src={I_icon} alt='instagram' />
+                                        <img src={I_icon} alt='instagram' title='inImage' loading='lazy'  width={25} height={25}/>
                                     </Link>
                                 </p>
                             </div>

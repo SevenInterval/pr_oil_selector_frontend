@@ -31,7 +31,7 @@ const Harita = () => {
                         Tel: <Link to="tel:+359 82 815 158" style={{ color: "#11a1d6" }}>+359 82 815 158</Link>
                     </p>
                     <div className="iframe">
-                        <iframe src="//www.prista-oil.com/google/map/16" title="istiraklerIrtibat" frameborder="0"></iframe>
+                        <iframe src="//www.prista-oil.com/google/map/16" title="istiraklerIrtibat" frameBorder="0"></iframe>
                     </div>
                 </div>
             </article>

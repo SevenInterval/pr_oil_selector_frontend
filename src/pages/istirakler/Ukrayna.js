@@ -12,11 +12,11 @@ const Ukrayna = () => {
                 <link rel='canonical' href="/ukrayna-1" />
             </Helmet>
             <div className="body_with_sidebar default">
-                <SideBarPazarlar />
+                <SideBarPazarlar title={"ISTIRAKLER"}/>
                 <article>
                     <div className="page-header">
                         <span className="titleOfHeader">Pazarlar / İştirakler / </span>
-                        <h1>Ukrayna</h1>
+                        <h1>Ukrayna&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     </div>
                     <div className="page-article">
                         <p><strong style={{ fontFamily: "sans-serif" }}>Prista Oil LLC</strong><br />
@@ -27,7 +27,7 @@ const Ukrayna = () => {
                             <Link to="mailto:info@prista-oil.com.ua" style={{ color: "#11a1d6" }}>info@prista-oil.com.ua</Link><br />
                             <Link to="http://www.prista-oil.com/" style={{ color: "#11a1d6" }}>www.prista-oil.com</Link>
                         </p>
-                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/25" title="frameUkrayna" frameborder="0"></iframe></div>
+                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/25" title="frameUkrayna" frameBorder="0"></iframe></div>
                     </div>
                 </article>
             </div>

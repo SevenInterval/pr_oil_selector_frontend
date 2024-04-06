@@ -1,14 +1,8 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const SideBarPazarlar = (props) => {
-    const [level1ShowName, setLevel1ShowName] = useState("ISTIRAKLER");
-
-    useEffect(() => {
-        if (props.title === "DISTRIBUTORLER") {
-            setLevel1ShowName("DISTRIBUTORLER");
-        }
-    },[props])
+    const [level1ShowName, setLevel1ShowName] = useState(props.title);
 
     return (
         <aside>

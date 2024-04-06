@@ -19,7 +19,7 @@ const OzbekistanIrt = () => {
                         <Link to="mailto:info@prista-oil.uz" style={{ color: "#11a1d6" }}>info@prista-oil.uz</Link><br />
                         <Link to="http://www.prista-oil.uz/" style={{ color: "#11a1d6" }}>www.prista-oil.uz</Link>
                     </p>
-                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/27" title="ozbekistanFrame" frameborder="0"></iframe></div>
+                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/27" title="ozbekistanFrame" frameBorder="0"></iframe></div>
                 </div>
             </article>
         </div>

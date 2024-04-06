@@ -15,11 +15,11 @@ const Sirbistan = () => {
                 <link rel='canonical' href="/sirbistan-1" />
             </Helmet>
             <div className="body_with_sidebar default">
-                <SideBarPazarlar />
+                <SideBarPazarlar title={"ISTIRAKLER"}/>
                 <article>
                     <div className="page-header">
                         <span className="titleOfHeader">Pazarlar / İştirakler / </span>
-                        <h1>Sırbistan</h1>
+                        <h1>Sırbistan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     </div>
                     <div className="page-article">
                         <p><strong style={{ fontFamily: "sans-serif" }}>Prista Oil AD Beograd</strong><br />
@@ -33,16 +33,16 @@ const Sirbistan = () => {
 
                         <p>
                             <Link to="https://www.facebook.com/PristaOilSerbia/" target="_blank">
-                                <img alt="faceSrb" src={F_icon} style={{ height: "25px", width: "25px" }} />
+                                <img alt="faceSrb" title="fbIcon" src={F_icon} loading='eager' width={25} height={25} />
                             </Link>&nbsp;&nbsp;
                             <Link to="https://www.youtube.com/channel/UCFPY65-4ZLMlx-juJf9jPqg" target="_blank">
-                                <img alt="youtubeSrb" src={Y_icon} style={{ height: "25px", width: "25px" }} />
+                                <img alt="youtubeSrb" title="ytIcon" src={Y_icon} loading='eager' width={25} height={25} />
                             </Link>&nbsp;&nbsp;
                             <Link to="https://www.instagram.com/pristaoil_serbia/" target="_blank">
-                                <img alt="instaSrb" src={I_icon} style={{ height: "25px", width: "25px" }} />
+                                <img alt="instaSrb" title="inIcon" src={I_icon} loading='eager' width={25} height={25} />
                             </Link>
                         </p>
-                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/24" frameborder="0" title="srbFrame"></iframe></div>
+                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/24" frameBorder="0" title="srbFrame"></iframe></div>
                     </div>
                 </article>
             </div>

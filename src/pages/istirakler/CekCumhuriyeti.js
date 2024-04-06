@@ -13,11 +13,11 @@ const CekCumhuriyeti = () => {
                 <link rel='canonical' href="/cek-cumhuriyeti-1" />
             </Helmet>
             <div className="body_with_sidebar default">
-                <SideBarPazarlar />
+                <SideBarPazarlar title={"ISTIRAKLER"}/>
                 <article>
                     <div className="page-header">
                         <span className="titleOfHeader">Pazarlar / İştirakler / </span>
-                        <h1>Çek Cumhuriyeti</h1>
+                        <h1>Çek Cumhuriyeti&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     </div>
                     <div className="page-article">
                         <p><strong style={{ fontFamily: "sans-serif" }}>Prista Oil Czech s.r.o.</strong><br />
@@ -29,10 +29,10 @@ const CekCumhuriyeti = () => {
                         </p>
                         <p>
                             <Link to="https://www.facebook.com/TexacoCZSK/" target="_blank">
-                                <img alt="faceIcon" src={F_icon} />
+                                <img alt="faceIcon" title="fbIcon" src={F_icon} loading='eager' width={25} height={25}/>
                             </Link>
                         </p>
-                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/23" frameborder="0" title="cekFrame"></iframe></div>
+                        <div className="iframe"><iframe src="//www.prista-oil.com/google/map/23" frameBorder="0" title="cekFrame"></iframe></div>
                     </div>
                 </article>
             </div>

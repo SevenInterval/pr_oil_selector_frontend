@@ -32,7 +32,7 @@ const TurkiyeIrt = () => {
                             <img src={L_icon} alt='linkedinTr' style={{ height: "25px", width: "25px" }} />
                         </Link>
                     </p>
-                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/26" title="turkiyeFrame" frameborder="0"></iframe></div>
+                    <div className="iframe"><iframe src="//www.prista-oil.com/google/map/26" title="turkiyeFrame" frameBorder="0"></iframe></div>
                 </div>
             </article>
         </div>

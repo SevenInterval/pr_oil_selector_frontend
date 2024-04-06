@@ -6,7 +6,7 @@ const News = () => {
             <div className="container">
                 <div className="home-media-list">
                     <div className="media-object-left">
-                        <h2>Haberler</h2>
+                        <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                         <ul className="home-news-list">
                             <li>
                                 <Link to="/news/harika-haberler-teodor-tsvetkovtan-bulgaristandaki-texaco-marka-elcimizden" >
