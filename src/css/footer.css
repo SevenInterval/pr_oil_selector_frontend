@@ -59,7 +59,7 @@ html body footer .top .row .span {
     font-size: 14px;
 }
 
-html body footer .top .row .span h4 {
+html body footer .top .row .span h3 {
     color: #ffdd00;
     font-size: 18px;
     font-weight: 300;
@@ -74,7 +74,7 @@ html body .cont-p {
 }
 
 @media (max-width: 630px) {
-    html body footer .top .row .span h4 {
+    html body footer .top .row .span h3 {
         background: #343334;
         padding: 9px;
     }

@@ -11,10 +11,10 @@ const Footer = () => {
         <footer>
             <div className="top" style={{ backgroundImage: `url(${Footer_bg})` }}>
                 <div className="container">
-                    <h3 className="global-h">İrtibat</h3>
+                    <h2 className="global-h">İrtibat</h2>
                     <div className="row">
                         <div className="span">
-                            <h4>Bulgaristan</h4>
+                            <h3>Bulgaristan</h3>
                             <div className="body">
                                 <p>Prista Oil Holding HQ
                                     <br></br>
@@ -40,17 +40,17 @@ const Footer = () => {
                                 </p>
                                 <p>
                                     <Link to="https://www.facebook.com/PristaOil/" target="_blank">
-                                        <img src={F_icon} alt='facebook' title='fbImage' loading='lazy'  width={25} height={25} />
+                                        <img src={F_icon} alt='facebook' title='fbImage' loading='eager'  width={25} height={25} />
                                     </Link>
                                     &nbsp;&nbsp;
                                     <Link to="https://www.youtube.com/channel/UCdijTVNCAy9gYh7--64NRNQ/featured" target="_blank">
-                                        <img src={Y_icon} alt='youtube' title='ytImage' loading='lazy'  width={25} height={25}/>
+                                        <img src={Y_icon} alt='youtube' title='ytImage' loading='eager'  width={25} height={25}/>
                                     </Link>
                                 </p>
                             </div>
                         </div>
                         <div className="span">
-                            <h4>Romanya</h4>
+                            <h3>Romanya</h3>
                             <div className="body">
                                 <p>Prista Oil Romania S.A.
                                     <br></br>
@@ -69,11 +69,11 @@ const Footer = () => {
                                 </p>
                                 <p>
                                     <Link to="https://www.facebook.com/PristaOilRomania/" target="_blank" >
-                                        <img src={F_icon} alt='facebook' title='fbImage' loading='lazy'  width={25} height={25}/>
+                                        <img src={F_icon} alt='facebook' title='fbImage' loading='eager'  width={25} height={25}/>
                                     </Link>
                                 </p>
                             </div>
-                            <h4>Rusya</h4>
+                            <h3>Rusya</h3>
                             <div >
                                 <p>
                                     LLC «Inventum»
@@ -93,7 +93,7 @@ const Footer = () => {
 
                         </div>
                         <div className="span">
-                            <h4>Macaristan</h4>
+                            <h3>Macaristan</h3>
                             <div className="body">
                                 <p>
                                     Prista Oil-Hungary Kft.
@@ -112,11 +112,11 @@ const Footer = () => {
                                 </p>
                                 <p>
                                     <Link to="https://www.facebook.com/Texacokenoanyagok/" target="_blank" >
-                                        <img src={F_icon} alt='facebook' title='fbImage' loading='lazy'  width={25} height={25}/>
+                                        <img src={F_icon} alt='facebook' title='fbImage' loading='eager'  width={25} height={25}/>
                                     </Link>
                                 </p>
                             </div>
-                            <h4>Ukrayna</h4>
+                            <h3>Ukrayna</h3>
                             <div className="body">
                                 <p>
                                     Prista Oil LLC
@@ -138,7 +138,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="span">
-                            <h4>Çek Cumhuriyeti</h4>
+                            <h3>Çek Cumhuriyeti</h3>
                             <div className="body">
                                 <p>
                                     Prista Oil Czech s.r.o.
@@ -157,11 +157,11 @@ const Footer = () => {
                                 </p>
                                 <p>
                                     <Link to="https://www.facebook.com/TexacoCZSK/" target="_blank" >
-                                        <img src={F_icon} alt='facebook' title='fbImage' loading='lazy'  width={25} height={25}/>
+                                        <img src={F_icon} alt='facebook' title='fbImage' loading='eager'  width={25} height={25}/>
                                     </Link>
                                 </p>
                             </div>
-                            <h4>Türkiye</h4>
+                            <h3>Türkiye</h3>
                             <div clas="body">
                                 <p>
                                     Prista Deniz Yağları Tic.Ltd.Şti.
@@ -181,17 +181,17 @@ const Footer = () => {
                                 </p>
                                 <p>
                                     <Link to="https://www.instagram.com/pristaturkiye?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">
-                                        <img src={I_icon} alt='instagram' title='inImage' loading='lazy'  width={25} height={25}/>
+                                        <img src={I_icon} alt='instagram' title='inImage' loading='eager'  width={25} height={25}/>
                                     </Link>
                                     &nbsp;&nbsp;
                                     <Link to="https://www.linkedin.com/company/prista-oil-t%C3%BCrkiye/" target="_blank">
-                                        <img src={L_icon} alt='linkedinTr' style={{ height: "25px", width: "25px" }} title='lnImage' loading='lazy'  width={25} height={25}/>
+                                        <img src={L_icon} alt='linkedinTr' style={{ height: "25px", width: "25px" }} title='lnImage' loading='eager'  width={25} height={25}/>
                                     </Link>
                                 </p>
                             </div>
                         </div>
                         <div className="span">
-                            <h4>Sırbistan</h4>
+                            <h3>Sırbistan</h3>
                             <div className="body">
                                 <p>
                                     Prista Oil AD Beograd
@@ -212,19 +212,19 @@ const Footer = () => {
                                 </p>
                                 <p>
                                     <Link to="https://www.facebook.com/PristaOilSerbia/" target="_blank" >
-                                        <img src={F_icon} alt='facebook' title='fbImage' loading='lazy'  width={25} height={25}/>
+                                        <img src={F_icon} alt='facebook' title='fbImage' loading='eager'  width={25} height={25}/>
                                     </Link>
                                     &nbsp;&nbsp;
                                     <Link to="https://www.youtube.com/channel/UCFPY65-4ZLMlx-juJf9jPqg" target="_blank">
-                                        <img src={Y_icon} alt='youtube' title='ytImage' loading='lazy'  width={25} height={25}/>
+                                        <img src={Y_icon} alt='youtube' title='ytImage' loading='eager'  width={25} height={25}/>
                                     </Link>
                                     &nbsp;&nbsp;
                                     <Link to="https://www.instagram.com/pristaoil_serbia/" target="_blank">
-                                        <img src={I_icon} alt='instagram' title='inImage' loading='lazy'  width={25} height={25}/>
+                                        <img src={I_icon} alt='instagram' title='inImage' loading='eager'  width={25} height={25}/>
                                     </Link>
                                 </p>
                             </div>
-                            <h4>Özbekistan</h4>
+                            <h3>Özbekistan</h3>
                             <div className="body">
                                 <p>
                                     "Uz-Prista" JV LLC
