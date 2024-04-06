@@ -99,8 +99,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/*Urunler sayfaları*/}
 
+        {/*Urunler sayfaları*/}
         <Route path="/catalogue/yuksek-performansli-dpf-twc" element={<DpfTwc />} />
         <Route path="/catalogue/yuksek-performansli" element={<DpfTwc />} />
         <Route path="/catalogue/ustun" element={<DpfTwc />} />
@@ -146,43 +146,6 @@ function App() {
         <Route path="/catalogue/motor-yaglari" element={<DpfTwc />} />
         <Route path="/catalogue/gresler-1" element={<DpfTwc />} />
 
-
-        {/*Hakkımızda*/}
-        <Route path="/biz-kimiz" element={<BizKimiz />} />
-        <Route path="/ortaklarimiz" element={<Ortaklarimiz />} />
-        <Route path="/gulf-marine-7" element={<GulfMarine />} />
-        <Route path="/verila-7" element={<Verila />} />
-        <Route path="/ergon-6" element={<Ergon />} />
-        <Route path="/sirketin-sorumlulugu" element={<SirketinSorumlulugu />} />
-        <Route path="/gizlilik-politikasi" element={<GizlilikPolitikasi />} />
-        <Route path="/cerez-politikasi" element={<CerezPolitikasi />} />
-
-
-        <Route path="/sitemap" element={<SiteMap />} />
-
-        {/*FAQ */}
-        <Route path="/faq/motor-yaglari" element={<MotorYaglari />} />
-        <Route path="/faq/binek-ve-hafif-ticari-araclar-icin-motor-yaglari" element={<MotorYaglariBta />} />
-        <Route path="/faq/buyuk-ticari-araclar-icin-yaglar" element={<MotorYaglariBt />} />
-        <Route path="/faq/sanziman-yaglari" element={<SanzimanYaglari />} />
-        <Route path="/faq/sanziman-yaglari-otomatik-sanzimanlar" element={<OtomatikSanzimanYaglari />} />
-        <Route path="/faq/antifriz-2" element={<Antifriz />} />
-        <Route path="/faq/fren-hidroligi" element={<FrenHidroligi />} />
-        <Route path="/faq/on-cam-yikama-sivisi" element={<OnCamYikamaSivisi />} />
-        <Route path="/faq/adblue-7" element={<AdBlue />} />
-
-        {/* İrtibat */}
-        <Route path="/harita" element={<Harita />} />
-        <Route path="/bulgaristan" element={<BulgaristanIrt />} />
-        <Route path="/romanya" element={<RomanyaIrt />} />
-        <Route path="/macaristan" element={<MacaristanIrt />} />
-        <Route path="/cek-cumhuriyeti" element={<CekCumhuriyetiIrt />} />
-        <Route path="/sirbistan" element={<SirbistanIrt />} />
-        <Route path="/ukrayna" element={<UkraynaIrt />} />
-        <Route path="/turkiye" element={<TurkiyeIrt />} />
-        <Route path="/ozbekistan" element={<OzbekistanIrt />} />
-        <Route path="/rusya-1" element={<RusyaIrt />} />
-
         {/* Pazarlar */}
         <Route path="/istirakler" element={<Istirakler />} />
         <Route path="/bulgaristan-1" element={<Bulgaristan />} />
@@ -200,13 +163,18 @@ function App() {
         <Route path="/istanbul-1" element={<Istanbul />} />
         <Route path="/izmir-1" element={<Izmir />} />
 
+        {/* Kalite Yönetimi */}
+        <Route path="/teknoloji-merkezi" element={<TeknolojiMerkezi />} />
+        <Route path="/laboratuvar-servisleri" element={<LaboratuvarServisleri />} />
+        <Route path="/prista-sertifikalari" element={<PristaSertifikalari />} />
+        <Route path="/bizimle-temasa-gecin" element={<BizimleTemasaGecin />} />
+
         {/* Medya */}
         <Route path="/news/category/bayilik-hakkinda-1" element={<Bayilik />} />
         <Route path="/news/category/haberler" element={<Haberler />} />
 
         {/* Haberler */}
         <Route path='/news/yol-arkadasimiz-ol-kazancin-yag-gibi-aksin-1' element={<BayilikHakkinda />} />
-
         <Route path='/news/harika-haberler-teodor-tsvetkovtan-bulgaristandaki-texaco-marka-elcimizden' element={<TeodorHaber />} />
         <Route path='/news/tr-prista-oil-groupun-kurucu-ortagi-plamen-bobokov-plovdiv-paisii-hilendarski-universitesinde-ogrencilere-halka-acik-bir-konferans-verdi' element={<PlamenBobokovHaber />} />
         <Route path='/news/1-eylul-2021-tarihinde-daimler-ag-grubu-mercedes-benz-group-ag-ve-daimler-truck-ag-olmak-uzere-iki-sirkete-ayrildi' element={<DaimlerHaber />} />
@@ -217,7 +185,6 @@ function App() {
         <Route path='/news/plamen-bobokov-ukrayna-dan-onurlu-hizmet-odulu-aldi' element={<PlamenBobokovHaber2 />} />
         <Route path='/news/prista-oil-grubu-yeniden-yapilaniyor' element={<PristaHaber />} />
         <Route path='/news/inter-cars-ekibi-ruscuk-bulgaristan-daki-prista-oil-karistirma-tesisini-ziyaret-etti' element={<RuscukZiyaretHaber />} />
-
         <Route path='/news/automechanika-frankfurt-2016-otomotiv-hizmet-sektorunde-dunyanin-onde-gelen-ticaret-fuari-frankfurt-am-main-13-17-eylul-2016' element={<AutomechanikaHaber />} />
         <Route path='/news/rockin-the-cluster-5' element={<ClusterHaber />} />
         <Route path='/news/pieter-christiaan-van-oranje-ve-tim-coronel-spa-belcika-da-sin-r1-gt4-u-surecek' element={<PieterHaber />} />
@@ -228,7 +195,6 @@ function App() {
         <Route path='/news/prista-recycling-tesisi-bugun-ozbekistan-da-acildi' element={<RecyclingHaber />} />
         <Route path='/news/prista-recycling-ozbekistan-da-atik-yaglarin-geri-donusumu-icin-yuksek-teknolojili-bir-tesis-aciyor' element={<PristaRecHaber />} />
         <Route path='/news/cee-de-one-cikanlar' element={<CeeHaber />} />
-
         <Route path='/news/plamen-bobokov-ruscuk-altin-nisan-odulu-ve-ruscuk-un-saygideger-vatandasi-unvaniyla-odullendirildi' element={<BobokoHaber />} />
         <Route path='/news/plamen-bobokov-was-awarded-the-honor-golden-badge-ruse-5' element={<PlamenHaber />} />
         <Route path='/news/monza-taraftarlari-bulgar-takimini-sofia-car-motorsport-ve-aracin-yaraticisi-rosen-daskalov-u-en-iyi-ekip-ve-araci-da-pistteki-en-hizli-arac-olarak-anons-ettiler' element={<MonzaHaber />} />
@@ -239,22 +205,47 @@ function App() {
         <Route path='/news/prista-oil-yenilikci-harmanlama-teknolojisi-ccbl-yi-sunar' element={<PristaNewHaber />} />
         <Route path='/news/sin-cars-sofia-car-motorsport-yarismasinda-pro-sinifinda-2-ve-nihai-siniflandirmada-3-sira' element={<SofiaCarsHaber />} />
         <Route path='/news/bulgar-yag-ureticisi-prista-oil-bulgaristan-daki-ruse-tesisinde-harmanlama-teknolojisinin-bir-guncelleme-programini-baslatti' element={<BulgarYagHaber />} />
-
         <Route path='/news/prista-oil-2014-calisma-yili-bolgesel-guvenlik-ve-saglik-yarismasinda-birinci-olmustur' element={<Prista2014Haber />} />
         <Route path='/news/product-news-product-introduction-6' element={<ProductNewHaber />} />
         <Route path='/news/prista-oil-bulgaristan-da-tamamen-yenilenmis-ve-buyutulmus-gres-tesisi-olan-verila-lubricants-i-acti' element={<LubricantsHaber />} />
         <Route path='/news/cetus-hipersyn-46-6' element={<CetusHaber />} />
 
+        {/*Hakkımızda*/}
+        <Route path="/biz-kimiz" element={<BizKimiz />} />
+        <Route path="/ortaklarimiz" element={<Ortaklarimiz />} />
+        <Route path="/gulf-marine-7" element={<GulfMarine />} />
+        <Route path="/verila-7" element={<Verila />} />
+        <Route path="/ergon-6" element={<Ergon />} />
+        <Route path="/sirketin-sorumlulugu" element={<SirketinSorumlulugu />} />
+        <Route path="/gizlilik-politikasi" element={<GizlilikPolitikasi />} />
+        <Route path="/cerez-politikasi" element={<CerezPolitikasi />} />
 
-        {/* Kalite Yönetimi */}
-        <Route path="/teknoloji-merkezi" element={<TeknolojiMerkezi />} />
-        <Route path="/laboratuvar-servisleri" element={<LaboratuvarServisleri />} />
-        <Route path="/prista-sertifikalari" element={<PristaSertifikalari />} />
-        <Route path="/bizimle-temasa-gecin" element={<BizimleTemasaGecin />} />
+        {/* İrtibat */}
+        <Route path="/harita" element={<Harita />} />
+        <Route path="/bulgaristan" element={<BulgaristanIrt />} />
+        <Route path="/romanya" element={<RomanyaIrt />} />
+        <Route path="/macaristan" element={<MacaristanIrt />} />
+        <Route path="/cek-cumhuriyeti" element={<CekCumhuriyetiIrt />} />
+        <Route path="/sirbistan" element={<SirbistanIrt />} />
+        <Route path="/ukrayna" element={<UkraynaIrt />} />
+        <Route path="/turkiye" element={<TurkiyeIrt />} />
+        <Route path="/ozbekistan" element={<OzbekistanIrt />} />
+        <Route path="/rusya-1" element={<RusyaIrt />} />
 
+        {/*FAQ */}
+        <Route path="/faq/motor-yaglari" element={<MotorYaglari />} />
+        <Route path="/faq/binek-ve-hafif-ticari-araclar-icin-motor-yaglari" element={<MotorYaglariBta />} />
+        <Route path="/faq/buyuk-ticari-araclar-icin-yaglar" element={<MotorYaglariBt />} />
+        <Route path="/faq/sanziman-yaglari" element={<SanzimanYaglari />} />
+        <Route path="/faq/sanziman-yaglari-otomatik-sanzimanlar" element={<OtomatikSanzimanYaglari />} />
+        <Route path="/faq/antifriz-2" element={<Antifriz />} />
+        <Route path="/faq/fren-hidroligi" element={<FrenHidroligi />} />
+        <Route path="/faq/on-cam-yikama-sivisi" element={<OnCamYikamaSivisi />} />
+        <Route path="/faq/adblue-7" element={<AdBlue />} />
+
+        <Route path="/sitemap" element={<SiteMap />} />
         <Route path="/site/search" element={<Search />} />
         <Route path="*" element={<NotFound />} />
-
       </Routes>
       <Footer />
     </>
