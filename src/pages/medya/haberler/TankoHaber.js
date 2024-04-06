@@ -10,7 +10,7 @@ const TankoHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
 
@@ -24,22 +24,22 @@ const TankoHaber = () => {
                             >
                                 <li id="galley_image_18">
                                     <a data-fancybox="gallery" href={PlamenRuseImage1}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={PlamenRuseImage1} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={PlamenRuseImage1} />
                                     </a>
                                 </li>
                                 <li id="galley_image_19">
                                     <a data-fancybox="gallery" href={PlamenRuseImage2}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={PlamenRuseImage2} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={PlamenRuseImage2} />
                                     </a>
                                 </li>
                                 <li id="galley_image_20">
                                     <a data-fancybox="gallery" href={PlamenRuseImage3}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={PlamenRuseImage3} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={PlamenRuseImage3} />
                                     </a>
                                 </li>
                             </FancyBox>
                         </ul>
-                        <h3 className="hs-small">Plamen Bobokov ve mimar Tanko Serafimov'a (ölümünden sonra) "Ruse'nin saygın vatandaşı" unvanı verildi.</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">Plamen Bobokov ve mimar Tanko Serafimov'a (ölümünden sonra) "Ruse'nin saygın vatandaşı" unvanı verildi.</span>
                         <div className="date">01-03-2016</div>
                         <p>“Prista Oil”in ortağı Plamen Bobokov ile mimar Tanko Serafimov (ölümünden sonra) Ruse'nin saygın vatandaşları unvanını aldı. Karar Danube'de Ruse Belediye Meclisi tarafından alındı.</p>
                         <p>Başkanların Konferansının amaçları belediye danışmanları tarafından alınan aday belirleme kriterlerinden belirtilenlerle aynıydı. Mimar Tanko Serafimov /1943-2013/ Bulgaristan'ın en seçkin mimarlarından biri, bir tasarımcı ve Atelier Serafimov Mimarları ekibinin başkanı, Mimarlık, İnşaat Mühendisliği ve Jeodezi Fakültesinde öğretim üyesi, arka arkaya iki dönem atanmış Bulgar Mimarlar Enstitüsü başkanı, "Yılın Binası" kategorisinde çok sayıda ödül alan ve Mimari alanında Sofya Şehir ödülü bulunan birisiydi. Ülke çapında çok sayıda bina tasarladı - ticaret merkezleri, bürolar, konutlar, oteller, spor merkezleri ve Ruse'deki yeni çok işlevli “BULSTRAD Arena”. Mimar &nbsp;Tanko Serafimov'un en son başarılarından birisi &nbsp;ulusal "2015Yılının Binası" yarışmasında "Spor altyapısı" kategorisindeki “BULSTRAD Arena” adaylığıydı.</p>

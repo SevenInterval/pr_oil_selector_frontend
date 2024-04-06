@@ -10,7 +10,7 @@ const CeeHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
 
@@ -24,32 +24,32 @@ const CeeHaber = () => {
                             >
                                 <li id="galley_image_36">
                                     <a data-fancybox="gallery" href={CeeImage1}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={CeeImage1} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={CeeImage1} />
                                     </a>
                                 </li>
                                 <li id="galley_image_37">
                                     <a data-fancybox="gallery" href={CeeImage2}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={CeeImage2} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={CeeImage2} />
                                     </a>
                                 </li>
                                 <li id="galley_image_38">
                                     <a data-fancybox="gallery" href={CeeImage3}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={CeeImage3} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={CeeImage3} />
                                     </a>
                                 </li>
                                 <li id="galley_image_39">
                                     <a data-fancybox="gallery" href={CeeImage4}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={CeeImage4} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={CeeImage4} />
                                     </a>
                                 </li>
                                 <li id="galley_image_40">
                                     <a data-fancybox="gallery" href={CeeImage5}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={CeeImage5} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={CeeImage5} />
                                     </a>
                                 </li>
                             </FancyBox>
                         </ul>
-                        <h3 className="hs-small">CEE'DE ÖNE ÇIKANLAR</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">CEE'DE ÖNE ÇIKANLAR</span>
                         <div className="date">09-05-2016</div>
                         <p><span style={{ color: "#FF0000" }}><strong style={{ fontFamily: "sans-serif" }}>Çek Cumhuriyeti'ndeki Genişleme Devam Ediyor</strong></span></p>
                         <p>Müşteri kazançları, Prista Oil Çek Cumhuriyeti'nin hırslı büyüme planının kusursuz uygulanışına işaret ediyor. Son imzalanan sözleşmeler, otomotiv sektörlerinde Prista’ya önemli yeni faaliyetler kazandıracak.</p>

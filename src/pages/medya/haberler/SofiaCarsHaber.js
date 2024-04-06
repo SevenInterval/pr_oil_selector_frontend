@@ -10,7 +10,7 @@ const SofiaCarsHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
 
@@ -24,22 +24,22 @@ const SofiaCarsHaber = () => {
                             >
                                 <li id="galley_image_15">
                                     <a data-fancybox="gallery" href={SofiaCarsImage1}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={SofiaCarsImage1} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={SofiaCarsImage1} />
                                     </a>
                                 </li>
                                 <li id="galley_image_16">
                                     <a data-fancybox="gallery" href={SofiaCarsImage2}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={SofiaCarsImage2} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={SofiaCarsImage2} />
                                     </a>
                                 </li>
                                 <li id="galley_image_17">
                                     <a data-fancybox="gallery" href={SofiaCarsImage3}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={SofiaCarsImage3} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={SofiaCarsImage3} />
                                     </a>
                                 </li>
                             </FancyBox>
                         </ul>
-                        <h3 className="hs-small">SIN Cars & Sofia Car Motorsport Yarışmasında PRO Sınıfında 2. ve Nihai Sınıflandırmada 3. Sıra</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">SIN Cars & Sofia Car Motorsport Yarışmasında PRO Sınıfında 2. ve Nihai Sınıflandırmada 3. Sıra</span>
                         <div className="date">07-10-2015</div>
                         <p><strong style={{ fontFamily: "sans-serif" }}>Prista Oil, 2015 102 GT4 Avrupa Serisi Yarışmasındaki SIN Araçları destekler</strong></p>
                         <p>2015 Yarışının 102 GT4 &nbsp;Avrupa Serisi sezonu, Stéphane Ratel Organizasyonu&nbsp;(SRO) tarafından gerçekleştirilen ve organize edilen bir spor araç şampiyonası olan GT4 &nbsp;Avrupa Serisinin sekizinci sezonudur. Sezon, 5 Nisan'da Paul Armagnac Pistinde başlayacak ve altı haftalık yarıştan sonra 26 Ekim'de Misano World Pistinde tamamlanacaktır</p>

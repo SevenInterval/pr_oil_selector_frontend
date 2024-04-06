@@ -10,7 +10,7 @@ const PlamenRuseHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
                             <li id="galley_image_183">
@@ -22,12 +22,12 @@ const PlamenRuseHaber = () => {
                                     }}
                                 >
                                     <a data-fancybox="gallery" href={PristaRecLargeImage}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={PristaRecLargeImage} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={PristaRecLargeImage} />
                                     </a>
                                 </FancyBox>
                             </li>
                         </ul>
-                        <h3 className="hs-small">Plamen Bobokov: Ruse sadece kalbimde değil, aynı zamanda gelecekteki tüm projelerimde yer alıyor</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">Plamen Bobokov: Ruse sadece kalbimde değil, aynı zamanda gelecekteki tüm projelerimde yer alıyor</span>
                         <div className="date">22-03-2016</div>
                         <p><strong style={{ fontFamily: "sans-serif" }}>"Prista Oil“&nbsp;Bulgaristan'daki başarılı işletme alanında ve çok daha önemlisi uluslararası ölçekte bir sembol haline gelmiştir. Faaliyetleriniz kaç ülkeye uzanıyor ve yeni yılda hangi sonuçları bekliyorsunuz?</strong></p>
                         <p>Bence 2016 yılı tarihi olarak Prista Oil için en iyi yıl olacaktır. Ben, her an uygulamaya geçebilecek bir dizi anlaşma imzaladığımdan dolayı, mantık olarak mükemmel sonuçlardan daha fazlasını bekliyorum. Yani sonuçların iki katına değil, üç katına çıkacağını bekliyorum. &nbsp;Ancak peşin konuşmayalım; tahminlerin gerçeğe dönüşmesini bekleyeceğiz; geçen bir kaç yıldaki deneyimim bana daha dikkatli olmayı öğrettti. İşin coğrafyasıyla ilgili olarak, şu anda Bulgaristan'daki üretim tesislerimizle birlikte yurtdışındaki tesislerimizde de üretim yapıyoruz. Bizim için ana pazarlar olan Bulgaristan ve Romanya pazarının dışında Prista, AB üyesi olmayan ülkelere özel olarak yönelmiştir - şu anda 4 kıtada 40'tan fazla ülkeye ürün veriyoruz.</p>

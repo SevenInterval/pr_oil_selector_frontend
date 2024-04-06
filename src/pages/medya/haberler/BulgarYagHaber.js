@@ -11,7 +11,7 @@ const BulgarYagHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
                             <li id="galley_image_183">
@@ -23,12 +23,12 @@ const BulgarYagHaber = () => {
                                     }}
                                 >
                                     <a data-fancybox="gallery" href={BulgarYagImage}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={BulgarYagImage} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={BulgarYagImage} />
                                     </a>
                                 </FancyBox>
                             </li>
                         </ul>
-                        <h3 className="hs-small">Bulgar yağ üreticisi PRISTA OIL, Bulgaristan'daki Ruse tesisinde harmanlama teknolojisinin bir güncelleme programını başlattı.</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">Bulgar yağ üreticisi PRISTA OIL, Bulgaristan'daki Ruse tesisinde harmanlama teknolojisinin bir güncelleme programını başlattı.</span>
                         <div className="date">01-09-2015</div>
                         <p>Bulgar yağ üreticisi PRISTA OIL, Bulgaristan'daki Ruse tesisinde harmanlama teknolojisinin bir güncelleme programını başlattı.</p>
                         <p>GQOIL Innovation Europe Company tarafından tasarlanan yenilikçi harmanlama teknolojisi CCBL'nin endüstriyel testinin birinci aşaması Ekim 2015'te gerçekleştirildi.</p>

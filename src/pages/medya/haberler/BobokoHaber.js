@@ -10,7 +10,7 @@ const BobokoHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
                             <li id="galley_image_183">
@@ -22,12 +22,12 @@ const BobokoHaber = () => {
                                     }}
                                 >
                                     <a data-fancybox="gallery" href={BobokoImageLarge}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={BobokoImageLarge} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={BobokoImageLarge} />
                                     </a>
                                 </FancyBox>
                             </li>
                         </ul>
-                        <h3 className="hs-small">Plamen Bobokov, “Rusçuk Altın Nişan " ödülü ve “Rusçuk'un Saygıdeğer Vatandaşı” ünvanıyla ödüllendirildi</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">Plamen Bobokov, “Rusçuk Altın Nişan " ödülü ve “Rusçuk'un Saygıdeğer Vatandaşı” ünvanıyla ödüllendirildi</span>
                         <div className="date">06-05-2016</div>
                         <p>6 Mayıs’ta gerçekleşen Rusçuk şehri festivalinin arifesinde, büyük sanayici ve dünyaca tanınmış sanat hamisi, Prista Oil'in sahibi Plamen Bobokov, kendi vatandaşlarından hak ettiği saygıyı görerek iki ödül ile onurlandırıldı. “Rusçuk’un Saygıdeğer Vatandaşı" ünvanı kendisine, Dohodno Zdanie'de önemli bir konserde, Tuna Nehri kıyısındaki şehrin Belediye Konseyi başkanı CM Prof. Dr. Bilim Tekn. Müh. Hristo Beloev tarafından verildi. Günün daha erken saatlerinde Rusçuk Belediye binasında resmi bir tören düzenlendi ve belediye başkanı Plamen Stoilov tarafından kendisine “Rusçuk Altın Nişan” ödülü verildi.</p>
                         <p>Bu yüksek dereceler, Plamen Bobokov'a cömert bağış çalışmalarının yanı sıra Rusçuk'un ekonomik, kültürel ve altyapı gelişimine yaptığı tartışmasız katkıları için de verildi.</p>

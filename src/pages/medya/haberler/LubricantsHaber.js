@@ -10,7 +10,7 @@ const LubricantsHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
                             <li id="galley_image_183">
@@ -22,12 +22,12 @@ const LubricantsHaber = () => {
                                     }}
                                 >
                                     <a data-fancybox="gallery" href={LubricantsLargeImage}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={LubricantsLargeImage} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={LubricantsLargeImage} />
                                     </a>
                                 </FancyBox>
                             </li>
                         </ul>
-                        <h3 className="hs-small">Prista Oil, Bulgaristan'da tamamen yenilenmiş ve büyütülmüş gres tesisi olan VERILA LUBRICANTS'ı açtı.</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">Prista Oil, Bulgaristan'da tamamen yenilenmiş ve büyütülmüş gres tesisi olan VERILA LUBRICANTS'ı açtı.</span>
                         <div className="date">24-11-2014</div>
                         <p>Prista Oil, Bulgaristan'da tamamen yenilenmiş ve büyütülmüş gres tesisi olan VERILA LUBRICANTS'ı açtı. VERILA Şirketi, Prista Oil Holding bünyesinde yer alır. Ekonomi Bakanı Bozidar Lukarski ve Yönetim Kurulu Başkanı Plamen Bobokov, yenilenen tesisin önünde kurdele kesti.<br />
                             «Verila Lubricants» tesisi Soya'nın yakınında Verila Sanayi Bölgesinde Bulunuyor. 1.5 milyon Euro'yu bulan yatırım, geçmişi 1946 yılına dayanan Bulgar firmanın uzun yıllara dayanan deneyimini, itibarını ve geleneğini en modern teknolojilerle birleştirmesini sağlayacak ve böylece "Verila Lubricants"ın pazar fırsatlarını geliştirecek ve istihdamı artıracaktır.</p>

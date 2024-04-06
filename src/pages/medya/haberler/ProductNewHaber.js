@@ -10,7 +10,7 @@ const ProductNewHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
                             <li id="galley_image_183">
@@ -22,12 +22,12 @@ const ProductNewHaber = () => {
                                     }}
                                 >
                                     <a data-fancybox="gallery" href={ProductNewLargeImage}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={ProductNewLargeImage} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={ProductNewLargeImage} />
                                     </a>
                                 </FancyBox>
                             </li>
                         </ul>
-                        <h3 className="hs-small">Product News: Product Introduction</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">Product News: Product Introduction</span>
                         <div className="date">13-03-2015</div>
                         <p><img alt="newHavolineImage" src={NewsHavolineImage} style={{ height: "862px", width: "730px" }} /></p>
                         <Link className="bback-button" to="/news/category/haberler">Geri</Link>

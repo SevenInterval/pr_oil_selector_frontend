@@ -33,7 +33,7 @@ const Haberler = () => {
                 <article>
                     <div className="page-header">
                         <span className="titleOfHeader">Medya / </span>
-                        <h1>Haberler</h1>
+                        <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     </div>
                     <ul className="objects-list-two-rows">
                         {currentPage === 1 &&

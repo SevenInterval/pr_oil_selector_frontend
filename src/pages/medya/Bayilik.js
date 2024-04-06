@@ -17,7 +17,7 @@ const Bayilik = () => {
                 <article>
                     <div className="page-header">
                         <span className="titleOfHeader">Medya / </span>
-                        <h1>Bayilik Hakkında</h1>
+                        <h1>Bayilik Hakkında&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     </div>
                     <ul className="objects-list-two-rows">
                         <Haber uri={"/news/yol-arkadasimiz-ol-kazancin-yag-gibi-aksin-1"}

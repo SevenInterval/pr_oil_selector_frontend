@@ -10,7 +10,7 @@ const PieterHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
                             <li id="galley_image_183">
@@ -22,12 +22,12 @@ const PieterHaber = () => {
                                     }}
                                 >
                                     <a data-fancybox="gallery" href={PieterImageLarge}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={PieterImageLarge} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={PieterImageLarge} />
                                     </a>
                                 </FancyBox>
                             </li>
                         </ul>
-                        <h3 className="hs-small">PIETER CHRISTIAAN VAN ORANJE VE TIM CORONEL, SPA, BELÇİKA'DA SIN R1 GT4'Ü SÜRECEK</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">PIETER CHRISTIAAN VAN ORANJE VE TIM CORONEL, SPA, BELÇİKA'DA SIN R1 GT4'Ü SÜRECEK</span>
                         <div className="date">07-07-2016</div>
                         <p>Hollanda yarış ekibi pilotları Pieter Christiaan van Oranje ve Tim Coronel, Sofya otomobil motor sporları ekibine katılacak ve Circuit of Spa- Francorchamps, Belçika'da 8-9 Temmuz'da gerçekleştirilecek olan Avrupa GT4 serisinin dördüncü etabında Sin R1 GT4'ün direksiyonu başına geçecek.</p>
                         <p>Hollanda kraliyet ailesinin bir üyesi olan Pieter Christiaan Van Oranje, Zandvoort şampiyonasında Hendrik Still ile birlikte 2016'daki şampiyonada ikinci etapta ekibin bir parçası olduktan sonra Sin R1 GT4 deneyimi kazandı.</p>

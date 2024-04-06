@@ -10,7 +10,7 @@ const RuscukHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
 
@@ -24,27 +24,27 @@ const RuscukHaber = () => {
                             >
                                 <li id="galley_image_56">
                                     <a data-fancybox="gallery" href={RuscukImageLarge}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={RuscukImageLarge} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={RuscukImageLarge} />
                                     </a>
                                 </li>
                                 <li id="galley_image_57">
                                     <a data-fancybox="gallery" href={RuscukImage2}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={RuscukImage2} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={RuscukImage2} />
                                     </a>
                                 </li>
                                 <li id="galley_image_58">
                                     <a data-fancybox="gallery" href={RuscukImage3}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={RuscukImage3} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={RuscukImage3} />
                                     </a>
                                 </li>
                                 <li id="galley_image_59">
                                     <a data-fancybox="gallery" href={RuscukImage4}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={RuscukImage4} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={RuscukImage4} />
                                     </a>
                                 </li>
                             </FancyBox>
                         </ul>
-                        <h3 className="hs-small">Prista Oil, Rusçuk'taki yıllık konseri için “Flamingo-98” dans okulunu destekliyor</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">Prista Oil, Rusçuk'taki yıllık konseri için “Flamingo-98” dans okulunu destekliyor</span>
                         <div className="date">29-06-2016</div>
                         <p>Konser, Rusçuk Üniversitesi Kaneff Merkezi'nde 22 Mayıs 2016, Pazar tarihinde gerçekleştirildi. Etkinlik iki bölüme ayrıldı. Coşkulu ebeveynler, alkışlar eşliğinde sahne performanslarının her birini hoş karşıladı.</p>
                         <p>“Flamingo 98”in kurucusu Sayın Nenov, “Yıllık ‘Flamingo 98’ konseri, geçtiğimiz yıl boyunca gerçekleştirilen çalışma için tüm çocuklara takdir getirdi,” diyerek sözlerini şöyle sürdürdü: “Dans okulumuzda, onlardan mükemmel olmalarını beklemeksizin, birçok dans türünde farklı yaş gruplarından yüzlerce çocukla çalışıyoruz. Çocuklar için en önemli şey, sahnedeki performanslarının onları harekete geçirmesi, onlara ilham vermesi ve yaratıcılık kazandırmasıdır.”</p>

@@ -10,7 +10,7 @@ const PremiumHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
                             <li id="galley_image_183">
@@ -22,12 +22,12 @@ const PremiumHaber = () => {
                                     }}
                                 >
                                     <a data-fancybox="gallery" href={PremiumImageLarge}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={PremiumImageLarge} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={PremiumImageLarge} />
                                     </a>
                                 </FancyBox>
                             </li>
                         </ul>
-                        <h3 className="hs-small">Yeni Premium 1L şişe ve etiket tasarımı için Prista Oil yarışmasını Ulusal Sanat Akademisi'nden bir doktora adayı kazandı</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">Yeni Premium 1L şişe ve etiket tasarımı için Prista Oil yarışmasını Ulusal Sanat Akademisi'nden bir doktora adayı kazandı</span>
                         <div className="date">13-06-2016</div>
                         <p>Endüstriyel tasarım programında doktora öğrencisi olan Zahari Ganchev, yeni Premium 1L şişe ve etiket için düzenlenen Prista Oil tasarım yarışmasını kazandı. İkincilik ödülünü, ikinci sınıf öğrencileri olan Denitza Ivanova ve Diana Kuncheva birlikte aldı. Konsept tasarımı doktora öğrencisi Maria Vassileva ise yarışmada üçüncü oldu.</p>
                         <p>Yarışma, NAA tarafından öğrencilere ve öğretim görevlilerine 2 ay önce duyurulmuştu. Şirket temsilcisi tarafından yarışmanın detaylarının açıklandığı bir ön görüşme toplantısı düzenlendi.</p>

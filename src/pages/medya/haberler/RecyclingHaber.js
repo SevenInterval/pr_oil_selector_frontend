@@ -10,7 +10,7 @@ const RecyclingHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
 
@@ -24,27 +24,27 @@ const RecyclingHaber = () => {
                             >
                                 <li id="galley_image_42">
                                     <a data-fancybox="gallery" href={RecyclingImage1}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={RecyclingImage1} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={RecyclingImage1} />
                                     </a>
                                 </li>
                                 <li id="galley_image_43">
                                     <a data-fancybox="gallery" href={RecyclingImage2}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={RecyclingImage2} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={RecyclingImage2} />
                                     </a>
                                 </li>
                                 <li id="galley_image_44">
                                     <a data-fancybox="gallery" href={RecyclingImage3}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={RecyclingImage3} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={RecyclingImage3} />
                                     </a>
                                 </li>
                                 <li id="galley_image_45">
                                     <a data-fancybox="gallery" href={RecyclingImage4}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={RecyclingImage4} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={RecyclingImage4} />
                                     </a>
                                 </li>
                             </FancyBox>
                         </ul>
-                        <h3 className="hs-small">Prista Recycling Tesisi bugün Özbekistan'da açıldı</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">Prista Recycling Tesisi bugün Özbekistan'da açıldı</span>
                         <div className="date">18-05-2016</div>
                         <p>20. uluslararası “Yağ ve Gaz Özbekistan” konferansı ve sergisi, Özbekistan'da yüksek teknolojili Bulgar “Prista Recycling” fabrikasının açılışıyla başladı</p>
                         <p>Bugün, 18.05.2016'da, Bulgaristan Başbakanı Boyko Borisov ve Özbekistan Başbakan Yardımcısı Gulomzhon Ibrahimov, hissedar Plamen Bobokov ve Ivaylo Mandjukov'un temsilcileri huzurunda Özbekistan'da yüksek teknolojili “Prista Recycling” geri dönüşüm tesisinin açılışını yaptı. &nbsp;</p>

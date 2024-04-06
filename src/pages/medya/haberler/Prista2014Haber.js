@@ -10,7 +10,7 @@ const Prista2014Haber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
                             <li id="galley_image_183">
@@ -22,12 +22,12 @@ const Prista2014Haber = () => {
                                     }}
                                 >
                                     <a data-fancybox="gallery" href={Prista2014LargeImage}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={Prista2014LargeImage} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={Prista2014LargeImage} />
                                     </a>
                                 </FancyBox>
                             </li>
                         </ul>
-                        <h3 className="hs-small">Prista Oil, 2014 Çalışma Yılı Bölgesel Güvenlik ve Sağlık Yarışmasında birinci olmuştur</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">Prista Oil, 2014 Çalışma Yılı Bölgesel Güvenlik ve Sağlık Yarışmasında birinci olmuştur</span>
                         <div className="date">10-06-2015</div>
                         <p>Bölgesel Yönetim binası salonlarının birisinde kısa bir tören yapılarak 2014 Çalışma Yılı Bölgesel Güvenlik ve Sağlık Yarışmasında ilk üç sırayı alan şirketlere ödülleri verildi. Bu etkinlik, kazananlara ödüllerini veren vali yardımcısı Stanimir Stanchev başkanlığında çalışma şartları ile ilgili düzenli olarak gerçekleştirilen Bölgesel Konsey toplantısının bir parçasıydı.</p>
                         <p>Üçüncülüğü (20 puanla) Witte Automotive Company aldı ve sertifikası İnsan Kaynakları Müdürü Svetlana Zhekova tarafından alındı. İkincilik (24 puanla) BTB Bulgaria firmasına gitti ve başarı belgesi Proje Müdürü, Soyinka'ya takdim edildi. Prista Oil Holding 29 puanla birinciliği kazandı ve Valilik plaketi, Fabrika Müdürü Detelina Krasteva tarafından alındı.</p>

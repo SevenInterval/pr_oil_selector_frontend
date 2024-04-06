@@ -9,11 +9,11 @@ const PristaNewHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
                         </ul>
-                        <h3 className="hs-small">Prista Oil, Yenilikçi Harmanlama Teknolojisi CCBL'yi Sunar</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">Prista Oil, Yenilikçi Harmanlama Teknolojisi CCBL'yi Sunar</span>
                         <div className="date">27-11-2015</div>
                         <p style={{ textAlign: "center" }}><span style={{ fontSize: "26px" }}><span style={{ color: "rgb(237, 125, 49)" }}><strong style={{ fontFamily: "sans-serif" }}>Prista Oil, Yenilikçi Harmanlama Teknolojisi CCBL'yi Sunar</strong></span></span></p>
                         <p style={{ textAlign: "center" }}><span style={{ fontSize: "26px" }}><span style={{ color: "rgb(0, 32, 96)" }}><strong style={{ fontFamily: "sans-serif" }}>11inci ICIS Pan Amerika Baz Yağlar ve Yağlayıcılar Konferansında</strong></span></span></p>
@@ -22,7 +22,7 @@ const PristaNewHaber = () => {
                         <p><span style={{ fontSize: "20px" }}><span style={{ color: "rgb(0, 32, 96)" }}><strong style={{ fontFamily: "sans-serif" }}>Kimler Katılmalı</strong></span></span></p>
                         <p><span style={{ fontSize: "16px" }}><strong style={{ fontFamily: "sans-serif" }}>11inci ICIS Pan Amerika Baz Yağlar ve Yağlayıcılar Konferansı şunlar için düzenlenmektedir:</strong></span></p>
                         <p style={{ textAlign: "center" }}>&nbsp;</p>
-                        <table align="left" border="0" cellpadding="0" cellspacing="4" style={{ width: "700px" }}>
+                        <table align="left" border="0" cellPadding="0" cellSpacing="4" style={{ width: "700px" }}>
                             <tbody>
                                 <tr>
                                     <td>
@@ -137,7 +137,7 @@ const PristaNewHaber = () => {
                         <p><span style={{ fontSize: "16px" }}>2014'te 26 ülkeden 210 şirketi temsil eden 330'dan fazla delege 10uncu ICIS Pan Amerika Baz Yağlar ve Yağlayıcılar konferansına katıldı.</span></p>
                         <p><br />&nbsp;</p>
                         <p><span style={{ fontSize: "20px" }}><span style={{ color: "rgb(0, 32, 96)" }}><strong style={{ fontFamily: "sans-serif" }}>11inci ICIS Pan Amerika Baz Yağlar ve Yağlayıcılar Konferansından neler bekleyebilirsiniz?</strong></span></span></p>
-                        <table border="0" cellpadding="0" cellspacing="4" style={{ width: "700px" }}>
+                        <table border="0" cellPadding="0" cellSpacing="4" style={{ width: "700px" }}>
                             <tbody>
                                 <tr>
                                     <td style={{ width: "170px" }}>

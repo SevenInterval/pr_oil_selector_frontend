@@ -12,7 +12,7 @@ const AutomechanikaHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
 
@@ -26,22 +26,22 @@ const AutomechanikaHaber = () => {
                             >
                                 <li id="galley_image_63">
                                     <a data-fancybox="gallery" href={Automechanika1Image}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={Automechanika1Image} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={Automechanika1Image} />
                                     </a>
                                 </li>
                                 <li id="galley_image_64">
                                     <a data-fancybox="gallery" href={Automechanika2Image}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={Automechanika2Image} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={Automechanika2Image} />
                                     </a>
                                 </li>
                                 <li id="galley_image_65">
                                     <a data-fancybox="gallery" href={Automechanika3Image}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={Automechanika3Image} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={Automechanika3Image} />
                                     </a>
                                 </li>
                             </FancyBox>
                         </ul>
-                        <h3 className="hs-small">Automechanika Frankfurt 2016  Otomotiv Hizmet Sektöründe Dünyanın Önde Gelen Ticaret Fuarı Frankfurt am Main, 13-17 Eylül 2016</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">Automechanika Frankfurt 2016  Otomotiv Hizmet Sektöründe Dünyanın Önde Gelen Ticaret Fuarı Frankfurt am Main, 13-17 Eylül 2016</span>
                         <div className="date">05-10-2016</div>
                         <div>
                             <p>

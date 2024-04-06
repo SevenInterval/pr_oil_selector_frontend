@@ -10,7 +10,7 @@ const PristaRecHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
                             <li id="galley_image_183">
@@ -22,12 +22,12 @@ const PristaRecHaber = () => {
                                     }}
                                 >
                                     <a data-fancybox="gallery" href={PristaRecLargeImage}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={PristaRecLargeImage} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={PristaRecLargeImage} />
                                     </a>
                                 </FancyBox>
                             </li>
                         </ul>
-                        <h3 className="hs-small">“PRISTA RECYCLING”, ÖZBEKİSTAN'DA ATIK YAĞLARIN GERİ DÖNÜŞÜMÜ İÇİN YÜKSEK TEKNOLOJİLİ BİR TESİS AÇIYOR</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">“PRISTA RECYCLING”, ÖZBEKİSTAN'DA ATIK YAĞLARIN GERİ DÖNÜŞÜMÜ İÇİN YÜKSEK TEKNOLOJİLİ BİR TESİS AÇIYOR</span>
                         <div className="date">16-05-2016</div>
                         <p><strong style={{ fontFamily: "sans-serif" }}>Açılış töreni, Angren, Taşkent bölgesinde 18 Mayıs 2016'da gerçekleştirilecek. Törende kurdeleyi iki ülkenin başbakanı, Boyko Borissov ve Shavkat Mirziyoyev kesecek.</strong></p>
                         <p><strong style={{ fontFamily: "sans-serif" }}><em>Proje, Özbekistan Cumhurbaşkanının Kararnamesi ile kurulan müşterek girişim “Uz-Prista Recycling” çalışmasının bir sonucudur. %51 hisseyle Bulgar şirketi “Prista Recycling” ve %49 hisseyle “Uzbekneftegaz” şirketinin iştiraki olan “Uznefteproduct” tarafından oluşturulmuştur. Yeni Bulgar şirketi “Prista Recycling”in ana hissedarları ve yatırımcıları, Bobokov kardeşler ve Mandjukov ailesidir. </em></strong></p>

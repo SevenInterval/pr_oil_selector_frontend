@@ -17,6 +17,14 @@ html body article .objects-list-two-rows li {
     min-height: 410px;
 }
 
+@media (max-width: 580px) {
+    html body article .objects-list-two-rows li {
+        float: none;
+        width: 100%;
+        min-width: 100%;
+    }
+}
+
 html body article .objects-list-two-rows li a {
     display: block;
 }
@@ -29,6 +37,12 @@ html body article .objects-list-two-rows li a span.img {
     background: #000;
     max-height: 225px;
     overflow: hidden;
+}
+
+@media (max-width: 580px) {
+    html body article .objects-list-two-rows li a span.img {
+        max-height: none;
+    }
 }
 
 html body article .objects-list-two-rows li a span.img img {

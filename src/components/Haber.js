@@ -6,7 +6,7 @@ const Haber = (props) => {
         <li className={lastClassName}>
             <Link to={uri}>
                 <span className="img">
-                    <img src={gorsel} alt={gorsel + "_Image"} />
+                    <img src={gorsel} alt={baslik + "_Image"} title={baslik + "_img"} loading="eager" height={225} width={360}/>
                 </span>
                 <span className="title">{baslik}</span>
                 <span className="date">{tarih}</span>

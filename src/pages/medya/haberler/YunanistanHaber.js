@@ -10,7 +10,7 @@ const YunanistanHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
 
@@ -24,32 +24,32 @@ const YunanistanHaber = () => {
                             >
                                 <li id="galley_image_51">
                                     <a data-fancybox="gallery" href={Yunanistan1Image}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={Yunanistan1Image} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={Yunanistan1Image} />
                                     </a>
                                 </li>
                                 <li id="galley_image_52">
                                     <a data-fancybox="gallery" href={Yunanistan2Image}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={Yunanistan2Image} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={Yunanistan2Image} />
                                     </a>
                                 </li>
                                 <li id="galley_image_53">
                                     <a data-fancybox="gallery" href={Yunanistan3Image}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={Yunanistan3Image} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={Yunanistan3Image} />
                                     </a>
                                 </li>
                                 <li id="galley_image_54">
                                     <a data-fancybox="gallery" href={Yunanistan4Image}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={Yunanistan4Image} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={Yunanistan4Image} />
                                     </a>
                                 </li>
                                 <li id="galley_image_55">
                                     <a data-fancybox="gallery" href={Yunanistan5Image}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={Yunanistan5Image} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={Yunanistan5Image} />
                                     </a>
                                 </li>
                             </FancyBox>
                         </ul>
-                        <h3 className="hs-small">Yunanistan'dan Prista Oil Yetkili Distribütörü Leonidas Leontopoulos – LEO LUB & PARTS – Yunan Yarış Sezonuna Katılıyor</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">Yunanistan'dan Prista Oil Yetkili Distribütörü Leonidas Leontopoulos – LEO LUB & PARTS – Yunan Yarış Sezonuna Katılıyor</span>
                         <div className="date">29-06-2016</div>
                         <p>Leonidas Leontopoulos 1990 yılında yarışmaya başladı ve yarış kariyeri boyunca birçok 1.lik ve 2.lik derecesi kazandı. 2016 yılında Leonidas, Prista® markalı Peugeot 106 /1600CC 200HP aracıyla Grup A'daki Tepe Yarışlarına ve Parkur Yarışlarına katılacak.</p>
                         <Link className="bback-button" to="/news/category/haberler">Geri</Link>

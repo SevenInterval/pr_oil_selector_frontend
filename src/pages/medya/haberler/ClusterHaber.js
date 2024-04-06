@@ -10,7 +10,7 @@ const ClusterHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
                             <li id="galley_image_183">
@@ -22,12 +22,12 @@ const ClusterHaber = () => {
                                     }}
                                 >
                                     <a data-fancybox="gallery" href={RockinImageLarge}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={RockinImageLarge} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={RockinImageLarge} />
                                     </a>
                                 </FancyBox>
                             </li>
                         </ul>
-                        <h3 className="hs-small">ROCKIN’ THE CLUSTER</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">ROCKIN’ THE CLUSTER</span>
                         <div className="date">03-10-2016</div>
                         <p>Ceco Anastasov (Executive Director Prista Oil Group) and Valentin Ionescu (Sales and Marketing Manager) visited the CEE Cluster. Their 3 days program included meetings with prospects, with the teams of Prista Czech, Slovakia and Hungary and a thorough analysis of the results. Sales in 2016 are growing, but not as much as it was planned.</p>
                         <p>„It was good to see positive examples – like the co-operation with DAF – that we can use also in other countries. However, sales people are often burried with tasks that should be out of their scope. It is limiting our potential to grow.” – said Mr. Ionescu after the meetings. „We have to liberate the time of sales people and let them focus on sales. Administration will be simplified according to the Group standards.”- added Tivadar Runtág (CEE Cluster Sales Manager).</p>

@@ -10,7 +10,7 @@ const SilverstoneHaber = () => {
             <article>
                 <div className="page-header">
                     <span className="titleOfHeader">Media / </span>
-                    <h1>Haberler</h1>
+                    <h1>Haberler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
                     <div className="news-detail">
                         <ul className="images">
 
@@ -24,27 +24,27 @@ const SilverstoneHaber = () => {
                             >
                                 <li id="galley_image_46">
                                     <a data-fancybox="gallery" href={SilverstoneImage1}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={SilverstoneImage1} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={SilverstoneImage1} />
                                     </a>
                                 </li>
                                 <li id="galley_image_47">
                                     <a data-fancybox="gallery" href={SilverstoneImage2}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={SilverstoneImage2} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={SilverstoneImage2} />
                                     </a>
                                 </li>
                                 <li id="galley_image_48">
                                     <a data-fancybox="gallery" href={SilverstoneImage3}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={SilverstoneImage3} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={SilverstoneImage3} />
                                     </a>
                                 </li>
                                 <li id="galley_image_49">
                                     <a data-fancybox="gallery" href={SilverstoneImage4}>
-                                        <img title="n.jpg" alt="n.jpg" width="360" src={SilverstoneImage4} />
+                                        <img title="n.jpg" alt="n.jpg" width={360} height={270} loading="eager" src={SilverstoneImage4} />
                                     </a>
                                 </li>
                             </FancyBox>
                         </ul>
-                        <h3 className="hs-small">Silverstone, 11-12 Haziran'daki dayanıklılık yarışında Avrupa GT4 serisini ağırlayacak</h3>
+                        <span style={{ verticalAlign: "sub", color: "#000" }} className="hs-small">Silverstone, 11-12 Haziran'daki dayanıklılık yarışında Avrupa GT4 serisini ağırlayacak</span>
                         <div className="date">10-06-2016</div>
                         <p>Avrupa GT4 serisinin üçüncü etabı, Avrupa'nın en önemli parkurlarından biri olan İngiltere'deki Silverstone'da gerçekleştirilecek.</p>
                         <p><strong style={{ fontFamily: "sans-serif" }}>Avrupa GT4 serisi, motor sporları hayranlarına ilginç bir üç saatlik dayanıklılık yarışı sunuyor. Sofia Car Motorsport, Hendrik Stihl ve Andres Gyulden’in pilotluğunda Sin R1 GT4 ile bu mücadelede yer alacak.</strong></p>

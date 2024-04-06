@@ -135,6 +135,14 @@ html body .home-news-list li a span.text:after {
     }
 }
 
+@media (max-width: 685px) {
+    html body article .news-detail .images {
+        margin-top: 16px;
+        margin-right: -3px;
+        margin-left: -3px;
+    }
+}
+
 @media (min-width: 685px) {
     html body article .news-detail .images li {
         display: block;
@@ -168,6 +176,12 @@ html body article .sitemap-list ul>li span {
     html body article .search-list li a,
     html body article .sitemap-list ul>li span {
         font-size: 24px;
+    }
+}
+
+@media (max-width: 685px) {
+    .hs-small {
+        display: block;
     }
 }
 
