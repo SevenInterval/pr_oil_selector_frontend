@@ -22,7 +22,7 @@ const Ergon = () => {
                     <div className="page-article">
                         <p>
                             <br />
-                            <img alt="ergonImage" title="ergonImg" src={ErgonImage} height={50} width={200} /><br />
+                            <img alt="ergonImage" title="ergonImg" src={ErgonImage} height={50} width={200} loading="eager" /><br />
                             &nbsp;
                         </p>
                         <p>1954'te kurulan ve Merkezi Jackson, Mississippi'de bulunan Ergon Inc.'nin 2,300'den fazla çalışanı var. Ergon, rafine ürünlerin gelişmiş bir ham petrol işlemcisi, nakliyatçısı ve pazarlayıcısı olarak faaliyet göstermektedir.</p>
