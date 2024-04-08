@@ -27,7 +27,7 @@ html body .body_with_sidebar article .hs:first-child {
 }
 
 .hs-small,
-html body article .faq-object-list h3,
+html body article .faq-object-list h2,
 html body article .objects-list-tree-rows .span span.title,
 html body article .objects-list-tree-rows .headline,
 html body article .search-list li a,
@@ -42,7 +42,7 @@ html body article .sitemap-list ul>li span {
 @media (min-width: 776px) {
 
     .hs-small,
-    html body article .faq-object-list h3,
+    html body article .faq-object-list h2,
     html body article .objects-list-tree-rows .span span.title,
     html body article .objects-list-tree-rows .headline,
     html body article .search-list li a,
@@ -51,16 +51,16 @@ html body article .sitemap-list ul>li span {
     }
 }
 
-html body article .faq-object-list h3 {
+html body article .faq-object-list h2 {
     cursor: pointer;
 }
 
-html body article .faq-object-list h3.ui-accordion-header-active,
-html body article .faq-object-list h3:hover {
+html body article .faq-object-list h2.ui-accordion-header-active,
+html body article .faq-object-list h2:hover {
     color: #878787;
 }
 
-html body article .faq-object-list h3:before {
+html body article .faq-object-list h2:before {
     display: inline-block;
     vertical-align: middle;
     background: url("../images/positive-negative-bul.png") no-repeat left top;
@@ -70,8 +70,8 @@ html body article .faq-object-list h3:before {
     content: "";
 }
 
-html body article .faq-object-list h3.ui-accordion-header-active:before,
-html body article .faq-object-list h3:hover:before {
+html body article .faq-object-list h2.ui-accordion-header-active:before,
+html body article .faq-object-list h2:hover:before {
     background-position: 0 -11px;
 }
 
