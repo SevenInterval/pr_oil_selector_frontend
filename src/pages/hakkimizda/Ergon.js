@@ -12,7 +12,7 @@ const Ergon = () => {
                 <link rel='canonical' href="/ergon-6" />
             </Helmet>
             <div className="body_with_sidebar default">
-                <SideBarHakkimizda />
+                <SideBarHakkimizda title={"ORTAKLAR"} />
                 <article>
                     <div className="page-header">
                         <span className="titleOfHeader">Hakkımızda / </span>
