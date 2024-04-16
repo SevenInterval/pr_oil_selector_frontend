@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Slider1Jpeg from '../../images/thumb_2061_slider_basic.jpeg'
 import Slider2 from '../../images/Slider2.png'
-import Slider3 from '../../images/Slider3.jpeg'
+//import Slider3 from '../../images/Slider3.jpeg'
 import SliderPoint from '../../images/slider-point.png'
 import SliderArrows from '../../images/slider-arrows.png'
 import { useEffect, useState } from "react";
@@ -47,11 +47,11 @@ const Slider = () => {
                                     <img alt="Slider.png" title="Slider.png" src={Slider2} width="980" height="406" draggable={false} loading='eager' />
                                 </Link>
                             </li>
-                            <li className={activeSlide === 2 ? "flex-active-slide" : ""} style={{ width: "10%", float: "left", display: "block" }}>
+                            {/* <li className={activeSlide === 2 ? "flex-active-slide" : ""} style={{ width: "10%", float: "left", display: "block" }}>
                                 <Link to="/gulf-marine-7">
                                     <img alt="Slider_gulf.jpg" title="Slider_gulf.jpg" src={Slider3} width="980" height="406" draggable="false" loading='eager' />
                                 </Link>
-                            </li>
+                            </li> */}
                             <li className={activeSlide === 3 ? "flex-active-slide" : ""} style={{ width: "10%", float: "left", display: "block" }}>
                                 <Link to="/verila-7">
                                     <img alt="Slider_verila.jpg" title="Slider_verila.jpg" src={Slider1Jpeg} width="980" height="406" draggable={false} loading='eager' />
@@ -67,7 +67,7 @@ const Slider = () => {
 
                     <ol className="flex-control-nav flex-control-paging">
                         <li><Link className={activeSlide === 1 ? "flex-active" : ""} onClick={() => setActiveSlide(1)} style={activeSlide === 1 ? { background: `url(${SliderPoint}) no-repeat  0 0px` } : { background: `url(${SliderPoint}) no-repeat  0 -31px` }}>1</Link></li>
-                        <li><Link className={activeSlide === 2 ? "flex-active" : ""} onClick={() => setActiveSlide(2)} style={activeSlide === 2 ? { background: `url(${SliderPoint}) no-repeat  0 0px` } : { background: `url(${SliderPoint}) no-repeat  0 -31px` }}>2</Link></li>
+                        {/* <li><Link className={activeSlide === 2 ? "flex-active" : ""} onClick={() => setActiveSlide(2)} style={activeSlide === 2 ? { background: `url(${SliderPoint}) no-repeat  0 0px` } : { background: `url(${SliderPoint}) no-repeat  0 -31px` }}>2</Link></li> */}
                         <li><Link className={activeSlide === 3 ? "flex-active" : ""} onClick={() => setActiveSlide(3)} style={activeSlide === 3 ? { background: `url(${SliderPoint}) no-repeat  0 0px` } : { background: `url(${SliderPoint}) no-repeat  0 -31px` }}>3</Link></li>
                     </ol>
 

@@ -1,8 +1,11 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const SideBarFaq = () => {
+    const [openSideBar, setOpenSideBar] = useState(false);
+
     return (
-        <aside>
+        <aside style={openSideBar ? { height: "376px", transition: "0.4s" } : { height: "40px", transition: "0.4s" }} className={openSideBar ? "active" : ""}>
             <div className="cont-body">
                 <ul>
                     <li>
@@ -33,7 +36,7 @@ const SideBarFaq = () => {
                         <NavLink to="/faq/adblue-7">AdBlue</NavLink>
                     </li>
                 </ul>
-                <div className="aside-show-button">Faq Portfolio</div>
+                <div className="aside-show-button" onClick={() => setOpenSideBar(!openSideBar)}>Faq Portfolio</div>
             </div>
         </aside>
     )

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import PristaJpeg from '../../images/home_gallery_basic.jpeg'
-import GulfJpeg from '../../images/home_gallery_gulf.jpeg'
+//import GulfJpeg from '../../images/home_gallery_gulf.jpeg'
 import VerilaJpeg from '../../images/home_gallery_verila.jpeg'
 import ErgonJpeg from '../../images/home_gallery_ergon.jpeg'
 import AdblueJpeg from '../../images/home_gallery_adblue.jpeg'
@@ -14,11 +14,11 @@ const Sponsor = () => {
                         <img alt="prista_oil.jpeg" title="prista_oil.jpeg" src={PristaJpeg} width="119" height="100" loading='eager' />
                     </Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to="/gulf-marine-7">
                         <img alt="gulfmarine.jpeg" title="gulfmarine.jpeg" src={GulfJpeg} width="119" height="100" loading='eager' />
                     </Link>
-                </li>
+                </li> */}
                 <li>
                     <Link to="/verila-7">
                         <img alt="verila.jpeg" title="verila.jpeg" src={VerilaJpeg} width="119" height="100" loading='eager' />

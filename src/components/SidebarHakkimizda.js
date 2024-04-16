@@ -14,9 +14,9 @@ const SideBarHakkimizda = (props) => {
                     <li>
                         <NavLink to="/ortaklarimiz">Ortaklarımız</NavLink>
                         <ul className={level1ShowName === "ORTAKLAR" ? "sub show" : "sub"}>
-                            <li>
+                            {/* <li>
                                 <NavLink to="/gulf-marine-7" >Gulf Marine</NavLink>
-                            </li>
+                            </li> */}
                             <li>
                                 <NavLink to="/verila-7" >Verila</NavLink>
                             </li>

@@ -7,7 +7,7 @@ import DpfTwc from './components/products/otomotiv/pcmo/DpfTwc';
 import BizKimiz from './pages/hakkimizda/BizKimiz';
 import SirketinSorumlulugu from './pages/hakkimizda/SirketinSorumlulugu';
 import Ortaklarimiz from './pages/hakkimizda/Ortaklarimiz';
-import GulfMarine from './pages/hakkimizda/GulfMarine';
+//import GulfMarine from './pages/hakkimizda/GulfMarine';
 import Verila from './pages/hakkimizda/Verila';
 import Ergon from './pages/hakkimizda/Ergon';
 import CerezPolitikasi from './pages/hakkimizda/CerezPolitikasi';
@@ -213,7 +213,7 @@ function App() {
         {/*Hakkımızda*/}
         <Route path="/biz-kimiz" element={<BizKimiz />} />
         <Route path="/ortaklarimiz" element={<Ortaklarimiz />} />
-        <Route path="/gulf-marine-7" element={<GulfMarine />} />
+        {/* <Route path="/gulf-marine-7" element={<GulfMarine />} /> */}
         <Route path="/verila-7" element={<Verila />} />
         <Route path="/ergon-6" element={<Ergon />} />
         <Route path="/sirketin-sorumlulugu" element={<SirketinSorumlulugu />} />
