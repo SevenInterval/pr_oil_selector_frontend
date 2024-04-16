@@ -4,6 +4,7 @@ import MenuMobileImage from '../images/menu-mobile.png'
 import PristaLogo from '../images/prista-oil-com.png'
 import HeaderBg from '../images/header-bg.png'
 import { Link, useNavigate } from "react-router-dom";
+import UpImage from "../images/up.png";
 
 const Header = () => {
     const [showSelectLanguage, setShowSelectLanguage] = useState(false);
@@ -119,7 +120,7 @@ const Header = () => {
                                     Giriş Sayfası
                                 </Link>
                             </li>
-                            {/*<li id="menu_3" data-id="3" onClick={() => setSelectedNavbarId("menu_3")} className={selectedNavbarId === "menu_3" ? "level-0 active root-active" : "level-0"} >
+                            <li id="menu_3" data-id="3" onClick={() => setSelectedNavbarId("menu_3")} className={selectedNavbarId === "menu_3" ? "level-0 active root-active" : "level-0"} >
                                 <Link to="/catalogue/yuksek-performansli-dpf-twc" >
                                     Ürünler
                                 </Link>
@@ -132,12 +133,13 @@ const Header = () => {
                                     </li>
 
                                 </ul>
-                    </li>*/}
+                            </li>
                             <li id="menu_4" data-id="4" onClick={() => setSelectedNavbarId("menu_4")} className={selectedNavbarId === "menu_4" ? "level-0 active root-active" : "level-0"} >
                                 <Link to="/istirakler">
                                     Pazarlar
                                 </Link>
                                 <ul className="child-list" id="menu-root-4">
+                                    <span className="upImage" style={{ backgroundImage: `url(${UpImage})` }}></span>
                                     <li id="menu_11" data-id="11" className=" level-1 ">
                                         <Link to="/istirakler">
                                             İştirakler
@@ -156,6 +158,7 @@ const Header = () => {
                                     Kalite Yönetimi
                                 </Link>
                                 <ul className="child-list" id="menu-root-30">
+                                    <span className="upImage" style={{ backgroundImage: `url(${UpImage})` }}></span>
                                     <li id="menu_31" data-id="31" className=" level-1 ">
                                         <Link to="/teknoloji-merkezi">
                                             Teknoloji merkezi
@@ -187,6 +190,7 @@ const Header = () => {
                                     Medya
                                 </Link>
                                 <ul className="child-list" id="menu-root-8">
+                                    <span className="upImage" style={{ backgroundImage: `url(${UpImage})` }}></span>
                                     <li id="menu_45" data-id="45" className=" level-1 ">
                                         <Link to="/news/category/bayilik-hakkinda-1">
                                             Bayilik Hakkinda
@@ -206,6 +210,7 @@ const Header = () => {
                                     Hakkımızda
                                 </Link>
                                 <ul className="child-list" id="menu-root-1">
+                                    <span className="upImage" style={{ backgroundImage: `url(${UpImage})` }}></span>
                                     <li id="menu_23" data-id="23" className=" level-1 ">
                                         <Link to="/biz-kimiz">
                                             Biz kimiz

@@ -17,6 +17,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import './css/footer.css';
 import './css/sitemap.css';
+import './css/urunler.css';
 import { HelmetProvider } from 'react-helmet-async'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

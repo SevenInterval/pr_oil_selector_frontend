@@ -1,0 +1,141 @@
+@media (max-width: 776px) {
+
+    .hs-normal,
+    html body article .page-header,
+    html body article .hs-error,
+    html body article .hs {
+        font-size: 18px;
+    }
+
+    .titleOfHeader {
+        font-size: 18px;
+    }
+}
+
+html body article .category-description {
+    margin: 16px auto;
+}
+
+@media (max-width: 776px) {
+    html body article .category-description {
+        margin-bottom: 0;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #8a8a8a;
+    }
+}
+
+html body article .category-description .logo {
+    display: block;
+    padding-right: 22px;
+}
+
+@media (min-width: 480px) {
+    html body article .category-description .logo {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+html body article .category-description .logo img {
+    max-width: none;
+}
+
+html body article .category-description .cell-left {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100000px;
+}
+
+html body article .category-description .cell-left ol li {
+    list-style-position: inside;
+    font-size: 18px;
+}
+
+@media (min-width: 776px) {
+    html body article .category-description .cell-left ol li {
+        font-size: 24px;
+    }
+}
+
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+html body article .category-description .cell-left ol li a {
+    color: #757575;
+}
+
+html body article .category-description .cell-left ol li a:hover {
+    color: #000;
+}
+
+html body article .objects-list-two-rows:before,
+html body article .objects-list-two-rows:after {
+    content: " ";
+    display: table;
+}
+
+html body article .objects-list-two-rows:after,
+html body article .objects-list-two-rows:before {
+    clear: both;
+}
+
+html body article .objects-list-two-rows li {
+    float: left;
+    margin-right: 3%;
+    width: 48.5%;
+    margin-top: 16px;
+    min-height: 410px;
+}
+
+html body article .objects-list-two-rows li.product-height {
+    min-height: 179px;
+}
+
+html body article .objects-list-two-rows li a {
+    display: block;
+}
+
+html body article .objects-list-two-rows li a span {
+    display: block;
+}
+
+html body article .objects-list-two-rows li a span.img-left {
+    float: left;
+    margin-right: 14px;
+}
+
+html body article .objects-list-two-rows li a span.img-left img {
+    display: block;
+}
+
+html body article .objects-list-two-rows li a span.body-oh {
+    overflow: hidden;
+}
+
+html body article .objects-list-two-rows li a span.title {
+    font-size: 17px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 6px;
+    line-height: 19px;
+}
+
+html body article .objects-list-two-rows li a span.body-oh .title {
+    margin-bottom: 12px;
+}
+
+html body article .objects-list-two-rows li a span.text {
+    font-size: 15px;
+    color: #000;
+    line-height: 19px;
+}
+
+html body article .objects-list-two-rows li.last {
+    margin-right: 0;
+}

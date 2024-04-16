@@ -91,6 +91,7 @@ import CetusHaber from './pages/medya/haberler/CetusHaber';
 import BayilikHakkinda from './pages/medya/haberler/BayilikHakkinda';
 import Search from './pages/Search';
 import NotFound from './pages/NotFound';
+import YagDanismani from './components/products/YagDanismani';
 
 
 function App() {
@@ -246,6 +247,7 @@ function App() {
         <Route path="/sitemap" element={<SiteMap />} />
         <Route path="/site/search" element={<Search />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/prista-yaglari-danismani" element={<YagDanismani />} />
       </Routes>
       <Footer />
     </>
