@@ -110,6 +110,7 @@ import FrenHidrolikleri from './components/products/otomotiv/ozelakiskanlar/Fren
 import OnCamYikama from './components/products/otomotiv/ozelakiskanlar/OnCamYikama';
 import AdBlueUrun from './components/products/otomotiv/ozelakiskanlar/AdBlueUrun';
 import HidrolikVeKizakYaglari from './components/products/endustriyelUrunler/hidrolikVeKizakYaglari/HidrolikVeKizakYaglari';
+import KompresorYaglari from './components/products/endustriyelUrunler/kompresorYaglari/KompresorYaglari';
 
 
 function App() {
@@ -139,7 +140,7 @@ function App() {
         <Route path="/catalogue/on-cam-yikama-sivilari" element={<OnCamYikama />} />
         <Route path="/catalogue/adblue-r-6" element={<AdBlueUrun />} />
         <Route path="/catalogue/hidrolik-ve-kizak-yaglari" element={<HidrolikVeKizakYaglari />} />
-        <Route path="/catalogue/kompresor-yaglari" element={<DpfTwc />} />
+        <Route path="/catalogue/kompresor-yaglari" element={<KompresorYaglari />} />
         <Route path="/catalogue/endustriyel-disli-yaglari" element={<DpfTwc />} />
         <Route path="/catalogue/turbin-yaglari" element={<DpfTwc />} />
         <Route path="/catalogue/transformator-yaglari" element={<DpfTwc />} />
