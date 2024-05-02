@@ -92,6 +92,15 @@ import BayilikHakkinda from './pages/medya/haberler/BayilikHakkinda';
 import Search from './pages/Search';
 import NotFound from './pages/NotFound';
 import YagDanismani from './components/products/YagDanismani';
+import YuksekPerformansli from './components/products/otomotiv/pcmo/YuksekPerformansli';
+import Ustun from './components/products/otomotiv/pcmo/Ustun';
+import Standart from './components/products/otomotiv/pcmo/Standart';
+import HdmoDpfTwc from './components/products/otomotiv/hdmo/HdmoDpfTwc';
+import HdmoYuksekPerformansli from './components/products/otomotiv/hdmo/HdmoYuksekPerformansli';
+import HdmoUstun from './components/products/otomotiv/hdmo/HdmoUstun';
+import HdmoStandart from './components/products/otomotiv/hdmo/HdmoStandart';
+import GazMotorYaglari from './components/products/otomotiv/gazmotoryaglari/GazMotorYaglari';
+import T24TYaglari from './components/products/otomotiv/2t4tyaglari/T24TYaglari';
 
 
 function App() {
@@ -103,15 +112,15 @@ function App() {
 
         {/*Urunler sayfaları*/}
         <Route path="/catalogue/yuksek-performansli-dpf-twc" element={<DpfTwc />} />
-        <Route path="/catalogue/yuksek-performansli" element={<DpfTwc />} />
-        <Route path="/catalogue/ustun" element={<DpfTwc />} />
-        <Route path="/catalogue/standart" element={<DpfTwc />} />
-        <Route path="/catalogue/yuksek-performansli-dpf-twc-uyumlu" element={<DpfTwc />} />
-        <Route path="/catalogue/yuksek-performansli-1" element={<DpfTwc />} />
-        <Route path="/catalogue/ustun-1" element={<DpfTwc />} />
-        <Route path="/catalogue/standart-1" element={<DpfTwc />} />
-        <Route path="/catalogue/gaz-motor-yaglari" element={<DpfTwc />} />
-        <Route path="/catalogue/2t-4t-yaglari" element={<DpfTwc />} />
+        <Route path="/catalogue/yuksek-performansli" element={<YuksekPerformansli />} />
+        <Route path="/catalogue/ustun" element={<Ustun />} />
+        <Route path="/catalogue/standart" element={<Standart />} />
+        <Route path="/catalogue/yuksek-performansli-dpf-twc-uyumlu" element={<HdmoDpfTwc />} />
+        <Route path="/catalogue/yuksek-performansli-1" element={<HdmoYuksekPerformansli />} />
+        <Route path="/catalogue/ustun-1" element={<HdmoUstun />} />
+        <Route path="/catalogue/standart-1" element={<HdmoStandart />} />
+        <Route path="/catalogue/gaz-motor-yaglari" element={<GazMotorYaglari />} />
+        <Route path="/catalogue/2t-4t-yaglari" element={<T24TYaglari />} />
         <Route path="/catalogue/yuksek-performansli-duz-sanziman" element={<DpfTwc />} />
         <Route path="/catalogue/yuksek-performansli-otomatik-sanziman" element={<DpfTwc />} />
         <Route path="/catalogue/duz-sanziman-ve-aks" element={<DpfTwc />} />

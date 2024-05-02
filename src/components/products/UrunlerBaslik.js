@@ -2,19 +2,27 @@ import { Link } from "react-router-dom";
 import PristaLogo from "../../images/pristaLogo.png"
 
 const UrunlerBaslik = (props) => {
-    const { level1ShowName, level2ShowName, level3ShowName } = props;
+    const { level1ShowName, level2ShowName, level3ShowName, level1To, level2To } = props;
     return (
         <>
             <div className="page-header">
-                <Link to="/catalogue/yuksek-performansli-dpf-twc">Ürünler</Link>
+                <Link to="/catalogue">Ürünler</Link>
                 {" / "}
                 <Link to="/catalogue/yuksek-performansli-dpf-twc">PRISTA</Link>
                 {" / "}
-                <Link to="/catalogue/yuksek-performansli-dpf-twc">{level1ShowName}</Link>
-                {" / "}
-                <Link to="/catalogue/yuksek-performansli-dpf-twc">{level2ShowName}</Link>
-                {" / "}
-                <h1>{level3ShowName}</h1>
+                <Link to={level1To}>{level1ShowName}</Link>
+                {level3ShowName ?
+                    <>
+                        {" / "}
+                        <Link to={level2To}>{level2ShowName}</Link>
+                        {" / "}
+                        <h1>{level3ShowName}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+                    </> :
+                    <>
+                        {" / "}
+                        <h1>{level2ShowName}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+                    </>
+                }
             </div>
             <div className="category-description">
                 <div className="logo">
