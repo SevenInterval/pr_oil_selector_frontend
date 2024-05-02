@@ -18,7 +18,7 @@ const HdmoUstun = () => {
             <div className="body_with_sidebar catalog">
                 <SideBarUrunler level1ShowName={"OTOMOTIV"} level2ShowName={"HDMO"} />
                 <article>
-                    <UrunlerBaslik level1ShowName={"OTOMOTIV"} level2ShowName={"HDMO"} level3ShowName={"Üstün"}
+                    <UrunlerBaslik level1ShowName={"OTOMOTİV"} level2ShowName={"HDMO"} level3ShowName={"Üstün"}
                         level1To={"/catalogue/yuksek-performansli-dpf-twc"} level2To={"/catalogue/yuksek-performansli-dpf-twc-uyumlu"} />
                     <ul className="objects-list-two-rows">
                         <UrunOzet productUrl={"/product/ustun-1/prista-shpd-vds-3-15w-40-20w-50-4"}

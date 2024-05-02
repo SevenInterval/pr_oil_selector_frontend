@@ -101,6 +101,15 @@ import HdmoUstun from './components/products/otomotiv/hdmo/HdmoUstun';
 import HdmoStandart from './components/products/otomotiv/hdmo/HdmoStandart';
 import GazMotorYaglari from './components/products/otomotiv/gazmotoryaglari/GazMotorYaglari';
 import T24TYaglari from './components/products/otomotiv/2t4tyaglari/T24TYaglari';
+import YuksekPerformansliDuz from './components/products/otomotiv/sanziman/YuksekPerformansliDuz';
+import YuksekPerformansliOtomatik from './components/products/otomotiv/sanziman/YuksekPerformansliOtomatik';
+import DuzSanzimanveAks from './components/products/otomotiv/sanziman/DuzSanzimanveAks';
+import UttoStou from './components/products/otomotiv/sanziman/UttoStou';
+import SogutmaSulari from './components/products/otomotiv/ozelakiskanlar/SogutmaSulari';
+import FrenHidrolikleri from './components/products/otomotiv/ozelakiskanlar/FrenHidrolikleri';
+import OnCamYikama from './components/products/otomotiv/ozelakiskanlar/OnCamYikama';
+import AdBlueUrun from './components/products/otomotiv/ozelakiskanlar/AdBlueUrun';
+import HidrolikVeKizakYaglari from './components/products/endustriyelUrunler/hidrolikVeKizakYaglari/HidrolikVeKizakYaglari';
 
 
 function App() {
@@ -121,15 +130,15 @@ function App() {
         <Route path="/catalogue/standart-1" element={<HdmoStandart />} />
         <Route path="/catalogue/gaz-motor-yaglari" element={<GazMotorYaglari />} />
         <Route path="/catalogue/2t-4t-yaglari" element={<T24TYaglari />} />
-        <Route path="/catalogue/yuksek-performansli-duz-sanziman" element={<DpfTwc />} />
-        <Route path="/catalogue/yuksek-performansli-otomatik-sanziman" element={<DpfTwc />} />
-        <Route path="/catalogue/duz-sanziman-ve-aks" element={<DpfTwc />} />
-        <Route path="/catalogue/utto-stou-to-4-5" element={<DpfTwc />} />
-        <Route path="/catalogue/sogutma-sulari" element={<DpfTwc />} />
-        <Route path="/catalogue/fren-hidrolikleri" element={<DpfTwc />} />
-        <Route path="/catalogue/on-cam-yikama-sivilari" element={<DpfTwc />} />
-        <Route path="/catalogue/adblue-r-6" element={<DpfTwc />} />
-        <Route path="/catalogue/hidrolik-ve-kizak-yaglari" element={<DpfTwc />} />
+        <Route path="/catalogue/yuksek-performansli-duz-sanziman" element={<YuksekPerformansliDuz />} />
+        <Route path="/catalogue/yuksek-performansli-otomatik-sanziman" element={<YuksekPerformansliOtomatik />} />
+        <Route path="/catalogue/duz-sanziman-ve-aks" element={<DuzSanzimanveAks />} />
+        <Route path="/catalogue/utto-stou-to-4-5" element={<UttoStou />} />
+        <Route path="/catalogue/sogutma-sulari" element={<SogutmaSulari />} />
+        <Route path="/catalogue/fren-hidrolikleri" element={<FrenHidrolikleri />} />
+        <Route path="/catalogue/on-cam-yikama-sivilari" element={<OnCamYikama />} />
+        <Route path="/catalogue/adblue-r-6" element={<AdBlueUrun />} />
+        <Route path="/catalogue/hidrolik-ve-kizak-yaglari" element={<HidrolikVeKizakYaglari />} />
         <Route path="/catalogue/kompresor-yaglari" element={<DpfTwc />} />
         <Route path="/catalogue/endustriyel-disli-yaglari" element={<DpfTwc />} />
         <Route path="/catalogue/turbin-yaglari" element={<DpfTwc />} />

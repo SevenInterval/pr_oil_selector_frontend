@@ -18,7 +18,7 @@ const HdmoYuksekPerformansli = () => {
             <div className="body_with_sidebar catalog">
                 <SideBarUrunler level1ShowName={"OTOMOTIV"} level2ShowName={"HDMO"} />
                 <article>
-                    <UrunlerBaslik level1ShowName={"OTOMOTIV"} level2ShowName={"HDMO"} level3ShowName={"Yüksek performanslı"}
+                    <UrunlerBaslik level1ShowName={"OTOMOTİV"} level2ShowName={"HDMO"} level3ShowName={"Yüksek performanslı"}
                         level1To={"/catalogue/yuksek-performansli-dpf-twc"} level2To={"/catalogue/yuksek-performansli-dpf-twc-uyumlu"} />
                     <ul className="objects-list-two-rows">
                         <UrunOzet productUrl={"/product/yuksek-performansli-1/prista-ultra-td-10w-40-4"}

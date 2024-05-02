@@ -18,7 +18,7 @@ const Standart = () => {
             <div className="body_with_sidebar catalog">
                 <SideBarUrunler level1ShowName={"OTOMOTIV"} level2ShowName={"PCMO"} />
                 <article>
-                    <UrunlerBaslik level1ShowName={"OTOMOTIV"} level2ShowName={"PCMO"} level3ShowName={"Standart"}
+                    <UrunlerBaslik level1ShowName={"OTOMOTİV"} level2ShowName={"PCMO"} level3ShowName={"Standart"}
                         level1To={"/catalogue/yuksek-performansli-dpf-twc"} level2To={"/catalogue/yuksek-performansli-dpf-twc"} />
                     <ul className="objects-list-two-rows">
                         <UrunOzet productUrl={"/product/standart/prista-super-hd-10w-40-4"}

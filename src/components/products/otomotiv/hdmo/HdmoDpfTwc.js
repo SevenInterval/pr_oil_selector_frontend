@@ -18,7 +18,7 @@ const HdmoDpfTwc = () => {
             <div className="body_with_sidebar catalog">
                 <SideBarUrunler level1ShowName={"OTOMOTIV"} level2ShowName={"HDMO"} />
                 <article>
-                    <UrunlerBaslik level1ShowName={"OTOMOTIV"} level2ShowName={"HDMO"} level3ShowName={"Yüksek performanslı DPF & TWC uyumlu"}
+                    <UrunlerBaslik level1ShowName={"OTOMOTİV"} level2ShowName={"HDMO"} level3ShowName={"Yüksek performanslı DPF & TWC uyumlu"}
                         level1To={"/catalogue/yuksek-performansli-dpf-twc"} level2To={"/catalogue/yuksek-performansli-dpf-twc-uyumlu"} />
                     <ul className="objects-list-two-rows">
                         <UrunOzet productUrl={"/product/yuksek-performansli-dpf-twc-uyumlu/prista-uhpd-5w-30-4"}

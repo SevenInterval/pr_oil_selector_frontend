@@ -19,7 +19,7 @@ const DpfTwc = () => {
             <div className="body_with_sidebar catalog">
                 <SideBarUrunler level1ShowName={"OTOMOTIV"} level2ShowName={"PCMO"} />
                 <article>
-                    <UrunlerBaslik level1ShowName={"OTOMOTIV"} level2ShowName={"PCMO"} level3ShowName={"Yüksek performanslı DPF & TWC"}
+                    <UrunlerBaslik level1ShowName={"OTOMOTİV"} level2ShowName={"PCMO"} level3ShowName={"Yüksek performanslı DPF & TWC"}
                         level1To={"/catalogue/yuksek-performansli-dpf-twc"} level2To={"/catalogue/yuksek-performansli-dpf-twc"} />
                     <ul className="objects-list-two-rows">
                         <UrunOzet productUrl={"/product/yuksek-performansli-dpf-twc/prista-r-ultra-v-0w-20-4"}

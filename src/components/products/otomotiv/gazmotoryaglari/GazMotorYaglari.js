@@ -18,7 +18,7 @@ const GazMotorYaglari = () => {
             <div className="body_with_sidebar catalog">
                 <SideBarUrunler level1ShowName={"OTOMOTIV"} level2ShowName={"GAZ MOTOR YAĞLARI"} />
                 <article>
-                    <UrunlerBaslik level1ShowName={"OTOMOTIV"} level2ShowName={"GAZ MOTOR YAĞLARI"} level1To={"/catalogue/yuksek-performansli-dpf-twc"}/>
+                    <UrunlerBaslik level1ShowName={"OTOMOTİV"} level2ShowName={"GAZ MOTOR YAĞLARI"} level1To={"/catalogue/yuksek-performansli-dpf-twc"}/>
                     <ul className="objects-list-two-rows">
                         <UrunOzet productUrl={"/product/gaz-motor-yaglari/prista-multigas-hd-15w-40-4"}
                             productLogo={BosImage} productName={"Prista Multigas HD 15W-40"}

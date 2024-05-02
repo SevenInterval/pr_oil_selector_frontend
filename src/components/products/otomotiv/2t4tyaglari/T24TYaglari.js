@@ -18,7 +18,7 @@ const T24TYaglari = () => {
             <div className="body_with_sidebar catalog">
                 <SideBarUrunler level1ShowName={"OTOMOTIV"} level2ShowName={"2T/4T YAĞLARI"} />
                 <article>
-                    <UrunlerBaslik level1ShowName={"OTOMOTIV"} level2ShowName={"2T/4T YAĞLARI"} level1To={"/catalogue/yuksek-performansli-dpf-twc"} />
+                    <UrunlerBaslik level1ShowName={"OTOMOTİV"} level2ShowName={"2T/4T YAĞLARI"} level1To={"/catalogue/yuksek-performansli-dpf-twc"} />
                     <ul className="objects-list-two-rows">
                         <UrunOzet productUrl={"/product/2t-4t-yaglari/prista-2t-extra-4"}
                             productLogo={Yp2textra4Image} productName={"Prista 2T Extra"}
