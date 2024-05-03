@@ -124,6 +124,17 @@ import Plastiklestiriciler from './components/products/endustriyelUrunler/islemY
 import KalipAyirmaYaglari from './components/products/endustriyelUrunler/islemYaglari/KalipAyirmaYaglari';
 import SabitGazMotorlari from './components/products/endustriyelUrunler/SabitGazMotorlari';
 import Gresler from './components/products/gresler/Gresler';
+import SistemYaglari from './components/products/marinYaglari/anaYaglar/SistemYaglari';
+import KovanPistonluMotorYaglari from './components/products/marinYaglari/anaYaglar/KovanPistonluMotorYaglari';
+import SilindirYaglari from './components/products/marinYaglari/anaYaglar/SilindirYaglari';
+import DisliYaglariYard from './components/products/marinYaglari/yardimciYaglar/DisliYaglariYard';
+import SogutmaSistemiYag from './components/products/marinYaglari/yardimciYaglar/SogutmaSistemiYag';
+import KompresorYaglariYard from './components/products/marinYaglari/yardimciYaglar/KompresorYaglariYard';
+import IsiTransferYagi from './components/products/marinYaglari/yardimciYaglar/IsiTransferYagi';
+import TurbinYaglariYard from './components/products/marinYaglari/yardimciYaglar/TurbinYaglariYard';
+import HidrolikYaglar from './components/products/marinYaglari/yardimciYaglar/HidrolikYaglar';
+import MotorYaglariYard from './components/products/marinYaglari/yardimciYaglar/MotorYaglariYard';
+import GreslerMarin from './components/products/marinYaglari/GreslerMarin';
 
 
 function App() {
@@ -167,17 +178,17 @@ function App() {
         <Route path="/catalogue/kalip-ayirma-yaglari" element={<KalipAyirmaYaglari />} />
         <Route path="/catalogue/sabit-gaz-motorlari" element={<SabitGazMotorlari />} />
         <Route path="/catalogue/gresler" element={<Gresler />} />
-        <Route path="/catalogue/sistem-yaglari" element={<DpfTwc />} />
-        <Route path="/catalogue/kovan-pistonlu-motor-yaglari" element={<DpfTwc />} />
-        <Route path="/catalogue/silindir-yaglari" element={<DpfTwc />} />
-        <Route path="/catalogue/disli-yaglari" element={<DpfTwc />} />
-        <Route path="/catalogue/sogutma-sistemi-yagi" element={<DpfTwc />} />
-        <Route path="/catalogue/kompresor-yaglari-1" element={<DpfTwc />} />
-        <Route path="/catalogue/isi-transfer-yagi" element={<DpfTwc />} />
-        <Route path="/catalogue/turbin-yaglari-1" element={<DpfTwc />} />
-        <Route path="/catalogue/hidrolik-yaglar" element={<DpfTwc />} />
-        <Route path="/catalogue/motor-yaglari" element={<DpfTwc />} />
-        <Route path="/catalogue/gresler-1" element={<DpfTwc />} />
+        <Route path="/catalogue/sistem-yaglari" element={<SistemYaglari />} />
+        <Route path="/catalogue/kovan-pistonlu-motor-yaglari" element={<KovanPistonluMotorYaglari />} />
+        <Route path="/catalogue/silindir-yaglari" element={<SilindirYaglari />} />
+        <Route path="/catalogue/disli-yaglari" element={<DisliYaglariYard />} />
+        <Route path="/catalogue/sogutma-sistemi-yagi" element={<SogutmaSistemiYag />} />
+        <Route path="/catalogue/kompresor-yaglari-1" element={<KompresorYaglariYard />} />
+        <Route path="/catalogue/isi-transfer-yagi" element={<IsiTransferYagi />} />
+        <Route path="/catalogue/turbin-yaglari-1" element={<TurbinYaglariYard />} />
+        <Route path="/catalogue/hidrolik-yaglar" element={<HidrolikYaglar />} />
+        <Route path="/catalogue/motor-yaglari" element={<MotorYaglariYard />} />
+        <Route path="/catalogue/gresler-1" element={<GreslerMarin />} />
 
         {/* Pazarlar */}
         <Route path="/istirakler" element={<Istirakler />} />
