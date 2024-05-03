@@ -109,8 +109,21 @@ import SogutmaSulari from './components/products/otomotiv/ozelakiskanlar/Sogutma
 import FrenHidrolikleri from './components/products/otomotiv/ozelakiskanlar/FrenHidrolikleri';
 import OnCamYikama from './components/products/otomotiv/ozelakiskanlar/OnCamYikama';
 import AdBlueUrun from './components/products/otomotiv/ozelakiskanlar/AdBlueUrun';
-import HidrolikVeKizakYaglari from './components/products/endustriyelUrunler/hidrolikVeKizakYaglari/HidrolikVeKizakYaglari';
-import KompresorYaglari from './components/products/endustriyelUrunler/kompresorYaglari/KompresorYaglari';
+import HidrolikVeKizakYaglari from './components/products/endustriyelUrunler/HidrolikVeKizakYaglari';
+import KompresorYaglari from './components/products/endustriyelUrunler/KompresorYaglari';
+import DisliYaglari from './components/products/endustriyelUrunler/DisliYaglari';
+import TurbinYaglari from './components/products/endustriyelUrunler/TurbinYaglari';
+import TransformatorYaglari from './components/products/endustriyelUrunler/TransformatorYaglari';
+import SirkulasyonYaglari from './components/products/endustriyelUrunler/SirkulasyonYaglari';
+import MotorluTestereYaglari from './components/products/endustriyelUrunler/MotorluTestereYaglari';
+import IsiTransferYaglari from './components/products/endustriyelUrunler/IsiTransferYaglari';
+import SuVermeYaglari from './components/products/endustriyelUrunler/SuVermeYaglari';
+import SadeYaglar from './components/products/endustriyelUrunler/mwf/SadeYaglar';
+import SudaCozulebilir from './components/products/endustriyelUrunler/mwf/SudaCozulebilir';
+import Plastiklestiriciler from './components/products/endustriyelUrunler/islemYaglari/Plastiklestiriciler';
+import KalipAyirmaYaglari from './components/products/endustriyelUrunler/islemYaglari/KalipAyirmaYaglari';
+import SabitGazMotorlari from './components/products/endustriyelUrunler/SabitGazMotorlari';
+import Gresler from './components/products/gresler/Gresler';
 
 
 function App() {
@@ -141,19 +154,19 @@ function App() {
         <Route path="/catalogue/adblue-r-6" element={<AdBlueUrun />} />
         <Route path="/catalogue/hidrolik-ve-kizak-yaglari" element={<HidrolikVeKizakYaglari />} />
         <Route path="/catalogue/kompresor-yaglari" element={<KompresorYaglari />} />
-        <Route path="/catalogue/endustriyel-disli-yaglari" element={<DpfTwc />} />
-        <Route path="/catalogue/turbin-yaglari" element={<DpfTwc />} />
-        <Route path="/catalogue/transformator-yaglari" element={<DpfTwc />} />
-        <Route path="/catalogue/sirkulasyon-yaglari-ve-genel-amacli-yaglar" element={<DpfTwc />} />
-        <Route path="/catalogue/motorlu-testere-yaglari" element={<DpfTwc />} />
-        <Route path="/catalogue/isi-transfer-yaglari" element={<DpfTwc />} />
-        <Route path="/catalogue/su-verme-yaglari" element={<DpfTwc />} />
-        <Route path="/catalogue/sade-yaglar" element={<DpfTwc />} />
-        <Route path="/catalogue/suda-cozulebilir" element={<DpfTwc />} />
-        <Route path="/catalogue/plastiklestiriciler" element={<DpfTwc />} />
-        <Route path="/catalogue/kalip-ayirma-yaglari" element={<DpfTwc />} />
-        <Route path="/catalogue/sabit-gaz-motorlari" element={<DpfTwc />} />
-        <Route path="/catalogue/gresler" element={<DpfTwc />} />
+        <Route path="/catalogue/endustriyel-disli-yaglari" element={<DisliYaglari />} />
+        <Route path="/catalogue/turbin-yaglari" element={<TurbinYaglari />} />
+        <Route path="/catalogue/transformator-yaglari" element={<TransformatorYaglari />} />
+        <Route path="/catalogue/sirkulasyon-yaglari-ve-genel-amacli-yaglar" element={<SirkulasyonYaglari />} />
+        <Route path="/catalogue/motorlu-testere-yaglari" element={<MotorluTestereYaglari />} />
+        <Route path="/catalogue/isi-transfer-yaglari" element={<IsiTransferYaglari />} />
+        <Route path="/catalogue/su-verme-yaglari" element={<SuVermeYaglari />} />
+        <Route path="/catalogue/sade-yaglar" element={<SadeYaglar />} />
+        <Route path="/catalogue/suda-cozulebilir" element={<SudaCozulebilir />} />
+        <Route path="/catalogue/plastiklestiriciler" element={<Plastiklestiriciler />} />
+        <Route path="/catalogue/kalip-ayirma-yaglari" element={<KalipAyirmaYaglari />} />
+        <Route path="/catalogue/sabit-gaz-motorlari" element={<SabitGazMotorlari />} />
+        <Route path="/catalogue/gresler" element={<Gresler />} />
         <Route path="/catalogue/sistem-yaglari" element={<DpfTwc />} />
         <Route path="/catalogue/kovan-pistonlu-motor-yaglari" element={<DpfTwc />} />
         <Route path="/catalogue/silindir-yaglari" element={<DpfTwc />} />

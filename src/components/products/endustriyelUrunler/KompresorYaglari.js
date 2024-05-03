@@ -1,10 +1,10 @@
 import { Helmet } from "react-helmet-async";
-import SideBarUrunler from "../../../SidebarUrunler";
-import UrunlerBaslik from "../../UrunlerBaslik";
-import UrunOzet from "../../UrunOzet";
+import SideBarUrunler from "../../SidebarUrunler";
+import UrunlerBaslik from "../UrunlerBaslik";
+import UrunOzet from "../UrunOzet";
 import {
     basicVarilKucukImage
-} from "../../../../images/products"
+} from "../../../images/products"
 
 const KompresorYaglari = () => {
     return (
