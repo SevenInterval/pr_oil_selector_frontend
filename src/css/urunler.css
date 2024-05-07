@@ -139,3 +139,40 @@ html body article .objects-list-two-rows li a span.text {
 html body article .objects-list-two-rows li.last {
     margin-right: 0;
 }
+
+html body article .product-detail .left {
+    float: left;
+    margin-top: 22px;
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+@media (max-width: 776px) {
+    html body article .product-detail .left {
+        float: none;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+html body article .product-detail .description {
+    color: #000000;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+@media (min-width: 776px) {
+    html body article .product-detail .description {
+        font-size: 18px;
+    }
+}
+
+html body article .separator {
+    margin-top: 16px;
+}
+
+html body article .gl-link {
+    color: #3fa5c3;
+    font-size: 18px;
+}

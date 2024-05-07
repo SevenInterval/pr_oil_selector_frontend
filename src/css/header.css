@@ -1066,3 +1066,7 @@ html body .page-404 strong {
     font-weight: 700;
     color: #ffdd00;
 }
+
+.fancybox__container{
+    z-index: 1000000 !important;
+}

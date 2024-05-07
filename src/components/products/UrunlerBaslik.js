@@ -10,18 +10,18 @@ const UrunlerBaslik = (props) => {
                 {" / "}
                 <Link to="/catalogue/yuksek-performansli-dpf-twc">PRISTA</Link>
                 {" / "}
-                {level2ShowName ? <Link to={level1To}>{level1ShowName}</Link> : <h1>{level1ShowName}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>}
+                {level2ShowName ? <Link to={level1To}>{level1ShowName}</Link> : <h1>{level1ShowName}</h1>}
                 {level3ShowName ?
                     <>
                         {" / "}
                         <Link to={level2To}>{level2ShowName}</Link>
                         {" / "}
-                        <h1>{level3ShowName}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+                        <h1>{level3ShowName}</h1>
                     </> :
                     level2ShowName &&
                     <>
                         {" / "}
-                        <h1>{level2ShowName}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+                        <h1>{level2ShowName}</h1>
                     </>
                 }
             </div>

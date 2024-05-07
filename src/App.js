@@ -135,6 +135,8 @@ import TurbinYaglariYard from './components/products/marinYaglari/yardimciYaglar
 import HidrolikYaglar from './components/products/marinYaglari/yardimciYaglar/HidrolikYaglar';
 import MotorYaglariYard from './components/products/marinYaglari/yardimciYaglar/MotorYaglariYard';
 import GreslerMarin from './components/products/marinYaglari/GreslerMarin';
+import UrunDetay from './components/products/UrunDetay';
+import { Dpf0w204Product, Dpf0w30Product, Dpf5w30Product, Dpf5w40Product, Dpfc50w20Product, Dpffe5w30Product, Dpfg5w30Product, Dpfgf0w20Product, Dpfrn5w30Product, Dpfultra5w30Product } from './utility/productDetails';
 
 
 function App() {
@@ -291,6 +293,23 @@ function App() {
         <Route path="/site/search" element={<Search />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/prista-yaglari-danismani" element={<YagDanismani />} />
+
+
+
+
+        {/* Products */}
+        <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-r-ultra-v-0w-20-4" element={<UrunDetay product={Dpf0w204Product} />} />
+        <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-ultra-c5-0w-20-7" element={<UrunDetay product={Dpfc50w20Product} />} />
+        <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-ultra-fe-0w-30-7" element={<UrunDetay product={Dpf0w30Product} />} />
+        <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-ultra-plus-5w-30-4" element={<UrunDetay product={Dpf5w30Product} />} />
+        <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-ultra-rn-5w-30-4" element={<UrunDetay product={Dpfrn5w30Product}/>} />
+        <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-ultra-v-5w-30-4" element={<UrunDetay product={Dpfultra5w30Product}/>} />
+        <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-ultra-gf-0w-20-7" element={<UrunDetay product={Dpfgf0w20Product}/>} />
+        <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-ultra-g-5w-30-4" element={<UrunDetay product={Dpfg5w30Product}/>} />
+        <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-ultra-fe-5w-30-7" element={<UrunDetay product={Dpffe5w30Product}/>} />
+        <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-ultra-plus-5w-40-4" element={<UrunDetay product={Dpf5w40Product}/>} />
+
+
       </Routes>
       <Footer />
     </>
