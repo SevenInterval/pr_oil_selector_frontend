@@ -204,6 +204,16 @@ const Header = () => {
                                     </li>
 
                                 </ul>
+                            </li>                            
+                            <li id="menu_8" data-id="8" onClick={() => setSelectedNavbarId("menu_8")} className={selectedNavbarId === "menu_8" ? "level-0 active root-active" : "level-0"}>
+                                <Link to="/harita">
+                                    İrtibat
+                                </Link>
+                            </li>
+                            <li id="menu_9" data-id="9" className="yellow_btn level-0 ">
+                                <Link to="/distributorler">
+                                    Nereden satın alabiliriz?
+                                </Link>
                             </li>
                             <li id="menu_7" data-id="7" onClick={() => setSelectedNavbarId("menu_7")} className={selectedNavbarId === "menu_7" ? "level-0 active root-active" : "level-0"}>
                                 <Link to="/biz-kimiz">
@@ -242,16 +252,6 @@ const Header = () => {
                                     </li>
 
                                 </ul>
-                            </li>
-                            <li id="menu_8" data-id="8" onClick={() => setSelectedNavbarId("menu_8")} className={selectedNavbarId === "menu_8" ? "level-0 active root-active" : "level-0"}>
-                                <Link to="/harita">
-                                    İrtibat
-                                </Link>
-                            </li>
-                            <li id="menu_9" data-id="9" className="yellow_btn level-0 ">
-                                <Link to="/distributorler">
-                                    Nereden satın alabiliriz?
-                                </Link>
                             </li>
                         </ul>
                         <div className="transparent-box"></div>

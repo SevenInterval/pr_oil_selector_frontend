@@ -297,7 +297,7 @@ function App() {
 
 
 
-        {/* Products */}
+        {/* Products en sonunda sitemap.txt'ye eklenecek*/}
         <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-r-ultra-v-0w-20-4" element={<UrunDetay product={Dpf0w204Product} />} />
         <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-ultra-c5-0w-20-7" element={<UrunDetay product={Dpfc50w20Product} />} />
         <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-ultra-fe-0w-30-7" element={<UrunDetay product={Dpf0w30Product} />} />
