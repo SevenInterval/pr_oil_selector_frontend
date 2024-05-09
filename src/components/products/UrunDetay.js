@@ -8,7 +8,7 @@ import MsdsButtonImage from "../../images/msds_button.jpg"
 
 const UrunDetay = (props) => {
     const { productName, productUrl, level1ShowName, level2ShowName, level1ShowNameBaslik, level2ShowNameBaslik, level3ShowNameBaslik, level1To, level2To,
-        productImage, productBigImage, productDetail, productProvides, pdsLink, msdsLink, backUrl
+        productImage, productBigImage, productDetail, productProvides, pdsLink, msdsLink, backUrl, msds2Link
     } = props.product;
 
     return (
@@ -50,13 +50,26 @@ const UrunDetay = (props) => {
                             {productProvides}
                             <p>
                                 <strong style={{ fontFamily: "sans-serif" }}>
-                                    <Link to={pdsLink} target="_blank">
-                                        <img alt="pdsButton" src={PdsButtonImage} height={35} width={85} loading='eager' title='pdsButton' />
-                                    </Link>
-                                    &nbsp;&nbsp;&nbsp;
-                                    <Link to={msdsLink} target="_blank">
-                                        <img alt="msdsButton" src={MsdsButtonImage} height={35} width={98} loading='eager' title='msdsButton' />
-                                    </Link>
+                                    {pdsLink &&
+                                        <>
+                                            <Link to={pdsLink} target="_blank">
+                                                <img alt="pdsButton" src={PdsButtonImage} height={35} width={85} loading='eager' title='pdsButton' />
+                                            </Link>
+                                            &nbsp;&nbsp;&nbsp;
+                                        </>
+                                    }
+                                    {msdsLink &&
+                                        <Link to={msdsLink} target="_blank">
+                                            <img alt="msdsButton" src={MsdsButtonImage} height={35} width={98} loading='eager' title='msdsButton' />
+                                        </Link>
+                                    }
+                                    {msds2Link &&
+                                        <>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <Link to={msds2Link} target="_blank">
+                                                <img alt="msds2Button" src={MsdsButtonImage} height={35} width={98} loading='eager' title='msdsButton' />
+                                            </Link>
+                                        </>}
                                 </strong>
                             </p>
                             <div className="separator product-action-box">

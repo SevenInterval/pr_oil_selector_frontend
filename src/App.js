@@ -136,7 +136,8 @@ import HidrolikYaglar from './components/products/marinYaglari/yardimciYaglar/Hi
 import MotorYaglariYard from './components/products/marinYaglari/yardimciYaglar/MotorYaglariYard';
 import GreslerMarin from './components/products/marinYaglari/GreslerMarin';
 import UrunDetay from './components/products/UrunDetay';
-import { Dpf0w204Product, Dpf0w30Product, Dpf5w30Product, Dpf5w40Product, Dpfc50w20Product, Dpffe5w30Product, Dpfg5w30Product, Dpfgf0w20Product, Dpfrn5w30Product, Dpfultra5w30Product } from './utility/productDetails';
+import { Dpf0w204Product, Dpf0w30Product, Dpf5w30Product, Dpf5w40Product, Dpfc50w20Product, Dpffe5w30Product, Dpfg5w30Product, Dpfgf0w20Product, Dpfrn5w30Product, Dpfultra5w30Product, Hd10w40Product, Ls10w30Product, MultigasHd15w402tProduct, MultigasHd15w40Product, ShpdLs15w40Product, Super15w4020w50Product, Td15w4020w50Product, Ustun15w4020w50Product, Yp10w40Product, Yp15w4020w504Product, Yp2textra4Product, Yp2tmix4Product, Yp5w305w40Product, Ypld15w40Product, Ypr4t6Product, Ypsb10w40Product, Yptd10w40Product, Ypuhpd10w40Product, Ypuhpd5w30Product, Ypvds310w40Product } from './utility/productDetails';
+import Msds from './components/products/Msds';
 
 
 function App() {
@@ -293,9 +294,7 @@ function App() {
         <Route path="/site/search" element={<Search />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/prista-yaglari-danismani" element={<YagDanismani />} />
-
-
-
+        <Route path="/msds-9" element={<Msds />} />
 
         {/* Products en sonunda sitemap.txt'ye eklenecek*/}
         <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-r-ultra-v-0w-20-4" element={<UrunDetay product={Dpf0w204Product} />} />
@@ -308,8 +307,28 @@ function App() {
         <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-ultra-g-5w-30-4" element={<UrunDetay product={Dpfg5w30Product}/>} />
         <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-ultra-fe-5w-30-7" element={<UrunDetay product={Dpffe5w30Product}/>} />
         <Route path="/catalogue/yuksek-performansli-dpf-twc/prista-ultra-plus-5w-40-4" element={<UrunDetay product={Dpf5w40Product}/>} />
+        <Route path="/catalogue/yuksek-performansli/prista-ultra-5w-30-5w-40-4" element={<UrunDetay product={Yp5w305w40Product}/>} />
+        <Route path="/catalogue/yuksek-performansli/prista-leader-10w-40-6" element={<UrunDetay product={Yp10w40Product}/>} />
+        <Route path="/catalogue/yuksek-performansli/prista-super-benzin-10w-40-4" element={<UrunDetay product={Ypsb10w40Product}/>} />
+        <Route path="/catalogue/ustun/prista-leader-15w-40-20w-50-7" element={<UrunDetay product={Ustun15w4020w50Product}/>} />
+        <Route path="/catalogue/standart/prista-super-hd-10w-40-4" element={<UrunDetay product={Hd10w40Product}/>} />
+        <Route path="/catalogue/yuksek-performansli-dpf-twc-uyumlu/prista-uhpd-5w-30-4" element={<UrunDetay product={Ypuhpd5w30Product}/>} />
+        <Route path="/catalogue/yuksek-performansli-dpf-twc-uyumlu/prista-uhpd-10w-40-4" element={<UrunDetay product={Ypuhpd10w40Product}/>} />
+        <Route path="/catalogue/yuksek-performansli-dpf-twc-uyumlu/prista-shpd-ls-10w-30-7" element={<UrunDetay product={Ls10w30Product}/>} />
+        <Route path="/catalogue/yuksek-performansli-1/prista-ultra-td-10w-40-4" element={<UrunDetay product={Yptd10w40Product}/>} />
+        <Route path="/catalogue/yuksek-performansli-1/prista-shpd-vds-3-10w-40-4" element={<UrunDetay product={Ypvds310w40Product}/>} />
+        <Route path="/catalogue/yuksek-performansli-1/prista-shpd-ls-15w-40-6" element={<UrunDetay product={ShpdLs15w40Product}/>} />
+        <Route path="/catalogue/ustun-1/prista-shpd-vds-3-15w-40-20w-50-4" element={<UrunDetay product={Yp15w4020w504Product}/>} />
+        <Route path="/catalogue/ustun-1/prista-turbo-diesel-15w-40-20w-50-4" element={<UrunDetay product={Td15w4020w50Product}/>} />
+        <Route path="/catalogue/ustun-1/prista-r-leader-15w-40-20w-50-6" element={<UrunDetay product={Ypld15w40Product}/>} />
+        <Route path="/catalogue/standart-1/prista-super-hd-15w-40-20w-50-9" element={<UrunDetay product={Super15w4020w50Product}/>} />
+        <Route path="/catalogue/gaz-motor-yaglari/prista-multigas-hd-15w-40-4" element={<UrunDetay product={MultigasHd15w40Product}/>} />
+        <Route path="/catalogue/2t-4t-yaglari/prista-2t-extra-4" element={<UrunDetay product={Yp2textra4Product}/>} />
+        <Route path="/catalogue/2t-4t-yaglari/prista-2t-mix-4" element={<UrunDetay product={Yp2tmix4Product}/>} />
+        <Route path="/catalogue/2t-4t-yaglari/prista-r-4t-6" element={<UrunDetay product={Ypr4t6Product}/>} />
+        <Route path="/catalogue/2t-4t-yaglari/prista-2t-outboard-4" element={<UrunDetay product={MultigasHd15w402tProduct}/>} />
 
-
+        
       </Routes>
       <Footer />
     </>

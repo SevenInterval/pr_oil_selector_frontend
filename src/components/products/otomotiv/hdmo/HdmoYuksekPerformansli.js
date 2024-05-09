@@ -21,15 +21,15 @@ const HdmoYuksekPerformansli = () => {
                     <UrunlerBaslik level1ShowName={"OTOMOTİV"} level2ShowName={"HDMO"} level3ShowName={"Yüksek performanslı"}
                         level1To={"/catalogue/yuksek-performansli-dpf-twc"} level2To={"/catalogue/yuksek-performansli-dpf-twc-uyumlu"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/yuksek-performansli-1/prista-ultra-td-10w-40-4"}
+                        <UrunOzet productUrl={"/catalogue/yuksek-performansli-1/prista-ultra-td-10w-40-4"}
                             productLogo={Yptd10w40Image} productName={"Prista Ultra TD 10W-40"}
                             productText={"Prista® Ultra TD 10W-40, uzun yağ değiştirme aralıklarında yüksek performans, mükemmel dayanıklılık ve kararlılık sağlamak için yüksek kaliteli baz bileşenlerle harmanlanmış ve özel olarak formüle edilmiş katkı maddeleriyle ve çok yü"}
                             last={false} />
-                        <UrunOzet productUrl={"/product/yuksek-performansli-1/prista-shpd-vds-3-10w-40-4"}
+                        <UrunOzet productUrl={"/catalogue/yuksek-performansli-1/prista-shpd-vds-3-10w-40-4"}
                             productLogo={Ypvds310w40Image} productName={"Prista SHPD VDS-3 10W-40"}
                             productText={"Prista® SHPD VDS-3 10W-40 çok mevsimli motor yağı, kullanım sırasında üstün performans ve mükemmel dayanıklılık sağlamak için eşsiz kaliteli ve dikkatlice dengelenmiş solvent ile rafine edilmiş, hidroişlenmiş sentetik baz ürünler ve "}
                             last={true} />
-                        <UrunOzet productUrl={"/product/yuksek-performansli-1/prista-shpd-ls-15w-40-6"}
+                        <UrunOzet productUrl={"/catalogue/yuksek-performansli-1/prista-shpd-ls-15w-40-6"}
                             productLogo={YpbasicVarilImage} productName={"Prista SHPD LS 15W-40"}
                             productText={"Prista® Super SHPD 15W-40, normal uzunluktaki yağ değiştirme aralıkları için amaçlanmış orta SAPS seviyeli yeni bir motor yağı kategorisidir. Bu yağ, yeni motor yağı eğilimine göre API Grup II baz yağlar esaslı olup AB yönetmelikleri"}
                             last={false} />

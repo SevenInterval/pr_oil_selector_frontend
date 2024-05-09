@@ -21,7 +21,7 @@ const Ustun = () => {
                     <UrunlerBaslik level1ShowName={"OTOMOTİV"} level2ShowName={"PCMO"} level3ShowName={"Üstün"}
                         level1To={"/catalogue/yuksek-performansli-dpf-twc"} level2To={"/catalogue/yuksek-performansli-dpf-twc"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/ustun/prista-leader-15w-40-20w-50-7"}
+                        <UrunOzet productUrl={"/catalogue/ustun/prista-leader-15w-40-20w-50-7"}
                             productLogo={Ustun15w4020w50Image} productName={"Prista Leader 15W-40/20W-50"}
                             productText={"Prista® Leader multigrade engine oils are especially developed to meet the current lubrication demands of the modern gasoline and diesel engines. They are formulated with a special selection of high quality solvent refined, hydrotrea"}
                             last={false} />

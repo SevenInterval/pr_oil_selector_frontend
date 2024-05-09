@@ -20,7 +20,7 @@ const GazMotorYaglari = () => {
                 <article>
                     <UrunlerBaslik level1ShowName={"OTOMOTİV"} level2ShowName={"GAZ MOTOR YAĞLARI"} level1To={"/catalogue/yuksek-performansli-dpf-twc"}/>
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/gaz-motor-yaglari/prista-multigas-hd-15w-40-4"}
+                        <UrunOzet productUrl={"/catalogue/gaz-motor-yaglari/prista-multigas-hd-15w-40-4"}
                             productLogo={BosImage} productName={"Prista Multigas HD 15W-40"}
                             productText={"Prista® Multigas HD 15W-40, kaliteli solvent ile rafine edilmiş ve hidroişlenmiş baz ürünler ve özel gelişmiş katkı teknolojisi özenle seçilerek formüle edilmiş çok kaliteli, çok mevsimli bir motor yağıdır."}
                             last={false} />
