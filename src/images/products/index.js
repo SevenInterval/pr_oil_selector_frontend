@@ -109,3 +109,6 @@ export const dot4dot3Big = require("../products/otomotiv/dot4dot3Big.jpeg");
 export const adblueImage = require("../products/otomotiv/adblue.jpeg");
 export const adblueLt = require("../products/otomotiv/adblueLt.jpeg");
 export const adblueBig = require("../products/otomotiv/adblueBig.jpeg");
+export const varilLt = require("../products/otomotiv/varilLt.jpeg");
+export const varilBig = require("../products/otomotiv/varilBig.jpeg");
+export const grafikMhvPlus = require("../products/otomotiv/grafikMhvPlus.jpg");

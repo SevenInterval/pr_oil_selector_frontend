@@ -136,7 +136,7 @@ import HidrolikYaglar from './components/products/marinYaglari/yardimciYaglar/Hi
 import MotorYaglariYard from './components/products/marinYaglari/yardimciYaglar/MotorYaglariYard';
 import GreslerMarin from './components/products/marinYaglari/GreslerMarin';
 import UrunDetay from './components/products/UrunDetay';
-import { Atf2MProduct, Dpf0w204Product, Dpf0w30Product, Dpf5w30Product, Dpf5w40Product, Dpfc50w20Product, Dpffe5w30Product, Dpfg5w30Product, Dpfgf0w20Product, Dpfrn5w30Product, Dpfultra5w30Product, Gl4sae90Product, Hd10w40Product, Ls10w30Product, Mhp32Product, Mhp40aProduct, MultigasHd15w402tProduct, MultigasHd15w40Product, ShpdLs15w40Product, Super15w4020w50Product, Td15w4020w50Product, To4sae10w30Product, Ustun15w4020w50Product, Yp10w40Product, Yp15w4020w504Product, Yp2textra4Product, Yp2tmix4Product, Yp5w305w40Product, Yp75w8075w90Product, Ypatfiii4Product, Ypld15w40Product, Yppristaatf4Product, Yppsf4Product, Ypr4t6Product, Ypsae80w90Product, Ypsae90140Product, Ypsb10w40Product, Ypstou4Product, Yptd10w40Product, Ypuhpd10w40Product, Ypuhpd5w30Product, Yputto3Product, Ypvds310w40Product, adblueProduct, antifreezeLongLifeProduct, antifriz4Product, concentrate4Product, dot4dot3Product, longlife4Product, screenwashSummerProduct, screenwashWinterProduct } from './utility/productDetails';
+import { Atf2MProduct, Dpf0w204Product, Dpf0w30Product, Dpf5w30Product, Dpf5w40Product, Dpfc50w20Product, Dpffe5w30Product, Dpfg5w30Product, Dpfgf0w20Product, Dpfrn5w30Product, Dpfultra5w30Product, Gl4sae90Product, Hd10w40Product, Ls10w30Product, Mhp32Product, Mhp40aProduct, MultigasHd15w402tProduct, MultigasHd15w40Product, ShpdLs15w40Product, Super15w4020w50Product, Td15w4020w50Product, To4sae10w30Product, Ustun15w4020w50Product, Yp10w40Product, Yp15w4020w504Product, Yp2textra4Product, Yp2tmix4Product, Yp5w305w40Product, Yp75w8075w90Product, Ypatfiii4Product, Ypld15w40Product, Yppristaatf4Product, Yppsf4Product, Ypr4t6Product, Ypsae80w90Product, Ypsae90140Product, Ypsb10w40Product, Ypstou4Product, Yptd10w40Product, Ypuhpd10w40Product, Ypuhpd5w30Product, Yputto3Product, Ypvds310w40Product, absorberOilProduct, adblueProduct, antifreezeLongLifeProduct, antifriz4Product, concentrate4Product, dot4dot3Product, fd5Product, longlife4Product, mhe40Product, mhlProduct, mhm46Product, mhmPlusProduct, mhmProduct, mhmbProduct, mhmdProduct, mhvPlusProduct, mhvProduct, mnpProduct, screenwashSummerProduct, screenwashWinterProduct } from './utility/productDetails';
 import Msds from './components/products/Msds';
 
 
@@ -347,8 +347,20 @@ function App() {
         <Route path="/catalogue/fren-hidrolikleri/prista-dot-4-dot-3-4" element={<UrunDetay product={dot4dot3Product}/>} />
         <Route path="/catalogue/on-cam-yikama-sivilari/prista-screenwash-summer-4" element={<UrunDetay product={screenwashSummerProduct}/>} />
         <Route path="/catalogue/on-cam-yikama-sivilari/prista-screenwash-winter-4" element={<UrunDetay product={screenwashWinterProduct}/>} />
-
         <Route path="/catalogue/adblue-r-6/adblue-6" element={<UrunDetay product={adblueProduct}/>} />
+
+        <Route path="/catalogue/hidrolik-ve-kizak-yaglari/prista-mhv-plus-4" element={<UrunDetay product={mhvPlusProduct}/>} />
+        <Route path="/catalogue/hidrolik-ve-kizak-yaglari/prista-mhv-7" element={<UrunDetay product={mhvProduct}/>} />
+        <Route path="/catalogue/hidrolik-ve-kizak-yaglari/prista-mhm-plus-4" element={<UrunDetay product={mhmPlusProduct}/>} />
+        <Route path="/catalogue/hidrolik-ve-kizak-yaglari/prista-mhm-4" element={<UrunDetay product={mhmProduct}/>} />
+        <Route path="/catalogue/hidrolik-ve-kizak-yaglari/prista-mhm-b-4" element={<UrunDetay product={mhmbProduct}/>} />
+        <Route path="/catalogue/hidrolik-ve-kizak-yaglari/prista-mhm-d-4" element={<UrunDetay product={mhmdProduct}/>} />
+        <Route path="/catalogue/hidrolik-ve-kizak-yaglari/prista-bio-mhm-46-4" element={<UrunDetay product={mhm46Product}/>} />
+        <Route path="/catalogue/hidrolik-ve-kizak-yaglari/prista-mhl-4" element={<UrunDetay product={mhlProduct}/>} />
+        <Route path="/catalogue/hidrolik-ve-kizak-yaglari/prista-fd-5-4" element={<UrunDetay product={fd5Product}/>} />
+        <Route path="/catalogue/hidrolik-ve-kizak-yaglari/prista-mhe-40-4" element={<UrunDetay product={mhe40Product}/>} />
+        <Route path="/catalogue/hidrolik-ve-kizak-yaglari/prista-shock-absorber-oil-4" element={<UrunDetay product={absorberOilProduct}/>} />
+        <Route path="/catalogue/hidrolik-ve-kizak-yaglari/prista-mnp-4" element={<UrunDetay product={mnpProduct}/>} />
       </Routes>
       <Footer />
     </>

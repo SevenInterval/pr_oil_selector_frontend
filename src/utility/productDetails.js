@@ -1,4 +1,4 @@
-import { BosImage, Dpf0w204Image, adblueBig, adblueLt, antifriz4Big, antifriz4Lt, basicVarilBig, basicVarilLt, concentrate4Big, concentrate4Lt, dot4dot3Big, dot4dot3Lt, dpf0w30Big, dpf0w30Lt, dpf5w30Big, dpf5w30Lt, dpf5w40Big, dpf5w40Lt, dpfc50w20Big, dpfc50w20Lt, dpffe5w30Big, dpffe5w30Lt, dpfg5w30Big, dpfg5w30Lt, dpfgf0w20Big, dpfgf0w20Lt, dpfrn5w30Big, dpfrn5w30Lt, dpfultra5w30Big, dpfultra5w30Lt, longlife4Big, longlife4Lt, ustun15w4020w50Big, ustun15w4020w50Lt, yp10w40Big, yp10w40Lt, yp15w4020w504Big, yp15w4020w504Lt, yp2textra4Big, yp2textra4Lt, yp2tmix4Big, yp2tmix4Lt, yp5w305w40Big, yp5w305w40Lt, yp75w8075w90Big, yp75w8075w90Lt, ypatfiii4Big, ypatfiii4Lt, ypld15w40Big, ypld15w40Lt, yppristaatf4Big, yppristaatf4Lt, yppsf4Big, yppsf4Lt, ypr4t6Big, ypr4t6Lt, ypsae80w90Big, ypsae80w90Lt, ypsae90140Big, ypsae90140Lt, ypsb10w40Big, ypsb10w40Lt, ypstou4Big, ypstou4Lt, yptd10w40Big, yptd10w40Lt, ypuhdpd5w30Big, ypuhdpd5w30Lt, ypuhpd10w40Big, ypuhpd10w40Lt, yputto3Big, yputto3Lt, ypvds310w40Big, ypvds310w40Lt } from "../images/products";
+import { BosImage, Dpf0w204Image, adblueBig, adblueLt, antifriz4Big, antifriz4Lt, basicVarilBig, basicVarilLt, concentrate4Big, concentrate4Lt, dot4dot3Big, dot4dot3Lt, dpf0w30Big, dpf0w30Lt, dpf5w30Big, dpf5w30Lt, dpf5w40Big, dpf5w40Lt, dpfc50w20Big, dpfc50w20Lt, dpffe5w30Big, dpffe5w30Lt, dpfg5w30Big, dpfg5w30Lt, dpfgf0w20Big, dpfgf0w20Lt, dpfrn5w30Big, dpfrn5w30Lt, dpfultra5w30Big, dpfultra5w30Lt, grafikMhvPlus, longlife4Big, longlife4Lt, ustun15w4020w50Big, ustun15w4020w50Lt, varilBig, varilLt, yp10w40Big, yp10w40Lt, yp15w4020w504Big, yp15w4020w504Lt, yp2textra4Big, yp2textra4Lt, yp2tmix4Big, yp2tmix4Lt, yp5w305w40Big, yp5w305w40Lt, yp75w8075w90Big, yp75w8075w90Lt, ypatfiii4Big, ypatfiii4Lt, ypld15w40Big, ypld15w40Lt, yppristaatf4Big, yppristaatf4Lt, yppsf4Big, yppsf4Lt, ypr4t6Big, ypr4t6Lt, ypsae80w90Big, ypsae80w90Lt, ypsae90140Big, ypsae90140Lt, ypsb10w40Big, ypsb10w40Lt, ypstou4Big, ypstou4Lt, yptd10w40Big, yptd10w40Lt, ypuhdpd5w30Big, ypuhdpd5w30Lt, ypuhpd10w40Big, ypuhpd10w40Lt, yputto3Big, yputto3Lt, ypvds310w40Big, ypvds310w40Lt } from "../images/products";
 
 export const Dpf0w204Product = {
     productName: "PRISTA® Ultra V 0W-20",
@@ -1259,4 +1259,270 @@ export const adblueProduct = {
     pdsLink: null,
     msdsLink: null,
     backUrl: "/catalogue/adblue-r-6"
+}
+
+export const mhvPlusProduct = {
+    productName: "Prista MHV Plus",
+    productUrl: "/catalogue/hidrolik-ve-kizak-yaglari/prista-mhv-plus-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "HİDROLİK VE KIZAK YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "HİDROLİK VE KIZAK YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® MHV Plus</strong>, üstün kaliteli baz ürünlerle harmanlanmış hidrolik yağların yeni bir neslidir. Yağlarda kullanılan oldukça rafine baz ürünler, yüksek oksidasyon kararlılığına ve uzun performans ömrüne sahiptir. Pas, oksidasyon ve korozyon inhibitörleri, aşınma önleyici madde içeren çok etkili katkılarla harmanlanmıştır. Viskozite indeksi değiştiricisi sayesinde hidrolik sistemler/yüksek kesme kararlılığına sahip yağlar, yüksek verimlilik ve dayanıklılıkla çalışırlar.<br />
+        <strong style={{ fontFamily: "sans-serif" }}>Prista® MHV Plus</strong>, açık hava gibi, - 30°C ile +50°C arasındaki çok değişken sıcaklıklara maruz kalan hidrolik sistemlerinde kullanım için uygundur. Bu yağlar çok yüksek oksidasyon kararlılığı, iyi aşınma ve sürtünme önleme özellikleri, iyi &nbsp;pas &amp; oksidasyon korunumu ve yüksek kesme kararlılığı gerektiren hidrostatik yağlama sistemlerinde ve sirkülasyon sistemlerindeki hareketli parçalarda &nbsp;kullanım için amaçlanmıştır. Ayrıca, hidrolik sistemlerin hidrolik kanatlı pompalarında, hidrolik dişli pompalarında ve hidrolik pistonlu ünitelerinde kullanım için uygundur.<br />
+        Formülasyonlarında kullanılan yüksek kaliteli baz yağlar ve katkı maddeleri sayesinde bu yağlar, 25 MPa’yı aşan çok yüksek basınçlarda ve 90°C’yi aşan yağ sıcaklıklarında çalışan hidrolik sistemler için oldukça idealdir.</p></>,
+    productProvides: <>
+        <p>Prista® MHV Plus'ın faydaları aşağıdaki grafikte sunulmuştur: &nbsp;</p><br />
+        <img alt="graffik" src={grafikMhvPlus} height={159} width={300} title="grafik" loading="eager"></img>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com/msds-9",
+    backUrl: "/catalogue/hidrolik-ve-kizak-yaglari"
+}
+
+export const mhvProduct = {
+    productName: "Prista MHV",
+    productUrl: "/catalogue/hidrolik-ve-kizak-yaglari/prista-mhv-7",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "HİDROLİK VE KIZAK YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "HİDROLİK VE KIZAK YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHV</strong> hidrolik yağları pas, oksidasyon, korozyon önleyiciler ve aşınma önleyici maddeler ile polimetakrilat VII (Viskozite İndeksi İyileştirici) içeren oldukça etkili bir katkı maddesi ile harmanlanmış çok iyi demülsibilite ve hava ayrışma özellikleri olan yüksek rafine maddeni bazlı ürünlerden formüle edilmiştir.&nbsp;<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHV</strong> yağları, açık havada olduğu gibi, - 30°C ile +50°C arasındaki çok değişken sıcaklıklara maruz kalan hidrolik sistemlerinde kullanım için uygundur. Bu yağlar çok yüksek oksidasyon kararlılığı, iyi aşınma ve sürtünme önleme özellikleri, iyi pas&amp;oksidasyon korunumu ve yüksek kesme kararlılığı gerektiren hidrostatik yağlama sistemlerinde ve sirkülasyon sistemlerindeki hareketli parçalarda &nbsp;kullanım için amaçlanmıştır. Ayrıca, hidrolik sistemlerin hidrolik kanatlı pompalarında, hidrolik dişli pompalarında ve hidrolik pistonlu ünitelerinde kullanım için uygundur.<br />
+        Formülasyonlarında kullanılan yüksek kaliteli baz yağlar ve katkı maddeleri sayesinde bu yağlar, 25 MPa’yı aşan çok yüksek basınçlarda ve 90°C’yi aşan yağ sıcaklıklarında çalışan hidrolik sistemler için oldukça idealdir.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Yüksek viskozite indeksi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok değişken sıcaklıklarda azami donanım korunumu<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük sıcaklıkta oldukça kararlı</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/1._Prista_MHV_TR.pdf",
+    msdsLink: "https://prista-oil.com/msds-9",
+    backUrl: "/catalogue/hidrolik-ve-kizak-yaglari"
+}
+
+export const mhmPlusProduct = {
+    productName: "Prista MHM Plus",
+    productUrl: "/catalogue/hidrolik-ve-kizak-yaglari/prista-mhm-plus-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "HİDROLİK VE KIZAK YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "HİDROLİK VE KIZAK YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p>Yakında</p></>,
+    productProvides: null,
+    pdsLink: null,
+    msdsLink: null,
+    backUrl: "/catalogue/hidrolik-ve-kizak-yaglari"
+}
+
+export const mhmProduct = {
+    productName: "Prista MHM",
+    productUrl: "/catalogue/hidrolik-ve-kizak-yaglari/prista-mhm-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "HİDROLİK VE KIZAK YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "HİDROLİK VE KIZAK YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHM</strong> hidrolik yağlar pas, oksidasyon ve korozyon önleyiciler ile aşınma önleyici maddeler içeren oldukça etkili bir katkı maddesi ile harmanlanmış çok iyi demülsibilite ve hava ayrışma özellikleri olan yüksek rafine maddeni bazlı ürünlerden formüle edilmiştir. <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHM</strong> hidrolik yağlar, hareketli parçaların ve mekanizmaların yağlanması için hidrostatik yağlama sistemlerinde ve sirkülasyon sistemlerinde kullanım için geliştirilmiştir. Her iki uygulama da çok yüksek oksidasyon kararlılığına sahip, iyi aşınma ve sürtünme önleme özellikleri olan ve güvenilir R-O (pas ve oksidasyon) koruması sağlayan yağlar gerektirmektedir. <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHM</strong> hidrolik yağlar, Vickers 104C Kanatlı Pompa Testi’ni başarıyla geçmiştir.<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHM</strong> yağları ayrıca, hidrolik kanatlı pompalar, hidrolik dişli pompalar ve hidrolik pistonlu ünitelerle donatılmış hidrolik sistemlerde kullanım için de uygundur. Bunun yanında, bu yağlar plastik parçalı ekstrüderlerle çalışma sıvısı olarak etkili bir şekilde kullanılmaktadır.&nbsp;<br />
+        Formülasyonlarında kullanılan yüksek kaliteli baz yağlar ve katkı maddeleri sayesinde bu yağlar, 25 MPa’yı aşan çok yüksek basınçlarda ve 90°C’yi aşan yağ sıcaklıklarında çalışan hidrolik sistemler için oldukça idealdir.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Yüksek oksidasyon direnci<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Pas ve korozyona karşı azami koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Su mevcudiyetinde oldukça kararlı</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/2._Prista_MHM_TR.pdf",
+    msdsLink: "https://prista-oil.com/msds-9",
+    backUrl: "/catalogue/hidrolik-ve-kizak-yaglari"
+}
+
+export const mhmbProduct = {
+    productName: "Prista MHM-b",
+    productUrl: "/catalogue/hidrolik-ve-kizak-yaglari/prista-mhm-b-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "HİDROLİK VE KIZAK YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "HİDROLİK VE KIZAK YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHM-b</strong> hidrolik yağlar pas, oksidasyon ve korozyon önleyiciler ile aşınma önleyici maddeler içeren oldukça etkili çinko ve diğer metaller ihtiva etmeyen bir katkı maddesi ile harmanlanmış çok iyi demülsibilite ve hava ayrışma özellikleri olan yüksek rafine maddeni bazlı ürünlerden formüle edilmiştir. <strong style={{ fontFamily: "sans-serif" }}>PRISTA®&nbsp;MHM-b</strong> hidrolik yağlar, hidrostatik yağlama sistemlerinde, sirkülasyon sistemlerindeki hareketli parçalarda, hidrolik kanatlı pompalarda, hidrolik dişli pompalarda ve hidrolik piston ünitelerinde çalışma ortamı olarak kullanım için geliştirilmiştir.&nbsp;<br />
+        Külsüz katkı maddelerinin avantajlarından birisi, özellikle suyla kirlenmenin beklendiği durumlarda yağın filtrelenebilirliğini iyileştirmeleridir. Bu nedenle bu yağlar yüksek sıcaklık ve yük altında çalışan sistemlerde çalışma sıvısı olarak ve kağıt işleme gibi suyla kirlenmenin beklenildiği yerlerde başarıyla kullanılabilir.&nbsp;<br />
+        Bu yağlar ayrıca 25 MPa’yı aşan çok yüksek basınçlarda ve 90°C’yi aşan yağ sıcaklıklarında çalışan hidrolik sistemler için çok idealdir.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Suyla kirlenmiş sistemlerde iyi çalışma ve filtreleme performansı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yüksek oksidasyon direnci<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Pas ve korozyona karşı azami koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Su mevcudiyetinde oldukça kararlı</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/3._Prista_MHMb_TR.pdf",
+    msdsLink: "https://prista-oil.com/msds-9",
+    backUrl: "/catalogue/hidrolik-ve-kizak-yaglari"
+}
+
+export const mhmdProduct = {
+    productName: "Prista MHM-D",
+    productUrl: "/catalogue/hidrolik-ve-kizak-yaglari/prista-mhm-d-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "HİDROLİK VE KIZAK YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "HİDROLİK VE KIZAK YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHM-D</strong> hidrolik yağlar, zorlu çalışma koşullarına maruz kalan hareketli parçaların ve mekanizmaların yağlanması için hidrostatik yağlama sistemlerinde ve sirkülasyon sistemlerinde kullanım için geliştirilmiştir. Geliştirilmiş temizleme/dağıtma özellikleri sayesinde <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHM-D</strong> hidrolik yağlar, partikülleri kolaylıkla dağıtabilir ve sıvı kirleticileri emülsiyonlaştırabilir. &nbsp;Böylece atık ve tortu oluşumunu olabildiğince önleyerek erken arızaların meydana gelmesine engel olurlar.<br />
+        Ancak bu yağların özel avantajlarından çoğunlukla, sistemdeki kirlenmenin kaçınılmaz olduğu durumlarda yararlanılacaktır ve burada <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHM-D</strong>, gerçekten "güvenilir &amp; doğru" bir yağ olduğunu kanıtlayacaktır.<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHM-D</strong> hidrolik yağlar normal oksidasyon, pas ve korozyon önleyiciler ile ilave temizleyici/dağıtıcı maddeler içeren oldukça etkili bir katkı maddesi ile harmanlanmış çok iyi demülsibilite ve hava ayrışma özellikleri olan yüksek rafine maddeni bazlı ürünlerden formüle edilmiştir.&nbsp;</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Yüksek oksidasyon direnci<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Pas ve korozyona karşı azami koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Tortu ve birikinti oluşumunu önler</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com/msds-9",
+    backUrl: "/catalogue/hidrolik-ve-kizak-yaglari"
+}
+
+export const mhm46Product = {
+    productName: "Prista Bio MHM-46",
+    productUrl: "/catalogue/hidrolik-ve-kizak-yaglari/prista-bio-mhm-46-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "HİDROLİK VE KIZAK YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "HİDROLİK VE KIZAK YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® Bio-MHM 46</strong>, TPM yağ asit esterleri ve pas &amp; korozyon önleyicilerle aşınma önleme maddeleri içeren özel külsüz katkılar esaslı biyodereceli bir hidrolik yağdır.<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Bio-MHM 46</strong>, hareketli parçaların ve eksi 25°С ile + 80°С arasındaki sıcaklık aralıklarında çalışan mekanizmaların yağlanması için hidrostatik yağlama sistemlerinde ve sirkülasyon sistemlerinde çalışma ortamı olarak kullanım için geliştirilmiştir.</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® Bio-MHM 46</strong>, CEC-L-33-A-93 и OECD 301B biyo-bozunabilirlik testlerini başarıyla geçmiştir.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Optimum yağlama sunar<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Uzun servis ömrü<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Biyolojik olarak bozunabilir<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi korozyon koruması&nbsp;</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com/msds-9",
+    backUrl: "/catalogue/hidrolik-ve-kizak-yaglari"
+}
+
+export const mhlProduct = {
+    productName: "Prista MHL",
+    productUrl: "/catalogue/hidrolik-ve-kizak-yaglari/prista-mhl-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "HİDROLİK VE KIZAK YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "HİDROLİK VE KIZAK YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHL</strong> hidrolik yağlar oksidasyon, pas ve korozyon önleyiciler içeren çok etkili katkı maddesi ile harmanlanmış oldukça rafine maddeni bazlı ürünlerden formüle edilmiştir. <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHL</strong> hidrolik yağlar, sürtünen parçaların ve mekanizmaların yağlanması için hidrostatik yağlama sistemlerinde ve sirkülasyon sistemlerindeki hareketli parçalarda kullanım için geliştirilmiştir.&nbsp;<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHL</strong> yağları ayrıca, hidrolik kanatlı pompalar, hidrolik dişli pompalar ve hidrolik pistonlu ünitelerle donatılmış hidrolik sistemlerde kullanım için de uygundur.&nbsp;</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Yüksek oksidasyon kararlılığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;İyi demülsibiliteye sahip<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güvenilir pas&amp;korozyon koruması sağlar</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/4._Prista_MHL_TR.pdf",
+    msdsLink: "https://prista-oil.com/msds-9",
+    backUrl: "/catalogue/hidrolik-ve-kizak-yaglari"
+}
+
+export const fd5Product = {
+    productName: "Prista FD 5",
+    productUrl: "/catalogue/hidrolik-ve-kizak-yaglari/prista-fd-5-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "HİDROLİK VE KIZAK YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "HİDROLİK VE KIZAK YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® FD 5</strong> dingil yağı, katkılarla harmanlanmış özenle seçilmiş rafine baz yağlarla formüle edilerek yağın oksidasyon kararlığı, pas &amp; korozyon direnci ve aşınma önleme özellikleri iyileştirilmiştir. &nbsp;<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® FD 5</strong> dingil yağı, düz ve rulmanlı yatakların ve bazı kaplinlerin yağ banyosu veya yağ buharı ile yağlanması için tasarlanmıştır.</p></>,
+    productProvides: null,
+    pdsLink: "http://online.prista-oil.com/storage/5._Prista_FD5_TR.pdf",
+    msdsLink: "https://prista-oil.com/msds-9",
+    backUrl: "/catalogue/hidrolik-ve-kizak-yaglari"
+}
+
+export const mhe40Product = {
+    productName: "Prista MHE-40",
+    productUrl: "/catalogue/hidrolik-ve-kizak-yaglari/prista-mhe-40-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "HİDROLİK VE KIZAK YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "HİDROLİK VE KIZAK YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHE-40</strong>, ateşe dayanıklı, madeni hidrolik yağdır. Yüksek kaliteli solvent ile rafine edilmiş ve hidroişlenmiş baz ürünler ve yüksek performanslı katkı maddeleri özenle seçilerek formüle edilmiş olup yüksek emülsiyon kararlılığı, çok iyi oksidasyon ve korozyon direnci ile aşınma ve bakteri oluşumuna karşı koruma sağlamaktadır.&nbsp;</p>
+        <p>Ateşe dayanıklı <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHE-40</strong> hidrolik yağın %5'lik su içinde yağ emülsiyonu, ateşe dayanıklı hidrolik yağlar ferektiren maden &amp; metal işletmeleri, kereste endüstrisi ve diğer endüstriler gibi yangın tehlikesi olan ortamlarda çalışan hidrostatik yağlama sistemlerinde ve ekipmanlarda çalışma ortamı olarak tavsiye edilir. Bu, 5°С ile 55°С arasındaki sıcaklık aralıklarında kullanıma uygun bir biyo-kararlı üründür.&nbsp;</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Optimum yağlama sunar<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Uzun servis ömrü<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Biyolojik olarak bozunabilir<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi korozyon koruması&nbsp;</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com/msds-9",
+    backUrl: "/catalogue/hidrolik-ve-kizak-yaglari"
+}
+
+export const absorberOilProduct = {
+    productName: "Prista Shock Absorber Oil",
+    productUrl: "/catalogue/hidrolik-ve-kizak-yaglari/prista-shock-absorber-oil-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "HİDROLİK VE KIZAK YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "HİDROLİK VE KIZAK YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA®</strong> amortisör yağı oldukça rafine baz yağlardan, çok kararlı Viskozite İndeksi İyileştiriciden ve pas, oksidasyon ve korozyon önleyiciler içeren katkı maddelerinden formüle edilmiştir. &nbsp;<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® </strong>amortisör yağı binek, hafif ticari araçların, ağır vasıtaların ve diğer ticari araçların amortisörlerinde çalışma ortamı olarak kullanılır.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi termal ve mekanik kararlılık<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;-40°C'ye kadar mükemmel düşük sıcaklık performansı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük köpürme eğilimi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük uçuculuk<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Aşınmaya ve kavitasyona karşı çok iyi koruma &nbsp;</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com/msds-9",
+    backUrl: "/catalogue/hidrolik-ve-kizak-yaglari"
+}
+
+export const mnpProduct = {
+    productName: "Prista MNP",
+    productUrl: "/catalogue/hidrolik-ve-kizak-yaglari/prista-mnp-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "HİDROLİK VE KIZAK YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "HİDROLİK VE KIZAK YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® MNP</strong> kızak yağları, mükemmel yağlama, aşınma önleme ve yapışma özellikleri ve güvenilir pas &amp; oksidasyon ve korozyon koruması sunmak için etkili bir katkı maddesi ile harmanlanmış iyi demülsibilite ve hava ayrışma özelliklerine sahip oldukça rafine parafinik-naftenik baz ürünlerden formüle edilmiştir.<br />
+        <strong style={{ fontFamily: "sans-serif" }}>Prista® MNP</strong> kızak yağları metal işleme makinalarının yatay (Prista® MNP 68) ve dikey (Prista® MNP 220) kızaklarını ve düz yataklarını yağlamak için amaçlanmıştır. &nbsp; &nbsp;</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel yağlama özellikleri sunar<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi demülsibilite ve hava ayrışma özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güvenilir korozyon korunumu<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yapışma performansı, yağın sıvılarca giderilmesini önlemeye yardımcı olur</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/6._Prista_MNP_TR.pdf",
+    msdsLink: "https://prista-oil.com/msds-9",
+    backUrl: "/catalogue/hidrolik-ve-kizak-yaglari"
 }
