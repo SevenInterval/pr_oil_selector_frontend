@@ -21,7 +21,7 @@ const FrenHidrolikleri = () => {
                     <UrunlerBaslik level1ShowName={"OTOMOTİV"} level2ShowName={"ÖZEL AKIŞKANLAR"} level3ShowName={"Fren hidrolikleri"}
                         level1To={"/catalogue/yuksek-performansli-dpf-twc"} level2To={"/catalogue/sogutma-sulari"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/fren-hidrolikleri/prista-dot-4-dot-3-4"}
+                        <UrunOzet productUrl={"/catalogue/fren-hidrolikleri/prista-dot-4-dot-3-4"}
                             productLogo={dot4dot3Image} productName={"Prista DOT-4/ DOT-3"}
                             productText={"PRISTA® DOT-3 & PRISTA® DOT-4 fren hidrolikleri polietilen glikol ester, korozyona ve oksidasyona karşı koruma sağlayan katkı maddeleri ve dengeleyicilerden oluşur. Bu fren hidrolikleri petrol bazlı fren hidrolikleriyle uyumlu değild"}
                             last={false} />

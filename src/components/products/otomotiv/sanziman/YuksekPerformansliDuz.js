@@ -21,7 +21,7 @@ const YuksekPerformansliDuz = () => {
                     <UrunlerBaslik level1ShowName={"OTOMOTİV"} level2ShowName={"ŞANZIMAN"} level3ShowName={"Yüksek performanslı düz şanzıman"}
                         level1To={"/catalogue/yuksek-performansli-dpf-twc"} level2To={"/catalogue/yuksek-performansli-duz-sanziman"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/yuksek-performansli-duz-sanziman/prista-ultragear-synthetic-75w-80-75w-90-4"}
+                        <UrunOzet productUrl={"/catalogue/yuksek-performansli-duz-sanziman/prista-ultragear-synthetic-75w-80-75w-90-4"}
                             productLogo={Yp75w8075w90Image} productName={"Prista Ultragear Synthetic 75W-80/  75W-90"}
                             productText={"Prista® Ultragear Synthetic otomotiv dişli yağları yüksek kaliteli hidroişlenmiş baz ürünlerin,  yüksek kaliteli sentetik baz ürünlerin ve külsüz kükürt fosfor tipi katkıların özel bir seçimi ile formüle edilmiştir.Bu yüksek kaliteli"}
                             last={false} />

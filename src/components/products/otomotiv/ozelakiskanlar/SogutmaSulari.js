@@ -21,19 +21,19 @@ const SogutmaSulari = () => {
                     <UrunlerBaslik level1ShowName={"OTOMOTİV"} level2ShowName={"ÖZEL AKIŞKANLAR"} level3ShowName={"Soğutma suları"}
                         level1To={"/catalogue/yuksek-performansli-dpf-twc"} level2To={"/catalogue/sogutma-sulari"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/sogutma-sulari/prista-antifreeze-long-life-4"}
+                        <UrunOzet productUrl={"/catalogue/sogutma-sulari/prista-antifreeze-long-life-4"}
                             productLogo={longlife4Image} productName={"Prista Antifreeze Long Life"}
                             productText={"PRISTA® ANTIFREEZE LONG LIFE,  silikat içermeyen organik (mono- ve di-karboksilik) asitlerle geliştirilmiş etilen glikol ve katkı maddesi sistemi esaslı bir antifriz konsantrasyonudur. Bu ürün nitrat, amin ve fosfat gibi potansiyel z"}
                             last={false} />
-                        <UrunOzet productUrl={"/product/sogutma-sulari/prista-antifreeze-long-life-ready-to-use-4"}
+                        <UrunOzet productUrl={"/catalogue/sogutma-sulari/prista-antifreeze-long-life-ready-to-use-4"}
                             productLogo={BosImage} productName={"Prista Antifreeze Long Life (ready-to-use)"}
                             productText={"PRISTA® Antifreeze LONG LIFE- ready for use,  organik (mono- ve di-karboksilik) asitlerle geliştirilmiş etilen glikol ve silikat içermeyen katkı maddesi esaslı, kullanıma hazır bir soğutma suyu/antifriz solüsyonudur. Bu ürün nitrat, "}
                             last={true} />
-                        <UrunOzet productUrl={"/product/sogutma-sulari/prista-antifreeze-concentrate-4"}
+                        <UrunOzet productUrl={"/catalogue/sogutma-sulari/prista-antifreeze-concentrate-4"}
                             productLogo={concentrate4Image} productName={"Prista Antifreeze Concentrate"}
                             productText={"PRISTA® ANTIFREEZE-concentrate, etilen glikol ve organik (mono ve dikarboksilik) asit bazlı silikat içermeyen katkı maddeleri özenle seçilerek formüle edilmiş dört mevsim kullanıma yönelik bir antifriz konsantrasyonudur."}
                             last={false} />
-                        <UrunOzet productUrl={"/product/sogutma-sulari/prista-antifreeze-4"}
+                        <UrunOzet productUrl={"/catalogue/sogutma-sulari/prista-antifreeze-4"}
                             productLogo={antifriz4Image} productName={"Prista Antifreeze"}
                             productText={"PRISTA® ANTIFREEZE, etilen glikol ve organik (mono ve dikarboksilik) asit bazlı silikat içermeyen katkı maddeleri özenle seçilerek formüle edilmiş dört mevsim kullanıma yönelik bir soğutma suyu/antifriz konsantrasyonudur. PRISTA® ANT"}
                             last={true} />

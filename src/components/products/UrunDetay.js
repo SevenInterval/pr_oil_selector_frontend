@@ -44,9 +44,11 @@ const UrunDetay = (props) => {
                                 <strong style={{ fontFamily: "sans-serif" }}>Tanım ve Uygulama</strong>
                             </p>
                             <p>{productDetail}</p>
-                            <p>
-                                <strong style={{ fontFamily: "sans-serif" }}>Faydaları</strong>
-                            </p>
+                            {productProvides &&
+                                <p>
+                                    <strong style={{ fontFamily: "sans-serif" }}>Faydaları</strong>
+                                </p>
+                            }
                             {productProvides}
                             <p>
                                 <strong style={{ fontFamily: "sans-serif" }}>
@@ -55,7 +57,7 @@ const UrunDetay = (props) => {
                                             <Link to={pdsLink} target="_blank">
                                                 <img alt="pdsButton" src={PdsButtonImage} height={35} width={85} loading='eager' title='pdsButton' />
                                             </Link>
-                                            &nbsp;&nbsp;&nbsp;
+                                            &nbsp;&nbsp;&nbsp;&nbsp;
                                         </>
                                     }
                                     {msdsLink &&
@@ -65,7 +67,7 @@ const UrunDetay = (props) => {
                                     }
                                     {msds2Link &&
                                         <>
-                                            &nbsp;&nbsp;&nbsp;
+                                            &nbsp;&nbsp;&nbsp;&nbsp;
                                             <Link to={msds2Link} target="_blank">
                                                 <img alt="msds2Button" src={MsdsButtonImage} height={35} width={98} loading='eager' title='msdsButton' />
                                             </Link>

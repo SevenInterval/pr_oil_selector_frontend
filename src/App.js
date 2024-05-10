@@ -136,7 +136,7 @@ import HidrolikYaglar from './components/products/marinYaglari/yardimciYaglar/Hi
 import MotorYaglariYard from './components/products/marinYaglari/yardimciYaglar/MotorYaglariYard';
 import GreslerMarin from './components/products/marinYaglari/GreslerMarin';
 import UrunDetay from './components/products/UrunDetay';
-import { Dpf0w204Product, Dpf0w30Product, Dpf5w30Product, Dpf5w40Product, Dpfc50w20Product, Dpffe5w30Product, Dpfg5w30Product, Dpfgf0w20Product, Dpfrn5w30Product, Dpfultra5w30Product, Hd10w40Product, Ls10w30Product, MultigasHd15w402tProduct, MultigasHd15w40Product, ShpdLs15w40Product, Super15w4020w50Product, Td15w4020w50Product, Ustun15w4020w50Product, Yp10w40Product, Yp15w4020w504Product, Yp2textra4Product, Yp2tmix4Product, Yp5w305w40Product, Ypld15w40Product, Ypr4t6Product, Ypsb10w40Product, Yptd10w40Product, Ypuhpd10w40Product, Ypuhpd5w30Product, Ypvds310w40Product } from './utility/productDetails';
+import { Atf2MProduct, Dpf0w204Product, Dpf0w30Product, Dpf5w30Product, Dpf5w40Product, Dpfc50w20Product, Dpffe5w30Product, Dpfg5w30Product, Dpfgf0w20Product, Dpfrn5w30Product, Dpfultra5w30Product, Gl4sae90Product, Hd10w40Product, Ls10w30Product, Mhp32Product, Mhp40aProduct, MultigasHd15w402tProduct, MultigasHd15w40Product, ShpdLs15w40Product, Super15w4020w50Product, Td15w4020w50Product, To4sae10w30Product, Ustun15w4020w50Product, Yp10w40Product, Yp15w4020w504Product, Yp2textra4Product, Yp2tmix4Product, Yp5w305w40Product, Yp75w8075w90Product, Ypatfiii4Product, Ypld15w40Product, Yppristaatf4Product, Yppsf4Product, Ypr4t6Product, Ypsae80w90Product, Ypsae90140Product, Ypsb10w40Product, Ypstou4Product, Yptd10w40Product, Ypuhpd10w40Product, Ypuhpd5w30Product, Yputto3Product, Ypvds310w40Product, adblueProduct, antifreezeLongLifeProduct, antifriz4Product, concentrate4Product, dot4dot3Product, longlife4Product, screenwashSummerProduct, screenwashWinterProduct } from './utility/productDetails';
 import Msds from './components/products/Msds';
 
 
@@ -327,8 +327,28 @@ function App() {
         <Route path="/catalogue/2t-4t-yaglari/prista-2t-mix-4" element={<UrunDetay product={Yp2tmix4Product}/>} />
         <Route path="/catalogue/2t-4t-yaglari/prista-r-4t-6" element={<UrunDetay product={Ypr4t6Product}/>} />
         <Route path="/catalogue/2t-4t-yaglari/prista-2t-outboard-4" element={<UrunDetay product={MultigasHd15w402tProduct}/>} />
+        <Route path="/catalogue/yuksek-performansli-duz-sanziman/prista-ultragear-synthetic-75w-80-75w-90-4" element={<UrunDetay product={Yp75w8075w90Product}/>} />
+        <Route path="/catalogue/yuksek-performansli-otomatik-sanziman/prista-r-atf-ii-m-4" element={<UrunDetay product={Atf2MProduct}/>} />
+        <Route path="/catalogue/yuksek-performansli-otomatik-sanziman/prista-atf-iii-4" element={<UrunDetay product={Ypatfiii4Product}/>} />
+        <Route path="/catalogue/yuksek-performansli-otomatik-sanziman/prista-atf-4" element={<UrunDetay product={Yppristaatf4Product}/>} />
+        <Route path="/catalogue/yuksek-performansli-otomatik-sanziman/prista-mhp-40a-4" element={<UrunDetay product={Mhp40aProduct}/>} />
+        <Route path="/catalogue/yuksek-performansli-otomatik-sanziman/prista-mhp-32-4" element={<UrunDetay product={Mhp32Product}/>} />
+        <Route path="/catalogue/yuksek-performansli-otomatik-sanziman/prista-psf-4" element={<UrunDetay product={Yppsf4Product}/>} />
+        <Route path="/catalogue/duz-sanziman-ve-aks/prista-ep-sae-90-140-4" element={<UrunDetay product={Ypsae90140Product}/>} />
+        <Route path="/catalogue/duz-sanziman-ve-aks/prista-ep-sae-80w-90-85w-90-85w-140-4" element={<UrunDetay product={Ypsae80w90Product}/>} />
+        <Route path="/catalogue/duz-sanziman-ve-aks/prista-gl4-sae-90-4" element={<UrunDetay product={Gl4sae90Product}/>} />
+        <Route path="/catalogue/utto-stou-to-4-5/prista-r-stou-4" element={<UrunDetay product={Ypstou4Product}/>} />
+        <Route path="/catalogue/utto-stou-to-4-5/prista-r-utto-3" element={<UrunDetay product={Yputto3Product}/>} />
+        <Route path="/catalogue/utto-stou-to-4-5/prista-to-4-sae-10w-30-4" element={<UrunDetay product={To4sae10w30Product}/>} />
+        <Route path="/catalogue/sogutma-sulari/prista-antifreeze-long-life-4" element={<UrunDetay product={longlife4Product}/>} />
+        <Route path="/catalogue/sogutma-sulari/prista-antifreeze-long-life-ready-to-use-4" element={<UrunDetay product={antifreezeLongLifeProduct}/>} />
+        <Route path="/catalogue/sogutma-sulari/prista-antifreeze-concentrate-4" element={<UrunDetay product={concentrate4Product}/>} />
+        <Route path="/catalogue/sogutma-sulari/prista-antifreeze-4" element={<UrunDetay product={antifriz4Product}/>} />
+        <Route path="/catalogue/fren-hidrolikleri/prista-dot-4-dot-3-4" element={<UrunDetay product={dot4dot3Product}/>} />
+        <Route path="/catalogue/on-cam-yikama-sivilari/prista-screenwash-summer-4" element={<UrunDetay product={screenwashSummerProduct}/>} />
+        <Route path="/catalogue/on-cam-yikama-sivilari/prista-screenwash-winter-4" element={<UrunDetay product={screenwashWinterProduct}/>} />
 
-        
+        <Route path="/catalogue/adblue-r-6/adblue-6" element={<UrunDetay product={adblueProduct}/>} />
       </Routes>
       <Footer />
     </>

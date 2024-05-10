@@ -1,4 +1,4 @@
-import { BosImage, Dpf0w204Image, basicVarilBig, basicVarilLt, dpf0w30Big, dpf0w30Lt, dpf5w30Big, dpf5w30Lt, dpf5w40Big, dpf5w40Lt, dpfc50w20Big, dpfc50w20Lt, dpffe5w30Big, dpffe5w30Lt, dpfg5w30Big, dpfg5w30Lt, dpfgf0w20Big, dpfgf0w20Lt, dpfrn5w30Big, dpfrn5w30Lt, dpfultra5w30Big, dpfultra5w30Lt, ustun15w4020w50Big, ustun15w4020w50Lt, yp10w40Big, yp10w40Lt, yp15w4020w504Big, yp15w4020w504Lt, yp2textra4Big, yp2textra4Lt, yp2tmix4Big, yp2tmix4Lt, yp5w305w40Big, yp5w305w40Lt, ypld15w40Big, ypld15w40Lt, ypr4t6Big, ypr4t6Lt, ypsb10w40Big, ypsb10w40Lt, yptd10w40Big, yptd10w40Lt, ypuhdpd5w30Big, ypuhdpd5w30Lt, ypuhpd10w40Big, ypuhpd10w40Lt, ypvds310w40Big, ypvds310w40Lt } from "../images/products";
+import { BosImage, Dpf0w204Image, adblueBig, adblueLt, antifriz4Big, antifriz4Lt, basicVarilBig, basicVarilLt, concentrate4Big, concentrate4Lt, dot4dot3Big, dot4dot3Lt, dpf0w30Big, dpf0w30Lt, dpf5w30Big, dpf5w30Lt, dpf5w40Big, dpf5w40Lt, dpfc50w20Big, dpfc50w20Lt, dpffe5w30Big, dpffe5w30Lt, dpfg5w30Big, dpfg5w30Lt, dpfgf0w20Big, dpfgf0w20Lt, dpfrn5w30Big, dpfrn5w30Lt, dpfultra5w30Big, dpfultra5w30Lt, longlife4Big, longlife4Lt, ustun15w4020w50Big, ustun15w4020w50Lt, yp10w40Big, yp10w40Lt, yp15w4020w504Big, yp15w4020w504Lt, yp2textra4Big, yp2textra4Lt, yp2tmix4Big, yp2tmix4Lt, yp5w305w40Big, yp5w305w40Lt, yp75w8075w90Big, yp75w8075w90Lt, ypatfiii4Big, ypatfiii4Lt, ypld15w40Big, ypld15w40Lt, yppristaatf4Big, yppristaatf4Lt, yppsf4Big, yppsf4Lt, ypr4t6Big, ypr4t6Lt, ypsae80w90Big, ypsae80w90Lt, ypsae90140Big, ypsae90140Lt, ypsb10w40Big, ypsb10w40Lt, ypstou4Big, ypstou4Lt, yptd10w40Big, yptd10w40Lt, ypuhdpd5w30Big, ypuhdpd5w30Lt, ypuhpd10w40Big, ypuhpd10w40Lt, yputto3Big, yputto3Lt, ypvds310w40Big, ypvds310w40Lt } from "../images/products";
 
 export const Dpf0w204Product = {
     productName: "PRISTA® Ultra V 0W-20",
@@ -756,4 +756,507 @@ export const MultigasHd15w402tProduct = {
     </>,
     pdsLink: "http://online.prista-oil.com/PDSMSDS",
     backUrl: "/catalogue/2t-4t-yaglari"
+}
+
+export const Yp75w8075w90Product = {
+    productName: "Prista Ultragear Synthetic 75W-80/  75W-90",
+    productUrl: "/catalogue/yuksek-performansli-duz-sanziman/prista-ultragear-synthetic-75w-80-75w-90-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "SANZIMAN",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ŞANZIMAN",
+    level3ShowNameBaslik: "Yüksek performanslı düz şanzıman",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/yuksek-performansli-duz-sanziman",
+    productImage: yp75w8075w90Lt,
+    productBigImage: yp75w8075w90Big,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® Ultragear Synthetic</strong> otomotiv dişli yağları yüksek kaliteli hidroişlenmiş baz ürünlerin, &nbsp;yüksek kaliteli sentetik baz ürünlerin ve külsüz kükürt fosfor tipi katkıların özel bir seçimi ile formüle edilmiştir.Bu yüksek kaliteli otomotiv dişli yağları, zorlu koşullarda ve azami yükler altında ve &nbsp;yüksek kayma hızlarında çalışan araçlardaki ve endüstriyel uygulamalardaki sonsuz dişli tahrik sistemleri dahil, tüm hipoid, konik, sarmal konik, iki hızlı ve diferansiyel dişli tiplerini yağlamak için geliştirilmiştir. <strong style={{ fontFamily: "sans-serif" }}>Prista® Ultragear Synthetic </strong>otomotiv dişli yağları aşağıdaki araçlarda kullanım için önerilir:Anayolda kullanılan hafif ve ağır görev kamyonları, otobüsler, kamyonetler ve araçlar- Şunlar dahil, off-road uygulamaları: inşaat, nakliye ve tarım -Şanzımanlar ve akslar ile API GL-4, GL-5 veya MT-1'e uygun yumuşak, aşırı basınç dişli yağlarının önerildiği &nbsp;diğer uygulamalar</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Tüm dişli tahrik bileşenleri için mükemmel koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Eksi 40°C’ye kadar olağanüstü düşük sıcaklık performansı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güvenilir pas &amp; korozyon koruması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel oksidasyon kararlılığı sunar ve ısıdan dolayı arızalanma direncini arttırır<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yağ kaçaklarını önleyen çok iyi conta uyumluluğu&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çeşitli yüklerde ve hızlarda mükemmel aşınma, sürtünme ve sıkışma önleme özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Soğuk veya sıcak kullanım koşullarında üstün sürüş konforu sağlayan kolay vites değişimi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yakıt ekonomisi potansiyeli</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/1._Prista_UltraGearSynthetic_75W80-75W90_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/yuksek-performansli-duz-sanziman"
+}
+
+export const Atf2MProduct = {
+    productName: "PRISTA® ATF II M",
+    productUrl: "/catalogue/yuksek-performansli-otomatik-sanziman/prista-r-atf-ii-m-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "SANZIMAN",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ŞANZIMAN",
+    level3ShowNameBaslik: "Yüksek performanslı otomatik şanzıman",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/yuksek-performansli-duz-sanziman",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <><p>Prista® ATF II M otomatik şanzıman yağı, özenle seçilmiş kaliteli solvent ile rafine edilmiş ve hidroişlenmiş baz ürünler ve özel olarak geliştirilmiş katkı sistemi ile formüle edilmiştir. Ürün kırmızı boyalıdır.</p><p>Prista® ATF II M, GM Dexron IID’nin yanı sıra MB 236.6, Voith H55.6335.xx gibi özellikleri karşılayan yağlar gerektiren tüm otomatik şanzımanlarda kullanım için önerilir. Ayrıca düz şanzımanlarda, servo üniteli şanzımanlarda ve binek, ticari ve arazi araçlarının, tarım ve yol yapım alet ve makinalarının hidrolik sistemlerinde ve özellikle denizcilik uygulamalarında kullanılabilir. Viskozitesi ISO VG 32 ile ISO VG 46 arasındadır.</p><p>&nbsp;</p></>,
+    productProvides: <>
+        <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Üstün aşınma korunumu</p>
+        <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mükemmel termal ve oksidasyon kararlılığı</p>
+        <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kolay çalışma için çok iyi düşük sıcaklık özellikleri ve iyi düşük sıcaklık performansı</p>
+        <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Çok iyi sızdırmazlık uyumluluğu</p>
+        <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Etkili performans sağlamak üzere tasarlanmış</p>
+        <p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yağın kullanım ömrü boyunca sorunsuz vites değiştirme performansı</p>
+    </>,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/yuksek-performansli-otomatik-sanziman"
+}
+
+export const Ypatfiii4Product = {
+    productName: "Prista ATF III",
+    productUrl: "/catalogue/yuksek-performansli-otomatik-sanziman/prista-atf-iii-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "SANZIMAN",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ŞANZIMAN",
+    level3ShowNameBaslik: "Yüksek performanslı otomatik şanzıman",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/yuksek-performansli-duz-sanziman",
+    productImage: ypatfiii4Lt,
+    productBigImage: ypatfiii4Big,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® ATF III</strong> otomatik şanzıman yağı sıradışı baz yağlar, oldukça rafine baz ürünler ve özel olarak tasarlanmış katkı maddeleri kullanılarak formüle edilmiştir. Ürün kırmızı boyalıdır. <strong style={{ fontFamily: "sans-serif" }}>Prista® ATF III</strong>, DEXRON III şanzıman yağının kullanımı önerilen binek ve hafif ticari araç, karavan, otobüs, kamyon ve diğer makinaların otomatik şanzımanlarının yağlanması için dizayn edilmiştir. Ayrıca düz şanzımanlarda, servo üniteli şanzımanlarda ve binek, ticari ve arazi araçlarının, tarım ve yol yapım alet ve makinalarının hidrolik sistemlerinde ve özellikle denizcilik uygulamalarında kullanılabilir.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Otomatik şanzımanlar için mükemmel aşınma korunumu&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Uzun süreli çalışma koşullarında bile şanzımanları atıklardan ve kalıntılardan temiz tutmak için olağanüstü termal ve oksidasyon kararlılığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kolay çalışma için çok iyi düşük sıcaklık özellikleri ve iyi düşük sıcaklık performansı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük güç kaybı ve hidrolik kumanda sistemlerinin ve tork konvertörlerinin yüksek performansı ve verimliliği&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi sızdırmazlık uyumluluğu</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/2._Prista_ATF_III_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/yuksek-performansli-otomatik-sanziman"
+}
+
+export const Yppristaatf4Product = {
+    productName: "Prista ATF",
+    productUrl: "/catalogue/yuksek-performansli-otomatik-sanziman/prista-atf-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "SANZIMAN",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ŞANZIMAN",
+    level3ShowNameBaslik: "Yüksek performanslı otomatik şanzıman",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/yuksek-performansli-duz-sanziman",
+    productImage: yppristaatf4Lt,
+    productBigImage: yppristaatf4Big,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® ATF</strong> otomatik şanzıman yağı, özenle seçilmiş kaliteli solvent ile rafine edilmiş ve hidroişlenmiş baz ürünler ve özel olarak geliştirilmiş karkı sistemi ile &nbsp;formüle edilmiştir. Ürün kırmızı boyalıdır. <strong style={{ fontFamily: "sans-serif" }}>Prista® &nbsp;ATF</strong>, GM Dexron IID özelliklerini karşılayan yağlar gerektiren tüm otomatik şanzımanlarda kullanım için önerilir. Ayrıca düz şanzımanlarda, servo üniteli şanzımanlarda ve binek, ticari ve arazi araçlarının, tarım ve yol yapım alet ve makinalarının hidrolik sistemlerinde ve özellikle denizcilik uygulamalarında kullanılabilir.&nbsp;</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Otomatik şanzımanlar için mükemmel aşınma korunumu&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Uzun süreli çalışma koşullarında bile şanzımanları atıklardan ve kalıntılardan temiz tutmak için olağanüstü termal ve oksidasyon kararlılığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kolay çalışma için çok iyi düşük sıcaklık özellikleri ve iyi düşük sıcaklık performansı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük güç kaybı ve hidrolik kumanda sistemlerinin ve tork konvertörlerinin yüksek performansı ve verimliliği<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi sızdırmazlık uyumluluğu</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/3._Prista_ATF_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/yuksek-performansli-otomatik-sanziman"
+}
+
+export const Mhp40aProduct = {
+    productName: "Prista MHP 40A",
+    productUrl: "/catalogue/yuksek-performansli-otomatik-sanziman/prista-mhp-40a-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "SANZIMAN",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ŞANZIMAN",
+    level3ShowNameBaslik: "Yüksek performanslı otomatik şanzıman",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/yuksek-performansli-duz-sanziman",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® MHP-40A</strong>, üreticileri tarafından GM Type A Suffix A performans seviyeli yağların kullanılması önerilen yol yapım, kaldırma ve off-road alet ve makinaların hidrodinamik şanzımanlarında çalışma sıvısı olarak amaçlanmış madeni tip, kırmızı boyalı bir şanzıman yağıdır.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel aşınma korunumu&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Uzun süreli çalışma koşullarında bile atık ve kalıntı oluşmasını önlemek için mükemmel termal ve oksidasyon kararlılığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Aşırı soğuk iklimlerde bile kolay çalışmayı ve iyi düşük sıcaklık performansı sağlayan çok iyi düşük sıcaklık özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi sızdırmazlık uyumluluğu</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/4._Prista_MHP_40A_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/yuksek-performansli-otomatik-sanziman"
+}
+
+export const Mhp32Product = {
+    productName: "Prista MHP 32",
+    productUrl: "/catalogue/yuksek-performansli-otomatik-sanziman/prista-mhp-32-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "SANZIMAN",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ŞANZIMAN",
+    level3ShowNameBaslik: "Yüksek performanslı otomatik şanzıman",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/yuksek-performansli-duz-sanziman",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® MHP 32</strong> Şanzıman/Hidrolik yağı, özenle seçilmiş kaliteli solvent ile rafine edilmiş ve hidroişlenmiş baz ürünler ve özel olarak tasarlanmış katkı maddesi ile &nbsp;formüle edilmiştir. <strong style={{ fontFamily: "sans-serif" }}>Prista® MHP 32</strong> Voith değişken hızlı turbo kaplinlerde (S), Voith tork konvertörlerinde (E), Voith endüstriyel geciktiricilerde (VIR), Voith dişli değişken hızlı kaplinlerde (R) ve dişli Voith tork konvertörlerinde (EA ve EH) kullanım için geliştirilmiştir. Normal yüklü dişli kutularında ve hidrolik sistemlerde kullanılabilir.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Aşınmaya karşı mükemmel koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Uzun süreli çalışma koşullarında atık ve kalıntı oluşmasını önlemek için üstün termal ve oksidasyon kararlılığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güvenilir korozyon ve pas korunumu&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel hava ayrıştırma performansı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel conta uyumluluğu</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/yuksek-performansli-otomatik-sanziman"
+}
+
+export const Yppsf4Product = {
+    productName: "Prista PSF",
+    productUrl: "/catalogue/yuksek-performansli-otomatik-sanziman/prista-psf-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "SANZIMAN",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ŞANZIMAN",
+    level3ShowNameBaslik: "Yüksek performanslı otomatik şanzıman",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/yuksek-performansli-duz-sanziman",
+    productImage: yppsf4Lt,
+    productBigImage: yppsf4Big,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® PSF</strong> kırmızı renkli hidrolik direksiyon yağı sıradışı baz yağlar, oldukça rafine baz ürünler ve özel olarak tasarlanmış katkı maddeleri kullanılarak formüle edilmiştir. <strong style={{ fontFamily: "sans-serif" }}>Prista® PSF</strong>, günümüz binek araçların ve hafif ticari araçların/kamyonların hidrolik direksiyon ünitelerinde kullanım için amaçlanmıştır. Bu yağ, eksi 40°C'ye kadar geniş bir sıcaklık aralığında güvenilir performans sağlar. Ayrıca, kamyon, otobüs vs. gibi ağır vasıtaların, tarım ve yol yapım alet ve makinalarının hidrolik sistemlerinde başarıyla kullanılabilir. <strong style={{ fontFamily: "sans-serif" }}>Prista® PSF</strong>, Citroen hidrolik sistemleri ve hidrolik direksiyon üniteleri için ÖNERİLMEZ.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Hidrolik pompanın aşınmaya karşı korunması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Sistemde sabit basınç sağlayan kararlı viskozite ve düşük köpürme eğilimi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Üstün termal ve oksidasyon kararlılığı sayesinde uzun çalışma süresi aralıklarında tortu ve kalıntı oluşumu &nbsp;meydana gelmez&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Sıfırın altındaki sıcaklıklarda bile normal çalışma karakteristikleri sağlayan çok iyi düşük sıcaklık performansı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kauçuk conta malzemeleriyle çok iyi uyumluluk</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/5._Prista_PSF_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/yuksek-performansli-otomatik-sanziman"
+}
+
+export const Ypsae90140Product = {
+    productName: "Prista EP SAE 90/140",
+    productUrl: "/catalogue/duz-sanziman-ve-aks/prista-ep-sae-90-140-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "SANZIMAN",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ŞANZIMAN",
+    level3ShowNameBaslik: "Düz şanzıman ve aks",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/yuksek-performansli-duz-sanziman",
+    productImage: ypsae90140Lt,
+    productBigImage: ypsae90140Big,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® EP</strong> otomotiv dişli yağları kaliteli solvent ile rafine edilmiş ve hidroişlenmiş baz ürünlerin ve külsüz kükürt fosfor tipi katkıların özel bir seçimi ile formüle edilmiştir. Bu yağlar, zorlu koşullarda ve azami yükler altında ve &nbsp;yüksek kayma hızlarında çalışan araçlardaki ve endüstriyel uygulamalardaki sonsuz dişli tahrik sistemleri dahil, tüm hipoid, konik, sarmal konik, iki hızlı ve diferansiyel dişli tiplerini yağlamak için geliştirilmiştir. <strong style={{ fontFamily: "sans-serif" }}>Prista® EP</strong> otomotiv dişli yağları, API GL-5 EP kalite seviyeli dişli yağları gerektiren düz şanzıman, arka tahrik aksları ve hipoid diferansiyel dişli takımları için tavsiye edilir.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel oksidasyon kararlılığı sunar ve ısıdan dolayı arızalanma direncini arttırır<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Tüm dişli tahrik bileşenleri için mükemmel koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güvenilir pas &amp; korozyon koruması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yağ kaçaklarını önleyen çok iyi conta uyumluluğu&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çeşitli yüklerde ve hızlarda mükemmel aşınma, sürtünme ve sıkışma önleme özellikleri</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/6._Prista_EP_Mono_80-90-140_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/duz-sanziman-ve-aks"
+}
+
+export const Ypsae80w90Product = {
+    productName: "Prista EP SAE 80W-90/85W-90/ 85W-140",
+    productUrl: "/catalogue/duz-sanziman-ve-aks/prista-ep-sae-80w-90-85w-90-85w-140-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "SANZIMAN",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ŞANZIMAN",
+    level3ShowNameBaslik: "Düz şanzıman ve aks",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/yuksek-performansli-duz-sanziman",
+    productImage: ypsae80w90Lt,
+    productBigImage: ypsae80w90Big,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® EP</strong> otomotiv dişli yağları kaliteli solvent ile rafine edilmiş ve hidroişlenmiş baz ürünlerin ve külsüz kükürt fosfor tipi katkıların özel bir seçimi ile formüle edilmiştir. Bu yağlar, zorlu koşullarda ve azami yükler altında ve &nbsp;yüksek kayma hızlarında çalışan araçlardaki ve endüstriyel uygulamalardaki sonsuz dişli tahrik sistemleri dahil, tüm hipoid, konik, sarmal konik, iki hızlı ve diferansiyel dişli tiplerini yağlamak için geliştirilmiştir. <strong style={{ fontFamily: "sans-serif" }}>Prista® EP</strong> otomotiv dişli yağları, API GL-5 EP kalite seviyeli dişli yağları gerektiren düz şanzıman, arka tahrik aksları ve hipoid diferansiyel dişli takımları için tavsiye edilir (eski ABD MIL-L-2105C/D spesifikasyonu viskozite dereceleriyle eşdeğer).</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok düşük damlama noktası sayesinde çok geniş sıcaklık uygulama aralığı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel oksidasyon kararlılığı sunar ve ısıdan dolayı arızalanma direncini arttırır<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Tüm dişli tahrik bileşenleri için mükemmel koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güvenilir pas &amp; korozyon koruması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yağ kaçaklarını önleyen çok iyi conta uyumluluğu<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çeşitli yüklerde ve hızlarda mükemmel aşınma, sürtünme ve sıkışma önleme özellikleri</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/7._Prista_EP_Multi_80W90-85W90-85W140_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/duz-sanziman-ve-aks"
+}
+
+export const Gl4sae90Product = {
+    productName: "Prista GL4 SAE 90",
+    productUrl: "/catalogue/duz-sanziman-ve-aks/prista-gl4-sae-90-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "SANZIMAN",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ŞANZIMAN",
+    level3ShowNameBaslik: "Düz şanzıman ve aks",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/yuksek-performansli-duz-sanziman",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® GL-4 90</strong> tek mevsim otomotiv dişli yağları kaliteli solvent ile rafine edilmiş ve hidroişlenmiş baz ürünlerin ve külsüz kükürt fosfor tipi katkıların özel bir seçimi ile formüle edilmiştir. <strong style={{ fontFamily: "sans-serif" }}>Prista® GL-4 90</strong> otomotiv dişli yağı, yüksek yüklerde ve kayma hızlarında çalışan binek araçlardaki ve endüstriyel uygulamalardaki tüm hipoid dişli tahrik sistemlerini yağlamak için geliştirilmiştir. Bu ürün ayrıca API GL-4 performans seviyeli yağları kullanan tüm ticari araçların ve yol yapım alet ve makinalarının düz şanzımanlarında kullanılabilir.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Tüm dişli tahrik bileşenleri için çok iyi koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Uzun süreli çalışma koşullarında bile atık ve kalıntı oluşmasını önlemek için mükemmel termal ve oksidasyon kararlılığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi sızdırmazlık uyumluluğu</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/8._Prista_GL4_90.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/duz-sanziman-ve-aks"
+}
+
+export const Ypstou4Product = {
+    productName: "Prista® STOU",
+    productUrl: "/catalogue/utto-stou-to-4-5/prista-r-stou-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "SANZIMAN",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ŞANZIMAN",
+    level3ShowNameBaslik: "UTTO/STOU/TO-4",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/yuksek-performansli-duz-sanziman",
+    productImage: ypstou4Lt,
+    productBigImage: ypstou4Big,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® STOU</strong> Evrensel Üstün Traktör Yağları, STOU yağları tarafından gerektirilen tüm kompleks özellikleri yağlara uygulamak için kaliteli solvent ile rafine edilmiş, hidroişlenmiş sentetik baz ürünler ve özenle seçilmiş yüksek performanslı katkı maddeleri ile formüle edilmiş özel ürünlerdir. <strong style={{ fontFamily: "sans-serif" }}>Prista® STOU</strong> yağları, kapsamlı ve çeşitli yağlama özelliklerinden dolayı özeldirler. Bu yağlar şu anda kullanılan tarım traktörlerinin ve makinalarının motor, şanzıman, diferansiyel dişli takımları, ıslak frenler, debriyajlar ve hidrolik sistemlerini yağlamak için geliştirilmiştir. <strong style={{ fontFamily: "sans-serif" }}>Prista® STOU</strong> yağları ayrıca bazı inşaat araç ve ekipmanları için de tavsiye edilir.&nbsp;</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Güvenli motor temizliği<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel aşınma, sürtünme ve tutukluk önleme özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Üstün ısı, oksidasyon ve kesme kararlılığı &nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Tüm kullanılan keçe tipleriyle çok iyi uyumluluk<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Karter taşmasını ve pompa kavitasyonunu önlemek için mükemmel köpük önleme özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Fren ve debriyaj sistemlerinin sürekli, etkili ve sessiz çalışmasını sağlayan özel sürtünme karakteristikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Stokta bekletilmesi gereken ürünleri azaltır ve yağların farklı ünitelerde yanlış kullanım olasılığını önler</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/9._Prista_STOU_10W30-10W40-15W40_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/utto-stou-to-4-5"
+}
+
+export const Yputto3Product = {
+    productName: "Prista® UTTO",
+    productUrl: "/catalogue/utto-stou-to-4-5/prista-r-utto-3",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "SANZIMAN",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ŞANZIMAN",
+    level3ShowNameBaslik: "UTTO/STOU/TO-4",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/yuksek-performansli-duz-sanziman",
+    productImage: yputto3Lt,
+    productBigImage: yputto3Big,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® UTTO</strong> Evrensel Traktör Şanzıman Yağı, şanzıman/dişli kutularının, diferansiyellerin/güç aktarma organlarının, ıslak frenlerin &amp; debriyaj ve hidrolik sistemlerinin yağlama gerekliliklerini karşılamak için çok kaliteli solvent ile rafine edilmiş, hidroişlenmiş baz ürünler ve özenle seçilmiş yüksek performanslı katkı maddeleri ile formüle edilmiştir. <strong style={{ fontFamily: "sans-serif" }}>Prista® UTTO</strong>, şu anda kullanılan tarım traktörlerinin ve makinalarının motor, şanzıman, diferansiyel dişli takımları, ıslak frenler, debriyajlar ve hidrolik sistemlerini yağlamak için geliştirilmiştir. Aynı zamanda tarım traktörlerinin ve off-road alet ve makinalarının en son marka ve modelleri için de tavsiye edilir. Massey Ferguson M 1143 spesifikasyonunun kesme kararlılığı gerekliliklerini karşılamak için özel olarak geliştirilmiştir. &nbsp;</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi aşınma, sürtünme ve tutukluk önleme özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel ısı, oksidasyon ve kesme kararlılığı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi sızdırmazlık uyumluluğu<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güvenilir pas ve korozyon koruması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Islak frenlerde üstün gürültü kontrolü<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi düşük sıcaklık akışkanlığı, motor soğuk çalıştırıldığında hızlı yağ dolaşımına katkı sağlar<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi köpük bastırma</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/10._Prista_UTTO_80W_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/utto-stou-to-4-5"
+}
+
+export const To4sae10w30Product = {
+    productName: "Prista TO-4 SAE 10W /30",
+    productUrl: "/catalogue/utto-stou-to-4-5/prista-to-4-sae-10w-30-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "SANZIMAN",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ŞANZIMAN",
+    level3ShowNameBaslik: "UTTO/STOU/TO-4",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/yuksek-performansli-duz-sanziman",
+    productImage: basicVarilLt,
+    productBigImage: basicVarilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® TO-4 </strong>powershift şanzıman yağları, çok kaliteli solvent ile rafine edilmiş ve hidroişlenmiş baz ürünlerle ve mikro oyulmaya ve metal yorgunluğuna karşı üstün yatak koruması sağlayan özel aşınma önleyici katkılar ihtiva eden çok etkili katkı maddeleriyle formüle edilmiştir. Bu yağlar off-road makina ve aletlerinin powershift şanzımanlarının, aktarma organlarının, ıslak diskli frenlerinin ve diferansiyel dişli takımlarının yağlanması için tasarlanmıştır. Bu yağlar ayrıca, off-road makinaların tüm otomatik şanzımanlarında ve asenkronize düz şanzımanlarında da kullanıma uygundur.<strong style={{ fontFamily: "sans-serif" }}> Prista® TO-4</strong> yağları inşaat ve madencilik sektörlerinde kullanılan arazi araçlarında ve paletli traktörlerde kullanım için tavsiye edilir.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel sürtünme kontrolü sağlar<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük fren gürültüsü<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük dişli aşınması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;İyi elastomer &nbsp;uyumluluğu&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Oksidasyon kararlılığı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Frenlerin ve şanzımanların ömrünü uzatır&nbsp;</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/11._Prista_TO4_10W-SAE_30_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/utto-stou-to-4-5"
+}
+
+export const longlife4Product = {
+    productName: "Prista Antifreeze Long Life",
+    productUrl: "/catalogue/sogutma-sulari/prista-antifreeze-long-life-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "OZELAKISKANLAR",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ÖZEL AKIŞKANLAR",
+    level3ShowNameBaslik: "Soğutma suları",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/sogutma-sulari",
+    productImage: longlife4Lt,
+    productBigImage: longlife4Big,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® ANTIFREEZE LONG LIFE</strong>, &nbsp;silikat içermeyen organik (mono- ve di-karboksilik) asitlerle geliştirilmiş etilen glikol ve katkı maddesi sistemi esaslı bir antifriz konsantrasyonudur. Bu ürün nitrat, amin ve fosfat gibi potansiyel zararlı maddeler içermediğinden çevreye zarar vermez. <strong style={{ fontFamily: "sans-serif" }}>PRISTA® ANTIFREEZE LONG LIFE</strong>, binek araç, kamyon, otobüs, off-road araçların motorlarında ve sabit motorlarda vs. donma, aşırı ısınma ve korozyona karşı yıl boyunca koruma sağlamak için kullanılır. Yalnızca distile veya yumuşak suyla uygun şekilde seyreltildikten sonra kullanılmalıdır. &nbsp;Tüm standart yanmalı motorların dışında, alüminyum ısı aktarma yüzeyleri için yüksek sıcaklıkta korozyona karşı çok önemli bir koruma sağladığından ileri teknoloji ürünü motorlar için de oldukça iyidir. &nbsp;Korozyona karşı iyi ve uzun süreli koruma sunması için, distile suda en az %33 v/v <strong style={{ fontFamily: "sans-serif" }}>PRISTA® ANTIFREEZE LONG LIFE</strong> konsantrasyonu kullanılması tavsiye edilir. &nbsp;Tipik karışımlar 1:1 olup -40°C’ye kadar olan ortam sıcaklıklarında donmaya karşı koruma sağlar. Suya %70v/v’nin üstünde <strong style={{ fontFamily: "sans-serif" }}>PRISTA® ANTIFREEZE LONG LIFE</strong> ilave edilerek elde edilen karışımlar önerilmez.</p></>,
+    productProvides: null,
+    pdsLink: "http://online.prista-oil.com/storage/PDS_Tr_AntifreezeLongLife.pdf",
+    msdsLink: "http://online.prista-oil.com/storage/SDS_tr_Prista_Antifreeze_Long_Life.pdf",
+    backUrl: "/catalogue/sogutma-sulari"
+}
+
+export const antifreezeLongLifeProduct = {
+    productName: "Prista Antifreeze Long Life (ready-to-use)",
+    productUrl: "/catalogue/sogutma-sulari/prista-antifreeze-long-life-ready-to-use-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "OZELAKISKANLAR",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ÖZEL AKIŞKANLAR",
+    level3ShowNameBaslik: "Soğutma suları",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/sogutma-sulari",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® Antifreeze LONG LIFE- ready for use</strong>, &nbsp;organik (mono- ve di-karboksilik) asitlerle geliştirilmiş etilen glikol ve silikat içermeyen katkı maddesi esaslı, kullanıma hazır bir soğutma suyu/antifriz solüsyonudur. Bu ürün nitrat, amin ve fosfat gibi potansiyel zararlı maddeler içermediğinden çevreye zarar vermez. <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Antifreeze Long LIFE - ready for use</strong>, donmaya ve aşırı ısınmaya karşı güvenilir, uzun süreli motor koruması ve ayrıca, tüm motor yapı malzemeleri için her türlü korozyona karşı koruma sağlar. Sıradan motorların dışında bu antifriz, alüminyum ısı aktarma yüzeyleri için yüksek sıcaklıkta korozyona karşı çok önemli bir koruma sağladığından ileri teknoloji ürünü motorlar için özellikle uygundur. &nbsp;Bu ürün, eksi 40°C ortam sıcaklıklarına kadar donmaya karşı korumayı garanti eder.</p><p>*Not - Bu sıcaklık, İlk Kristalleşme Sıcaklığı değeri ile Damlama Noktası değerinin ortalama değeridir. Donma Sıcaklığının kesin değeri laboratuvarda belirlenir. Yaklaşık değerler refraksiyon ölçme aletlerinden ve etilen glikol bazlı soğutma suları için kalibre edilmiş hidrometrelerden elde edilebilir.</p><p>&nbsp;</p></>,
+    productProvides: null,
+    pdsLink: "http://online.prista-oil.com/storage/PDS_Tr_AntifreezeLongLifeRD.pdf",
+    msdsLink: "http://online.prista-oil.com/storage/SDS_tr_Prista_Antifreeze_Long_Life_Ready_for_use.pdf",
+    backUrl: "/catalogue/sogutma-sulari"
+}
+
+export const concentrate4Product = {
+    productName: "Prista Antifreeze Concentrate",
+    productUrl: "/catalogue/sogutma-sulari/prista-antifreeze-concentrate-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "OZELAKISKANLAR",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ÖZEL AKIŞKANLAR",
+    level3ShowNameBaslik: "Soğutma suları",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/sogutma-sulari",
+    productImage: concentrate4Lt,
+    productBigImage: concentrate4Big,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® ANTIFREEZE-concentrate</strong>, etilen glikol ve organik (mono ve dikarboksilik) asit bazlı silikat içermeyen katkı maddeleri özenle seçilerek formüle edilmiş dört mevsim kullanıma yönelik bir antifriz konsantrasyonudur. <strong style={{ fontFamily: "sans-serif" }}>PRISTA® ANTIFREEZE-concentrate</strong>, yanmalı motorlarda donma, aşırı ısınma ve korozyona karşı koruma sağlamak için dizayn edilmiştir. Binek araç, kamyon, otobüs, off-road araçların motorlarında ve sabit motorlarda vs. kullanım için idealdir. Yalnızca suyla seyreltildikten sonra kullanılmalıdır.İyi ve uzun süreli korozyon korunumu elde etmek için distile suya en az %33 v/v oranında <strong style={{ fontFamily: "sans-serif" }}>PRISTA® ANTIFREEZE - concentrate</strong> solüsyonu eklenilerek kullanılması önerilir. Tipik su seyreltme oranı 1:1 olup eksi 40°C’ye kadar olan ortam sıcaklıklarında donmaya* karşı korumayı garanti etmekte ve motorun en iyi şekilde soğutulmasını sağlamaktadır. %70v/v’den daha yüksek <strong style={{ fontFamily: "sans-serif" }}>PRISTA® ANTIFREEZE - concentrate</strong> konsantrasyonlu karışımların kullanılması tavsiye edilmemektedir.</p></>,
+    productProvides: null,
+    pdsLink: "http://online.prista-oil.com/storage/PDS_Tr_AntifreezeConc.pdf",
+    msdsLink: "http://online.prista-oil.com/storage/SDS_tr_Prista_ANTIFREEZE-concentrate.pdf",
+    backUrl: "/catalogue/sogutma-sulari"
+}
+
+export const antifriz4Product = {
+    productName: "Prista Antifreeze",
+    productUrl: "/catalogue/sogutma-sulari/prista-antifreeze-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "OZELAKISKANLAR",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ÖZEL AKIŞKANLAR",
+    level3ShowNameBaslik: "Soğutma suları",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/sogutma-sulari",
+    productImage: antifriz4Lt,
+    productBigImage: antifriz4Big,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® ANTIFREEZE</strong>, etilen glikol ve organik (mono ve dikarboksilik) asit bazlı silikat içermeyen katkı maddeleri özenle seçilerek formüle edilmiş dört mevsim kullanıma yönelik bir soğutma suyu/antifriz konsantrasyonudur. <strong style={{ fontFamily: "sans-serif" }}>PRISTA® ANTIFREEZE</strong>, yanmalı motorlarda donma, aşırı ısınma ve korozyona karşı koruma sağlamak için dizayn edilmiştir. Binek araç, kamyon, otobüs, off-road araçların motorlarında ve sabit motorlarda vs. kullanım için idealdir. Kullanıma hazır bir üründür ve suyla seyreltilmeden kullanılabilir. <strong style={{ fontFamily: "sans-serif" }}>PRISTA® ANTIFREEZE</strong>, eksi 40°C ortam sıcaklıklarına kadar donmaya karşı korumayı garanti eder. *Not - Bu sıcaklık, İlk Kristalleşme Sıcaklığı değeri ile Damlama Noktası değerinin ortalama değeridir. Donma Sıcaklığının kesin değeri laboratuvarda belirlenir. Yaklaşık değerler refraksiyon ölçme aletlerinden ve etilen glikol bazlı soğutma suları için kalibre edilmiş hidrometrelerden elde edilebilir.</p></>,
+    productProvides: null,
+    pdsLink: "http://online.prista-oil.com/storage/PDS_Tr_Antifreeze.pdf",
+    msdsLink: "http://online.prista-oil.com/storage/SDS_tr_Prista_ANTIFREEZE.pdf",
+    backUrl: "/catalogue/sogutma-sulari"
+}
+
+export const dot4dot3Product = {
+    productName: "Prista DOT-4/ DOT-3",
+    productUrl: "/catalogue/fren-hidrolikleri/prista-dot-4-dot-3-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "OZELAKISKANLAR",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ÖZEL AKIŞKANLAR",
+    level3ShowNameBaslik: "Fren hidrolikleri",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/sogutma-sulari",
+    productImage: dot4dot3Lt,
+    productBigImage: dot4dot3Big,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® DOT-3 &amp; PRISTA® DOT-4</strong> fren hidrolikleri polietilen glikol ester, korozyona ve oksidasyona karşı koruma sağlayan katkı maddeleri ve dengeleyicilerden oluşur. Bu fren hidrolikleri petrol bazlı fren hidrolikleriyle uyumlu değildir. <strong style={{ fontFamily: "sans-serif" }}>PRISTA® DOT-3 &amp; PRISTA® DOT-4</strong> fren hidrolikleri binek araçlar, kamyonlar ve römorklar gibi araçların hidrolik fren sistemlerinde ve debriyajlarında kullanım için önerilmektedir. Kauçuk, SBR (stiren butadien kauçuk) veya EPDM (etilen propilen diyen-monomer kauçuk) keçeler ve fincanlarla donatılmış fren sistemleri için uygundur ve bu sistemler için özel olarak tasarlanmıştır. &nbsp;Bu fren hidroliklerinin formülasyonundaki korozyon önleyiciler, fren sistemlerindeki metal yüzeylerin korozyondan korunmasını sağlar.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel korozyon korunumu<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Fren sistemlerinin keçeleriyle uyumluluk&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;İyi oksidasyon kararlılığı&nbsp;</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/3._Prista_DOT_3-4_TR.pdf",
+    msdsLink: "http://online.prista-oil.com/storage/SDS_tr_Prista_DOT_3.pdf",
+    msds2Link: "http://online.prista-oil.com/storage/SDS_tr_Prista_DOT_4.pdf",
+    backUrl: "/catalogue/fren-hidrolikleri"
+}
+
+export const screenwashSummerProduct = {
+    productName: "Prista Screenwash Summer",
+    productUrl: "/catalogue/on-cam-yikama-sivilari/prista-screenwash-summer-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "OZELAKISKANLAR",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ÖZEL AKIŞKANLAR",
+    level3ShowNameBaslik: "Ön cam yıkama sıvıları",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/sogutma-sulari",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista®</strong>&nbsp;yaz tipi ön cam yıkama sıvıları, denaturize etil alkol, su ve sürfaktan, “yağlama” bileşenleri, boya ve kokuların dikkatlice dengelenmiş bir seçimi formüle edilmiştir. Prista®&nbsp;yaz tipi ön cam yıkama sıvıları, araçların ön cam silecek suyu kaplarına konulmak için amaçlanmıştır. Araçların ön camlarını yıkamak ve temizlemek için kullanılır. Aktif temizleme bileşenlerinden dolayı toz, böcek, sinek vs. gibi atıkları temizleyerek net bir görüş olanağı sunar. <strong style={{ fontFamily: "sans-serif" }}>Summer Screen Wash Prista®</strong> sıvısının iki tipi mevcuttur - 1:3 oranında distile veya yumuşak suyla seyretilmesi gereken <strong style={{ fontFamily: "sans-serif" }}>Summer Screen Wash Prista®</strong> konsantrasyonu; ve kullanıma hazır ve seyreltme gerektirmeyen <strong style={{ fontFamily: "sans-serif" }}>Summer Screen Wash Prista®</strong> ready for use.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Böceklerin organik artıklarını temizlemek için gelişmiş temizleme özelliklerine sahip<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Büyük oranda biyo-alkol esaslı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Metanol, EDTA, fosfat, amin veya nitrit, MEK, Etil Asetat, aseton içermez.<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kazayla yutulmayı önlemek için çok acı bir madde ihtiva etmektedir.<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Dolumu kolaylaştırmak için orta dereceli köpürme özelliği<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Polimerik malzemelerle uyumlu</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "http://online.prista-oil.com/storage/SDS_tr_Prista_Summer_Screen_Wash_Concentrate_13.pdf",
+    msds2Link: "http://online.prista-oil.com/storage/SDS_tr_Prista_Summer_Screen_Wash.pdf",
+    backUrl: "/catalogue/on-cam-yikama-sivilari"
+}
+
+export const screenwashWinterProduct = {
+    productName: "Prista Screenwash Winter",
+    productUrl: "/catalogue/on-cam-yikama-sivilari/prista-screenwash-winter-4",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "OZELAKISKANLAR",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ÖZEL AKIŞKANLAR",
+    level3ShowNameBaslik: "Ön cam yıkama sıvıları",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/sogutma-sulari",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista®</strong> kış tipi ön cam yıkama sıvıları, denaturize etil alkol ve sürfaktan, “yağlama” bileşenleri, boya ve kokuların dikkatlice dengelenmiş bir seçimi formüle edilmiştir. Otomobillerin ön cam silecek suyu haznelerini donmaya karşı korumayı amaçlamaktadır. Aktif temizleme bileşenlerinden dolayı toz, çamur vs. gibi atıkları temizleyerek net bir görüş olanağı sunar. <strong style={{ fontFamily: "sans-serif" }}>Winter Screen Wash Prista®</strong> konsantrasyonu eksi -60C’den daha düşük ortam sıcaklıklarında donmaya karşı koruma sağlar ve beklenen ortam sıcaklıklarına bağlı olarak, kullanılmadan önce distile veya yumuşak suyla seyreltilmesi tavsiye edilmektedir. <strong style={{ fontFamily: "sans-serif" }}>Winter Screen Wash Prista®</strong> -20C, kullanıma hazır bir sıvıdır ve dilüsyon gerektirmez.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Büyük oranda biyo-alkol esaslı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Metanol, EDTA, fosfat, amin veya nitrit, MEK, Etil Asetat, Aseton içermez.<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kazayla yutulmayı önlemek için çok acı bir madde ihtiva etmektedir.<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Dolumu kolaylaştırmak için orta dereceli köpürme özelliği<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Polimerik malzemeler, lastik contalar ve dekoratif kaplamalarla uyumlu</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/PDS_Tr_ScreenWash_Fluid_Winter.pdf",
+    msdsLink: "http://online.prista-oil.com/storage/SDS_tr_Prista_Winter_Screen_Wash_Fluid_-20.pdf",
+    msds2Link: "http://online.prista-oil.com/storage/SDS_tr_Prista_Winter_Screen_Wash_Fluid_Concentrate.pdf",
+    backUrl: "/catalogue/on-cam-yikama-sivilari"
+}
+
+export const adblueProduct = {
+    productName: "AdBlue®",
+    productUrl: "/catalogue/adblue-r-6/adblue-6",
+    level1ShowName: "OTOMOTIV",
+    level2ShowName: "OZELAKISKANLAR",
+    level1ShowNameBaslik: "OTOMOTİV",
+    level2ShowNameBaslik: "ÖZEL AKIŞKANLAR",
+    level3ShowNameBaslik: "AdBlue®",
+    level1To: "/catalogue/yuksek-performansli-dpf-twc",
+    level2To: "/catalogue/sogutma-sulari",
+    productImage: adblueLt,
+    productBigImage: adblueBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>AdBlue</strong>®, özellikle otomotiv SCR katalitik konvertörü için geliştirilmiş yüksek kaliteli bir solüsyondur. <strong style={{ fontFamily: "sans-serif" }}>AdBlue</strong>®, SCR katalitik konvertörüne enjekte edilerek tüm nitrojen oksitler (NOx) hemen zararsız nitrojene ve suya dönüştürülür. Sadece <strong style={{ fontFamily: "sans-serif" }}>AdBlue</strong>®<strong style={{ fontFamily: "sans-serif" }}> </strong>kullanıldığında bu katalitik dönüştürme optimum etki gösterir. <strong style={{ fontFamily: "sans-serif" }}>AdBlue</strong>®, ağır vasıta araç üreticileri tarafından tavsiye edilmektedir.</p></>,
+    productProvides: null,
+    pdsLink: null,
+    msdsLink: null,
+    backUrl: "/catalogue/adblue-r-6"
 }

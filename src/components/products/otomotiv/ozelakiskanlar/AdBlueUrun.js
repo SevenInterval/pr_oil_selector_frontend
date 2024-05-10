@@ -21,7 +21,7 @@ const AdBlueUrun = () => {
                     <UrunlerBaslik level1ShowName={"OTOMOTİV"} level2ShowName={"ÖZEL AKIŞKANLAR"} level3ShowName={"AdBlue®"}
                         level1To={"/catalogue/yuksek-performansli-dpf-twc"} level2To={"/catalogue/sogutma-sulari"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/adblue-r-6/adblue-6"}
+                        <UrunOzet productUrl={"/catalogue/adblue-r-6/adblue-6"}
                             productLogo={adblueImage} productName={"AdBlue®"}
                             productText={"AdBlue®, özellikle otomotiv SCR katalitik konvertörü için geliştirilmiş yüksek kaliteli bir solüsyondur. AdBlue®, SCR katalitik konvertörüne enjekte edilerek tüm nitrojen oksitler (NOx) hemen zararsız nitrojene ve suya dönüştürülür."}
                             last={false} />

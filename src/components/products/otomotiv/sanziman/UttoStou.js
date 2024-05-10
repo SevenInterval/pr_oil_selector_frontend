@@ -21,15 +21,15 @@ const UttoStou = () => {
                     <UrunlerBaslik level1ShowName={"OTOMOTİV"} level2ShowName={"ŞANZIMAN"} level3ShowName={"UTTO/STOU/TO-4"}
                         level1To={"/catalogue/yuksek-performansli-dpf-twc"} level2To={"/catalogue/yuksek-performansli-duz-sanziman"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/utto-stou-to-4-5/prista-r-stou-4"}
+                        <UrunOzet productUrl={"/catalogue/utto-stou-to-4-5/prista-r-stou-4"}
                             productLogo={Ypstou4Image} productName={"Prista® STOU"}
                             productText={"Prista® STOU Evrensel Üstün Traktör Yağları, STOU yağları tarafından gerektirilen tüm kompleks özellikleri yağlara uygulamak için kaliteli solvent ile rafine edilmiş, hidroişlenmiş sentetik baz ürünler ve özenle seçilmiş yüksek perfo"}
                             last={false} />
-                        <UrunOzet productUrl={"/product/utto-stou-to-4-5/prista-r-utto-3"}
+                        <UrunOzet productUrl={"/catalogue/utto-stou-to-4-5/prista-r-utto-3"}
                             productLogo={Yputto3Image} productName={"Prista® UTTO"}
                             productText={"Prista® UTTO Evrensel Traktör Şanzıman Yağı, şanzıman/dişli kutularının, diferansiyellerin/güç aktarma organlarının, ıslak frenlerin & debriyaj ve hidrolik sistemlerinin yağlama gerekliliklerini karşılamak için çok kaliteli solvent i"}
                             last={true} />
-                        <UrunOzet productUrl={"/product/utto-stou-to-4-5/prista-to-4-sae-10w-30-4"}
+                        <UrunOzet productUrl={"/catalogue/utto-stou-to-4-5/prista-to-4-sae-10w-30-4"}
                             productLogo={basicVarilKucukImage} productName={"Prista TO-4 SAE 10W /30"}
                             productText={"Prista® TO-4 powershift şanzıman yağları, çok kaliteli solvent ile rafine edilmiş ve hidroişlenmiş baz ürünlerle ve mikro oyulmaya ve metal yorgunluğuna karşı üstün yatak koruması sağlayan özel aşınma önleyici katkılar ihtiva eden ço"}
                             last={false} />
