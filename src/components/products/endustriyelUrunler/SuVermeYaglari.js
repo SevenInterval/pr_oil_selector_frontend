@@ -20,11 +20,11 @@ const SuVermeYaglari = () => {
                 <article>
                     <UrunlerBaslik level1ShowName={"ENDÜSTRİYEL ÜRÜNLER"} level2ShowName={"SU VERME YAĞLARI"} level1To={"/catalogue/hidrolik-ve-kizak-yaglari"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/su-verme-yaglari/prista-mz-e-4"}
+                        <UrunOzet productUrl={"/catalogue/su-verme-yaglari/prista-mz-e-4"}
                             productLogo={basicVarilKucukImage} productName={"Prista MZ-E"}
                             productText={"PRISTA® MZ 22 E su verme yağı, metallerin soğuk suverme işlemi sıasında bir soğutma ortamı olarak tasarlanmıştır. İyi dengelenmiş katkı maddeleri perlit aralıklarında yüksek soğutma oranları ve martenzit aralıklarında ise düşük soğut"}
                             last={false} />
-                        <UrunOzet productUrl={"/product/su-verme-yaglari/prista-mz-4"}
+                        <UrunOzet productUrl={"/catalogue/su-verme-yaglari/prista-mz-4"}
                             productLogo={basicVarilKucukImage} productName={"Prista MZ"}
                             productText={"PRISTA® MZ yağları çeşitli tipte ve içerikte çeliğin soğuk su verme işlemi için tasarlanmıştır.Bu ürünler özellikle yüksek ve düşük karbonlu çeliklerin toplu ve yüzey su verme işlemi için uygundur."}
                             last={true} />

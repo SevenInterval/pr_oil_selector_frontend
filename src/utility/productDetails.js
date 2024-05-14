@@ -1526,3 +1526,599 @@ export const mnpProduct = {
     msdsLink: "https://prista-oil.com/msds-9",
     backUrl: "/catalogue/hidrolik-ve-kizak-yaglari"
 }
+
+export const compressor4Product = {
+    productName: "Prista® Compressor Synth",
+    productUrl: "/catalogue/kompresor-yaglari/prista-r-compressor-synth-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "KOMPRESÖR YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "KOMPRESÖR YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® Compressor Synth</strong> yağları, eşsiz sistem performansı ve tam koruma sağlamak için dizayn edilmiş gelişmiş PAO sentetik teknolojisi ve en son nesil katkı maddeleriyle formüle edilmiştir.&nbsp;<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Compressor Synth</strong>, tek ve çok aşamalı pistonlu üniteler ile tek ve çok aşamalı santrifüj kompresörleri dahil tüm kompresör tiplerinin yağlanması ve Atlas Copco, ABB ve Tanabe dahil çeşitli OEM'lerin döner vidalı tip ünitelerinde kullanım için önerilir.<br />
+        Yüksek perforamnslı termal kararlılığı <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Compressor Synth'in</strong>, 15 bar'da +100°С'lik yüksek basma sıcaklığına sahip yağ püskürtmeli döner vidalı kompresörlerin korunmasını sağlar ve yağ değiştirme aralıklarını uzatır.&nbsp;<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Compressor Synth</strong> yağları, iki ayrı yağlama sisteminin kullanıldığı marin dizel turbo kompresörlerde kullanım için tavsiye edilir.&nbsp;</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel turbo kompresör koruması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Uzun servis performansı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Eşsiz aşınma performansı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok kararlı oksidasyon direnci<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;5000 saate kadar yağ değiştirme aralığı</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: null,
+    backUrl: "/catalogue/kompresor-yaglari"
+}
+
+export const pristaMvk2Product = {
+    productName: "Prista MVK 2",
+    productUrl: "/catalogue/kompresor-yaglari/prista-mvk-2-7",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "KOMPRESÖR YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "KOMPRESÖR YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MVK-2</strong> kompresör yağları yüksek oksidasyon kararlılığı, iyi yağlama özellikleri, pas&amp;korozyon koruması, 140°C’ye kadar ve bazı durumlarda, kompresörün tipine ve çalışma koşullarına bağlı olarak 220°C’ye kadar dış hava sıcaklıkları gerektiren sirkülasyon veya karışık tip yağlama sistemleriyle donatılmış piston tipi kompresörlerin yağlanması için geliştirilmiştir.&nbsp;<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MVK-2</strong> kompresör yağları düşük ve orta kapasiteli, 1500 kPa (15bar)’ın altında dış hava basınçlı ve &nbsp;100°C’ye kadar çıkış hava/yağ sıcaklık değerli döner (kanatlı ve vidalı) tip kompresörlerin yağlanması için tasarlanmıştır.<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MVK-2</strong> kompresör yağları, çok etkili katkı maddesi ile harmanlanmış çok kaliteli rafine ve hidrojenle işlenmiş parafin-naftenik bazlı ürünlerin özel bir seçimi ile formüle edilmiştir.&nbsp;</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi aşınma önleme özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi termal ve oksidasyon kararlılığı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güvenilir korozyon koruması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Keçe uyumluluğu&nbsp;</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/1._Prista_MVK2_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/kompresor-yaglari"
+}
+
+export const pristaMvk1Product = {
+    productName: "Prista MVK 1",
+    productUrl: "/catalogue/kompresor-yaglari/prista-mvk-1-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "KOMPRESÖR YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "KOMPRESÖR YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MVK-1</strong> kompresör yağları düşük ve orta kapasiteli, 1000 kPa’nın altında dış hava basınçlı ve &nbsp;140°C’ye kadar çıkış hava sıcaklık değerli döner ve piston tipi kompresörlerin yağlanması için tasarlanmıştır.<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MVK-1 </strong>&nbsp;kompresör yağları, kaliteli solvent ile rafine edilmiş ve parafinik-naftenik tipi hidroişlenmiş baz ürünler özenle seçilerek formüle edilmiştir.</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MVK-1</strong>/100, 1.3.10-11 Pa’ya kadar olan düşük vakumlarda ve CT 3801402-86 &amp;TGL 15291-R910 ile uyumlu yağların kullanılması gerektiği zararsız gazların bulunduğu ortamlarda çalışan yağs sızdırmaz tipi mekanik vakum pompalarında kullanılabilir.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi oksidasyon kararlılığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güvenilir korozyon koruması</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/2._Prista_MVK1_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/kompresor-yaglari"
+}
+
+export const pristaFrigusProduct = {
+    productName: "Prista Frigus HA",
+    productUrl: "/catalogue/kompresor-yaglari/prista-frigus-ha-7",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "KOMPRESÖR YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "KOMPRESÖR YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® FRIGUS HA</strong> yağları, soğutucu gaz olarak amonyak ile çalışan buzdolaplarının ve soğutma cihazlarının yağlanması için önerilmektedir.&nbsp;<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® FRIGUS HA</strong> buzdolabı kompresör yağları çok kaliteli solventle rafine edilmiş ve hidroişlenmiş naftenik bazlı ürünlerin özel bir seçiminden harmanlanmıştır.&nbsp;</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi düşük sıcaklık özellikleri&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi termal ve oksidasyon kararlılığı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güvenilir korozyon koruması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Keçe ve amonyak uyumluluğu&nbsp;</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/3._Prista_FrigusHA_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/kompresor-yaglari"
+}
+
+export const pristaRolonFProduct = {
+    productName: "Prista Rolon F",
+    productUrl: "/catalogue/endustriyel-disli-yaglari/prista-rolon-f-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "ENDÜSTRİYEL DİŞLİ YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "ENDÜSTRİYEL DİŞLİ YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® ROLON F</strong> yağları, yüksek EP koruması ve termal kararlılığa ilave olarak yüksek seviyeli mikro oyulma direnci sağlayan külsüz kükürt-fosfor tipi katkı maddesi ile harmanlanmış çok kaliteli solventle rafine edilmiş ve hidroişlenmiş yağ baz ürünlerinin uygun bir seçimiyle formüle edilmiştir.<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® ROLON F</strong> serisi yağlar ağır görev ve yüksek ısılı sirkülasyon sistemlerinde uzun süreli servis için önerilmektedir. Bu yağlar mikro oyulma korozyonuna karşı metal yüzey korumasını arttırdığından 1 kW'den daha düşük güçlü küçük motor hız düşürücülerinden metal hadde makinaları, çimento değirmenleri ve madenlerdeki asansör mekanizmalarındaki büyük, güçlü ünitelere kadar olan hız düşürücüler için oldukça uygundur.<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® ROLON F</strong>, normal ile yüksek sıcaklıklarda çalışan kapalı dişli tahrik üniteleri (hız düşürücüler), zincir (dişli) tahrik üniteleri, zincir çarkları ve dişlileri, düz ve masuralı yataklar, kızaklar ve esnek bağlantılar/kaplinlerin yağlanması için tavsiye edilir. Ayrıca, <strong style={{ fontFamily: "sans-serif" }}>PRISTA® ROLON F</strong> yağları güvenilir pas ve korozyon korunumunun hayati önem taşıdığı düşük-orta basınçlı hidrolik sistemlerde uygulama için de önerilir.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Üstün mikro oyulma direnci<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel termal kararlılığı ve tortu direnci<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Geniş sıcaklık aralıklarında etkili su ayırma ve köpük kontrolü<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok sayıda elastomer malzeme ile uyumluluk<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Üstün yatak koruması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kanıtlanmış boya uyumluluğu</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/endustriyel-disli-yaglari"
+}
+
+export const pristaRolonProduct = {
+    productName: "Prista Rolon",
+    productUrl: "/catalogue/endustriyel-disli-yaglari/prista-rolon-7",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "ENDÜSTRİYEL DİŞLİ YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "ENDÜSTRİYEL DİŞLİ YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® ROLON</strong> endüstriyel dişli yağları normal, orta ve yüksek kararlı yağ sıcaklıklarında çalışan ağır yüklü endüstriyel dişli tahrik ünitelerinin yağlanması için geliştirilmiştir.&nbsp;<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® ROLON</strong> yağları, düz ve sarmal konik dişlilere, alın dişlilerine, hipoid dişlilere ve sonsuz dişlilere sahip ağır yüklü kapalı dişli kutularının yağlanması için tasarlanmıştır. PRISTA®ROLON, kükürt-fosfor tipi katkı maddesi ile harmanlanmış çok kaliteli solventle rafine edilmiş ve hidroişlenmiş yağ baz ürünlerinin uygun bir seçimiyle formüle edilmiştir.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi aşınma ve tutukluk önleme özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi termal ve oksidasyon kararlılığı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güvenilir korozyon koruması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Keçe uyumluluğu&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;İyi sudan ayrılma özelliği &nbsp;&nbsp;</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/1._Prista_ROLON_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/endustriyel-disli-yaglari"
+}
+
+export const pristaTpxProduct = {
+    productName: "Prista Tpx",
+    productUrl: "/catalogue/turbin-yaglari/prista-tpx-7",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "TÜRBİN YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "TÜRBİN YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® Tpx</strong> türbin yağları özel külsüz katkı maddesi ile harmanlanmış çok rafine, hidroişlenmiş yağ baz ürünlerinden formüle edilmiştir. Hazır haldeki bu yağlar çok iyi oksidasyon kararlığı, güvenilir korozyon direnci ve iyi aşınma önleme özellikleri sağlar ve MAN, Alstom, Siemens, GE gibi önde gelen OEM'lerin gerekliliklerini karşılar ve bu gereklilillerin ötesine geçer.<br />
+        <strong style={{ fontFamily: "sans-serif" }}>Prista® Tpx</strong> türbin yağları, yüksek yük ve aşırı sıcaklıklar altında çalışan buhar ve gaz tür türbinlerinin yağlanması için geliştirilmiştir. Özellikle orta EP özellikli yağlar gerektiren ortak (birleşik) yağlama sistemli gaz türbinlerinin ve kompresör ünitelerinin yağlanması için tasarlanmıştır. Bu yağlar, asgari olarak FZG testinin 8. yük aşamasını geçen yağlar gerektiren MAN, Alstom, Siemens, GE ve ASTM'nin en katı gerekliliklerini karşılamakta ve bu gereklililleri aşmaktadır.<br />
+        <strong style={{ fontFamily: "sans-serif" }}>Prista® Tpx</strong> ayrıca ISO 6743-5'e göre TSA kategorisi yağları gerektiren sentez gazı ve amonyak kompresörleri için de uygundur. Sentetik deniz suyundaki yüksek korozyon performansları bu türbin yağlarını farklı teknelerdeki ve diğer yardımcı gemi donanımındaki kompresörler ve türbinlerde kullanım için uygun hale getirmektedir. Banyolar ve sirkülasyon sistemleri, düşük ile normal yüklü donanımların farklı tipteki yağlamalı yatakları ve düşük ile normal basınçlar altındaki hidrolik sistemleri diğer tipik uygulamalar arasındadır.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Aşırı yüksek oksidasyon kararlılığı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Bozulmaya karşı azami direnç<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi sudan ayrılma özelliği&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi aşınma önleme özellikleri</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/1._PristaTpx_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/turbin-yaglari"
+}
+
+export const pristaTps32Product = {
+    productName: "Prista Tps -32",
+    productUrl: "/catalogue/turbin-yaglari/prista-tps-32-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "TÜRBİN YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "TÜRBİN YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® Tps-32</strong> türbin yağı, çok etkili külsüz katkı maddesi ile harmanlanmış bozulmaya karşı çok yüksek direnç gösteren özenle seçilmiş rafine baz yağlarla formüle edilmiştir.&nbsp;<br />
+        Üstün kaliteli <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Tps-32</strong> türbin yağları su, buhar ve gaz türbinlerinin yağlanması için geliştirilmiştir. Bu türbin yağının, RBOT Testinde 1000 saatten daha fazla test edilerek üstün oksidasyon kararlılığı ve iyi korozyon korunumu performansı sağladığı kanıtlanmıştır. Bu yağ ayrıca türbinle ilgili ekipman ve donanımların ve bunları kumanda eden sistemlerin yağlanması için de uygundur.&nbsp;<br />
+        Banyolar ve sirkülasyon sistemleri, düşük ile normal yüklü donanımların farklı tipteki yağlamalı yatakları ve düşük ile normal basınçlar altındaki hidrolik sistemleri diğer tipik uygulamalar arasındadır.<br />
+        Sentetik deniz suyunda iyileştirilmiş korozyon performansı bu türbin yağlarını gemilerdeki kompresörlerde, farklı teknelerdeki türbinlerde ve diğer yardımcı gemi donanımlarında kullanım için uygun hale getirir.&nbsp;<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Tps-32</strong> yağı Alstom, Siemens, GE vs. gibi çoğu OEM gerekliliklerini karşılamakta ve bu gerekliliklerin ötesine geçmektedir..</p></>,
+    productProvides: null,
+    pdsLink: "http://online.prista-oil.com/storage/2._PristaTps_32_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/turbin-yaglari"
+}
+
+export const pristaTps46Product = {
+    productName: "Prista Tps -46",
+    productUrl: "/catalogue/turbin-yaglari/prista-tps-46-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "TÜRBİN YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "TÜRBİN YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® Tps-46</strong> türbin yağı, çok etkili külsüz katkı maddesi ile harmanlanmış bozulmaya karşı çok yüksek direnç gösteren özenle seçilmiş rafine baz yağlarla formüle edilmiştir.&nbsp;<br />
+        Üstün kaliteli <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Tps-46</strong> türbin yağları su, buhar ve gaz türbinlerinin yağlanması için geliştirilmiştir. Bu türbin yağının, RBOT Testinde 1000 saatten daha fazla test edilerek üstün oksidasyon kararlılığı ve iyi korozyon korunumu performansı sağladığı kanıtlanmıştır. Bu yağ ayrıca türbinle ilgili ekipman ve donanımların ve bunları kumanda eden sistemlerin yağlanması için de uygundur.&nbsp;<br />
+        Banyolar ve sirkülasyon sistemleri, düşük ile normal yüklü donanımların farklı tipteki yağlamalı yatakları ve düşük ile normal basınçlar altındaki hidrolik sistemleri diğer tipik uygulamalar arasındadır.<br />
+        Sentetik deniz suyunda iyileştirilmiş korozyon performansı bu türbin yağlarını gemilerdeki kompresörlerde, farklı teknelerdeki türbinlerde ve diğer yardımcı gemi donanımlarında kullanım için uygun hale getirir.&nbsp;<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Tps-46</strong> yağı Alstom, Siemens, GE vs. gibi çoğu OEM gerekliliklerini karşılamakta ve bu gerekliliklerin ötesine geçmektedir..</p></>,
+    productProvides: null,
+    pdsLink: "http://online.prista-oil.com/storage/3._PristaTps_46_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/turbin-yaglari"
+}
+
+export const pristaTpsEpProduct = {
+    productName: "Prista Tps EP",
+    productUrl: "/catalogue/turbin-yaglari/prista-tps-ep-7",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "TÜRBİN YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "TÜRBİN YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® Tps/ EP</strong> türbin yağları, mükemmel oksidasyon kararlılığı, güvenilir korozyon koruması ve iyi &nbsp;iyi aşınma özellikleri sunan özel, çok etkili külsüz katkı maddesi ile harmanlanmış, bozulmaya karşı çok yüksek direnç gösteren özenle seçilmiş çok rafine, hidroişlenmiş baz ürünlerden formüle edilmiştir.<br />
+        Üstün kaliteli <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Tps/ EP</strong> türbin yağları su, buhar ve gaz türbinlerinin yağlanması için geliştirilmiştir. Bu türbin yağlarının, RBOT Testinde 1000 saatten daha fazla test edilerek üstün oksidasyon kararlılığı ve iyi korozyon korunumu performansı sağladığı kanıtlanmıştır. Özellikle orta EP özellikli yağlar gerektiren ortak (birleşik) yağlama sistemli gaz türbinlerinin ve kompresör ünitelerinin yağlanması için tasarlanmıştır. Bu yağlar, asgari olarak FZG testinin 8. yük aşamasını geçen yağlar gerektiren Alstom, Siemens, GE ve ASTM'nin en katı gerekliliklerini karşılamakta ve bu gereklililleri aşmaktadır.<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Tps/ EP</strong> türbin yağları ayrıca türbinle ilgili ekipman ve donanımların ve bunları kumanda eden sistemlerin yağlanması için de uygundur.&nbsp;<br />
+        Banyolar ve sirkülasyon sistemleri, düşük ile normal yüklü donanımların farklı tipteki yağlamalı yatakları ve düşük ile normal basınçlar altındaki hidrolik sistemleri diğer tipik uygulamalar arasındadır.<br />
+        Sentetik deniz suyunda iyileştirilmiş korozyon performansı bu türbin yağlarını gemilerdeki kompresörlerde, farklı teknelerdeki türbinlerde ve diğer yardımcı gemi donanımlarında kullanım için uygun hale getirir.&nbsp;</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi oksidasyon kararlılığı &nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi sudan ayrılma özelliği &nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Bozulmaya karşı azami direnç&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;İyi aşınma önleme özellikleri&nbsp;</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/PDS_Eng_TpsEP_TR.PDF",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/turbin-yaglari"
+}
+
+export const pristaTpProduct = {
+    productName: "Prista Tp",
+    productUrl: "/catalogue/turbin-yaglari/prista-tp-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "TÜRBİN YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "TÜRBİN YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® Tp</strong> türbin yağları, yüksek oksidasyon kararlılığı, güvenilir korozyon koruması sağlayan çok etkili külsüz katkı maddesi ile harmanlanmış oldukça rafine baz ürünlerden formüle edilmiştir.<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Tp</strong> türbin yağları, ISO 8068’e göre TSA ve TGA yağları gerektiren su, buhar ve gaz türbinlerinin (normal servis) yağlanması için geliştirilmiştir.<br />
+        <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Tp</strong> türbin yağları ayrıca türbinle ilgili ekipman ve donanımların ve bu makinaları kumanda eden sistemlerin yağlanması için de uygundur.&nbsp;<br />
+        Banyolar ve sirkülasyon sistemleri, düşük ile normal yüklü donanımların farklı tipteki yağlamalı yatakları ve düşük ile normal basınçlar altındaki hidrolik sistemleri diğer tipik uygulamalar arasındadır.</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi oksidasyon kararlılığı &nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi sudan ayrılma özelliği<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Bozulmaya karşı azami direnç&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Siemens onaylı</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/4._PristaTp_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/turbin-yaglari"
+}
+
+export const pristaTrafoAHosioProduct = {
+    productName: "Prista Trafo A HOSIO",
+    productUrl: "/catalogue/transformator-yaglari/prista-trafo-a-hosio-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "TRANSFORMATÖR YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "TRANSFORMATÖR YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <><p><strong style={{ fontFamily: "sans-serif" }}>Prista® Trafo A HOSIO</strong> yalıtım yağı, fenolik tipi antioksidan eklenmiş, oldukça hidroişlenmiş naftenik yağdan formüle edilmiştir. Yalıtım ve ısı transfer ortamı olarak özel karakteristikli yağ gerektiren transformatörler, devre kesiciler (anahtarlar) vs. gibi yüksek gerilimli elektrik donanımlarında kullanım için tasarlanmıştır.&nbsp;</p></>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Düşük Kükürt içeriği<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi ısı transfer özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Bozulmaya karşı azami direnç&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi düşük sıcaklık özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yüksek dielektrik dayanıklılık &nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi oksidasyon kararlılığı</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/transformator-yaglari"
+}
+
+export const pristaTrafoAProduct = {
+    productName: "Prista Trafo A",
+    productUrl: "/catalogue/transformator-yaglari/prista-trafo-a-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "TRANSFORMATÖR YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "TRANSFORMATÖR YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Trafo A</strong>, fenolik tipi antioksidan eklenmiş, oldukça rafine naftenik tipi madeni yağdan formüle edilmiş katkılı bir transformatör yağıdır. Yalıtım ve ısı transfer ortamı olarak yağ gerektiren transformatörler, devre kesiciler (anahtarlar) vs. gibi yüksek gerilimli elektrik donanımlarında kullanım için tasarlanmıştır.&nbsp;</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi ısı transfer özellikleri &nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Bozulmaya karşı azami direnç&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi düşük sıcaklık özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yüksek dielektrik dayanıklılık &nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi oksidasyon kararlılığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Siemens onaylı</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/transformator-yaglari"
+}
+
+export const pristaTrafoProduct = {
+    productName: "Prista Trafo",
+    productUrl: "/catalogue/transformator-yaglari/prista-trafo-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "TRANSFORMATÖR YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "TRANSFORMATÖR YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Trafo</strong>, oldukça rafine naftenik tipi ham petrolden edilmiş katkılı bir yalıtım yağıdır. Yalıtım ve ısı transfer ortamı olarak yağ gerektiren transformatörler, devre kesiciler (anahtarlar) vs. gibi yüksek gerilimli elektrik donanımlarında kullanım için tasarlanmıştır.&nbsp;</p>    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi oksidasyon kararlılığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi düşük sıcaklık özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yüksek dielektrik dayanıklılık&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Siemens onaylı</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/transformator-yaglari"
+}
+
+export const pristaPaperMachineProduct = {
+    productName: "Prista Paper Machine",
+    productUrl: "/catalogue/sirkulasyon-yaglari-ve-genel-amacli-yaglar/prista-paper-machine-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "SİRKÜLASYON YAĞLARI VE GENEL AMAÇLI YAĞLAR",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "SİRKÜLASYON YAĞLARI VE GENEL AMAÇLI YAĞLAR",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® Paper Machine</strong> Yağları çok iyi oksidasyon kararlılığı, korozyon koruması sağlayan ve kullanım sırasında kapsolmuş havayı ve suyu kolayca dışarı vermek için mükemel sudan ayrılma ve hava ayrışma özellikleri olan gelişmiş katkı maddelerinden ve çok rafine madeni baz yağlardan üretilmiştir.&nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Paper Machine</strong> Yağları öncellikle kağıt makinelerinin sirkülasyon sistemlerinde, sonsuz dişli tahrik ünitelerinde ve endüstriyel uygulamalardaki pompalarda kullanım için tasarlanmıştır. &nbsp;</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Güvenilir aşınma koruması sağlar&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Pas ve korozyon koruması&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel sudan ayrılma özelliği&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yüksek oksidasyon kararlılığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük köpürme&nbsp;</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/sirkulasyon-yaglari-ve-genel-amacli-yaglar"
+}
+
+export const pristaCirculatingProduct = {
+    productName: "Prista Circulating Oil",
+    productUrl: "/catalogue/sirkulasyon-yaglari-ve-genel-amacli-yaglar/prista-circulating-oil-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "SİRKÜLASYON YAĞLARI VE GENEL AMAÇLI YAĞLAR",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "SİRKÜLASYON YAĞLARI VE GENEL AMAÇLI YAĞLAR",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA®</strong> sirkülasyon yağları, hadde makinalarında kullanıldığında oksidasyona ve tortu oluşumuna karşı yüksek direnç gösteren yüksek dereceli madeni yağlardır. Çok iyi oksidasyon kararlılığı, korozyon koruması sağlayan ve kullanım sırasında hapsolmuş havayı ve suyu kolayca dışarı vermek için mükemmel sudan ayrılma ve hava ayrışma özellikleri olan gelişmiş katkı maddelerinden ve çok rafine madeni baz yağlardan üretilmişlerdir.&nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>PRISTA®</strong> sirkülasyon yağları öncelikli olarak yüksek hızlı çubuk haddelerinin, kombine haddelerinin, taşıma donanımlarının ve çelik ve demir-dışı endüstrilerin hadde makinası ekipman sistemlerinin düz ve masuralı yataklarının yağ banyolu yağlanması için tasarlanmıştır. Bu yağlar hafif yüklü sonsuz dişli tahrikünitelerinin yağlanması için ve kağıt makinelerinin sirkülasyonlu yağlama sistemlerinde başarıyla kullanılabilir.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel yağlama özellikleri sunar<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel sudan ayrılma ve hava ayrışma özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Korozyon korunumu<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yüksek oksidasyon kararlılığı</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/sirkulasyon-yaglari-ve-genel-amacli-yaglar"
+}
+
+export const pristaAnProduct = {
+    productName: "Prista AN",
+    productUrl: "/catalogue/sirkulasyon-yaglari-ve-genel-amacli-yaglar/prista-an-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "SİRKÜLASYON YAĞLARI VE GENEL AMAÇLI YAĞLAR",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "SİRKÜLASYON YAĞLARI VE GENEL AMAÇLI YAĞLAR",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® AN</strong> endüstriyel yağlar, kaliteli solvent ile rafine edilmiş ve hidroişlenmiş naftenik ve parafinik-naftenik bazlı ürünler özenle seçilerek formüle edilmiştir. <strong style={{ fontFamily: "sans-serif" }}>PRISTA® AN </strong>yağları, endüstriyel makinelerde, ekipmanlarda ve sistemlerdeki hafif yüklü ünitelerin akışlı ve sirkülasyonlu yağlanması için geliştirilmiştir. Bu yağlar 15 MPa’ya kadar yüksek basınçlarda ve 80°C’ye kadar yağ sıcaklıklarında çalışan endüstriyel sistemler için oldukça idealdir.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Düşük Kükürt içeriği<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;PCA içermez<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;İyi oksidasyon kararlılığı &nbsp;</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/1._Prista_AN_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/sirkulasyon-yaglari-ve-genel-amacli-yaglar"
+}
+
+export const pristaMvrMultiProduct = {
+    productName: "Prista MVR Multi",
+    productUrl: "/catalogue/motorlu-testere-yaglari/prista-mvr-multi-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MOTORLU TESTERE YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MOTORLU TESTERE YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MVR MULTI</strong> motorlu testere zincir yağı, motorlu testerelerin zincirlerini yağlamak için tasarlanmıştır. Kesme aletine çok iyi yapışma özelliği katan katkı maddesi düşük alet aşınması ve düşük yağ tüketimi sunar.<br />
+            <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MVR MULTI</strong>, çok rafine baz ürünlerden, özel aşınma, korozyon önleyici katkılardan ve yapışma maddesinden formüle edilmiştir.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Tüm yıl boyunca kullanımı sağlayan daha iyi düşük sıcaklık özellikleri&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi yapışma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Aşınmaya ve pasa karşı koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük yağ tüketimi &nbsp;</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/motorlu-testere-yaglari"
+}
+
+export const pristaMvrProduct = {
+    productName: "Prista MVR",
+    productUrl: "/catalogue/motorlu-testere-yaglari/prista-mvr-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MOTORLU TESTERE YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MOTORLU TESTERE YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MVR</strong> motorlu testere zincir yağı, motorlu testerelerin zincirlerini yağlamak için tasarlanmıştır. Kesme aletine çok iyi yapışma özelliği katan katkı maddesi düşük alet aşınması ve düşük yağ tüketimi sunar.</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MVR</strong>, çok rafine baz ürünlerden, özel aşınma, korozyon önleyici katkılardan ve yapışma maddesinden formüle edilmiştir.&nbsp;<br />
+            Bu ürün, motorlu testerenin motorunu yağlamak için uygun DEĞİLDİR!</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Yapışma katkı maddesi &nbsp;'dağılmaya' karşı çok güçlü bir yapışkan tabaka oluşturur&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük yağ tüketimi&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Aşınma önleyici katkılar zincirin ömrünü uzatır<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel korozyon korunumu<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Sıfırın altındaki sıcaklıklarda kullanılabilir</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/motorlu-testere-yaglari"
+}
+
+export const pristaSupertherm22Product = {
+    productName: "Prista Supertherm 22",
+    productUrl: "/catalogue/isi-transfer-yaglari/prista-supertherm-22-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "ISI TRANSFER YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "ISI TRANSFER YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® SUPERTERM 22</strong>, ürüne çok iyi oksidasyon kararlılığı kazandıran çok etkili uygun bir katkı maddesi ile harmanlanmış API Grup III baz ürünlerler formüle edilmiş bir sentetik ısı transfer yağıdır.&nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>PRISTA® SUPERTERM 22</strong>, &nbsp;endüstriyel kurutma uygulamalarında, lastik ve plastik üretiminde, asfaltın ve akaryakıt tanklarının ısıtılmasında, fabrikanın ısıtılmasında, sabun, reçine, yapıştırıcı, boya üretiminde ve diğer dolaylı ısıtma sistemlerinde ısı transfer ortamı olarak kullanım için tasarlanmıştır.&nbsp;</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;340°C'ye kadar yağ tabakası çalışma sıcaklığı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;320°C’ye kadar dökme yağ sıcaklığı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kapalı sistemlerde uzun, sorunsuz çalışma &nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Paslandırmaz<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yüksek oksidasyon kararlılığı&nbsp;</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/isi-transfer-yaglari"
+}
+
+export const pristaMtlProduct = {
+    productName: "Prista MTL",
+    productUrl: "/catalogue/isi-transfer-yaglari/prista-mtl-7",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "ISI TRANSFER YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "ISI TRANSFER YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MTL</strong>, oldukça rafine baz ürünler ve gelişmiş katkı maddeleriyle formüle edilmiştir. Bu yağ, dolaylı ısıtmalı cebri sirkülasyon sistemlerinde ısı transfer yağı olarak kullanım için tavsiye edilir. &nbsp;&nbsp;</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Aşağıdaki koşullarda kullanım için uygundur: 300℃ ‘ye kadar yağ tabakası sıcaklığı ve 270℃’ye kadar dökme yağ sıcaklığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çelik ve bakır için aşındırıcı değil<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük tortu ve kalıntı oluşum eğilimi</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS/files/257",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/isi-transfer-yaglari"
+}
+
+export const pristaEcoHeatProduct = {
+    productName: "Prista Eco Heat Fluid",
+    productUrl: "/catalogue/isi-transfer-yaglari/prista-eco-heat-fluid-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "ISI TRANSFER YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "ISI TRANSFER YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Eco Heat Fluid</strong>, glikol esaslı en son nesil yenilikçi ısı transfer yağıdır.<br />
+            Bu ürün, &nbsp;güneş enerji ve ısıtma sistemleri için optimum ısı iletkenliği ve donma &amp; korozyon korunumu sunarak insan ve çevre üzerinde çok düşük etki yapmalarını olanaklı hale getirir. Bu ürün nitrat, amin ve fosfat gibi potansiyel zararlı maddeler içermediğinden çevreye zarar vermez.&nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® Eco Heat Fluid</strong>, aşağıdaki sistemlerde ısı transfer ortamı olarak tavsiye edilir:<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güneş enerjili ısıtma sistemleri&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Buharlı ısıtma sistemleri (kazan)<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Döşeme altı ısıtma sistemleri&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Jeotermal ısıtma sistemleri&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;HVAC<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Islak borulu yangın sistemleri<br />
+            Bu formülasyondaki bitkisel ve zararsız bileşenler sayesinde ürün, etilen ve propilen glikol esaslı yağlar için bir alternatif haline gelmiştir. Böylece hastanelerde, otellerde, kamu binalarında, evlerde, yazlıklarda ve endüstriyel tesislerde başarıyla kullanılabilir.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Etilen ve propilen glikol bazlı yağlarla kıyaslandığında mükemmel düşük sıcaklık performansı.&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Ürün formülasyonundaki glikollar, etilen glikol bazlı soğutma sularından daha az zehirlidir.<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Devridaim pompaları, hidrolik kapları, ıslak borulu yangın sistemleri ve kolektör boruları için gelişmiş korozyon koruması ve sıvının uzun servis ömrü&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güneş enerjisi, ısı transfer, yangın ve soğutma sistemlerinde kullanılan elastomerlerle ve keçe malzemeleriyle mükemmel uyumluluk.<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yüksek kaynama noktasından dolayı bu yağ, temas halindeki ısıtma yüzeyleri için mükemmel kireçlenme direnci sağlar.&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel düşük sıcaklık performansı, sıfırın altındaki sıcaklıklarda ıslak borulu yangın sistemlerinin su saklama tankları için ilave ısıtma sistemleri maliyetlerini azaltır.&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yenilenebilir kaynaklardan elde edilen bileşenlerinden dolayı çevre dostu.</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: null,
+    backUrl: "/catalogue/isi-transfer-yaglari"
+}
+
+export const pristaMzeProduct = {
+    productName: "Prista MZ-E",
+    productUrl: "/catalogue/su-verme-yaglari/prista-mz-e-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "SU VERME YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "SU VERME YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MZ 22 E</strong> su verme yağı, metallerin soğuk suverme işlemi sıasında bir soğutma ortamı olarak tasarlanmıştır. İyi dengelenmiş katkı maddeleri perlit aralıklarında yüksek soğutma oranları ve martenzit aralıklarında ise düşük soğutma oranları sunar. İşlenen parçalarda, üstün su verme derinliği ve sertlik seviyesi ile çok yüksek temizlik düzeyi elde edilir. Yağların çalışma sıcaklığı 100°C'yi aşmamalıdır.</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MZ 22 E</strong>, suverilmiş parçaların yüksek termal &amp; oksidasyonu, iyi yağ soğutma özellikleri ve temizliği için uygun bir yüksek performanslı katkı maddeleriyle harmanlanmış düşük kok eğilimli oldukça rafine parafinik-naftenik tipi bazlı ürünlerden formüle edilmiştir.&nbsp;</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Suverilmiş parçaların temizliğini arttırmak için özel bileşenler<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük uçuculuk&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük koku&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Küçük boyutlu parçaların su verme işlemi için uygun</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/su-verme-yaglari"
+}
+
+export const pristaMzProduct = {
+    productName: "Prista MZ",
+    productUrl: "/catalogue/su-verme-yaglari/prista-mz-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "SU VERME YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "SU VERME YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MZ</strong> yağları çeşitli tipte ve içerikte çeliğin soğuk su verme işlemi için tasarlanmıştır.<br />
+            Bu ürünler özellikle yüksek ve düşük karbonlu çeliklerin toplu ve yüzey su verme işlemi için uygundur. Bu yağlar inşaat ve endüstriyel alaşımlı çelikler için idealdir. İyi dengelenmiş katkı maddeleri perlit aralıklarında yüksek soğutma oranları ve martenzit aralıklarında ise düşük soğutma oranları sunar. İşlenmiş parçalar 800- 1100°С’ye kadar ısıtılır ve daha sonar yağın içine daldırılır. Böylece malzemenin üstün su verme derinliği ve sertlik seviyesi ile çok yüksek temizlik düzeyi elde edilir. Yağın çalışma sıcaklığı 30°C ile 100°C arasındadır. Çalışma sıcaklığı arttıkça yağın servis ömrü kısalır.&nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MZ</strong> su verme yağları, yağların mükemmel termal &amp; oksidasyon kararlılığı ile soğutma kapasitesine sahip olmasını ve işlenen parçaların temiz tutulmasını sağlamak için yüksek performanslı katkı maddesi ile harmanlanmış düşük kok eğilimli oldukça rafine parafinik-naftenik bazlı ürünlerden formüle edilmiştir.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Düşük uçuculuk&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük koku&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Küçük boyutlu parçaların su verme işlemi için uygun</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/1._Prista_MZ_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/su-verme-yaglari"
+}

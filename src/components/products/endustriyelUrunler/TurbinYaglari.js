@@ -20,23 +20,23 @@ const TurbinYaglari = () => {
                 <article>
                     <UrunlerBaslik level1ShowName={"ENDÜSTRİYEL ÜRÜNLER"} level2ShowName={"TÜRBİN YAĞLARI"} level1To={"/catalogue/hidrolik-ve-kizak-yaglari"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/turbin-yaglari/prista-tpx-7"}
+                        <UrunOzet productUrl={"/catalogue/turbin-yaglari/prista-tpx-7"}
                             productLogo={basicVarilKucukImage} productName={"Prista Tpx"}
                             productText={"Prista® Tpx türbin yağları özel külsüz katkı maddesi ile harmanlanmış çok rafine, hidroişlenmiş yağ baz ürünlerinden formüle edilmiştir. Hazır haldeki bu yağlar çok iyi oksidasyon kararlığı, güvenilir korozyon direnci ve iyi aşınma ö"}
                             last={false} />
-                        <UrunOzet productUrl={"/product/turbin-yaglari/prista-tps-32-4"}
+                        <UrunOzet productUrl={"/catalogue/turbin-yaglari/prista-tps-32-4"}
                             productLogo={basicVarilKucukImage} productName={"Prista Tps -32"}
                             productText={"PRISTA® Tps-32 türbin yağı, çok etkili külsüz katkı maddesi ile harmanlanmış bozulmaya karşı çok yüksek direnç gösteren özenle seçilmiş rafine baz yağlarla formüle edilmiştir."}
                             last={true} />
-                        <UrunOzet productUrl={"/product/turbin-yaglari/prista-tps-46-4"}
+                        <UrunOzet productUrl={"/catalogue/turbin-yaglari/prista-tps-46-4"}
                             productLogo={basicVarilKucukImage} productName={"Prista Tps -46"}
                             productText={"PRISTA® Tps-46 türbin yağı, çok etkili külsüz katkı maddesi ile harmanlanmış bozulmaya karşı çok yüksek direnç gösteren özenle seçilmiş rafine baz yağlarla formüle edilmiştir."}
                             last={false} />
-                        <UrunOzet productUrl={"/product/turbin-yaglari/prista-tps-ep-7"}
+                        <UrunOzet productUrl={"/catalogue/turbin-yaglari/prista-tps-ep-7"}
                             productLogo={basicVarilKucukImage} productName={"Prista Tps EP"}
                             productText={"PRISTA® Tps/ EP türbin yağları, mükemmel oksidasyon kararlılığı, güvenilir korozyon koruması ve iyi  iyi aşınma özellikleri sunan özel, çok etkili külsüz katkı maddesi ile harmanlanmış, bozulmaya karşı çok yüksek direnç gösteren özen"}
                             last={true} />
-                        <UrunOzet productUrl={"/product/turbin-yaglari/prista-tp-4"}
+                        <UrunOzet productUrl={"/catalogue/turbin-yaglari/prista-tp-4"}
                             productLogo={basicVarilKucukImage} productName={"Prista Tp"}
                             productText={"PRISTA® Tp türbin yağları, yüksek oksidasyon kararlılığı, güvenilir korozyon koruması sağlayan çok etkili külsüz katkı maddesi ile harmanlanmış oldukça rafine baz ürünlerden formüle edilmiştir."}
                             last={false} />
