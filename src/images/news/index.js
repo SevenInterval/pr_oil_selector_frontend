@@ -113,6 +113,8 @@ export const Nspo5Image = require("../../images/news/nspo5.jpg")
 export const Nspo6Image = require("../../images/news/nspo6.jpg")
 export const AdvertImage = require("../../images/news/advert_pages_2.jpg")
 export const NewsHavolineImage = require("../../images/news/news_havoline.jpg")
+export const SurdurulebilirlikImage = require("../../images/news/surdurulebilirlikImage.png")
+export const SurdurulebilirlikNewImage = require("../../images/news/SurdurulebilirlikNewImage.png")
 
 
 

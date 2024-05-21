@@ -128,10 +128,23 @@ html body .home-news-list li a span.text:after {
     height: 17px;
 }
 
+@media (max-width: 685px) {
+    html body article .news-detail .images:before, html body article .news-detail .images:after {
+        content: " ";
+        display: table;
+    }
+}
+
 @media (min-width: 685px) {
     html body article .news-detail .images {
         float: right;
         margin-left: 15px;
+    }
+}
+
+@media (max-width: 685px) {
+    html body article .news-detail .images:after, html body article .news-detail .images:before {
+        clear: both;
     }
 }
 
