@@ -2,18 +2,19 @@ import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import pageItems from "../utility/pageItems";
 import newsItems from "../utility/newsItems";
+import productItems from "../utility/productItems";
 import { Helmet } from "react-helmet-async";
 
 const Search = () => {
     const location = useLocation();
     const [searchValue, setSearchValue] = useState(null);
-    const [optionValue, setOptionValue] = useState("page");
+    const [optionValue, setOptionValue] = useState("product");
     const [responseData, setResponseData] = useState([]);
 
     useEffect(() => {
         if (location && location.state && location.state.searchItem) {
             setSearchValue(location.state.searchItem)
-            let newData = pageItems.filter(page => page.label.toLocaleLowerCase().includes(location.state.searchItem.toLocaleLowerCase()));
+            let newData = productItems.filter(product => product.label.toLocaleLowerCase().includes(location.state.searchItem.toLocaleLowerCase()));
             setResponseData([...newData]);
         }
     }, [location])
@@ -25,6 +26,9 @@ const Search = () => {
             setResponseData([...newData]);
         } else if (optionValue === "news") {
             let newData = newsItems.filter(haber => haber.label.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()));
+            setResponseData([...newData]);
+        } else if (optionValue === "product") {
+            let newData = productItems.filter(product => product.label.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()));
             setResponseData([...newData]);
         }
 
@@ -53,9 +57,9 @@ const Search = () => {
                         <form name="fw_search" onSubmit={(event) => handleSearch(event)}>
                             <div class="fl">
                                 <select id="fw_search_searchKeyName" name="fw_search[searchKeyName]" value={optionValue} onChange={(event) => handleOptionChange(event)}>
+                                    <option value="product">Product</option>
                                     <option value="page" >Page</option>
                                     <option value="news" >Haberler</option>
-                                    {/*<option value="project">Product</option> */}
                                 </select>
                                 <button type="submit">Submit</button>
                             </div>

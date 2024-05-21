@@ -32,7 +32,8 @@ const newsItems = [
     { label: "Prista Oil, 2014 Çalışma Yılı Bölgesel Güvenlik ve Sağlık Yarışmasında birinci olmuştur", uri: "/news/prista-oil-2014-calisma-yili-bolgesel-guvenlik-ve-saglik-yarismasinda-birinci-olmustur" },
     { label: "Product News: Product Introduction", uri: "/news/product-news-product-introduction-6" },
     { label: "Prista Oil, Bulgaristan'da tamamen yenilenmiş ve büyütülmüş gres tesisi olan VERILA LUBRIC...", uri: "/news/prista-oil-bulgaristan-da-tamamen-yenilenmis-ve-buyutulmus-gres-tesisi-olan-verila-lubricants-i-acti" },
-    { label: "Cetus HiPerSYN 46", uri: "/news/cetus-hipersyn-46-6" }
+    { label: "Cetus HiPerSYN 46", uri: "/news/cetus-hipersyn-46-6" },
+    { label: "Prista Oil Holding, Yağlayıcılar Sürdürülebilirlik Forumu’nun bir Parçasıydı.", uri: "/news/prista-oil-holding-yaglayicilar-surdurulebilirlik-forumunun-bir-parcasiydi" }
 ];
 
 export default newsItems;
