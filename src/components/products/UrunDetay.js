@@ -8,7 +8,7 @@ import MsdsButtonImage from "../../images/msds_button.jpg"
 
 const UrunDetay = (props) => {
     const { productName, productUrl, level1ShowName, level2ShowName, level1ShowNameBaslik, level2ShowNameBaslik, level3ShowNameBaslik, level1To, level2To,
-        productImage, productBigImage, productDetail, productProvides, pdsLink, msdsLink, backUrl, msds2Link
+        productImage, productBigImage, productDetail, productProvides, pdsLink, msdsLink, backUrl, msds2Link, pds2Link, pds3Link
     } = props.product;
 
     return (
@@ -57,9 +57,23 @@ const UrunDetay = (props) => {
                                             <Link to={pdsLink} target="_blank">
                                                 <img alt="pdsButton" src={PdsButtonImage} height={35} width={85} loading='eager' title='pdsButton' />
                                             </Link>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;
+                                            &nbsp;&nbsp;&nbsp;
                                         </>
                                     }
+                                    {pds2Link &&
+                                        <>
+                                            <Link to={pds2Link} target="_blank">
+                                                <img alt="pds2Button" src={PdsButtonImage} height={35} width={85} loading='eager' title='pdsButton' />
+                                            </Link>
+                                            &nbsp;&nbsp;&nbsp;
+                                        </>}
+                                    {pds3Link &&
+                                        <>
+                                            <Link to={pds3Link} target="_blank">
+                                                <img alt="pds3Button" src={PdsButtonImage} height={35} width={85} loading='eager' title='pdsButton' />
+                                            </Link>
+                                            &nbsp;&nbsp;&nbsp;
+                                        </>}
                                     {msdsLink &&
                                         <Link to={msdsLink} target="_blank">
                                             <img alt="msdsButton" src={MsdsButtonImage} height={35} width={98} loading='eager' title='msdsButton' />
@@ -67,7 +81,7 @@ const UrunDetay = (props) => {
                                     }
                                     {msds2Link &&
                                         <>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;
+                                            &nbsp;&nbsp;&nbsp;
                                             <Link to={msds2Link} target="_blank">
                                                 <img alt="msds2Button" src={MsdsButtonImage} height={35} width={98} loading='eager' title='msdsButton' />
                                             </Link>

@@ -21,7 +21,7 @@ const MotorYaglariYard = () => {
                     <UrunlerBaslik level1ShowName={"MARİN YAĞLARI"} level2ShowName={"YARDIMCI YAĞLAR"} level3ShowName={"Motor Yağları"}
                         level1To={"/catalogue/sistem-yaglari"} level2To={"/catalogue/disli-yaglari"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/motor-yaglari/prista-shpd-vds-3-3"}
+                        <UrunOzet productUrl={"/catalogue/motor-yaglari/prista-shpd-vds-3-3"}
                             productLogo={basicVarilKucukImage} productName={"Prista SHPD VDS-3"}
                             productText={"Prista® SHPD VDS-3 çok mevsimli motor yağları, kullanım sırasında üstün performans ve mükemmel dayanıklılık sağlamak için eşsiz kaliteli ve dikkatlice dengelenmiş solvent ile rafine edilmiş, hidroişlenmiş baz ürünler ve yüksek perfor"}
                             last={false} />

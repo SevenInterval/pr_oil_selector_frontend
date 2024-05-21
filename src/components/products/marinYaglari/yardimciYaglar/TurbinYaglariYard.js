@@ -21,11 +21,11 @@ const TurbinYaglariYard = () => {
                     <UrunlerBaslik level1ShowName={"MARİN YAĞLARI"} level2ShowName={"YARDIMCI YAĞLAR"} level3ShowName={"Türbin Yağları"}
                         level1To={"/catalogue/sistem-yaglari"} level2To={"/catalogue/disli-yaglari"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/turbin-yaglari-1/prista-tpx-8"}
+                        <UrunOzet productUrl={"/catalogue/turbin-yaglari-1/prista-tpx-8"}
                             productLogo={basicVarilKucukImage} productName={"Prista TPx"}
                             productText={"PRISTA Tpx türbin yağları özel külsüz katkı maddesi ile harmanlanmış çok rafine, hidroişlenmiş baz yağ ürünlerinden formüle edilmiştir. Hazır haldeki bu yağlar çok iyi oksidasyon kararlığı, güvenilir korozyon direnci ve iyi aşınma ön"}
                             last={false} />
-                        <UrunOzet productUrl={"/product/turbin-yaglari-1/prista-tps-ep-8"}
+                        <UrunOzet productUrl={"/catalogue/turbin-yaglari-1/prista-tps-ep-8"}
                             productLogo={basicVarilKucukImage} productName={"Prista TPs EP"}
                             productText={"PRISTA Tps/ EP türbin yağları, mükemmel oksidasyon kararlılığı, güvenilir korozyon koruması ve iyi  iyi aşınma özellikleri sunan özel, çok etkili külsüz katkı maddesi ile harmanlanmış, bozulmaya karşı çok yüksek direnç gösteren özenl"}
                             last={true} />

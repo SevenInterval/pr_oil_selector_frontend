@@ -21,7 +21,7 @@ const KompresorYaglariYard = () => {
                     <UrunlerBaslik level1ShowName={"MARİN YAĞLARI"} level2ShowName={"YARDIMCI YAĞLAR"} level3ShowName={"Kompresör Yağları"}
                         level1To={"/catalogue/sistem-yaglari"} level2To={"/catalogue/disli-yaglari"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/kompresor-yaglari-1/prista-mvk-2-8"}
+                        <UrunOzet productUrl={"/catalogue/kompresor-yaglari-1/prista-mvk-2-8"}
                             productLogo={basicVarilKucukImage} productName={"Prista MVK-2"}
                             productText={"Yüksek oksidasyon kararlılığına, gelişmiş yağlama ve R&O koruma özelliklerine sahip yağlar gerektiren sirkülasyon veya karışık tip yağlama sistemleriyle donatılmış piston tipi kompresörlerin yağlanması için tasarlanmış katkılı kompre"}
                             last={false} />

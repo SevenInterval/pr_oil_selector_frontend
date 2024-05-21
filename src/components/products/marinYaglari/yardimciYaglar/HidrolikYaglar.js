@@ -21,7 +21,7 @@ const HidrolikYaglar = () => {
                     <UrunlerBaslik level1ShowName={"MARİN YAĞLARI"} level2ShowName={"YARDIMCI YAĞLAR"} level3ShowName={"Hidrolik Yağlar"}
                         level1To={"/catalogue/sistem-yaglari"} level2To={"/catalogue/disli-yaglari"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/hidrolik-yaglar/prista-mhv-8"}
+                        <UrunOzet productUrl={"/catalogue/hidrolik-yaglar/prista-mhv-8"}
                             productLogo={basicVarilKucukImage} productName={"Prista MHV"}
                             productText={"PRISTA® MHV hidrolik yağları pas, oksidasyon, korozyon önleyiciler ve aşınma önleyici maddeler ile polimetakrilat VII (Viskozite İndeksi İyileştirici) içeren oldukça etkili bir katkı maddesi ile harmanlanmış çok iyi demülsibilite ve "}
                             last={false} />

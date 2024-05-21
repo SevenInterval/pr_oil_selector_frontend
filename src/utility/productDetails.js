@@ -2122,3 +2122,1419 @@ export const pristaMzProduct = {
     msdsLink: "https://prista-oil.com.tr/msds-9",
     backUrl: "/catalogue/su-verme-yaglari"
 }
+
+export const pristaRezinolHd22Product = {
+    productName: "Prista Rezinol HD 22",
+    productUrl: "/catalogue/sade-yaglar/prista-rezinol-hd-22-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MWF",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MWF",
+    level3ShowNameBaslik: "Sade yağlar",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/sade-yaglar",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Rezinol HD 22</strong> kesme yağı mükemmel yağlama, aşınma önleme özellikleri ve güvenilir korozyon koruması sağlamak için çok etkili katkı maddesi ile harmanlanmış oldukça rafine madeni baz yağlardan formüle edilmiştir.&nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® Rezinol HD 22</strong>, aşağıdakiler gibi en ağır çelik talaşı temizleme işlemlerinde kullanılan kesme aletlerinin yağlama ve soğutma ortamı olarak amaçlanmış, su ile seyreltilmeden doğrudan kullanılan bir kesme yağıdır: derin kesme, diş açma, frezeleme ve oluk açma. Bu ürün özellikle diş kesme ve otomatik torna tezgazhları için uygundur. Aktif sülfür içerir ve demir dışı metalleri işlerken kullanılması tavsiye edilmez.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Tüm ilgili işlemlerin hassas bir şekilde gerçekleştirilmesi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kesme aletinin az aşınması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel soğutma özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yüksek oksidasyon kararlılığı</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/sade-yaglar"
+}
+
+export const pristaRezinolProduct = {
+    productName: "Prista Rezinol",
+    productUrl: "/catalogue/sade-yaglar/prista-rezinol-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MWF",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MWF",
+    level3ShowNameBaslik: "Sade yağlar",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/sade-yaglar",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Rezinol </strong>kesme yağları mükemmel yağlama, korozyon &amp; aşınma önleme özellikleri sunan özel olarak seçilmiş katkı maddesi ile harmanlanmış oldukça rafine madeni baz yağlardan formüle edilmiştir.<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® Rezinol </strong>yağları, çeliklerin ve alaşımlarının ağır görev işleme faaliyetlerinde kullanılan kesme aletlerin yağlanması ve soğutulması için amaçlanmıştır. Suyla seyreltilmeden doğrudan kullanılırlar. Bu yağlar otomatik torna tezgazhlarında delme ve diş açma vs. için uygundur. Demir dışı metalleri işlerken kullanılması tavsiye edilmez.<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® Rezinol</strong> 15 ve 22, hafif ve normal ağır görev metal işleme amaçları için tavsiye edilirken, Prista® Rezinol 32 yüksek alaşımlı, paslanmaz çeliğin ve ısıya dayanıklı çeliklerin ve alaşımların otomatik torna tezgazhlarıyla ağır görev metal işleme faaliyetleri sırasında kesme aletlerinin soğutulması için tasarlanmıştır.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Tüm ilgili işlemlerin hassas bir şekilde gerçekleştirilmesi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kesme aletinin az aşınması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel soğutma özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yüksek oksidasyon kararlılığı</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/1._Prista_Rezinol_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/sade-yaglar"
+}
+
+export const pristaCProduct = {
+    productName: "Prista C",
+    productUrl: "/catalogue/sade-yaglar/prista-c-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MWF",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MWF",
+    level3ShowNameBaslik: "Sade yağlar",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/sade-yaglar",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® C</strong>, çok iyi yağlama ve soğutma özellikleri olan ve aşınma ile korozyona karşı güvenilir koruma sağlayan çok etkili katkılarla harmanlanmış oldukça rafine madeni baz yağlardan formüle edilen kesme yağlarıdır. &nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® C&nbsp;</strong>’nin, demirli metallerin ve alaşımlarının işlenmesi sırasında kullanılması önerilir. Düşük, normal ve yüksek yükler altında çalışan kesme aletlerinin yağlanması ve soğutulması için amaçlanmıştır. Ayrıca, sert çeliklerin yüksek hızla taşlanması sırasında ve kesme bölgesinde azami yük ile yüksek sıcaklıklar altında çalışan kesme aletleri için başarıyla kullanılabilir.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Kesme aletinin az aşınması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi soğutma özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yüksek oksidasyon kararlılığı</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/2._Prista_C_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/sade-yaglar"
+}
+
+export const pristaFrezolEPProduct = {
+    productName: "Prista Frezol EP",
+    productUrl: "/catalogue/sade-yaglar/prista-frezol-ep-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MWF",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MWF",
+    level3ShowNameBaslik: "Sade yağlar",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/sade-yaglar",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p>Yakında</p>
+    </>,
+    productProvides: null,
+    pdsLink: null,
+    msdsLink: null,
+    backUrl: "/catalogue/sade-yaglar"
+}
+
+export const pristaFrezolProduct = {
+    productName: "Prista Frezol",
+    productUrl: "/catalogue/sade-yaglar/prista-frezol-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MWF",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MWF",
+    level3ShowNameBaslik: "Sade yağlar",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/sade-yaglar",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Frezol</strong> demir dışı metal (bakır, alüminyum vs.) kesme yağları oldukça etkili katkılarla harmanlanmış özel rafine baz yağlardan formüle edilerek mükemmel yağlama ve EP özellikleri sunar ve aşınma ile korozyona karşı güvenilir koruma sağlar. Bu yağ aktif kükürt içermez.<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® Frezol</strong> kesme yağları, demir dışı metallerde ve alaşımlarında tornalama, taşlama, frezeleme, delme, diş kesme vs. farklı metal işleme ve kesme işlemleri sırasında uygulanmak için geliştirilmiştir. Bu yağlar, aletlerin uygun şekilde soğutulmasını sağlamak ve aletlerin aşınma hızlarını azaltmak için EP özelliklerine sahiptir..<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® Frezol</strong> yağları özellikle alüminyum ve alaşımlarının işlenmesi sırasında uygulanmak için uygundur.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Demir dışı metallerle uyumluluk<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kesme aletinin az aşınması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi soğutma özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yüksek oksidasyon kararlılığı</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/3._Prista_Frezol_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/sade-yaglar"
+}
+
+export const pristaMpdProduct = {
+    productName: "Prista MPD",
+    productUrl: "/catalogue/sade-yaglar/prista-mpd-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MWF",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MWF",
+    level3ShowNameBaslik: "Sade yağlar",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/sade-yaglar",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® MPD</strong> metal işleme yağları, mükemmel yağlama özellikleri ve aşınmaya &amp; korozyona karşı iyi koruma sağlayan çok etkili bir katkı maddesi ile harmanlanmış, çok rafine parafinik-naftenik tipi baz yağlardan formüle edilmiştir. &nbsp;&nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® MPD</strong>, her iki işleme tipini birleştiren çeşitli demirden oluşan metal işleme faaliyetlerinde kullanım için amaçlanmış saf kesme yağlarıdır: talaş temizleme/kesme ve şekillendirme/kalıcı şekil verme. Bu yağlar ayrıca tespit parçalarının (vidalar, somunlar vs.) üretimi için kullanılan çok istasyonlu aktarma preslerinde kullanılabilir. Aktif sülfür içerdiklerinden demir dışı metalleri işlerken kullanılmaları uygun değildir.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Tüm ilgili işlemlerin hassas bir şekilde gerçekleştirilmesi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kesme aletinin az aşınması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;İyi soğutma özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yüksek oksidasyon kararlılığı</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/sade-yaglar"
+}
+
+export const pristaee5Product = {
+    productName: "Prista EE 5",
+    productUrl: "/catalogue/sade-yaglar/prista-ee-5-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MWF",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MWF",
+    level3ShowNameBaslik: "Sade yağlar",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/sade-yaglar",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® EE 5 </strong>elektrik deşarj yağı, çok iyi oksidasyon kararlılığı ile aşınma ve korozyona koruması sağlayan çok etkili katkılarla harmanlanmış, oldukça rafine parafinik/naftenik tipi baz yağlar özenle seçilerek formüle edilmiştir.&nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® EE 5</strong> elektrik deşarj yağı, metal parçaların elektro-erozyon işlenmesi esnasında dielektrik ortam olarak kullanılır.&nbsp;</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi yalıtım özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi termal, oksidasyon &amp; bozulma kararlılığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok düşük viskozite</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/sade-yaglar"
+}
+
+export const pristaHoningProduct = {
+    productName: "Prista HONING",
+    productUrl: "/catalogue/sade-yaglar/prista-honing-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MWF",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MWF",
+    level3ShowNameBaslik: "Sade yağlar",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/sade-yaglar",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Honing</strong>, ıslatıcılar, oksidasyon önleyiciler ve özel kimyasal olarak aktif katkılarla harmanlanmış oldukça rafine, düşük viskoziteli hidroişlenmiş parafinik-naftenik tipi baz yağlar özenle seçilerek formüle edilmiş bir madeni yağdır.&nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® Honing</strong> demir dışı metallerin, sıradan çeliğin ve bilyalı yatak çeliklerinin kükürt ile emprenye edilmiş veya edilmemiş sırlı taşlarla bilenmesi ve ince taşlanması için (süper perdahlama) ve ayrıca bakalitle yapıştırılmış sırlı aletlerin bilye ile taşlanması için kullanılır. Ürünün bakır alaşımların ve demir dışı metallerin işlenmesindeki uygulanması sınırlıdır.&nbsp;</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;İşlenilen yüzeyin mükemmel kalitesi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük aromatik hidrokarbon içeriği<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi soğutma özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi arınma derecesi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yüksek oksidasyon kararlılığı</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/sade-yaglar"
+}
+
+export const pristaSynthilin5Product = {
+    productName: "Prista Synthilin 5",
+    productUrl: "/catalogue/suda-cozulebilir/prista-synthilin-5-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MWF",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MWF",
+    level3ShowNameBaslik: "Suda çözülebilir",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/sade-yaglar",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Synthilin 5</strong> poliglikol, sentetik asit ve diğer korozyon önleyici katkılar esaslı tem sentetik bir konsantrasyondur. Bu ürün borik asit ve aminler içerir ancak laktik asit ihtiva etmez.<br />
+            Su ile karışabilen <strong style={{ fontFamily: "sans-serif" }}>Prista® Synthilin 5</strong> kesme yağı, çelik ve dökme demirin taşlanma işlemlerinde kullanım için uygundur ve saydam solüsyonlar oluşturur. Korozyona, aşınmaya ve bakteri oluşumuna karşı mükemmel koruma sağlar. Önerilen konsantrasyonlar şu şekildedir:<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çeliğin taşlanması: 4-5%<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Dökme demirin taşlanması: 5-6%</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;60°dH'ye (1080 ppm) kadar olan geniş su sertlik seviyeleriyle uyumlu<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kesme aletinin çok iyi soğutulmasını ve temizlenmesini sağlar<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;İşlenen parçaların mükemmel görünmesini sağlayan saydam solüsyonlar oluşturur<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;En aza indirilmiş köpürme eğilimi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Demirli metaller için güvenilir pas ve korozyon koruması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Uzun kullanım ömrü<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi filtrelenebilirlik<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Bakteri ve mantar direnci</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/suda-cozulebilir"
+}
+
+export const pristaSyntholAhwProduct = {
+    productName: "Prista Synthol A-HW",
+    productUrl: "/catalogue/suda-cozulebilir/prista-synthol-a-hw-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MWF",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MWF",
+    level3ShowNameBaslik: "Suda çözülebilir",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/sade-yaglar",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Synthol A-HW</strong>, düşük aromatik içerikli baz yağlarla, borik asit, anyonik ve non-iyonik emülsiyonlaştırıcılar ile sarı metal pas &amp; korozyon önleyicileri ve dengeleme maddeleriyle formüle edilmiş su ile karışabilen bir metal işleme yağıdır.<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® Synthol A-HW</strong>, tüm metal talaş temizleme işlemleri için amaçlanmış evrensel, &nbsp;su ile karışabilen bir kesme yağıdır ve özellikle su sertliği 8-25°dH olan solüsyonların hazırlanması için önerilir.&nbsp;</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;60°dH (1080 ppm)’ye kadar farklı sertliği olan sularda mükemmel ıslatma özellikli kararlı emülsiyonlar yaratır<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kesme aletinin çok iyi soğutulmasını ve temizlenmesini sağlar<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Dökme demir, çelik ve alüminyum alaşımların işlenmesi için uygun&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;%4 ila %15 arasındaki geniş konsantrasyon aralıklarında kullanım için tasarlanmış</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/suda-cozulebilir"
+}
+
+export const pristaSyntholAswProduct = {
+    productName: "Prista Synthol A-SW",
+    productUrl: "/catalogue/suda-cozulebilir/prista-synthol-a-sw-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MWF",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MWF",
+    level3ShowNameBaslik: "Suda çözülebilir",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/sade-yaglar",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Synthol A-SW</strong>, düşük aromatik içerikli baz yağlarla, borik asit, anyonik ve non-iyonik emülsiyonlaştırıcılar ile sarı metal pas &amp; korozyon önleyicileri ve dengeleme maddeleriyle formüle edilmiş su ile karışabilen bir metal işleme yağıdır.&nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® Synthol A-SW</strong> , tüm metal talaş temizleme işlemleri için amaçlanmış evrensel, &nbsp;su ile karışabilen bir kesme yağıdır ve özellikle yumuşak su sertliği 5-15°dH olan solüsyonların hazırlanması için önerilir; fakat sertliği 30°dH'ye kadar olan sularla kararlı solüsyonlar oluşturur.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Kesme aletinin çok iyi soğutulmasını ve temizlenmesini sağlar<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Dökme demir ve alüminyum alaşımların işlenmesi için uygun<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yumuşak suda mükemmel ıslatma özellikli kararlı emülsiyonlar yaratır&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;%4 ila %15 arasındaki geniş konsantrasyon aralıklarında kullanım için tasarlanmış</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: null,
+    backUrl: "/catalogue/suda-cozulebilir"
+}
+
+export const pristaEmulsinExtraProduct = {
+    productName: "Prista Emulsin Extra",
+    productUrl: "/catalogue/suda-cozulebilir/prista-emulsin-extra-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MWF",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MWF",
+    level3ShowNameBaslik: "Suda çözülebilir",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/sade-yaglar",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Emulsin Extra</strong>, düşük aromatik içerikli baz yağlarla ve borik asit, anyonik ve non-iyonik emülsiyonlaştırıcılar ile sarı metal pas &amp; korozyon önleyicileriyle formüle edilmiş su ile karışabilen bir metal işleme yağıdır. Bu ürün aminler içerir ancak laktik asit ihtiva etmez.<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® Emulsin Extra</strong>, tüm metal talaş temizleme işlemleri için amaçlanmış evrensel, &nbsp;su ile karışabilen bir kesme yağıdır ve özellikle su sertliği 7-30°dH olan solüsyonların hazırlanması için önerilir.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;60°dH (1080 ppm)’ye kadar farklı sertliği olan sularda mükemmel ıslatma özellikli kararlı emülsiyonlar yaratır<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kesme aletinin çok iyi soğutulmasını ve temizlenmesini sağlar<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Dökme demir, çelik ve alüminyum alaşımların işlenmesi için uygun&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;%4 ila %15 arasındaki geniş konsantrasyon aralıklarında kullanım için tasarlanmış<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Emülsiyon sistemini bakteri ve mantardan koruyarak emülsiyonun uzun ömürlü olmasını sağlar&nbsp;</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/1._Prista_Emulsin_Extra_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/suda-cozulebilir"
+}
+
+export const pristaEmulsolABProduct = {
+    productName: "Prista Emulsol AB",
+    productUrl: "/catalogue/suda-cozulebilir/prista-emulsol-ab-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MWF",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MWF",
+    level3ShowNameBaslik: "Suda çözülebilir",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/sade-yaglar",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Emulsol AB</strong>, suyla karıştırıldığında sütsü bir emülsiyon oluşturan oldukça kaliteli madeni yağ bazlı bir metal işleme yağıdır. &nbsp;Çok iyi yağlama ve emülsiyon kararlılığı ile bakteri oluşumuna karşı direnç sağlayan ve iş aletleri ile işlenen parçaları korozyona ve aşınmaya karşı mükemmel koruyan parafinik-naftenik tipi oldukça rafine edilmiş baz yağlardan ve katkılardan formüle edilmiştir.<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® Emulsol AB</strong>, çeşitli demir içeren metallerin aşağıda belirtilen sökme ve kalıp işlemlerinde suda %5 yağ emülsiyonu olarak kullanılan bir biyokararlı metal işleme yağıdır: tornalama, frezeleme, delme, taşlama, döküm alma ve diş açma, oluk açma ve dişli kesme. Ayrıca, belli koşullarda demir dışı metallerin işlenmesi için de kullanılabilir.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Kesme aletleri için optimum soğutma ve yağlama sağlar<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Sıradan madeni kesme yağından daha iyi korozyon koruması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yağlama sistemini bakteri ve mantar oluşumuna karşı koruyarak uzun emülsiyon ömrü sunar<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Geniş su sertlik aralıklı kararlı emülsiyonlar oluşturur<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Klor, nitrit, fenol ve sekonder aminler ihtiva etmez</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/2._Prista_Emulsol_AB_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/suda-cozulebilir"
+}
+
+export const pristaEmulsolBProduct = {
+    productName: "Prista Emulsol B",
+    productUrl: "/catalogue/suda-cozulebilir/prista-emulsol-b-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "MWF",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "MWF",
+    level3ShowNameBaslik: "Suda çözülebilir",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/sade-yaglar",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Emulsol B</strong>, suyla karııştırıldığında sütsü emülsiyonlar oluşturan bir saf yağ konsantrasyonudur. Çok iyi yağlama ve emülsiyon kararlılığı ile bakteri oluşumuna karşı direnç sağlayan ve iş aletleri ile işlenen parçaları korozyona ve aşınmaya karşı güvenilir şekilde koruyan parafinik-naftenik tipi oldukça rafine edilmiş baz yağlardan ve katkılardan formüle edilmiştir.&nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® Emulsol B</strong>, çeşitli demir içeren metallerin aşağıda belirtilen sökme ve kalıp işlemlerinde suda %5 yağ emülsiyonu olarak kullanılan bir biyokararlı metal işleme yağıdır: tornalama, frezeleme, delme, taşlama, döküm alma ve diş açma, oluk açma ve dişli kesme. Bu MWF, demir dışı metallerin işlenmesi için uygun değildir.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Kesme aletleri için optimum soğutma ve yağlama sağlar<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Geniş su sertlik aralıklı kararlı emülsiyonlar oluşturur&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Klor, nitrit, fenol ve sekonder aminler ihtiva etmez</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/suda-cozulebilir"
+}
+
+export const pristaPKProduct = {
+    productName: "Prista PK",
+    productUrl: "/catalogue/plastiklestiriciler/prista-pk-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "ISLEMYAGLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "İŞLEM YAĞLARI",
+    level3ShowNameBaslik: "Plastikleştiriciler",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/plastiklestiriciler",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® PK</strong> plastikleştiriciler, mükemmel oksidasyon kararlılığı ve kauçuk parçalarla çok iyi uyumluluk gösteren çok kaliteli, oldukça rafine naftenik (Prista PK-4n) ve parafinik-naftenik (Prista PK-10, Prista PK-15, Prista PK-20 &amp; Prista PK-30) bazlı ürünlerden formüle edilmiştir. &nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista PK-4</strong>n, Prista PK-10, Prista PK-15, Prista PK-20 ve Prista PK-30 olmak üzere beş ticari sınıfta mevcuttur.&nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® PK</strong> plastikleştiriciler, kauçuk üretiminde bileşenlerden birisi olarak kullanım için geliştirilmiş kauçuk işleme yağlarıdır.&nbsp;</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Kolay kalıp ayırma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Elementlerin şeklini korur<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Korozyona karşı korunum<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kalıpların temizliğini sağlar</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/1._Prista_PK_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/plastiklestiriciler"
+}
+
+export const pristaKMProduct = {
+    productName: "Prista KM",
+    productUrl: "/catalogue/kalip-ayirma-yaglari/prista-km-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "ISLEMYAGLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "İŞLEM YAĞLARI",
+    level3ShowNameBaslik: "Kalıp ayırma yağları",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    level2To: "/catalogue/plastiklestiriciler",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® KM</strong> kalıp ayırma yağları, katkılarla harmanlanmış oldukça rafine parafinik-naftenik baz ürünlerden formüle edilmiş, yağlara çok iyi yağlama, yapışma ve kalıp ayırma özellikleri katan ve kalıpları korozyondan güvenilir bir şekilde koruyan ve beton kalıpların sökülmesi sırasında kolay ayrılmayı sağlayan yağlardır.&nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>PRISTA® KM</strong> yağları, kalıpların ayrılmasını kolaylaştırdıklarından beton, betonarme ve gözenekli beton üretimindeki kalıpların (beton kalıpları) yağlanması için geliştirilmiştir. Fırça veya tabanca ile uygulanabilir (PRISTA® KM-10 &amp; 15). Uygun viskoziteli yağ seçilirse, yağ tüketimi kalıpların/beton kalıplarının her bir 20-25 m2’lik alanı için 1 litrenin altına düşürülebilir.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Kolay kalıp ayırma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Elementlerin şeklini korur<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Korozyona karşı korunum<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kalıpların temizliğini sağlar</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/2._Prista_KM_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/kalip-ayirma-yaglari"
+}
+
+export const pristaGMKProduct = {
+    productName: "Prista GMK",
+    productUrl: "/catalogue/sabit-gaz-motorlari/prista-gmk-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "SABİT GAZ MOTORLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "SABİT GAZ MOTORLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® GMK</strong> doğal gaz motor yağları, eşsiz oksidasyon kararlılığı, nitrasyon direnci ve termal kararlılık sağlayan gelişmiş teknoloji ürünü katkı maddesi ile harmanlanmış kaliteli solvent ile rafine edilmiş ve hidroişlenmiş parafinik-naftenik bazlı ürünler özenle seçilerek formüle edilmiştir.&nbsp;<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® GMK</strong> yağları, doğal gaz yakan halihazırda mevcut normal - yüksek devirli, dört zamanlı sabit gaz motorlarının yağlanması için tasarlanmıştır ve güç üretiminde ya da boru hattı ile taşıma sistemleri vasıtasıyla doğal gazın aktarımı için kullanılan kompresörlerin yağlanmasında kullanılır.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Güç aktarma organlarının mükemmel korunması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük yanma odası kül seviyesi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Daha temiz motorlar<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Daha uzun yağ ve filtre ömrü</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/sabit-gaz-motorlari"
+}
+
+export const pristaNGEO40Product = {
+    productName: "Prista® NGEO 40",
+    productUrl: "/catalogue/sabit-gaz-motorlari/prista-r-ngeo-40-4",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "SABİT GAZ MOTORLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "SABİT GAZ MOTORLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® NGEO 40</strong> doğal gaz motor yağı, eşsiz oksidasyon kararlılığı, nitrasyon direnci ve termal kararlılık sağlayan en son nesil katkı maddesi ile harmanlanmış Grup II baz yağlardan formüle edilmiştir.<br />
+            <strong style={{ fontFamily: "sans-serif" }}>Prista® NGEO 40</strong> yağı, uzun yağ değiştirme aralıklı, yüksek kaliteli bir gaz motor yağıdır. Bu ürün, doğal gaz ve biyogaz yakan modern normal - yüksek devirli, dört zamanlı sabit gaz motorlarının yağlanması için tasarlanmıştır NSCR (seçkili olmayan tezgensel indirgeme) katalizör uyumluluk gerekliliklerini karşılayacak şekilde formüle edilmiştir.&nbsp;</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Düşük piston atığı ve tortu oluşumu&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güç aktarma organlarının mükemmel korunması&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük yanma odası kül seviyesi&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Uzun yağ ömrü&nbsp;</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: null,
+    backUrl: "/catalogue/sabit-gaz-motorlari"
+}
+
+export const pristaSyntechEP2Product = {
+    productName: "PRISTA® Syntech EP 2",
+    productUrl: "/catalogue/gresler/prista-r-syntech-ep-2-4",
+    level1ShowName: "GRESLER",
+    level1ShowNameBaslik: "GRESLER",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <>
+        <p>Çok uzun yeniden yağlama aralıkları, ulaşılması zor yağlama noktaları (örn. dar alanlar veya vantilatör tavanı) avantajlarıyla otomotiv ve endüstriyel uygulamalar için geliştirilmiş yüksek kaliteli sentetik EP uzun ömürlü yağ. Çok yüksek hızda ve aşırı düşük (hatta kuzey kutup bölgesinde) veya yüksek sıcaklıklarda çalışan yataklar için.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p>Ambalaj: 15 kg metal kova, 0,400 kg kartuş</p>
+    </>,
+    productProvides: <>
+        <ul>
+            <li>Sıcaklıklar: çok yüksek ile çok düşük (kuzey kutbu) sıcaklıklar arasında değişen çok geniş aralık</li>
+            <li>Hız faktörü: oldukça yüksek</li>
+            <li>Mükemmel ses azaltma faktörü, elektrikli motorun yağlanması için çok uygun</li>
+            <li>Çok uzun ömürlü ve ulaşılması zor noktaları yağlama özelliği</li>
+        </ul>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/gresler"
+}
+
+export const pristaLithiumEP2Product = {
+    productName: "PRISTA® Lithium EP 2",
+    productUrl: "/catalogue/gresler/prista-r-lithium-ep-2-5",
+    level1ShowName: "GRESLER",
+    level1ShowNameBaslik: "GRESLER",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <>
+        <p>Otomotiv ve endüstriyel uygulamalarda, yüksek yükler ve 120⁰ C'ye kadar sıcaklıklarda çalışan kaymalı ve rulmanlı yatakların, pimlerin ve burçların genel yağlaması için uygun çok amaçlı aşırı basınç (EP) yağları.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p>Ambalaj: 180 kg varil, 15 kg kova, 4 kg plastik kutu, 0,800 kg plastik kutu, 0,400 kg plastik kutu, 0,400 kg kartuş</p>
+    </>,
+    productProvides: <>
+        <p>-&nbsp;Çok amaçlı EP yağ</p>
+        <p>-&nbsp;Üstün suya dayanıklılık özellikleri</p>
+        <p>-&nbsp;Yüksek yükler</p>
+    </>,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/gresler"
+}
+
+export const pristaLithium2Product = {
+    productName: "PRISTA® Lithium 2",
+    productUrl: "/catalogue/gresler/prista-r-lithium-2-5",
+    level1ShowName: "GRESLER",
+    level1ShowNameBaslik: "GRESLER",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <>
+        <p>* NLGI 1 ve NLGI 3 viskozite derecelerinde de mevcuttur</p>
+        <p>Normal yük ve 120°C'ye kadar sıcaklıklar altında çalışan, otomotiv ve endüstriyel uygulamalardaki kaymalı ve rulmanlı yatakların ve parçaların genel yağlanması için tasarlanmış çok amaçlı yağ.<br />
+            Yaygın olarak kullanılan çok amaçlı yağ.</p>
+        <p>Ambalaj: 180 kg varil, 15 kg kova, 4 kg plastik kutu, 0,800 kg plastik kutu, 0,400 kg kartuş</p>
+    </>,
+    productProvides: null,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/gresler"
+}
+
+export const pristaK3Product = {
+    productName: "PRISTA® K-3",
+    productUrl: "/catalogue/gresler/prista-r-k-3-5",
+    level1ShowName: "GRESLER",
+    level1ShowNameBaslik: "GRESLER",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <>
+        <p>*NLGI 1 ve NLGI 2 viskozite derecelerinde de mevcuttur</p>
+        <p>Güvenilir ve uygun maliyetli NLGI 3 çok amaçlı kalsiyum sabunlu kıvamlaştırıcı yağ. 60°C altı çalışma sıcaklıklarındaki hafif yük koşulları için iyi su direnci sağlar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <ul>
+            <li>Suya karşı çok iyi direnç</li>
+            <li>YALNIZCA 60°C'ye kadar çalışma sıcaklıkları</li>
+            <li>Uygun maliyetli dayanıklı yağ</li>
+        </ul>
+        <p>Ambalaj: 180 kg varil, 15 kg kova, 4 kg plastik kutu, 0,800 kg plastik kutu, 0,400 kg plastik kutu</p>
+    </>,
+    productProvides: null,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/gresler"
+}
+
+export const pristaLiComplexEP2PTFEGreenProduct = {
+    productName: "PRISTA®  Li Complex EP 2 PTFE Green",
+    productUrl: "/catalogue/gresler/prista-r-li-complex-ep-2-ptfe-green-4",
+    level1ShowName: "GRESLER",
+    level1ShowNameBaslik: "GRESLER",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <>
+        <p>PTFE kuru yağlayıcı ve aşınmaya karşı en iyi korumayı sağlayan son teknoloji ürünü katkı maddeleri içeren ağır hizmet EP yağı. Ağır hizmet tipi yol ve arazi araçları, maden ve iş makinaları, zorlu ormancılık uygulamaları dahil olmak üzere endüstriyel ve otomotiv uygulamalarında mükemmel yağlama kabiliyeti sunar. Yataklar, üniversal mafsallar, akslar, küresel mafsallar, pimler, burçlar, stepne, devridaim pompaları, ağır yük altındaki dişliler, şok yükler veya titreşim içeren uygulamalar için uygundur.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <ul>
+            <li>Şok yüklere ve titreşimlere karşı çok dayanıklı</li>
+            <li>Çok yüksek EP yük taşıma kapasitesi</li>
+            <li>Uzun ömürlü yağ, mekanik parça koruma özellikleri<br />
+                Çok yüksek ile çok düşük arasında değişen çok geniş sıcaklık aralığı</li>
+            <li>Mükemmel su direnci</li>
+            <li>Üstün koruma sağlar</li>
+        </ul>
+        <p>Ambalaj: 180 kg varil, 15 kg metal kova, 0,400 kg kartuş</p>
+    </>,
+    productProvides: null,
+    pdsLink: null,
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/gresler"
+}
+
+export const pristaCSComplexEp2Product = {
+    productName: "Prista® CS Complex EP 2 /1.5",
+    productUrl: "/catalogue/gresler/prista-r-cs-complex-ep-2-1-5-7",
+    level1ShowName: "GRESLER",
+    level1ShowNameBaslik: "GRESLER",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® CS Complex EP</strong>, kalsiyum sülfonat kompleksi kalınlaştırıcı sistem ve yüksek viskoziteli aşırı hidroişlenmiş madeni baz yağ esaslı, yüksek performanslı, ağır görev tipi yağlama gresleridir. Kalsiyum sülfonat kompleksi kalınlaştırıcının özel yapısı; çok yüksek damlama noktaları, aşınma karşıtı olağanüstü performans ve aşırı basınç özellikleri, mükemmel mekanik kararlılık, iyi pas koruması ve üstün suyla arınma ve suyla dağılma direnci sağlar.</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® CS Complex EP</strong> gresler, çelik endüstrisinde yüksek sıcaklıklarda çalışan ağır yüklü yatakların yağlanması için özel olarak formüle edilmiştir. Aşırı yüksek ve azami yük, yüksek sıcaklık, kirli ve ıslak ortamlar gibi en zorlu koşullar altında madencilik, taş ocağı, çimento ve kâğıt endüstrisi, tarım ve ormancılık, iş makineleri ve denizcilik uygulamaları gibi diğer ağır uygulamalar için de uygundur.</p>
+        <p>Çok yüksek damlama noktası, -25°C ile 180°C arasında bir çalışma sıcaklığı sağlar.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;istisnai su direnci<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;aşırı doğal basınç ve aşınma karşıtı performans&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;azami yük koşullarında uzun yatak ömrü<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;mükemmel mekanik kararlılık ve yüksek kesme direnci<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;pas ve korozyon korunumu – metal parçaları korozyondan ve pastan korur<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;mükemmel termal kararlılık – &gt;300°C'ye kadar sıvılaşmaz (NLGI 2 için 305°C)<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;gelişmiş oksidasyon kararlılığı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;iyi yapışma özellikleri&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;iyi düzeyde pompalanabilirlik<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;geniş ağır görev uygulamaları yelpazesi</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® SC Complex EP 2:</strong><br />
+            NLGI&nbsp;2<br />
+            ISO 6743-9&nbsp;-&nbsp;L-XBFIB 2<br />
+            DIN 51502, DIN 51825&nbsp;-&nbsp;KP2R-25</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® SC Complex EP 1.5:</strong><br />
+            NLGI&nbsp;1.5<br />
+            ISO 6743-9&nbsp;-&nbsp;L-XBFHB 1.5<br />
+            DIN 51502, DIN 51825&nbsp;-&nbsp;KP1.5R-25</p>
+        <p><em>Ambalaj: 180 kg varil, 16 kg kova</em></p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    pds2Link: "http://online.prista-oil.com/storage/1_PDS_CS_Complex_EP_2_TR.pdf",
+    pds3Link: "http://online.prista-oil.com/storage/2_PDS_CS_Complex_EP_1.5_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/gresler"
+}
+
+export const pristaLiComplexEP2HDVTProduct = {
+    productName: "Prista® Li Complex EP 2 HDVT*",
+    productUrl: "/catalogue/gresler/prista-r-li-complex-ep-2-hdvt-7",
+    level1ShowName: "GRESLER",
+    level1ShowNameBaslik: "GRESLER",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Li Complex EP 2 HDVT</strong>, lityum kompleksi kalınlaştırıcı ve ISO VG320'ye uygun aşırı hidroişlenmiş baz yağ esaslı, ağır görev tipi bir yağlama gresidir. Lityum kompleksi kalınlaştırıcı, ürünü özellikle yüksek sıcaklıklar olmak üzere geniş bir sıcaklık aralığındaki uygulamalara uygun hale getirir. Son teknoloji katkı maddesi teknolojisi ile formüle edilen ürün, performans özelliklerinin doğru bir şekilde dengelenmesini sağlar ve böylece yağlama aralıklarını uzatır. Gelişmiş oksidasyon kararlılığı, pas ve korozyon önleme, üstün AW/EP performansının yanı sıra mükemmel su direnci özelliklerinin hepsi yatakların ömrünü uzatır ve aksama süresini azaltır.</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Li Complex EP 2 HDVT</strong> aşırı yüklü ağır görev yol ve arazi araçları ile iş makineleri; taş ocağı, çimento, çelik ve kâğıt endüstrisi makinelerinde kullanılan, zorlu çalışma koşullarına maruz kalan ağır görev tipi yataklar ile açık ocak madenciliği, yeraltı madenciliği ve taş ocağı ekipmanları gibi çok çeşitli yüksek yüklü endüstriyel uygulama yelpazesinde kullanım için uygundur. Diğer uygulamalar denizcilik sektöründe kablolar, zincirler ve bağlantıları içerir.</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Li Complex EP 2 HDTV</strong>'nin çalışma sıcaklığı -30°С ila +160°С arasında olup, düzgün yağlama aralıklarına riayet edilirse 180°С'ye kadar kısa süreli azami çalışma sıcaklığına çıkması mümkündür.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;kolay fark edilmesi için mavi boyalıdır<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;çok yapışkan – olduğu yerde kalıp sızıntıyı azaltarak koruma sağlar ve yağlama aralıklarını uzatır<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;çok iyi mekanik kararlılık – yağlama performansının kaybına ve sızıntıya neden olabilecek yumuşamaya dirençlidir<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;yüksek ve düşük sıcaklıklarda mükemmel&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;yüksek yük taşıma kapasitesi&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;su mevcudiyetinde verimli yağlama işlemi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;metal parçaların pas ve korozyona karşı korunması ekipman ömrünü uzatır</p>
+        <p><em>* Ağır görev tipi çok yapışkan</em></p>
+        <p>ISO 6743-9 -&nbsp;L-XCDIB 2<br />
+            DIN 51502, DIN 51825 -&nbsp;KP2N-30</p>
+        <p><em>Ambalaj: 180 kg varil, 50 kg fıçı, 15 kg kova, 4 kg kova</em></p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    pds2Link: "http://online.prista-oil.com/storage/3_PDS_Li_Complex_EP_2_HDVT_TR.pdf",
+    msdsLink: null,
+    backUrl: "/catalogue/gresler"
+}
+
+export const pristaLiComplexEP2Product = {
+    productName: "Prista® Li Complex EP 2",
+    productUrl: "/catalogue/gresler/prista-r-li-complex-ep-2-7",
+    level1ShowName: "GRESLER",
+    level1ShowNameBaslik: "GRESLER",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Li Complex EP 2</strong> gres oldukça rafine yüksek viskoziteli baz yağ, lityum kompleks sabunlu kalınlaştırıcı ve özel bir katkı maddesi grubu kullanılarak üretilmiştir.</p>
+        <p>Kaymalı, bilyalı ve konik masuralı yataklar ile yüksek yük (su ve tuz gibi kirleticilerin varlığında bile) altında çalışan ve yüksek yüke sürekli maruz kalan diğer mekanizmaların yağlanması için formüle edilmiştir. Olumsuz koşullarda çalışan madencilik, inşaat, tarım ve denizcilik ekipmanlarındaki büyük konik masuralı yataklar için uygundur. Prista® Li Complex EP 2, -20°С ila +150°С arası çalışma sıcaklıklarında gerçekleştirilen uygulamalarda kullanılır. Yağlama aralıkları düzgün bir şekilde hesaplandığı takdirde azami olarak +180°C'de de kısa süreliğine çalışabilir.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;istisnai su direnci<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;aşırı doğal basınç ve aşınma karşıtı performans&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;azami yük koşullarında uzun yatak ömrü<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;mükemmel mekanik kararlılık ve yüksek kesme direnci<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;pas ve korozyon korunumu – metal parçaları korozyondan ve pastan korur<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;mükemmel termal kararlılık – &gt;350°C'ye kadar sıvılaşmaz<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;gelişmiş oksidasyon kararlılığı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;iyi yüksek sıcaklık performansı</p>
+        <p>ISO 6743-9 -&nbsp;L-XBDIB 2<br />
+            DIN 51502, DIN 51825 -&nbsp;KP2N-20</p>
+        <p><em>Ambalaj: 180 kg varil, 15 kg kova, 4 kg kova</em></p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/4_PDS_Li_Complex_EP_2_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/gresler"
+}
+
+export const pristaLithiumEPProduct = {
+    productName: "Prista® Lithium EP",
+    productUrl: "/catalogue/gresler/prista-r-lithium-ep-7",
+    level1ShowName: "GRESLER",
+    level1ShowNameBaslik: "GRESLER",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Lithium EP</strong> çok amaçlı sürtünme önleyici gresler, bir katkı maddeleri grubu ve lityum 12-hidroksistearat sabun içeren uygun bir madeni baz yağ ile kalınlaştırılarak imal edilmiştir.</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Lithium EP</strong> gresler yüksek basınç, azami yük ve titreşim koşulları altında çalışan kaymalı ve masuralı yatakları, menteşeli mafsalları ve diğer mekanizmaları yağlamak ve sızdırmaz yapmak üzere formüle edilmiştir. Bu gresler uzun süreli azami yük, yüksek hız, yüksek nem ve çok geniş sıcaklık aralıkları dâhil, ağır yük ve olumsuz çevre koşullarında çalışan makineler ve ekipmanların çok amaçlı yağlama işlemleri için önerilir. Ayrıca hadde makinelerindeki düz pirinç ve babit radyal yatakların, makara vidalarının ve somunlarının, makasların, preslerin ve çelik haddeleme makinelerinin kesme hatlarının ve diğer metal işleme uygulamalarının yağlanması için kullanılır. Bunun yanı sıra olumsuz koşullarda çalışan madencilik, inşaat ve denizcilik makine ve ekipmanlarındaki büyük makaralı yataklarda kullanım için de uygundur.</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Lithium EP</strong> greslerin çalışma sıcaklığı aralığı aşağıdaki gibidir:<br />
+            ⁻&nbsp;&nbsp; &nbsp;Prista® Lithium EP 1 için -30°С ila +120°С&nbsp;<br />
+            ⁻&nbsp;&nbsp; &nbsp;Prista® Lithium EP 2 için -30°С ila +130°С &nbsp;<br />
+            ⁻&nbsp;&nbsp; &nbsp;Prista® Lithium EP 3 için -25°С ila +130°С &nbsp;&nbsp;</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;çok iyi yapışma özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;iyileştirilmiş EP özellikleri&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;ağır görev tipi çalışmalarda yüksek dönme kararlılığı ve sabit tutarlılık&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;demir dışı metaller ve çelik için aşındırıcı değildir<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;suya karşı direnç&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;pas oluşumuna karşı makul düzeyde koruma</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>NLGI 1</strong><br />
+            ISO 6743-9&nbsp;-&nbsp;L-XCCHB 1<br />
+            DIN 51502, DIN 51825 - KP1K-30</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>NLGI 2</strong><br />
+            ISO 6743-9&nbsp;-&nbsp;L-XCCHB 2<br />
+            DIN 51502, DIN 51825 - KP2K-30</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>NLGI 3</strong><br />
+            ISO 6743-9&nbsp;-&nbsp;L-XCCHB 3<br />
+            DIN 51502, DIN 51825 - KP3K-25</p>
+        <p><em>Ambalaj:<br />
+            NLGI 1 - 180 kg varil, 15 kg kova, 4 kg kova&nbsp;<br />
+            NLGI 2 - 180 kg varil, 50 kg fıçı, 15 kg kova, 4 kg kova, 0,800 kg kartuş, 0,400 kg kartuş&nbsp;<br />
+            NLGI 3 - 180 kg varil, 15 kg kova, 4 kg kova, 0,800 kg kartuş, 0,400 kg kartuş</em></p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/5_PDS_Lithium_EP_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/gresler"
+}
+
+export const pristaLithiumEP000Product = {
+    productName: "Prista® Lithium EP 0/00",
+    productUrl: "/catalogue/gresler/prista-r-lithium-ep-0-00-7",
+    level1ShowName: "GRESLER",
+    level1ShowNameBaslik: "GRESLER",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Lithium EP 0</strong> ve<strong style={{ fontFamily: "sans-serif" }}> Prista® Lithium EP 00</strong>, madeni baz yağ ve lityum 12-hidroksistearat sabunla kalınlaştırılarak ve uygun katkı maddeleri ilave edilerek imal edilen çok amaçlı, yarı akışkan, sürtünme önleyici greslerdir.</p>
+        <p>Bu gresler merkezi yağlama tesislerinde, yardımcı nakliye araçlarında ve açık alanda çalışan uzun borulu ekipmanlarda kullanım için uygundur. Yarı akışkan oldukları için üreticiler tarafından gresle yağlama işlemi önerilen dişli tahrik ünitelerinin tüm tiplerinde uygulama için uygundur. Prista® Lithium EP 0 ve Prista® Lithium EP 00 greslerin tipik uygulamaları arasında demir yolu taşıma birimlerinin tekerlekleri, kamyon tekerleği rulmanları, kırıcıların bilyalı yatakları, öğütme makineleri ve mikserlerin yağlanması, özellikle soğuk ve sıcak hadde makineleriyle çelik işlerindeki genel yağlama işlemleri ve gresin ağır yüklü yağlama noktalarına beslendiği merkezi yağlama sistemleri bulunmaktadır.</p>
+        <p>Uygulama sıcaklığı -30°C ila +100°C arasındadır.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;paslanmaya ve korozyona karşı mükemmel koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;çok iyi mekanik kararlılık ve oksidasyon direnci<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;iyileştirilmiş aşınma karşıtı ve EP özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;yüksek basınçlara ve azami yüklere karşı çok iyi direnç<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;yüksek hızlı yatakları ve mekanizmaları yağlarken sabit tutarlılığın korunması</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>NLGI 0 /&nbsp;NLGI 00</strong><br />
+            ISO 6743-9&nbsp;-&nbsp;L-XCBEB 0/00<br />
+            DIN 51502, DIN 51825 -&nbsp;GP 0/00 G-30</p>
+        <p><em>Ambalaj: NLGI 0 için 180 kg varil/NLGI 00 için 175 kg varil, NLGI 00 için 15 kg kova, 4 kg kova</em></p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/6_PDS_Lithium_EP_0-00_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/gresler"
+}
+
+export const pristaLimoEP2GProduct = {
+    productName: "Prista® LiMo EP & Prista® LiMo EP 2 G",
+    productUrl: "/catalogue/gresler/prista-r-limo-ep-prista-r-limo-ep-2-g-7",
+    level1ShowName: "GRESLER",
+    level1ShowNameBaslik: "GRESLER",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® LiMo EP</strong> ve <strong style={{ fontFamily: "sans-serif" }}>Prista® LiMo EP 2 G</strong> çok amaçlı sürtünme önleyici gresler lityum 12-hidroksistearat sabun, uygun bir katkı maddesi ve 0,65 ila 0,75 μm partikül boyutlu %3 oranında yüksek dağıtıcı özelliğe sahip molibden disülfit (MoS<sub>2</sub>) ile uygun bir madeni baz yağ kalınlaştırılarak imal edilmiştir.</p>
+        <p>Prista® Lithium EP 2 G hem MoS<sub>2</sub> hem de grafit içeren lityum sabunuyla kalınlaştırılmış, çok amaçlı aşırı basınçlı yağlama gresidir ve ISO VG 150'ye uygun yüksek kaliteli madeni baz yağ esaslıdır. Kuru yağ eklenmesi, azami yük koşullarında bile aşınmaya karşı ekstra korunma sağlar.</p>
+        <p>Prista® LiMo EP ve Prista® LiMo EP 2 G gresler kaymalı ve masuralı yataklar, yatak burçları, makaralı konveyörler, sabit hızlı mafsallar (CV-mafsallar), yaylar, ağır yüklü zincir, dişli mekanizmalarının yanı sıra inşaat ve madencilik sektörlerinde ve tarım ekipmanlarında yüksek ve azami yüklere karşı yeterli sürtünme koruması gerektiren uygulamalarda kullanılır.</p>
+        <p>Prista® LiMo EP ve Prista® LiMo EP 2 G greslerin çalışma sıcaklığı -25°С ila +130°С arasında olup, düzgün yağlama aralıklarına riayet edilirse 140°С'ye kadar kısa süreli azami çalışma sıcaklığına çıkması mümkündür.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;çok iyi yapışma özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;azami yüklü koşullarda iyileştirilmiş EP özellikleri ve ekstra koruma önlemi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;ağır görev tipi çalışmalarda yüksek dönme kararlılığı ve sabit tutarlılık&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;demir dışı metaller ve çelik için aşındırıcı değildir<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;suyla arınmaya karşı direnç&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;pas oluşumuna karşı yeterli koruma</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® LiMo EP 2/3</strong><br />
+            ISO 6743-9&nbsp;-&nbsp;XBCHB 2/3<br />
+            DIN 51502, DIN 51825&nbsp;-&nbsp;KPF 2/3 K-25<br />
+            Dry Lubricants&nbsp;-&nbsp;Moly</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® LiMo EP 2 G</strong><br />
+            ISO 6743-9&nbsp;-&nbsp;XBCHB 2<br />
+            DIN 51502, DIN 51825&nbsp;-&nbsp;KPF2K-25<br />
+            Dry Lubricants&nbsp;-&nbsp;Moly + Graphite</p>
+        <p><em>Ambalaj: 180 kg varil, 15 kg kova, 4 kg kova, 0,800 kg kartuş</em></p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/7_PDS_LiMo_EP_TR.pdf",
+    pds2Link: "http://online.prista-oil.com/storage/8_PDS_LiMo_EP_2_G_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/gresler"
+}
+
+export const pristaLithiumProduct = {
+    productName: "Prista® Lithium",
+    productUrl: "/catalogue/gresler/prista-r-lithium-7",
+    level1ShowName: "GRESLER",
+    level1ShowNameBaslik: "GRESLER",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Lithium</strong> çok amaçlı sürtünme önleyici gresler, lityum 12-hidroksistearat sabun içeren madeni baz yağ ile kalınlaştırılarak ve uygun katkı maddelerinin eklenmesiyle imal edilmiştir.</p>
+        <p>Bu gresler, lityum non-EP greslerle yağlanmayı gerektiren endüstriyel ekipman, demir yolu ve tarım alet ve makinelerinde kullanılan normal ve düşük hızlı düz yataklar ve mekanizmaları, elektrikli motor yataklarını, kapsüllü (masuralı ve bilyalı) endüstriyel yatakları yağlamak üzere tasarlanmıştır.</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Lithium</strong> greslerin çalışma sıcaklığı aralığı aşağıdaki gibidir:<br />
+            ⁻&nbsp;&nbsp; &nbsp;Prista® Lithium 1 için -30°С ila +120°С<br />
+            ⁻&nbsp;&nbsp; &nbsp;Prista® Lithium 2 için -30°С ila +120°С&nbsp;<br />
+            ⁻&nbsp;&nbsp; &nbsp;Prista® Lithium 3 için -25°С ila +120°С</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;çok iyi yapışma özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;ağır görev tipi çalışmalarda yüksek dönme kararlılığı ve sabit tutarlılık&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;demir dışı metaller ve çelik için aşındırıcı değildir<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;suyla arınmaya karşı direnç&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;pas oluşumuna karşı yeterli koruma</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>NLGI 1</strong><br />
+            ISO 6743-9&nbsp;-&nbsp;L-XCCHA 1<br />
+            DIN 51502, DIN 51825&nbsp;-&nbsp;K1K-30</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>NLGI 2</strong><br />
+            ISO 6743-9&nbsp;-&nbsp;L-XCCHA 2<br />
+            DIN 51502, DIN 51825&nbsp;-&nbsp;K2K-30</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>NLGI 3</strong><br />
+            ISO 6743-9&nbsp;-&nbsp;L-XCCHA 3<br />
+            DIN 51502, DIN 51825&nbsp;-&nbsp;K3K-25</p>
+        <p><em>Ambalaj:&nbsp;<br />
+            NLGI 1 - 180 kg varil, 15 kg kova<br />
+            NLGI 2 - 180 kg varil, 15 kg kova, 4 kg kova, 0,800 kg kartuş<br />
+            NLGI 3 - 180 kg varil, 15 kg kova, 4 kg kova, 0,800 kg kartuş, 0,400 kg kartuş&nbsp;</em></p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/9_PDS_Lithium_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/gresler"
+}
+
+export const pristaLicaProduct = {
+    productName: "Prista® LiCa",
+    productUrl: "/catalogue/gresler/prista-r-lica-7",
+    level1ShowName: "GRESLER",
+    level1ShowNameBaslik: "GRESLER",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® LiCa</strong> çok amaçlı lityum-kalsiyum gresler, çok yüksek su direnci gösterir ve yağlanan parçaları aşınma ve korozyona karşı mükemmel şekilde korur. Bu gresler, yüksek nemli ortamlarda orta düzeyli yükler altında çalışan kaymalı ve masuralı yatakların yağlanması için tavsiye edilir. Prista® LiCa 1 ve Prista® LiCa 2 kapalı dişli tahrik sistemlerinin yağlanması için de kullanılır.</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® LiCa</strong> greslerin çalışma sıcaklığı -30°C ila 110°C arasındadır.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;çok iyi su direnci<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;pas oluşumu ve korozyona karşı yeterli koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;çok iyi yapışma özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;yüksek dönme kararlılığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;aşınma karşıtı koruma</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>NLGI 1 / 2 / 3</strong><br />
+            ISO 6743/9&nbsp;-&nbsp;ISO-L-XCBHА-1(2) /&nbsp;ISO-L-XCCHА-3<br />
+            DIN 51502, DIN 51825&nbsp;-&nbsp;G 1(2) G-30 /&nbsp;K 3 K-30<br />
+            STAS&nbsp;-&nbsp;8789-91</p>
+        <p><em>Ambalaj:&nbsp;<br />
+            NLGI 1 - 180 kg varil&nbsp;<br />
+            NLGI 2 - 180 kg varil, 50 kg fıçı, 15 kg kova, 4 kg kova, 0,800 kg kartuş, 0,400 kg kartuş&nbsp;<br />
+            NLGI 3 - 180 kg varil, 50 kg fıçı, 15 kg kova</em></p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/10_PDS_LiCa_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/gresler"
+}
+
+export const pristaLicaEP2Product = {
+    productName: "Prista® LiCa EP 2",
+    productUrl: "/catalogue/gresler/prista-r-lica-ep-2-7",
+    level1ShowName: "GRESLER",
+    level1ShowNameBaslik: "GRESLER",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <>
+        <p>Çok amaçlı, aşırı basınçlı lityum ve kalsiyum kalınlaştırıcı gres <strong style={{ fontFamily: "sans-serif" }}>Prista® LiCa EP 2</strong>, çok yüksek su direncini ve yağlanan parçaları aşınma ve korozyona karşı mükemmel şekilde korunmasını temin eder. Bu gres, çok nemli ortamlarda yüksek düzeyli yükler altında çalışan kaymalı ve masuralı yatakların yağlanması için tavsiye edilir.</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® LiCa EP 2</strong>, otomotiv ve endüstriyel uygulamalarda yaygın olarak kullanılan aşırı basınçlı bir grestir. Su ve/veya toz ile kirlenmenin önem teşkil ettiği tarım, arazi ve inşaat ekipmanları için uygundur.</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® LiCa EP 2</strong>'nin çalışma sıcaklığı -25°C ila 110°C arasındadır.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;çok iyi su direnci&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;yüksek yük taşıma kapasitesi ve aşınmaya karşı mükemmel koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;paslanmaya ve korozyona karşı mükemmel koruma&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;çok iyi yapışma özellikleri&nbsp;</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>NLGI 2</strong><br />
+            ISO 6743/9 -&nbsp;ISO-L-XBBHB 2<br />
+            DIN 51502, DIN 51825 -&nbsp;KP2G-25</p>
+        <p><em>Ambalaj: 180 kg varil, 50 kg fıçı, 15 kg kova, 4 kg kova, 0,800 kg kartuş</em></p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/11_PDS_LiCa_EP_2_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/gresler"
+}
+
+export const pristaK2GVSK2GProduct = {
+    productName: "Prista® K-2-G VS* & Prista® K-2-G",
+    productUrl: "/catalogue/gresler/prista-r-k-2-g-vs-prista-r-k-2-g-7",
+    level1ShowName: "GRESLER",
+    level1ShowNameBaslik: "GRESLER",
+    productImage: BosImage,
+    productBigImage: BosImage,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® K-2-G VS</strong> ve <strong style={{ fontFamily: "sans-serif" }}>Prista® K-2-G</strong> suya karşı dirençli, kalsiyum sabunuyla kalınlaştırılmış yağlama gresleridir. Grafit tozunun eklenmesiyle oldukça yüksek EP özellikleri ve aşınma karşıtı güvenilir koruma sağlanır.</p>
+        <p>Prista® K-2-G VS, çok güçlü EP özelliklerine sahip, metal yüzeylere yapılan oldukça yapışkan bir grestir. Çok yüksek yük taşıma kapasitesi, suyla arınmaya karşı sıra dışı direnç ve korozyon karşıtı çok güçlü özellikler sağlayan grafit içerir. Prista® K-2-G VS, kamyonlarda gerçekleştirilen "beşinci tekerlek" yağlama işlemlerinde çok iyi sonuçlar gösterir. Aynı zamanda ağır yüklü bağlantılar, menteşeler, açık tahrik dişlileri, dişli bağlantılar, zincirli tahrik sistemleri ve asansör sürgü mekanizmaları için de uygundur. Prista® K-2-G VS gresin çalışma sıcaklığı -20°С ila +70°С arasındadır.</p>
+        <p>Prista® K-2-G gres, yüksek nemli ve çok kirli ortamlarda kullanım için uygundur. Prista® K-2-G greslerin çalışma sıcaklığı -20°С ila +60°С arasında olup, düzgün yağlama aralıklarına riayet edilirse +70°С'ye kadar kısa süreli azami çalışma sıcaklığına çıkması mümkündür. Açık tahrik dişlileri, dişli bağlantılar, zincirli tahrik sistemleri, asansör sürgü mekanizmaları, metal halatlar ve diğer açık, ağır yüklü sürgülü mekanizmalar gibi ağır yüklü mekanizmaların yağlanması için tasarlanmıştır.</p>
+        <p><em>* çok yapışkan</em></p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;çok iyileştirilmiş su direnci<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;yüksek yük taşıma kapasitesi ve aşınmaya karşı çok iyi koruma özellikleri&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;geniş sıcaklık aralığı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;çok kirli ortamlarda kullanım için uygundur<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;pas oluşumuna karşı yeterli koruma</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® K-2-G VS</strong><br />
+            ISO 6743/9&nbsp;-&nbsp;ISO-L-XBAHB 2<br />
+            DIN 51502, DIN 51825&nbsp;-&nbsp;KPF 2C-20</p>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® K-2-G</strong><br />
+            ISO 6743/9&nbsp;-&nbsp;ISO-L-XBAHА 2<br />
+            DIN 51502, DIN 51825&nbsp;-&nbsp;KPF 2C-20</p>
+        <p><em>Ambalaj: Prista® K-2-G için 180 kg varil, 15 kg kova, 4 kg kova; 0,800 kg kartuş</em></p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/13_PDS_K-2-G_VS_TR.pdf",
+    pds2Link: "http://online.prista-oil.com/storage/12_PDS_K-2-G_TR.pdf",
+    msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/gresler"
+}
+
+export const pristaMarineCProduct = {
+    productName: "Prista Marine C",
+    productUrl: "/catalogue/sistem-yaglari/465",
+    level1ShowName: "MARIN",
+    level2ShowName: "ANAYAGLAR",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "ANA YAĞLAR",
+    level3ShowNameBaslik: "Sistem Yağları",
+    level1To: "/catalogue/sistem-yaglari",
+    level2To: "/catalogue/sistem-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MARINE C</strong> motor yağları, dikkatlice dengelenmiş kaliteli baz yağlarla ve özellikle yüksek ekipman koruması için tasarlanmış, özenle seçilmiş katkı maddeleriyle formüle edilmiştir.<strong style={{ fontFamily: "sans-serif" }}> PRISTA® MARIN C</strong> yağları, bileşenlerin karter yağlaması ve düşük hızlı, piston kafalı marin motorları pistonlarının soğutulması için geliştirilmiş sistem yağlarıdır. &nbsp;Şaft kovanları, dişli tahrik üniteleri, şanzımanlar ve diğer güverte donanımı gibi bazı yardımcı mekanizmaların ve ünitelerin yağlanması için de uygundur. ÖNEMLİ: <strong style={{ fontFamily: "sans-serif" }}>&nbsp;PRISTA® MARIN C</strong> yağları kovan pistonlu dizel motorların yağlanması için uygun değildir. Üç SAE J 300 viskozite derecesiyle formüle edilmiştir: 20, 30 &amp; 40.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Yüksek sıcaklık birikintilerinin ve düşük sıcaklık tortularının oluşmasını önler &nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kamlar, eksantrik mili ve yataklar için mükemmel koruma sağlar&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Hapsolan suyun hızlı ayrılması&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Silindir cidarının cilalanmasına ve silindir gömleği aşınmasına karşı koruma&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Tüm gemi donanımının paslanmaya karşı mükemmel korunumu&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yatak korozyonuna karşı koruma Düşük köpürme eğilimi &nbsp;</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/PDS_Eng_MarineC3.pdf",
+    msdsLink: null,
+    backUrl: "/catalogue/sistem-yaglari"
+}
+
+export const pristaMarineDProduct = {
+    productName: "Prista Marine D",
+    productUrl: "/catalogue/kovan-pistonlu-motor-yaglari/prista-marine-d-3",
+    level1ShowName: "MARIN",
+    level2ShowName: "ANAYAGLAR",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "ANA YAĞLAR",
+    level3ShowNameBaslik: "Kovan Pistonlu Motor Yağları",
+    level1To: "/catalogue/sistem-yaglari",
+    level2To: "/catalogue/sistem-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MARINE D</strong> motor yağları Pielstick, MAN B&amp;W, MAN Augsburg, New Sulzer Diesel, Wartsila vs. gibi çoğu orta devirli marin dizel motor üreticilerinin gerekliliklerini karşılamak için dikkatlice dengelenmiş, kaliteli solvent ile rafine edilmiş, hidroişlenmiş baz ürünler ve ileri teknoloji ürünü katkılarla formüle edilmiştir. <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MARIN D</strong> yağları, %1.5'e kadar kükürt içeren distile yakıt yakan ana ve yardımcı orta devirli kovan pistonlu motorların yağlanması için amaçlanmıştır. Bu yağlar, balıkçı teknelerinin ve yolcu gemilerinin motorlarını yağlamak için başarıyla kullanılabilir. Ayrıca, orta devirli motorlarda kullanılan dişli şanzımanların, değişken eğimli pervanelerin, yağ doldurulmuş şaft kovanlarının yağlanması için de uygundur.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Yüksek sıcaklık birikintilerinin ve düşük sıcaklık tortularının oluşmasını önler &nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Kamlar, eksantrik mili ve yataklar için mükemmel koruma sağlar&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Hapsolan suyun hızlı ayrılması&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Silindir cidarının cilalanmasına ve silindir gömleği aşınmasına karşı koruma&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Tüm gemi donanımının paslanmaya karşı mükemmel korunumu&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yatak korozyonuna karşı koruma Düşük köpürme eğilimi &nbsp;</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/PDS_Eng_MarineD1.pdf",
+    msdsLink: null,
+    backUrl: "/catalogue/kovan-pistonlu-motor-yaglari"
+}
+
+export const pristaMarineDSProduct = {
+    productName: "Prista Marine DS",
+    productUrl: "/catalogue/kovan-pistonlu-motor-yaglari/prista-marine-ds-3",
+    level1ShowName: "MARIN",
+    level2ShowName: "ANAYAGLAR",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "ANA YAĞLAR",
+    level3ShowNameBaslik: "Kovan Pistonlu Motor Yağları",
+    level1To: "/catalogue/sistem-yaglari",
+    level2To: "/catalogue/sistem-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MARINE DS</strong> motor yağları dikkatlice dengelenmiş, kaliteli solvent ile rafine edilmiş, hidroişlenmiş baz ürünler ve çok iyi temizleme &amp; dağıtma özellikleri sergileyen katkı maddesi ile formüle edilmiştir. Formüle edilen bu yağlar Pielstick, MAN B&amp;W, MAN Augsburg, New Sulzer Diesel, Wartsila vs. gibi bir çok ağır görev marin dizel motorları üreticilerinin gerekliliklerini karşılamaktadır. <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MARIN DS</strong> yağları, %2.0'a kadar kükürt içeren distile yakıt yakan ana ve yardımcı orta devirli kovan pistonlu motorların yağlanması için amaçlanmıştır. Bu yağlar ayrıca, herhangi bir yağlama yağına özel ihtiyaç duymadan, diğer bazı gemi uygulamaları ve marin motor redüksiyon dişlileri için de uygundur.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Kurum ve yağda siyah tortu oluşumunu önler<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Motorun temizliği<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Silindir gömleği aşınmasına ve cilalanmasına karşı koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük köpürme eğilimi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yatak korozyonuna karşı koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük seviyeli piston segmanı aşınması</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/PDS_Eng_MarineDS1.pdf",
+    msdsLink: null,
+    backUrl: "/catalogue/kovan-pistonlu-motor-yaglari"
+}
+
+export const pristaMarineSProduct = {
+    productName: "Prista Marine S",
+    productUrl: "/catalogue/kovan-pistonlu-motor-yaglari/prista-marine-s-3",
+    level1ShowName: "MARIN",
+    level2ShowName: "ANAYAGLAR",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "ANA YAĞLAR",
+    level3ShowNameBaslik: "Kovan Pistonlu Motor Yağları",
+    level1To: "/catalogue/sistem-yaglari",
+    level2To: "/catalogue/sistem-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MARINE S</strong> motor yağları, yüksek kaliteli baz ürünler ve gelişmiş temizleme özellikli uygun katkı maddeleri özenle seçilerek formüle edilmiştir. Bu yağlar, yüksek kükürt ve düşük asfalten reçinesi içerikli ağır artık yakıtlarla çalışma için uygundur. <strong style={{ fontFamily: "sans-serif" }}>PRISTA® MARIN S</strong> yağları, %3'e kadar kükürt içeren distile yakıt yakan ana ve yardımcı orta devirli kovan pistonlu motorların yağlanması için amaçlanmıştır. Bu yağlar ayrıca dişli şanzımanların, değişken eğimli pervanelerin, yağ doldurulmuş şaft kovanlarının yağlanması için de uygundur.&nbsp;</p>
+        <p>İki SAE J 300 viskozite derecesiyle formüle edilmiştir: 30 &amp; 40.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Etkili kurum ve artık oluşum kontrolü<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;İyileştirilmiş termal ve oksidasyon kararlılığı sayesinde uzun yağ değiştirme aralıkları<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Motor ve piston temizliği<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Hapsolan suyun hızlı ayrılması&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük köpürme eğilimi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Uzun motor ömrü ve düşük bakım maliyetleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Korozyon korunumu</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/PDS_Eng_MarineS1.pdf",
+    msdsLink: null,
+    backUrl: "/catalogue/kovan-pistonlu-motor-yaglari"
+}
+
+export const pristaMarineSTProduct = {
+    productName: "Prista Marine ST",
+    productUrl: "/catalogue/kovan-pistonlu-motor-yaglari/prista-marine-st-3",
+    level1ShowName: "MARIN",
+    level2ShowName: "ANAYAGLAR",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "ANA YAĞLAR",
+    level3ShowNameBaslik: "Kovan Pistonlu Motor Yağları",
+    level1To: "/catalogue/sistem-yaglari",
+    level2To: "/catalogue/sistem-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MARINE ST</strong> kovan pistonlu motor yağları denizcilik, güç üretimi ve endüstriyel uygulamalarda artık yakıtlarla çalışan orta devirli dizel motorlarda kullanım için tasarlanmıştır. Bu yağlar, yüksek kükürt ve düşük asfalten reçinesi içerikli ağır artık yakıtlarla çalışma için uygundur. Bu ürünler &nbsp;Pielstick, MAN – B&amp;W, MAN Augsburg, New Sulzer Diesel, Wartsila vs. gibi üreticilerin gerekliliklerini karşılar. 30 &amp; 40.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Etkili kurum ve artık oluşum kontrolü<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;İyileştirilmiş termal ve oksidasyon kararlılığı sayesinde uzun yağ değiştirme aralıkları<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Motor ve piston temizliği<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Uzun motor ömrü ve düşük bakım maliyetleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Silindir gömleği aşınmasına ve cilalanmasına karşı daha iyi koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Korozyon korunumu<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük köpürme eğilimi</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/PDS_Eng_MarineST4040.pdf",
+    msdsLink: null,
+    backUrl: "/catalogue/kovan-pistonlu-motor-yaglari"
+}
+
+export const pristaMarineCMProduct = {
+    productName: "Prista Marine CM",
+    productUrl: "/catalogue/silindir-yaglari/prista-marine-cm-3",
+    level1ShowName: "MARIN",
+    level2ShowName: "ANAYAGLAR",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "ANA YAĞLAR",
+    level3ShowNameBaslik: "Kovan Pistonlu Motor Yağları",
+    level1To: "/catalogue/sistem-yaglari",
+    level2To: "/catalogue/sistem-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MARINE CM</strong> 50/70, tüm sıradan düşük devirli piston kafalı dizel marin motorlarında mükemmel etki sağlayan yeni, en son teknoloji ürünü katkı maddesi ile formüle edilmiş marin yağıdır. Katkı maddesi Bolnes, Wartsila ve MAN B&amp;W motorlarındaki alan testlerinden başarıyla geçmiştir.<strong style={{ fontFamily: "sans-serif" }}> PRISTA® MARINE CM</strong> 50/70 yağı, ağır artık yakıtlar yakan düşük devirli, yüksek güç çıkışlı, piston kafalı dizel motorların silindirlerinin merkezi cebri yağlanması için geliştirilmiş silindir yağıdır.&nbsp;</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Sıradan yağlarla kıyasla silindir gömleklerinin düşük seviyeli aşınması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Motorun temizliği<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Piston segmanını aşınmaya karşı koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yatak korozyonuna karşı koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük köpürme eğilimi</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/PDS_Eng_MarineCM5070.pdf",
+    pds2Link: "http://online.prista-oil.com/storage/PDS_Eng_MarineCM50401.pdf",
+    msdsLink: null,
+    backUrl: "/catalogue/silindir-yaglari"
+}
+
+export const pristaRolonRProduct = {
+    productName: "Prista Rolon",
+    productUrl: "/catalogue/disli-yaglari/prista-rolon-8",
+    level1ShowName: "MARIN",
+    level2ShowName: "YARDIMCIYAGLAR",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "YARDIMCI YAĞLAR",
+    level3ShowNameBaslik: "Dişli Yağları",
+    level1To: "/catalogue/sistem-yaglari",
+    level2To: "/catalogue/sistem-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTAâ ROLON</strong> endüstriyel dişli yağları normal, orta ve yüksek kararlı yağ sıcaklıklarında çalışan ağır yüklü endüstriyel dişli tahrik ünitelerinin yağlanması için geliştirilmiştir. <strong style={{ fontFamily: "sans-serif" }}>PRISTA® ROLON</strong> yağları, düz ve sarmal konik dişlilere, alın dişlilerine, hipoid dişlilere ve sonsuz dişlilere sahip ağır yüklü kapalı dişli kutularının yağlanması için tasarlanmıştır.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi aşınma ve tutukluk önleme özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi termal ve oksidasyon kararlılığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güvenilir korozyon koruması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Keçe uyumluluğu&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;İyi sudan ayrılma özelliği &nbsp;&nbsp;</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: null,
+    backUrl: "/catalogue/disli-yaglari"
+}
+
+export const pristaFrigusHAProduct = {
+    productName: "Prista Frigus HA",
+    productUrl: "/catalogue/sogutma-sistemi-yagi/prista-frigus-ha-8",
+    level1ShowName: "MARIN",
+    level2ShowName: "YARDIMCIYAGLAR",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "YARDIMCI YAĞLAR",
+    level3ShowNameBaslik: "Soğutma Sistemi Yağı",
+    level1To: "/catalogue/sistem-yaglari",
+    level2To: "/catalogue/disli-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® FRIGUS HA</strong> yağları, soğutucu gaz olarak amonyak ile çalışan buzdolaplarının ve soğutma cihazlarının yağlanması için önerilmektedir. <strong style={{ fontFamily: "sans-serif" }}>PRISTA® FRIGUS HA</strong> buzdolabı kompresör yağları çok kaliteli solventle rafine edilmiş ve hidroişlenmiş naftenik bazlı ürünlerin özel bir seçiminden harmanlanmıştır.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi düşük sıcaklık özellikleri&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi termal ve oksidasyon kararlılığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güvenilir korozyon koruması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Keçe ve amonyak uyumluluğu&nbsp;</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: null,
+    backUrl: "/catalogue/sogutma-sistemi-yagi"
+}
+
+export const pristaMvk2RProduct = {
+    productName: "Prista MVK-2",
+    productUrl: "/catalogue/kompresor-yaglari-1/prista-mvk-2-8",
+    level1ShowName: "MARIN",
+    level2ShowName: "YARDIMCIYAGLAR",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "YARDIMCI YAĞLAR",
+    level3ShowNameBaslik: "Kompresör Yağları",
+    level1To: "/catalogue/sistem-yaglari",
+    level2To: "/catalogue/disli-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p>Yüksek oksidasyon kararlılığına, gelişmiş yağlama ve R&amp;O koruma özelliklerine sahip yağlar gerektiren sirkülasyon veya karışık tip yağlama sistemleriyle donatılmış piston tipi kompresörlerin yağlanması için tasarlanmış katkılı kompresör yağları.&nbsp;</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi aşınma önleme özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi termal ve oksidasyon kararlılığı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Güvenilir korozyon koruması<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Keçe uyumluluğu&nbsp;</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: null,
+    backUrl: "/catalogue/sogutma-sistemi-yagi"
+}
+
+export const pristaMTLProduct = {
+    productName: "Prista MTL",
+    productUrl: "/catalogue/isi-transfer-yagi/prista-mtl-8",
+    level1ShowName: "MARIN",
+    level2ShowName: "YARDIMCIYAGLAR",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "YARDIMCI YAĞLAR",
+    level3ShowNameBaslik: "Isı Transfer Yağı",
+    level1To: "/catalogue/sistem-yaglari",
+    level2To: "/catalogue/disli-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MTL</strong>, oldukça rafine baz ürünler ve gelişmiş katkı maddeleriyle formüle edilmiştir. Bu yağ, dolaylı ısıtmalı cebri sirkülasyon sistemlerinde ısı transfer yağı olarak kullanım için tavsiye edilir. &nbsp;</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Aşağıdaki koşullarda kullanım için uygundur: 300℃ ‘ye kadar yağ tabakası sıcaklığı ve 270℃’ye kadar dökme yağ sıcaklığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çelik ve bakır için aşındırıcı değil<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük tortu ve kalıntı oluşum eğilimi</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: null,
+    backUrl: "/catalogue/isi-transfer-yagi"
+}
+
+export const pristaTPXProduct = {
+    productName: "Prista TPx",
+    productUrl: "/catalogue/turbin-yaglari-1/prista-tpx-8",
+    level1ShowName: "MARIN",
+    level2ShowName: "YARDIMCIYAGLAR",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "YARDIMCI YAĞLAR",
+    level3ShowNameBaslik: "Türbin Yağları",
+    level1To: "/catalogue/sistem-yaglari",
+    level2To: "/catalogue/disli-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA Tpx</strong> türbin yağları özel külsüz katkı maddesi ile harmanlanmış çok rafine, hidroişlenmiş baz yağ ürünlerinden formüle edilmiştir. Hazır haldeki bu yağlar çok iyi oksidasyon kararlığı, güvenilir korozyon direnci ve iyi aşınma önleme özellikleri sağlar ve MAN, Alstom, Siemens, GE gibi önde gelen OEM'lerin gerekliliklerini karşılar ve bu gerekliliklerin ötesine geçer.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Aşırı yüksek oksidasyon kararlılığı&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Bozulmaya karşı azami direnç<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi sudan ayrılma özelliği&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi aşınma önleme özellikleri</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: null,
+    backUrl: "/catalogue/turbin-yaglari-1"
+}
+
+export const pristaTPSEpProduct = {
+    productName: "Prista TPs EP",
+    productUrl: "/catalogue/turbin-yaglari-1/prista-tps-ep-8",
+    level1ShowName: "MARIN",
+    level2ShowName: "YARDIMCIYAGLAR",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "YARDIMCI YAĞLAR",
+    level3ShowNameBaslik: "Türbin Yağları",
+    level1To: "/catalogue/sistem-yaglari",
+    level2To: "/catalogue/disli-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA Tps/ EP</strong> türbin yağları, mükemmel oksidasyon kararlılığı, güvenilir korozyon koruması ve iyi &nbsp;iyi aşınma özellikleri sunan özel, çok etkili külsüz katkı maddesi ile harmanlanmış, bozulmaya karşı çok yüksek direnç gösteren özenle seçilmiş çok rafine, hidroişlenmiş baz ürünlerden formüle edilmiştir.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi oksidasyon kararlılığı<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi sudan ayrılma özelliği &nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Bozulmaya karşı azami direnç&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;İyi aşınma önleme özellikleri&nbsp;</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/storage/PDS_Eng_TpsEP_TR.PDF",
+    msdsLink: null,
+    backUrl: "/catalogue/turbin-yaglari-1"
+}
+
+export const pristaMHVProduct = {
+    productName: "Prista MHV",
+    productUrl: "/catalogue/hidrolik-yaglar/prista-mhv-8",
+    level1ShowName: "MARIN",
+    level2ShowName: "YARDIMCIYAGLAR",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "YARDIMCI YAĞLAR",
+    level3ShowNameBaslik: "Hidrolik Yağlar",
+    level1To: "/catalogue/sistem-yaglari",
+    level2To: "/catalogue/disli-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>PRISTA® MHV</strong> hidrolik yağları pas, oksidasyon, korozyon önleyiciler ve aşınma önleyici maddeler ile polimetakrilat VII (Viskozite İndeksi İyileştirici) içeren oldukça etkili bir katkı maddesi ile harmanlanmış çok iyi demülsibilite ve hava ayrışma özellikleri olan yüksek rafine maddeni bazlı ürünlerden formüle edilmiştir.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Yüksek viskozite indeksi<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok değişken sıcaklıklarda azami donanım korunumu<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük sıcaklıkta oldukça kararlı</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: null,
+    backUrl: "/catalogue/hidrolik-yaglar"
+}
+
+export const pristaSHPDVDS3Product = {
+    productName: "Prista SHPD VDS-3",
+    productUrl: "/catalogue/motor-yaglari/prista-shpd-vds-3-3",
+    level1ShowName: "MARIN",
+    level2ShowName: "YARDIMCIYAGLAR",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "YARDIMCI YAĞLAR",
+    level3ShowNameBaslik: "Motor Yağları",
+    level1To: "/catalogue/sistem-yaglari",
+    level2To: "/catalogue/disli-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® SHPD VDS-3</strong> çok mevsimli motor yağları, kullanım sırasında üstün performans ve mükemmel dayanıklılık sağlamak için eşsiz kaliteli ve dikkatlice dengelenmiş solvent ile rafine edilmiş, hidroişlenmiş baz ürünler ve yüksek performanslı gelişmiş katkı teknolojisi harmanlanarak formüle edilmiştir. <strong style={{ fontFamily: "sans-serif" }}>Prista® SHPD VDS-3</strong>, Euro I, Euro II, Euro III, Euro IV, Euro V ve Euro VI emisyon gerekliliklerini karşılayan ve ağır şartlar altında çalışan ticari araçların, kamyonların, otobüslerin ve inşaat ile tarım sektöründeki ekipmanların yüksek güçlü dizel motorları için önerilir. Dizel partikül filtresi olmayan motorlar ve çoğu EGR motorları ve SCR NOx azaltma sistemi takılı çoğu motorlar için uygundur.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Silindir cidarının cilalanmasına ve aşınmasına karşı koruma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;60.000 km’ye kadar oldukça uzun yağ değiştirme aralıklı yüksek motor temizliği<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok kirli yağ durumunda bile sorunsuz çalışma<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yüksek sıcaklıkta yağın kalınlaşması korunumu<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Yatak korozyonuna karşı koruma &nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Köpük kontrolü&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Sıfırın altındaki çok düşük sıcaklıklarda bile motorun kolay çalıştırılması</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    pds2Link: "http://online.prista-oil.com/storage/PDS_Tr_SHPDVDS3.pdf",
+    msdsLink: null,
+    backUrl: "/catalogue/motor-yaglari"
+}
+
+export const pristaLithiumEPGresProduct = {
+    productName: "Prista Lithium EP",
+    productUrl: "/catalogue/gresler-1/prista-lithium-ep-3",
+    level1ShowName: "MARIN",
+    level2ShowName: "GRESLER",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "GRESLER",
+    level1To: "/catalogue/sistem-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Lithium EP</strong> çok amaçlı sürtünme önleyici gresler, uygun bir madeni baz yağ lityum 12-hidroksistearat sabunla kalınlaştırılarak ve uygun katkı maddeleri ilave edilerek imal edilmiştir. <strong style={{ fontFamily: "sans-serif" }}>Prista® Lithium EP</strong> gresler, yüksek basınç, azami yük ve titreşim koşulları altında çalışan düz ve masuralı rulmanları, menteşeli mafsalları ve diğer mekanizmaları yağlamak ve sızdırmaz yapmak için amaçlanmıştır. &nbsp;Bu gresler, uzun süreli azami yük, yüksek hız, yüksek nem ve çok geniş sıcaklık aralıkları dahil, ağır yük ve olumsuz çevre koşullarında çalışan endüstriyel alet ve makinaların yağlanması için önerilir. &nbsp;Ayrıca hadde makinalarındaki düz pirinç ve babit radyal yatakların, makaraların vidalarını ve somunlarını, makasların, preslerin ve çelik çekme makinalarının kesme hatlarının ve diğer metal işleme uygulamalarının yağlanması için kullanılır. &nbsp;Bunun yanında bu gresler olumsuz koşullarda çalışan maden, inşaat ve marin makine ve aletlerindeki büyük makaralı yataklar için de uygundur. <strong style={{ fontFamily: "sans-serif" }}>Prista® Lithium EP</strong> greslerin çalışma sıcaklık aralıkları -30°С ile +120°С arasındadır.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi yapışma özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;İyileştirilmiş EP özellikleri&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Ağır görev altındaki çalışmalarda yüksek dönme kararlılığı ve sabit tutarlılık&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Demir dışı metaller ve çelik için aşındırıcı değil<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Suya karşı direnç&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Paslanmaya karşı yeterli koruma</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: null,
+    backUrl: "/catalogue/gresler-1"
+}
+
+export const pristaLithiumLixEP2Product = {
+    productName: "Prista Lithium LiX EP2",
+    productUrl: "/catalogue/gresler-1/prista-lithium-lix-ep2-3",
+    level1ShowName: "MARIN",
+    level2ShowName: "GRESLER",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "GRESLER",
+    level1To: "/catalogue/sistem-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® Lithium LiX EP 2</strong>, rafine yüksek viskoziteli &nbsp;petrol bazlı yağ, sertleştirici olarak kompleks lityum sabun ve özel bir katkı maddesi ile imal edilmiştir. Yüksek yükler (suyun ve tuzların olduğu durumlar) ve sürekli azami yükler altında çalışan düz ve masuralı yatakların, dişli ünitelerinin ve diğer mekanizmaların yağlanması (merkezi veya merkezi olmayan) için tasarlanmıştır.<strong style={{ fontFamily: "sans-serif" }}> Prista® Lithium LiX EP 2</strong>, olumsuz koşullarda çalışan maden, inşaat, marin ve tarım aletlerindeki büyük makaralı yataklar için de uygundur. Prista® <strong style={{ fontFamily: "sans-serif" }}>Lithium LiX EP 2</strong>’nin uygulama sıcaklık aralığı, kısa süreli +180°C'ye ulaşabilen değerlerle, -30°С ile +140°С arasındadır.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi yapışma özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;İyileştirilmiş EP özellikleri&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Ağır görev altındaki çalışmalarda yüksek dönme kararlılığı ve sabit tutarlılık&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Demir dışı metaller ve çelik için aşındırıcı değil<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi su direnci&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Paslanmaya karşı yeterli koruma</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: null,
+    backUrl: "/catalogue/gresler-1"
+}
+
+export const pristaLiMoProduct = {
+    productName: "Prista LiMo",
+    productUrl: "/catalogue/gresler-1/prista-limo-2",
+    level1ShowName: "MARIN",
+    level2ShowName: "GRESLER",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "GRESLER",
+    level1To: "/catalogue/sistem-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® LiMo</strong> çok amaçlı sürtünme önleyici gresler, uygun bir madeni baz yağ lityum 12-hidroksistearat sabunla kalınlaştırılarak ve uygun bir katkı maddesi ile 0.65 - 0.75 μm partikül boyutlu %3 oranında ayırıcı özelliği oldukça yüksek molibden disülfit (MoS2) ilave edilerek imal edilmiştir. &nbsp;Bu gresler inşaat, madencilik ve tarım sektöründe çalıştırılan makinaların sürtünen mekanizmalarını yüksek ve azami yüklere karşı yeterince korumayı gerektiren uygulamalarda kullanılır. Uygulamalar şunları içerir: düz ve masuralı yataklar, yatak burçları, makaralı konveyörler, sabit hızlı mafsallar (CV-mafsallar), yaylar, ağır yüklü zincir ve dişli mekanizmaları vs. &nbsp;<strong style={{ fontFamily: "sans-serif" }}>Prista® LiMo</strong> greslerin çalışma sıcaklık aralıkları -20°С ile +120°С arasındadır.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi yapışma özellikleri<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Azami yük koşullarında iyileştirilmiş EP özellikleri ve ekstra koruma önlemi&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Ağır görev altındaki çalışmalarda yüksek dönme kararlılığı ve sabit tutarlılık&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Demir dışı metaller ve çelik için aşındırıcı değil<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Suya karşı direnç</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: null,
+    backUrl: "/catalogue/gresler-1"
+}
+
+export const pristaKGProduct = {
+    productName: "Prista K-G",
+    productUrl: "/catalogue/gresler-1/prista-k-g-2",
+    level1ShowName: "MARIN",
+    level2ShowName: "GRESLER",
+    level1ShowNameBaslik: "MARİN YAĞLARI",
+    level2ShowNameBaslik: "GRESLER",
+    level1To: "/catalogue/sistem-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p><strong style={{ fontFamily: "sans-serif" }}>Prista® K-G</strong> grafit gresleri, madeni yağ bazlı bileşenler kalsiyum sabunu ile uygun şekilde kalınlaştırılarak ve 45 μm partikül boyutundan daha küçük %10 kuru grafit tozu eklenilerek elde edilmiştir. &nbsp;Bu gresler aşağıdakiler dahil ağır yüklü mekanizmaların yağlanması için tasarlanmıştır: Açık dişli tahrik sistemleri, dişli bağlantılar, zincir tahrik sistemleri, asansör sürgü mekanizmaları, metal halatlar ve diğer ağır yüklü sürgü mekanizmaları <strong style={{ fontFamily: "sans-serif" }}>Prista® K-G</strong> gresleri yüksek nemli ve çok kirli ortamlarda kullanım için uygundur. Prista® K-G gresleri yüksek nemli ve çok kirli ortamlarda kullanım için uygundur.</p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyileştirilmiş su direnci<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi aşınma önleme özellikleri&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Çok kirli ortamlarda kullanım için uygun<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Paslanmaya karşı yeterli koruma</p>
+    </>,
+    pdsLink: "http://online.prista-oil.com/PDSMSDS",
+    msdsLink: null,
+    backUrl: "/catalogue/gresler-1"
+}

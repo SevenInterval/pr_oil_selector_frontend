@@ -21,7 +21,7 @@ const Plastiklestiriciler = () => {
                     <UrunlerBaslik level1ShowName={"ENDÜSTRİYEL ÜRÜNLER"} level2ShowName={"İŞLEM YAĞLARI"} level3ShowName={"Plastikleştiriciler"}
                         level1To={"/catalogue/hidrolik-ve-kizak-yaglari"} level2To={"/catalogue/plastiklestiriciler"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/plastiklestiriciler/prista-pk-4"}
+                        <UrunOzet productUrl={"/catalogue/plastiklestiriciler/prista-pk-4"}
                             productLogo={basicVarilKucukImage} productName={"Prista PK"}
                             productText={"Prista® PK plastikleştiriciler, mükemmel oksidasyon kararlılığı ve kauçuk parçalarla çok iyi uyumluluk gösteren çok kaliteli, oldukça rafine naftenik (Prista PK-4n) ve parafinik-naftenik (Prista PK-10, Prista PK-15, Prista PK-20 & Pr"}
                             last={false} />

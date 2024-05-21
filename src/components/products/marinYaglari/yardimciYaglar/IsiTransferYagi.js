@@ -21,7 +21,7 @@ const IsiTransferYagi = () => {
                     <UrunlerBaslik level1ShowName={"MARİN YAĞLARI"} level2ShowName={"YARDIMCI YAĞLAR"} level3ShowName={"Isı Transfer Yağı"}
                         level1To={"/catalogue/sistem-yaglari"} level2To={"/catalogue/disli-yaglari"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/isi-transfer-yagi/prista-mtl-8"}
+                        <UrunOzet productUrl={"/catalogue/isi-transfer-yagi/prista-mtl-8"}
                             productLogo={basicVarilKucukImage} productName={"Prista MTL"}
                             productText={"PRISTA® MTL, oldukça rafine baz ürünler ve gelişmiş katkı maddeleriyle formüle edilmiştir. Bu yağ, dolaylı ısıtmalı cebri sirkülasyon sistemlerinde ısı transfer yağı olarak kullanım için tavsiye edilir."}
                             last={false} />

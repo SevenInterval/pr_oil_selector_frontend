@@ -21,7 +21,7 @@ const SogutmaSistemiYag = () => {
                     <UrunlerBaslik level1ShowName={"MARİN YAĞLARI"} level2ShowName={"YARDIMCI YAĞLAR"} level3ShowName={"Soğutma Sistemi Yağı"}
                         level1To={"/catalogue/sistem-yaglari"} level2To={"/catalogue/disli-yaglari"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/sogutma-sistemi-yagi/prista-frigus-ha-8"}
+                        <UrunOzet productUrl={"/catalogue/sogutma-sistemi-yagi/prista-frigus-ha-8"}
                             productLogo={basicVarilKucukImage} productName={"Prista Frigus HA"}
                             productText={"PRISTA® FRIGUS HA yağları, soğutucu gaz olarak amonyak ile çalışan buzdolaplarının ve soğutma cihazlarının yağlanması için önerilmektedir. PRISTA® FRIGUS HA buzdolabı kompresör yağları çok kaliteli solventle rafine edilmiş ve hidroiş"}
                             last={false} />

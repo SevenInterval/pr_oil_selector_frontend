@@ -21,7 +21,7 @@ const KalipAyirmaYaglari = () => {
                     <UrunlerBaslik level1ShowName={"ENDÜSTRİYEL ÜRÜNLER"} level2ShowName={"İŞLEM YAĞLARI"} level3ShowName={"Kalıp ayırma yağları"}
                         level1To={"/catalogue/hidrolik-ve-kizak-yaglari"} level2To={"/catalogue/plastiklestiriciler"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/kalip-ayirma-yaglari/prista-km-4"}
+                        <UrunOzet productUrl={"/catalogue/kalip-ayirma-yaglari/prista-km-4"}
                             productLogo={basicVarilKucukImage} productName={"Prista KM"}
                             productText={"PRISTA® KM kalıp ayırma yağları, katkılarla harmanlanmış oldukça rafine parafinik-naftenik baz ürünlerden formüle edilmiş, yağlara çok iyi yağlama, yapışma ve kalıp ayırma özellikleri katan ve kalıpları korozyondan güvenilir bir şeki"}
                             last={false} />

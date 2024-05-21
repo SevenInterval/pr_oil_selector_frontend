@@ -21,7 +21,7 @@ const DisliYaglariYard = () => {
                     <UrunlerBaslik level1ShowName={"MARİN YAĞLARI"} level2ShowName={"YARDIMCI YAĞLAR"} level3ShowName={"Dişli Yağları"}
                         level1To={"/catalogue/sistem-yaglari"} level2To={"/catalogue/disli-yaglari"} />
                     <ul className="objects-list-two-rows">
-                        <UrunOzet productUrl={"/product/disli-yaglari/prista-rolon-8"}
+                        <UrunOzet productUrl={"/catalogue/disli-yaglari/prista-rolon-8"}
                             productLogo={basicVarilKucukImage} productName={"Prista Rolon"}
                             productText={"PRISTAâ ROLON endüstriyel dişli yağları normal, orta ve yüksek kararlı yağ sıcaklıklarında çalışan ağır yüklü endüstriyel dişli tahrik ünitelerinin yağlanması için geliştirilmiştir. PRISTA® ROLON yağları, düz ve sarmal konik dişliler"}
                             last={false} />
