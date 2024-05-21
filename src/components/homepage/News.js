@@ -18,11 +18,11 @@ const News = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/news/tr-prista-oil-groupun-kurucu-ortagi-plamen-bobokov-plovdiv-paisii-hilendarski-universitesinde-ogrencilere-halka-acik-bir-konferans-verdi">
-                                    <span className="title">TR Prista Oil Group'un kurucu ortağı Plamen Bobokov, Plovdiv "Paisii Hilendarski" Üniversitesi'nde öğrencilere halka açı...</span>
-                                    <span className="date">20-07-2023</span>
+                                <Link to="/news/prista-oil-holding-yaglayicilar-surdurulebilirlik-forumunun-bir-parcasiydi">
+                                    <span className="title">Prista Oil Holding, Yağlayıcılar Sürdürülebilirlik Forumu’nun bir Parçasıydı.</span>
+                                    <span className="date">01-03-2024</span>
                                     <span className="text">
-                                        16 Mayıs 2023 tarihinde, Paisii Hilendarski'nin adını taşıyan Plovdiv Üniversitesi'nde "İnovasyon ve Girişimcilik"
+                                        Kasım 2023 ayının sonlarına doğru, Prista Oil Holding, Yağlayıcı sanayinde sürdürülebilirlik uygulamalarını ilerlet
                                     </span>
                                 </Link>
                             </li>
