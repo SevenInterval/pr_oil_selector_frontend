@@ -152,7 +152,7 @@ import {
   pristaMarineSTProduct, pristaMpdProduct, pristaMtlProduct, pristaMvk1Product, pristaMvk2Product, pristaMvk2RProduct, pristaMvrMultiProduct, pristaMvrProduct, pristaMzProduct,
   pristaMzeProduct, pristaNGEO40Product, pristaPKProduct, pristaPaperMachineProduct, pristaRezinolHd22Product, pristaRezinolProduct, pristaRolonFProduct, pristaRolonProduct,
   pristaRolonRProduct, pristaSHPDVDS3Product, pristaSupertherm22Product, pristaSyntechEP2Product, pristaSynthilin5Product, pristaSyntholAhwProduct, pristaSyntholAswProduct,
-  pristaTPSEpProduct, pristaTPXProduct, pristaTpProduct, pristaTps32Product, pristaTps46Product, pristaTpsEpProduct, pristaTpxProduct, pristaTrafoAHosioProduct,
+  pristaTPSEpProduct, pristaTPXProduct, pristaTpProduct, pristaTps32Product, pristaTps46Product, pristaTps68Product, pristaTpsEpProduct, pristaTpxProduct, pristaTrafoAHosioProduct,
   pristaTrafoAProduct, pristaTrafoProduct, pristaee5Product, screenwashSummerProduct, screenwashWinterProduct
 } from './utility/productDetails';
 import Msds from './components/products/Msds';
@@ -391,6 +391,7 @@ function App() {
         <Route path="/catalogue/turbin-yaglari/prista-tps-46-4" element={<UrunDetay product={pristaTps46Product} />} />
         <Route path="/catalogue/turbin-yaglari/prista-tps-ep-7" element={<UrunDetay product={pristaTpsEpProduct} />} />
         <Route path="/catalogue/turbin-yaglari/prista-tp-4" element={<UrunDetay product={pristaTpProduct} />} />
+        <Route path="/catalogue/turbin-yaglari/prista-tps-68" element={<UrunDetay product={pristaTps68Product} />} />
         <Route path="/catalogue/transformator-yaglari/prista-trafo-a-hosio-4" element={<UrunDetay product={pristaTrafoAHosioProduct} />} />
         <Route path="/catalogue/transformator-yaglari/prista-trafo-a-4" element={<UrunDetay product={pristaTrafoAProduct} />} />
         <Route path="/catalogue/transformator-yaglari/prista-trafo-4" element={<UrunDetay product={pristaTrafoProduct} />} />

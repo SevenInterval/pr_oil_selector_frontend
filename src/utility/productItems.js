@@ -65,6 +65,7 @@ const productItems = [
     { uri: "/catalogue/turbin-yaglari/prista-tps-46-4", label: "Prista Tps -46" },
     { uri: "/catalogue/turbin-yaglari/prista-tps-ep-7", label: "Prista Tps EP" },
     { uri: "/catalogue/turbin-yaglari/prista-tp-4", label: "Prista Tp" },
+    { uri: "/catalogue/turbin-yaglari/prista-tps-68", label: "Prista Tps-68" },
     { uri: "/catalogue/transformator-yaglari/prista-trafo-a-hosio-4", label: "Prista Trafo A HOSIO" },
     { uri: "/catalogue/transformator-yaglari/prista-trafo-a-4", label: "Prista Trafo A" },
     { uri: "/catalogue/transformator-yaglari/prista-trafo-4", label: "Prista Trafo" },

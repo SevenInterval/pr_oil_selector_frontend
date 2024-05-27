@@ -40,6 +40,10 @@ const TurbinYaglari = () => {
                             productLogo={basicVarilKucukImage} productName={"Prista Tp"}
                             productText={"PRISTA® Tp türbin yağları, yüksek oksidasyon kararlılığı, güvenilir korozyon koruması sağlayan çok etkili külsüz katkı maddesi ile harmanlanmış oldukça rafine baz ürünlerden formüle edilmiştir."}
                             last={false} />
+                        <UrunOzet productUrl={"/catalogue/turbin-yaglari/prista-tps-68"}
+                            productLogo={basicVarilKucukImage} productName={"Prista Tps-68"}
+                            productText={"PRISTA® Tps-68, son ürünün korozyon ve oksidasyon kararlılığı özelliklerini artıran, kül içermeyen özel bir katkı paketi ile harmanlanmıştır."}
+                            last={true} />
                     </ul>
                 </article>
             </div>

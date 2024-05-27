@@ -1,4 +1,13 @@
-import { BosImage, Dpf0w204Image, adblueBig, adblueLt, antifriz4Big, antifriz4Lt, basicVarilBig, basicVarilLt, concentrate4Big, concentrate4Lt, dot4dot3Big, dot4dot3Lt, dpf0w30Big, dpf0w30Lt, dpf5w30Big, dpf5w30Lt, dpf5w40Big, dpf5w40Lt, dpfc50w20Big, dpfc50w20Lt, dpffe5w30Big, dpffe5w30Lt, dpfg5w30Big, dpfg5w30Lt, dpfgf0w20Big, dpfgf0w20Lt, dpfrn5w30Big, dpfrn5w30Lt, dpfultra5w30Big, dpfultra5w30Lt, grafikMhvPlus, longlife4Big, longlife4Lt, ustun15w4020w50Big, ustun15w4020w50Lt, varilBig, varilLt, yp10w40Big, yp10w40Lt, yp15w4020w504Big, yp15w4020w504Lt, yp2textra4Big, yp2textra4Lt, yp2tmix4Big, yp2tmix4Lt, yp5w305w40Big, yp5w305w40Lt, yp75w8075w90Big, yp75w8075w90Lt, ypatfiii4Big, ypatfiii4Lt, ypld15w40Big, ypld15w40Lt, yppristaatf4Big, yppristaatf4Lt, yppsf4Big, yppsf4Lt, ypr4t6Big, ypr4t6Lt, ypsae80w90Big, ypsae80w90Lt, ypsae90140Big, ypsae90140Lt, ypsb10w40Big, ypsb10w40Lt, ypstou4Big, ypstou4Lt, yptd10w40Big, yptd10w40Lt, ypuhdpd5w30Big, ypuhdpd5w30Lt, ypuhpd10w40Big, ypuhpd10w40Lt, yputto3Big, yputto3Lt, ypvds310w40Big, ypvds310w40Lt } from "../images/products";
+import {
+    BosImage, Dpf0w204Image, adblueBig, adblueLt, antifriz4Big, antifriz4Lt, basicVarilBig, basicVarilLt, concentrate4Big, concentrate4Lt,
+    dot4dot3Big, dot4dot3Lt, dpf0w30Big, dpf0w30Lt, dpf5w30Big, dpf5w30Lt, dpf5w40Big, dpf5w40Lt, dpfc50w20Big, dpfc50w20Lt, dpffe5w30Big, dpffe5w30Lt,
+    dpfg5w30Big, dpfg5w30Lt, dpfgf0w20Big, dpfgf0w20Lt, dpfrn5w30Big, dpfrn5w30Lt, dpfultra5w30Big, dpfultra5w30Lt, grafikMhvPlus, longlife4Big, longlife4Lt,
+    ustun15w4020w50Big, ustun15w4020w50Lt, varilBig, varilLt, yp10w40Big, yp10w40Lt, yp15w4020w504Big, yp15w4020w504Lt, yp2textra4Big, yp2textra4Lt, yp2tmix4Big,
+    yp2tmix4Lt, yp5w305w40Big, yp5w305w40Lt, yp75w8075w90Big, yp75w8075w90Lt, ypatfiii4Big, ypatfiii4Lt, ypld15w40Big, ypld15w40Lt, yppristaatf4Big, yppristaatf4Lt,
+    yppsf4Big, yppsf4Lt, ypr4t6Big, ypr4t6Lt, ypsae80w90Big, ypsae80w90Lt, ypsae90140Big, ypsae90140Lt, ypsb10w40Big, ypsb10w40Lt, ypstou4Big, ypstou4Lt, yptd10w40Big,
+    yptd10w40Lt, ypuhdpd5w30Big, ypuhdpd5w30Lt, ypuhpd10w40Big, ypuhpd10w40Lt, yputto3Big, yputto3Lt, ypvds310w40Big, ypvds310w40Lt
+} from "../images/products";
+import Tps68PDSPdf from "../pdf/PDS_ENG_PristaTps68_TR.pdf"
 
 export const Dpf0w204Product = {
     productName: "PRISTA® Ultra V 0W-20",
@@ -1786,6 +1795,38 @@ export const pristaTpProduct = {
     </>,
     pdsLink: "http://online.prista-oil.com/storage/4._PristaTp_TR.pdf",
     msdsLink: "https://prista-oil.com.tr/msds-9",
+    backUrl: "/catalogue/turbin-yaglari"
+}
+
+export const pristaTps68Product = {
+    productName: "Prista Tps-68",
+    productUrl: "/catalogue/turbin-yaglari/prista-tps-68",
+    level1ShowName: "ENDUSTRI",
+    level2ShowName: "TÜRBİN YAĞLARI",
+    level1ShowNameBaslik: "ENDÜSTRİYEL ÜRÜNLER",
+    level2ShowNameBaslik: "TÜRBİN YAĞLARI",
+    level1To: "/catalogue/hidrolik-ve-kizak-yaglari",
+    productImage: varilLt,
+    productBigImage: varilBig,
+    productDetail: <>
+        <p>Buhar, su ve gaz türbinlerini yağlamak için geliştirilmiş <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Tps-68</strong>, üstün kaliteli bir türbin yağıdır.
+            Son ürünün, 1000 saat üstü bir süreyle RBOT Testine tabi tutularak kanıtlanmış oksidasyon kararlılığı
+            sunmasını sağlayan Grup I + baz yağların özel bir seçimi ile formüle edilmiştir. Özellikle yüksek sıcaklık
+            ve yüksek yük gibi zorlu koşullarda kullanılan yağların gereksinimlerini karşılamak üzere tasarlanmıştır.<br /><br/>
+            <strong style={{ fontFamily: "sans-serif" }}>PRISTA® Tps-68</strong>, son ürünün korozyon ve oksidasyon kararlılığı özelliklerini artıran, kül içermeyen özel
+            bir katkı paketi ile harmanlanmıştır.<br />
+            İyileştirilmiş korozyon ve oksidasyon performansı PRISTA® Tps-68’i gemilerdeki kompresörlerde, farklı
+            teknelerdeki türbinlerde ve diğer yardımcı gemi donanımlarında kullanım için uygun hale getirmektedir.
+        </p>
+    </>,
+    productProvides: <>
+        <p>&nbsp; &nbsp;• &nbsp;&nbsp;Çok iyi oksidasyon ve yüksek sıcaklık kararlılığı &nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Mükemmel su ayırma özelliği<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Düşük tortu ve asit ürün oluşum eğilimi&nbsp;<br />
+            &nbsp; &nbsp;• &nbsp;&nbsp;Siemens ve Skoda tarafından resmi olarak onaylandı</p>
+    </>,
+    pdsLink: Tps68PDSPdf,
+    msdsLink: null,
     backUrl: "/catalogue/turbin-yaglari"
 }
 
