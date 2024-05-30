@@ -1,5 +1,6 @@
 import VerilaJpeg from '../../images/home_gallery_verila.jpeg'
 import ErgonJpeg from '../../images/home_gallery_ergon.jpeg'
+import CworksJpeg from '../../images/home_gallery_cworks.jpg'
 import { Link } from "react-router-dom";
 import SideBarHakkimizda from "../../components/SidebarHakkimizda";
 import { Helmet } from "react-helmet-async";
@@ -27,7 +28,10 @@ const Ortaklarimiz = () => {
                             </Link> &nbsp;
                             <Link to="/ergon-6">
                                 <img alt="ErgonJpeg" src={ErgonJpeg} height={100} width={119} loading='eager' title='ErgonJpeg' />
-                            </Link> &nbsp;&nbsp;
+                            </Link> &nbsp;
+                            <Link to="/cworks-6">
+                                <img alt="CworksJpeg" src={CworksJpeg} height={100} width={119} loading='eager' title='CworksJpeg' />
+                            </Link>&nbsp;&nbsp;
                         </p>
                     </div>
                 </article>
