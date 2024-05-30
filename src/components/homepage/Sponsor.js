@@ -3,7 +3,7 @@ import PristaJpeg from '../../images/home_gallery_basic.jpeg'
 //import GulfJpeg from '../../images/home_gallery_gulf.jpeg'
 import VerilaJpeg from '../../images/home_gallery_verila.jpeg'
 import ErgonJpeg from '../../images/home_gallery_ergon.jpeg'
-import AdblueJpeg from '../../images/home_gallery_adblue.jpeg'
+import CworksJpg from '../../images/home_gallery_cworks.jpg'
 
 const Sponsor = () => {
     return (
@@ -30,8 +30,8 @@ const Sponsor = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/greenchem-7">
-                        <img alt="adblue.jpeg" title="adblue.jpeg" src={AdblueJpeg} width="119" height="100" loading='eager' />
+                    <Link to="/cworks-6">
+                        <img alt="cworks.jpg" title="cworks.jpg" src={CworksJpg} width="119" height="100" loading='eager' />
                     </Link>
                 </li>
             </ul>

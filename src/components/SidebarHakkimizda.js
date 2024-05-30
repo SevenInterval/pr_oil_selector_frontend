@@ -23,6 +23,9 @@ const SideBarHakkimizda = (props) => {
                             <li>
                                 <NavLink to="/ergon-6" >Ergon</NavLink>
                             </li>
+                            <li>
+                                <NavLink to="/cworks-6" >CWORKS</NavLink>
+                            </li>
 
                         </ul>
                     </li>

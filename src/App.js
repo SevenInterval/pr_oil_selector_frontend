@@ -157,6 +157,7 @@ import {
 } from './utility/productDetails';
 import Msds from './components/products/Msds';
 import SurdurulebilirlikHaber from './pages/medya/haberler/SurdurulebilirlikHaber';
+import Cworks from './pages/hakkimizda/Cworks';
 
 
 function App() {
@@ -283,6 +284,7 @@ function App() {
         {/* <Route path="/gulf-marine-7" element={<GulfMarine />} /> */}
         <Route path="/verila-7" element={<Verila />} />
         <Route path="/ergon-6" element={<Ergon />} />
+        <Route path="/cworks-6" element={<Cworks />} />
         <Route path="/sirketin-sorumlulugu" element={<SirketinSorumlulugu />} />
         <Route path="/gizlilik-politikasi" element={<GizlilikPolitikasi />} />
         <Route path="/cerez-politikasi" element={<CerezPolitikasi />} />

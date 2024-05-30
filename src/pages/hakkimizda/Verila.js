@@ -39,7 +39,7 @@ const Verila = () => {
                             &nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;Buz çözücüler<br />
                             &nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;Kişiye özel ürünler
                         </p>
-                        <p>Daha fazla bilgi için: <Link to="http://www.verila-bg.com/en" target="_blank">http://www.verila-bg.com/en</Link></p>
+                        <p>Daha fazla bilgi için: <Link to="http://www.verila-bg.com/en" style={{ color: "#11a1d6" }} target="_blank">http://www.verila-bg.com/en</Link></p>
                     </div>
                 </article >
             </div>
