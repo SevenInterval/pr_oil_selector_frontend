@@ -28,11 +28,19 @@ const Cworks = () => {
                             <img alt="CworksImage" title="CworksImge" src={CworksImage} height={50} width={200} loading="eager" /><br />
                             &nbsp;
                         </p>
-                        <p>1947'de Japonya'da kurulan uluslararası Toyota Tsusho Corporation'a ait yeni otomobil yedek parçaları, yağlar ve teknik sıvılar markası. İnsanlarla, toplumla ve Dünya ile birlikte yaşayan ve gelişen, müreffeh bir toplum yaratmak için değerler üreten bir şirkettir. Toyota Tsusho Corporation'ın kurumsal felsefesi
-                            CWORKS otomobil yedek parçaları, orijinal parçaların üretildiği fabrikalarda üretilmektedir.<br /><br />
-                            Yedek parçaların geliştirilmesi ve üretimine entegre bir yaklaşım, mühendisliği sırasında ortaya konan otomobilin özelliklerine mükemmel şekilde uyan bir ürün yaratılmasını sağlar. Her bir yedek parça Toyota için yüksek kalite kontrolüne sahiptir.
-                            Ürün kalitesi Toyota Tsusho Corporation tarafından onaylanmıştır.</p>
-                        <p>Prista Oil; Bosna Hersek, Bulgaristan, Kosova, Makedonya, Romanya, Sırbistan, Ukrayna, Çekya, Türkiye ve Karadağ bölgelerinde CWorks ürünlerinin özel bir distribütörüdür.</p>
+                        <p>CWORKS — Japon Toyota Tsusho Corporation'a bağlı bir otomobil parçası üreticisidir.</p>
+                        <p>CWORKS markası, 1947 yılında Japonya'da kurulan uluslararası Toyota Tsusho Corporation'a ait yeni bir otomobil yedek parçaları, otomotiv yağları
+                            ve teknik sıvılar markasıdır.</p>
+                        <p>İnsanlarla, toplumla ve Dünya ile birlikte yaşayan ve gelişen, müreffeh bir
+                            toplum yaratmak için değerler üreten bir şirkettir.
+                            Toyota Tsusho Corporation&#39;ın kurumsal felsefesi CWORKS otomobil yedek
+                            parçalarını, orijinal yedek parçaların üretildiği fabrikalarda üretilmesidir.</p>
+                        <p>Yedek parçaların geliştirilmesi ve üretimine entegre bir yaklaşım,
+                            mühendisliği sırasında ortaya konan otomobilin özelliklerine mükemmel
+                            şekilde uyan bir ürün yaratılmasını sağlar. Her bir yedek parça Toyota için
+                            yüksek kalite kontrolüne sahiptir. Ürün kalitesi Toyota Tsusho Corporation
+                            tarafından onaylanmıştır.</p>
+                        <p>Prista Oil; Türkiye, Bulgaristan, Macaristan, Slovakya, Ukrayna ve Özbekistan bölgelerinde CWORKS ürünlerinin özel bir distribütörüdür.</p>
                         <p>Daha fazla bilgi için: <Link to="https://cworks-parts.com/international" style={{ color: "#11a1d6" }} target="_blank">https://cworks-parts.com/international</Link></p>
                         <br />
                         <FancyBox
