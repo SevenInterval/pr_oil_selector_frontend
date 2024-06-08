@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import "react-widgets/styles.css";
 import './index.css';
 import './css/header.css'
 import './css/homepage.css'

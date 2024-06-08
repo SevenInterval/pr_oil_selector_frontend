@@ -91,7 +91,7 @@ import CetusHaber from './pages/medya/haberler/CetusHaber';
 import BayilikHakkinda from './pages/medya/haberler/BayilikHakkinda';
 import Search from './pages/Search';
 import NotFound from './pages/NotFound';
-import YagDanismani from './components/products/YagDanismani';
+import YagDanismani from './pages/YagDanismani';
 import YuksekPerformansli from './components/products/otomotiv/pcmo/YuksekPerformansli';
 import Ustun from './components/products/otomotiv/pcmo/Ustun';
 import Standart from './components/products/otomotiv/pcmo/Standart';
@@ -158,6 +158,12 @@ import {
 import Msds from './components/products/Msds';
 import SurdurulebilirlikHaber from './pages/medya/haberler/SurdurulebilirlikHaber';
 import Cworks from './pages/hakkimizda/Cworks';
+import BinekAraclar from './pages/yagdanismani/BinekAraclar';
+import HafifTicariAraclar from './pages/yagdanismani/HafifTicariAraclar';
+import KamyonlarveOtobusler from './pages/yagdanismani/KamyonlarveOtobusler';
+import MotosikletAtv from './pages/yagdanismani/MotosikletAtv';
+import TarimsalEkipman from './pages/yagdanismani/TarimsalEkipman';
+import InsaatMadencilik from './pages/yagdanismani/InsaatMadencilik';
 
 
 function App() {
@@ -458,6 +464,14 @@ function App() {
         <Route path="/catalogue/gresler-1/prista-lithium-lix-ep2-3" element={<UrunDetay product={pristaLithiumLixEP2Product} />} />
         <Route path="/catalogue/gresler-1/prista-limo-2" element={<UrunDetay product={pristaLiMoProduct} />} />
         <Route path="/catalogue/gresler-1/prista-k-g-2" element={<UrunDetay product={pristaKGProduct} />} />
+
+        {/*Yağ Seçici */}
+        <Route path='/binek-araclar-1' element={<BinekAraclar />} />
+        <Route path='/hafif-ticari-araclar-1' element={<HafifTicariAraclar />} />
+        <Route path='/kamyonlar-ve-otobusler' element={<KamyonlarveOtobusler />} />
+        <Route path='/motosikletler-atv-ut' element={<MotosikletAtv />} />
+        <Route path='/tarimsal-ekipman' element={<TarimsalEkipman />} />
+        <Route path='/insaat-ve-madencilik' element={<InsaatMadencilik />} />
       </Routes>
       <Footer />
     </>

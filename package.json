@@ -2,6 +2,7 @@
   "name": "pr_oil_selector_frontend",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://pristaoilapp.azurewebsites.net",
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",
     "@fancyapps/ui": "^5.0.35",
@@ -15,6 +16,7 @@
     "react-helmet-async": "^2.0.4",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
+    "react-widgets": "^5.8.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

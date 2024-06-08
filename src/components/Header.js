@@ -210,6 +210,11 @@ const Header = () => {
                                     İrtibat
                                 </Link>
                             </li>
+                            <li id="menu_10" data-id="10" onClick={() => setSelectedNavbarId("menu_10")} className={selectedNavbarId === "menu_10" ? "level-0 active root-active" : "level-0"}>
+                                <Link to="/prista-yaglari-danismani">
+                                    Yağ Danışmanı
+                                </Link>
+                            </li>
                             <li id="menu_9" data-id="9" className="yellow_btn level-0 ">
                                 <Link to="/distributorler">
                                     Nereden satın alabiliriz?
