@@ -3,7 +3,7 @@ import DropdownList from "react-widgets/DropdownList";
 import fillYearList from "../../utility/fillYearList";
 
 const ModelSecici = (props) => {
-    const { categoryId } = props;
+    const { categoryId, handleVehicleId } = props;
 
     const isFetchBrand = useRef(true);
     const [brandList, setBrandList] = useState([]);
@@ -167,14 +167,14 @@ const ModelSecici = (props) => {
                             <th className="vehicleListTableHeader" style={{ width: "15%"}}>Yıl</th>
                             <th className="vehicleListTableHeader" style={{ width: "20%"}}></th>
                         </tr>
-                        {vehicleList && vehicleList.map(vehicle => {
+                        {vehicleList && vehicleList.filter(vehicle =>  !yearValue || (vehicle.yearFrom <= yearValue && vehicle.yearTo >= yearValue)).map(vehicle => {
                             return (
-                                <tr className="vehicleListTableElement">
+                                <tr className="vehicleListTableElement" onClick={() => handleVehicleId(vehicle.vehicleId)} key={vehicle.vehicleId}>
                                     <td className="vehicleListTableCell" >{modelValue.model ? modelValue.model : " - "}</td>
                                     <td className="vehicleListTableCell" >{vehicle.type ? vehicle.type : " - "}</td>
                                     <td className="vehicleListTableCell" >{vehicle.yearFrom} - {vehicle.yearTo}</td>
                                     <td className="vehicleListTableCell" >
-                                        <button className="yellow-button-recommend">Önerilen Yağlar &rsaquo;</button>
+                                        <button className="yellow-button-recommend" onClick={() => handleVehicleId(vehicle.vehicleId)}>Önerilen Yağlar &rsaquo;</button>
                                     </td>
                                 </tr>
                             )

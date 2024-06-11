@@ -240,3 +240,47 @@ html body article .gl-link {
     opacity: 0.8;
     border-radius: 10px;
 }
+
+.backButtonForUrunler {
+    margin: 4px auto;
+    font-weight: bold;
+}
+
+.backButtonForUrunler:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.componentDiv {
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.componentListItem {
+    display: inline;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 4px 12px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.recActiveListItem {
+    background-color: #ffdd00;    
+}
+
+.componentListItem:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.componentListItem:first-child {
+    margin-left: 0px;    
+}
+
+.recommendedDiv {
+    margin: 24px 0 ;
+}
